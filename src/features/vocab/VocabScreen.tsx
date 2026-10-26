@@ -121,7 +121,7 @@ export function VocabScreen() {
                     </>
                   ) : (
                     <>
-                      <strong>📘 {content.item.title}</strong>
+                      <strong>{content.item.title}</strong>
                       <span className="muted">{it.vocab.grammar}</span>
                     </>
                   )}

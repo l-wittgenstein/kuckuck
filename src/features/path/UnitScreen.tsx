@@ -39,9 +39,8 @@ export function UnitScreen() {
         {batches.map((batch) => {
           const status = statuses.get(batch.id)!;
           const shown = status === "available" && paused ? "paused" : status;
-          const labels = batch.items.map((c) =>
-            c.kind === "vocab" ? germanLabel(c.item) : `📘 ${c.item.title}`,
-          );
+          const words = batch.items.flatMap((c) => (c.kind === "vocab" ? [germanLabel(c.item)] : []));
+          const grammar = batch.items.flatMap((c) => (c.kind === "grammar" ? [c.item] : []));
           const body = (
             <>
               <span className="lesson-head">
@@ -51,9 +50,16 @@ export function UnitScreen() {
                   {it.path.status[shown]}
                 </span>
               </span>
-              <span className="muted lesson-items" lang="de">
-                {labels.join(" · ")}
-              </span>
+              {grammar.map((g) => (
+                <span key={g.id} className="lesson-grammar">
+                  <span className="tag tag-grammar">{it.lesson.grammarTag}</span> {g.title}
+                </span>
+              ))}
+              {words.length > 0 && (
+                <span className="muted lesson-items" lang="de">
+                  {words.join(" · ")}
+                </span>
+              )}
             </>
           );
           return (

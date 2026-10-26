@@ -708,3 +708,6 @@ a { color: var(--accent); }
 
 .theme-choice { align-self: stretch; }
 .theme-choice button { flex: 1; padding: 10px 8px; font-size: 0.95rem; }
+
+.lesson-grammar { display: flex; align-items: baseline; gap: 8px; margin-top: 2px; }
+.lesson-grammar .tag { flex: none; font-size: 0.75rem; padding: 1px 8px; }
