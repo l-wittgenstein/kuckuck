@@ -17,6 +17,8 @@ Settled decisions (don't change without asking):
 - Lessons hold at most 5 items; new lessons pause while more than 40 reviews are due.
 - No on-screen umlaut keys: phone keyboards have them.
 - Grammar points are labelled with the "Grammatica" tag, not emoji.
+- After a review session the results list the items she got right and the ones to look at again. "Esercitati ancora" asks each missed question 3 times as practice only (no effect on scheduling). In reviews and in the drill, once she has answered a card the top-left button reads "Risultati" and opens the results so far (reviews then offer "Continua i ripassi").
+- Arrows (→, ←) are drawn as SVG icons (`src/components/Arrow.tsx`, `withArrows` for content text): Android's font sets the character small and low.
 - Theme: Automatico / Chiaro / Scuro, stored per device in localStorage.
 - The manifest's theme and background colour is the brand green `#3f6b5a`: Android uses it for an installed app's navigation bar, and one colour has to work in both themes.
 
@@ -24,9 +26,11 @@ Settled decisions (don't change without asking):
 
 - Files: `content/<level>/uNN/{unit,vocab,grammar}.json`, listed in order in `content/<level>/level.json`. Schema in `content/schema.ts`; `npm run validate-content` must report 0 errors and 0 warnings.
 - IDs are stable and never reused: vocab `v-a1-0001…`, grammar `g-a1-0001…`, exercises `<grammar id>-eN`, lessons `a1-uNN-bNN`. Continue numbering from the highest existing ID.
-- Every vocab item: German, Italian meanings (first one shown), a `promptIt` that makes the wanted German unambiguous (check for clashes with earlier units), 2–3 examples with Italian translations. Nouns always have `article` and `plural` (`null` if none; `pluralOnly: true` for words like die Eltern).
+- Every vocab item: German, Italian meanings (first one shown), a `promptIt` that makes the wanted German unambiguous (check for clashes with earlier units, both ways) and never contains the answer, 2–3 examples with Italian translations. Nouns always have `article` and `plural` (`null` if none; `pluralOnly: true` for words like die Eltern).
+- `it` lists every natural Italian answer, including feminine forms of adjectives and participles (she often answers in the feminine) and the wording used in the item's own prompt and examples.
+- Two items with the same German must accept the same meanings: the review card shows only the German. The validator warns otherwise.
 - `noteIt` should flag what trips up Italian speakers: genders that differ from Italian (die Sonne, der Mond, das Mädchen…), false friends, irregular forms.
-- Grammar points: short Italian explanation paragraphs, a `pattern` table (lines `German – Italian` render as two columns), examples, `commonMistakes` (real mistakes, accurately labelled), and 5–7 fill-in-the-blank exercises. Exercise blanks have no typo tolerance; `caseSensitive: true` where case changes meaning (Sie/sie).
+- Grammar points: short Italian explanation paragraphs, a `pattern` table (lines `German – Italian` render as two columns), examples, `commonMistakes` (real mistakes, accurately labelled), and 5–7 fill-in-the-blank exercises. Exercise blanks have no typo tolerance, so list every correct answer and write hints that can't invite a different correct one (no digits, name the verb when sein would also fit); `caseSensitive: true` where case changes meaning (Sie/sie).
 - Put each grammar point in or just before the lesson whose words it uses, and quiz it with words already taught. Keep rules accurate rather than absolute; say "di solito" where there are exceptions.
 - Use only A1-appropriate German in units marked A1; anything new in an example must be clear from its translation.
 - Example sentences must be natural German a native speaker would say, and translations natural Italian.
@@ -35,16 +39,16 @@ Settled decisions (don't change without asking):
 
 1. Write `unit.json`, `vocab.json`, `grammar.json`; add the unit to `level.json`.
 2. `npm run validate-content`, `npm test`, `npx tsc -b`.
-3. Have an independent agent proofread the unit (German correctness and naturalness, Italian, accuracy of every rule, answer keys, missing accepted answers, sequencing) and report without editing. Verify each finding before applying it.
+3. Have an independent agent proofread the unit (it can run while you write the next one) (German correctness and naturalness, Italian, accuracy of every rule, answer keys, missing accepted answers, sequencing) and report without editing. Verify each finding before applying it.
 4. Play every new lesson and quiz in a browser (Playwright with `vite preview`) and confirm the expected answer is accepted for every card.
 5. Commit, push, deploy (below), and confirm the new unit is live.
 
-### A1 roadmap
+### Roadmap
 
-Done: 1 Saluti (pronouns, sein, word order) · 2 Der, die, das (gender, ein/eine, plural, haben, 0–20) · 3 Famiglia (possessives, adjectives after sein, nicht/kein, 21–100) · 4 Cibo (accusative, essen/nehmen, möchten, mögen/gern).
+A1 is complete: 16 units, about 600 words, 64 grammar points.
+1 Saluti (pronouns, sein, word order) · 2 Der, die, das (gender, ein/eine, plural, haben, 0–20) · 3 Famiglia (possessives, adjectives after sein, nicht/kein, 21–100) · 4 Cibo (accusative, essen/nehmen, möchten, mögen/gern) · 5 La giornata (time, days, separable verbs) · 6 Appuntamenti (months, dates, verb-second, und/aber/oder) · 7 Casa (es gibt, in/auf + dative, liegen/stehen) · 8 In città (mit/zu/bei, nach, Sie-imperative) · 9 Tempo libero (können, wollen, gern/lieber) · 10 Regole (müssen, dürfen, imperative) · 11 Lavoro (jobs, -in, seit) · 12 Spesa (prices, quantities, für/ohne) · 13 Vestiti (colours, accusative pronouns, welcher/dieser) · 14 Salute (wehtun, dative pronouns, sollen) · 15–16 Il passato (war/hatte, Perfekt with haben and sein).
 
-Planned (about 16 units for A1, roughly 650 words):
-5 La giornata (time, days, separable verbs) · 6 Appuntamenti (months, dates, ordinals, inversion after time phrases) · 7 Casa (es gibt, rooms, in/auf + dative) · 8 In città (mit/zu/bei + dative, directions) · 9 Tempo libero (können, wollen) · 10 Regole (müssen, dürfen, imperative) · 11 Lavoro (jobs, -in, arbeiten) · 12 Spesa (prices, quantities, für/ohne) · 13 Vestiti (colours, accusative pronouns) · 14 Salute (body, mir/dir) · 15–16 Il passato (Perfekt with haben, then sein; war, hatte).
+Next: A2, in `content/a2/` with IDs `v-a2-…`, `g-a2-…` (adjective endings, Nebensätze with weil/dass/wenn, Präteritum of modals, reflexive verbs, comparatives, two-way prepositions).
 
 ## Code map
 
