@@ -1,0 +1,381 @@
+[
+  {
+    "id": "v-a1-0064",
+    "pos": "noun",
+    "de": "Familie",
+    "article": "die",
+    "plural": "Familien",
+    "it": ["famiglia"],
+    "promptIt": "la famiglia",
+    "noteIt": "In italiano «la mia famiglia», in tedesco solo meine Familie: niente articolo davanti al possessivo.",
+    "examples": [
+      { "de": "Das ist meine Familie.", "it": "Questa è la mia famiglia." },
+      { "de": "Meine Familie wohnt in Bologna.", "it": "La mia famiglia abita a Bologna." }
+    ]
+  },
+  {
+    "id": "v-a1-0065",
+    "pos": "noun",
+    "de": "Mutter",
+    "article": "die",
+    "plural": "Mütter",
+    "it": ["madre", "mamma"],
+    "promptIt": "la madre",
+    "noteIt": "«Mamma» si dice anche Mama.",
+    "examples": [
+      { "de": "Meine Mutter heißt Sara.", "it": "Mia madre si chiama Sara." },
+      { "de": "Wie alt ist deine Mutter?", "it": "Quanti anni ha tua madre?" }
+    ]
+  },
+  {
+    "id": "v-a1-0066",
+    "pos": "noun",
+    "de": "Vater",
+    "article": "der",
+    "plural": "Väter",
+    "it": ["padre", "papà"],
+    "promptIt": "il padre",
+    "noteIt": "«Papà» si dice anche Papa.",
+    "examples": [
+      { "de": "Mein Vater kommt aus Neapel.", "it": "Mio padre viene da Napoli." },
+      { "de": "Wo wohnt dein Vater?", "it": "Dove abita tuo padre?" }
+    ]
+  },
+  {
+    "id": "v-a1-0067",
+    "pos": "noun",
+    "de": "Eltern",
+    "article": "die",
+    "plural": null,
+    "pluralOnly": true,
+    "it": ["genitori"],
+    "promptIt": "i genitori",
+    "noteIt": "Esiste solo al plurale: die Eltern.",
+    "examples": [
+      { "de": "Meine Eltern wohnen in Rom.", "it": "I miei genitori abitano a Roma." },
+      { "de": "Deine Eltern sind nett.", "it": "I tuoi genitori sono simpatici." }
+    ]
+  },
+  {
+    "id": "v-a1-0068",
+    "pos": "noun",
+    "de": "Sohn",
+    "article": "der",
+    "plural": "Söhne",
+    "it": ["figlio"],
+    "promptIt": "il figlio",
+    "examples": [
+      { "de": "Mein Sohn ist zehn.", "it": "Mio figlio ha dieci anni." },
+      { "de": "Wir haben zwei Söhne.", "it": "Abbiamo due figli maschi." }
+    ]
+  },
+  {
+    "id": "v-a1-0069",
+    "pos": "noun",
+    "de": "Tochter",
+    "article": "die",
+    "plural": "Töchter",
+    "it": ["figlia"],
+    "promptIt": "la figlia",
+    "examples": [
+      { "de": "Ihre Tochter heißt Mia.", "it": "Sua figlia si chiama Mia." },
+      { "de": "Anna hat zwei Töchter.", "it": "Anna ha due figlie." }
+    ]
+  },
+  {
+    "id": "v-a1-0070",
+    "pos": "noun",
+    "de": "Oma",
+    "article": "die",
+    "plural": "Omas",
+    "it": ["nonna"],
+    "promptIt": "la nonna",
+    "noteIt": "Parola familiare, come «nonna». Più formale: die Großmutter.",
+    "examples": [
+      { "de": "Meine Oma wohnt in Palermo.", "it": "Mia nonna abita a Palermo." },
+      { "de": "Meine Omas sind nett.", "it": "Le mie nonne sono simpatiche." }
+    ]
+  },
+  {
+    "id": "v-a1-0071",
+    "pos": "noun",
+    "de": "Opa",
+    "article": "der",
+    "plural": "Opas",
+    "it": ["nonno"],
+    "promptIt": "il nonno",
+    "noteIt": "Parola familiare. Più formale: der Großvater.",
+    "examples": [
+      { "de": "Mein Opa heißt Luigi.", "it": "Mio nonno si chiama Luigi." },
+      { "de": "Wo wohnt dein Opa?", "it": "Dove abita tuo nonno?" }
+    ]
+  },
+  {
+    "id": "v-a1-0072",
+    "pos": "noun",
+    "de": "Onkel",
+    "article": "der",
+    "plural": "Onkel",
+    "it": ["zio"],
+    "promptIt": "lo zio",
+    "noteIt": "Il plurale non cambia: die Onkel.",
+    "examples": [
+      { "de": "Mein Onkel wohnt in München.", "it": "Mio zio abita a Monaco." },
+      { "de": "Ich habe zwei Onkel.", "it": "Ho due zii." }
+    ]
+  },
+  {
+    "id": "v-a1-0073",
+    "pos": "noun",
+    "de": "Tante",
+    "article": "die",
+    "plural": "Tanten",
+    "it": ["zia"],
+    "promptIt": "la zia",
+    "examples": [
+      { "de": "Meine Tante ist nett.", "it": "Mia zia è simpatica." },
+      { "de": "Hast du eine Tante in Deutschland?", "it": "Hai una zia in Germania?" }
+    ]
+  },
+  {
+    "id": "v-a1-0074",
+    "pos": "noun",
+    "de": "Freund",
+    "article": "der",
+    "plural": "Freunde",
+    "it": ["amico", "ragazzo", "fidanzato"],
+    "promptIt": "l'amico / il ragazzo (fidanzato)",
+    "noteIt": "«Mein Freund» di solito vuol dire «il mio ragazzo». Per un amico qualsiasi si dice spesso «ein Freund von mir».",
+    "examples": [
+      { "de": "Wir sind Freunde.", "it": "Siamo amici." },
+      { "de": "Tom ist mein Freund.", "it": "Tom è il mio ragazzo." }
+    ]
+  },
+  {
+    "id": "v-a1-0075",
+    "pos": "noun",
+    "de": "Freundin",
+    "article": "die",
+    "plural": "Freundinnen",
+    "it": ["amica", "ragazza", "fidanzata"],
+    "promptIt": "l'amica / la ragazza (fidanzata)",
+    "noteIt": "Come Freund: «meine Freundin» può voler dire «la mia ragazza». Il plurale raddoppia la n: Freundinnen.",
+    "examples": [
+      { "de": "Anna und ihre Freundin lernen Deutsch.", "it": "Anna e la sua amica imparano il tedesco." },
+      { "de": "Meine Freundinnen wohnen in Rom.", "it": "Le mie amiche abitano a Roma." }
+    ]
+  },
+  {
+    "id": "v-a1-0076",
+    "pos": "adj",
+    "de": "alt",
+    "it": ["vecchio", "vecchia", "anziano", "anziana"],
+    "promptIt": "vecchio / anziano",
+    "noteIt": "Wie alt…? vuol dire «Quanti anni…?».",
+    "examples": [
+      { "de": "Mein Opa ist alt.", "it": "Mio nonno è anziano." },
+      { "de": "Das Haus ist alt.", "it": "La casa è vecchia." }
+    ]
+  },
+  {
+    "id": "v-a1-0077",
+    "pos": "adj",
+    "de": "jung",
+    "it": ["giovane"],
+    "promptIt": "giovane",
+    "examples": [
+      { "de": "Meine Tante ist jung.", "it": "Mia zia è giovane." },
+      { "de": "Wir sind jung.", "it": "Siamo giovani." }
+    ]
+  },
+  {
+    "id": "v-a1-0078",
+    "pos": "adj",
+    "de": "groß",
+    "it": ["grande", "alto", "alta"],
+    "promptIt": "grande / alto (di statura)",
+    "noteIt": "Per le persone vuol dire «alto».",
+    "examples": [
+      { "de": "Das Haus ist groß.", "it": "La casa è grande." },
+      { "de": "Mein Bruder ist groß.", "it": "Mio fratello è alto." }
+    ]
+  },
+  {
+    "id": "v-a1-0079",
+    "pos": "adj",
+    "de": "klein",
+    "it": ["piccolo", "piccola", "basso", "bassa"],
+    "promptIt": "piccolo / basso (di statura)",
+    "noteIt": "Per le persone vuol dire «basso».",
+    "examples": [
+      { "de": "Die Katze ist klein.", "it": "Il gatto è piccolo." },
+      { "de": "Meine Oma ist klein.", "it": "Mia nonna è bassa." }
+    ]
+  },
+  {
+    "id": "v-a1-0080",
+    "pos": "adj",
+    "de": "nett",
+    "it": ["simpatico", "simpatica", "gentile", "carino", "carina"],
+    "promptIt": "simpatico / gentile",
+    "examples": [
+      { "de": "Dein Vater ist nett.", "it": "Tuo padre è simpatico." },
+      { "de": "Danke, sehr nett!", "it": "Grazie, molto gentile!" }
+    ]
+  },
+  {
+    "id": "v-a1-0081",
+    "pos": "adj",
+    "de": "verheiratet",
+    "it": ["sposato", "sposata"],
+    "promptIt": "sposato",
+    "examples": [
+      { "de": "Meine Schwester ist verheiratet.", "it": "Mia sorella è sposata." },
+      { "de": "Bist du verheiratet?", "it": "Sei sposata?" }
+    ]
+  },
+  {
+    "id": "v-a1-0082",
+    "pos": "adv",
+    "de": "nicht",
+    "it": ["non"],
+    "promptIt": "non",
+    "noteIt": "Nega verbi, aggettivi e nomi con der/die/das. Con ein si usa kein.",
+    "examples": [
+      { "de": "Ich wohne nicht in Rom.", "it": "Non abito a Roma." },
+      { "de": "Das ist nicht mein Auto.", "it": "Questa non è la mia macchina." }
+    ]
+  },
+  {
+    "id": "v-a1-0083",
+    "pos": "det",
+    "de": "kein",
+    "it": ["nessun", "nessuno", "nessuna", "non un", "non una"],
+    "promptIt": "nessun / non… un (davanti a un sostantivo)",
+    "noteIt": "Si usa al posto di ein: kein Hund, keine Katze, keine Kinder.",
+    "examples": [
+      { "de": "Das ist kein Hund.", "it": "Non è un cane." },
+      { "de": "Ich habe keine Katze.", "it": "Non ho un gatto." },
+      { "de": "Wir haben keine Kinder.", "it": "Non abbiamo figli." }
+    ]
+  },
+  {
+    "id": "v-a1-0084",
+    "pos": "noun",
+    "de": "Jahr",
+    "article": "das",
+    "plural": "Jahre",
+    "it": ["anno"],
+    "promptIt": "l'anno",
+    "examples": [
+      { "de": "Ich bin zwanzig Jahre alt.", "it": "Ho vent'anni." },
+      { "de": "Das Jahr hat zwölf Monate.", "it": "L'anno ha dodici mesi." }
+    ]
+  },
+  {
+    "id": "v-a1-0085",
+    "pos": "phrase",
+    "de": "Wie alt bist du?",
+    "acceptDe": ["Wie alt sind Sie?"],
+    "it": ["quanti anni hai?"],
+    "promptIt": "quanti anni hai?",
+    "noteIt": "Con chi dai del Lei: Wie alt sind Sie?",
+    "examples": [
+      { "de": "Wie alt bist du? – Ich bin zwanzig.", "it": "Quanti anni hai? – Ho vent'anni." },
+      { "de": "Und du? Wie alt bist du?", "it": "E tu? Quanti anni hai?" }
+    ]
+  },
+  {
+    "id": "v-a1-0086",
+    "pos": "num",
+    "de": "dreißig",
+    "it": ["trenta"],
+    "promptIt": "trenta",
+    "noteIt": "L'unica decina con ß invece di z: dreißig.",
+    "examples": [
+      { "de": "Meine Tante ist dreißig.", "it": "Mia zia ha trent'anni." },
+      { "de": "Zehn plus zwanzig ist dreißig.", "it": "Dieci più venti fa trenta." }
+    ]
+  },
+  {
+    "id": "v-a1-0087",
+    "pos": "num",
+    "de": "vierzig",
+    "it": ["quaranta"],
+    "promptIt": "quaranta",
+    "examples": [
+      { "de": "Mein Vater ist vierzig.", "it": "Mio padre ha quarant'anni." },
+      { "de": "Zwanzig plus zwanzig ist vierzig.", "it": "Venti più venti fa quaranta." }
+    ]
+  },
+  {
+    "id": "v-a1-0088",
+    "pos": "num",
+    "de": "fünfzig",
+    "it": ["cinquanta"],
+    "promptIt": "cinquanta",
+    "examples": [
+      { "de": "Meine Mutter ist fünfzig Jahre alt.", "it": "Mia madre ha cinquant'anni." },
+      { "de": "Dreißig plus zwanzig ist fünfzig.", "it": "Trenta più venti fa cinquanta." }
+    ]
+  },
+  {
+    "id": "v-a1-0089",
+    "pos": "num",
+    "de": "sechzig",
+    "it": ["sessanta"],
+    "promptIt": "sessanta",
+    "noteIt": "Come sechzehn: perde la -s di sechs.",
+    "examples": [
+      { "de": "Mein Onkel ist sechzig.", "it": "Mio zio ha sessant'anni." },
+      { "de": "Dreißig plus dreißig ist sechzig.", "it": "Trenta più trenta fa sessanta." }
+    ]
+  },
+  {
+    "id": "v-a1-0090",
+    "pos": "num",
+    "de": "siebzig",
+    "it": ["settanta"],
+    "promptIt": "settanta",
+    "noteIt": "Come siebzehn: perde la -en di sieben.",
+    "examples": [
+      { "de": "Mein Opa ist siebzig.", "it": "Mio nonno ha settant'anni." },
+      { "de": "Fünfzig plus zwanzig ist siebzig.", "it": "Cinquanta più venti fa settanta." }
+    ]
+  },
+  {
+    "id": "v-a1-0091",
+    "pos": "num",
+    "de": "achtzig",
+    "it": ["ottanta"],
+    "promptIt": "ottanta",
+    "examples": [
+      { "de": "Meine Oma ist achtzig Jahre alt.", "it": "Mia nonna ha ottant'anni." },
+      { "de": "Vierzig plus vierzig ist achtzig.", "it": "Quaranta più quaranta fa ottanta." }
+    ]
+  },
+  {
+    "id": "v-a1-0092",
+    "pos": "num",
+    "de": "neunzig",
+    "it": ["novanta"],
+    "promptIt": "novanta",
+    "examples": [
+      { "de": "Mein Opa ist neunzig.", "it": "Mio nonno ha novant'anni." },
+      { "de": "Fünfzig plus vierzig ist neunzig.", "it": "Cinquanta più quaranta fa novanta." }
+    ]
+  },
+  {
+    "id": "v-a1-0093",
+    "pos": "num",
+    "de": "hundert",
+    "acceptDe": ["einhundert"],
+    "it": ["cento"],
+    "promptIt": "cento",
+    "noteIt": "Si dice anche einhundert.",
+    "examples": [
+      { "de": "Das Haus ist hundert Jahre alt.", "it": "La casa ha cent'anni." },
+      { "de": "Fünfzig plus fünfzig ist hundert.", "it": "Cinquanta più cinquanta fa cento." }
+    ]
+  }
+]

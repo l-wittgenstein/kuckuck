@@ -1,0 +1,476 @@
+[
+  {
+    "id": "g-a1-0009",
+    "title": "I possessivi: mein, dein, sein, ihr…",
+    "explanationIt": [
+      "In tedesco il possessivo prende il posto dell'articolo: «il mio libro» è solo mein Buch, senza articolo davanti.",
+      "Si comporta come ein: nessuna desinenza con maschile e neutro (mein Vater, mein Kind), -e con femminile e plurale (meine Mutter, meine Eltern).",
+      "Attenzione a «suo»: in tedesco dipende da chi possiede, non dalla cosa posseduta. Se è di un uomo si dice sein, se è di una donna ihr: sein Sohn è il figlio di lui, ihr Sohn il figlio di lei.",
+      "Ihr con la maiuscola è il «Suo» di cortesia. Euer perde la seconda e quando prende la desinenza: eure Mutter."
+    ],
+    "pattern": [
+      "ich → mein – mio",
+      "du → dein – tuo",
+      "er, es → sein – suo (di lui)",
+      "sie → ihr – suo (di lei)",
+      "wir → unser – nostro",
+      "ihr → euer – vostro",
+      "sie → ihr – loro",
+      "Sie → Ihr – Suo (cortesia)"
+    ],
+    "examples": [
+      {
+        "de": "Das ist mein Vater.",
+        "it": "Questo è mio padre."
+      },
+      {
+        "de": "Meine Mutter heißt Sara.",
+        "it": "Mia madre si chiama Sara."
+      },
+      {
+        "de": "Ist das dein Bruder?",
+        "it": "È tuo fratello?"
+      },
+      {
+        "de": "Tom und sein Sohn wohnen in Berlin.",
+        "it": "Tom e suo figlio abitano a Berlino."
+      },
+      {
+        "de": "Anna und ihr Sohn wohnen in Wien.",
+        "it": "Anna e suo figlio abitano a Vienna."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Das ist der mein Vater.",
+        "right": "Das ist mein Vater.",
+        "explanationIt": "Davanti al possessivo non c'è articolo."
+      },
+      {
+        "wrong": "Anna und sein Sohn",
+        "right": "Anna und ihr Sohn",
+        "explanationIt": "Il figlio è di Anna, una donna: ci vuole ihr, anche se Sohn è maschile."
+      },
+      {
+        "wrong": "mein Mutter",
+        "right": "meine Mutter",
+        "explanationIt": "Mutter è femminile: meine."
+      },
+      {
+        "wrong": "euere Mutter",
+        "right": "eure Mutter",
+        "explanationIt": "Euer perde la seconda e: eure."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0009-e1",
+        "sentence": "Das ist ___ Vater.",
+        "answers": [
+          "mein"
+        ],
+        "hintIt": "mio",
+        "translationIt": "Questo è mio padre.",
+        "explanationIt": "Vater è maschile: mein, senza desinenza."
+      },
+      {
+        "id": "g-a1-0009-e2",
+        "sentence": "___ Mutter heißt Sara.",
+        "answers": [
+          "Meine"
+        ],
+        "hintIt": "mia",
+        "translationIt": "Mia madre si chiama Sara.",
+        "explanationIt": "Mutter è femminile: meine."
+      },
+      {
+        "id": "g-a1-0009-e3",
+        "sentence": "Ist das ___ Schwester?",
+        "answers": [
+          "deine"
+        ],
+        "hintIt": "tua",
+        "translationIt": "È tua sorella?",
+        "explanationIt": "Schwester è femminile: deine."
+      },
+      {
+        "id": "g-a1-0009-e4",
+        "sentence": "Tom und ___ Tochter wohnen in Rom.",
+        "answers": [
+          "seine"
+        ],
+        "hintIt": "sua (di Tom)",
+        "translationIt": "Tom e sua figlia abitano a Roma.",
+        "explanationIt": "La figlia è di Tom, un uomo: sein; Tochter è femminile, quindi seine."
+      },
+      {
+        "id": "g-a1-0009-e5",
+        "sentence": "Anna und ___ Sohn wohnen in Wien.",
+        "answers": [
+          "ihr"
+        ],
+        "hintIt": "suo (di Anna)",
+        "translationIt": "Anna e suo figlio abitano a Vienna.",
+        "explanationIt": "Il figlio è di Anna, una donna: ihr; Sohn è maschile, quindi senza desinenza."
+      },
+      {
+        "id": "g-a1-0009-e6",
+        "sentence": "Das sind ___ Eltern.",
+        "answers": [
+          "unsere"
+        ],
+        "hintIt": "nostri",
+        "translationIt": "Questi sono i nostri genitori.",
+        "explanationIt": "Al plurale: unsere."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0010",
+    "title": "Gli aggettivi dopo sein",
+    "explanationIt": [
+      "Dopo sein l'aggettivo non cambia mai: niente maschile o femminile, niente plurale. Der Vater ist alt, die Mutter ist alt, die Eltern sind alt.",
+      "In italiano diciamo «vecchio, vecchia, vecchi»: in tedesco, in questa posizione, resta sempre alt.",
+      "Anche l'età si dice con sein e alt: Wie alt bist du? – Ich bin zwanzig (Jahre alt)."
+    ],
+    "pattern": [
+      "Der Vater ist alt. – Il padre è vecchio.",
+      "Die Mutter ist alt. – La madre è vecchia.",
+      "Das Kind ist klein. – Il bambino è piccolo.",
+      "Die Kinder sind klein. – I bambini sono piccoli."
+    ],
+    "examples": [
+      {
+        "de": "Meine Oma ist nett.",
+        "it": "Mia nonna è simpatica."
+      },
+      {
+        "de": "Das Haus ist groß.",
+        "it": "La casa è grande."
+      },
+      {
+        "de": "Die Kinder sind klein.",
+        "it": "I bambini sono piccoli."
+      },
+      {
+        "de": "Wie alt ist dein Opa?",
+        "it": "Quanti anni ha tuo nonno?"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Die Mutter ist alte.",
+        "right": "Die Mutter ist alt.",
+        "explanationIt": "Dopo sein l'aggettivo non prende desinenze, neanche al femminile."
+      },
+      {
+        "wrong": "Die Kinder sind kleine.",
+        "right": "Die Kinder sind klein.",
+        "explanationIt": "Neanche al plurale."
+      },
+      {
+        "wrong": "Ich habe zwanzig Jahre.",
+        "right": "Ich bin zwanzig Jahre alt.",
+        "explanationIt": "L'età si dice con sein."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0010-e1",
+        "sentence": "Meine Mutter ist ___.",
+        "answers": [
+          "nett"
+        ],
+        "hintIt": "simpatica (nett)",
+        "translationIt": "Mia madre è simpatica.",
+        "explanationIt": "Dopo sein l'aggettivo resta nett, anche al femminile."
+      },
+      {
+        "id": "g-a1-0010-e2",
+        "sentence": "Die Kinder sind ___.",
+        "answers": [
+          "klein"
+        ],
+        "hintIt": "piccoli (klein)",
+        "translationIt": "I bambini sono piccoli.",
+        "explanationIt": "Dopo sein l'aggettivo resta klein, anche al plurale."
+      },
+      {
+        "id": "g-a1-0010-e3",
+        "sentence": "Mein Opa ist ___.",
+        "answers": [
+          "alt"
+        ],
+        "hintIt": "anziano (alt)",
+        "translationIt": "Mio nonno è anziano.",
+        "explanationIt": "alt, senza desinenza."
+      },
+      {
+        "id": "g-a1-0010-e4",
+        "sentence": "Wie ___ bist du?",
+        "answers": [
+          "alt"
+        ],
+        "hintIt": "quanti anni…?",
+        "translationIt": "Quanti anni hai?",
+        "explanationIt": "«Quanti anni hai?» si dice Wie alt bist du?"
+      },
+      {
+        "id": "g-a1-0010-e5",
+        "sentence": "Ich ___ zwanzig Jahre alt.",
+        "answers": [
+          "bin"
+        ],
+        "hintIt": "ho… anni",
+        "translationIt": "Ho vent'anni.",
+        "explanationIt": "Trappola! L'età si dice con sein: ich bin."
+      },
+      {
+        "id": "g-a1-0010-e6",
+        "sentence": "Unsere Tante ist ___.",
+        "answers": [
+          "verheiratet"
+        ],
+        "hintIt": "sposata (verheiratet)",
+        "translationIt": "Nostra zia è sposata.",
+        "explanationIt": "Dopo sein: verheiratet, senza desinenza."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0011",
+    "title": "La negazione: nicht e kein",
+    "explanationIt": [
+      "In italiano si nega tutto con «non». In tedesco bisogna scegliere tra kein e nicht.",
+      "kein nega un sostantivo che avrebbe ein oppure nessun articolo: «non un, nessun». Das ist ein Hund → Das ist kein Hund. Wir haben Kinder → Wir haben keine Kinder.",
+      "kein si comporta come ein: kein Mann, kein Kind, keine Frau; al plurale keine Kinder. Quando il maschile è l'oggetto della frase diventa keinen, come einen: Ich habe keinen Bruder.",
+      "nicht nega tutto il resto: verbi, aggettivi, nomi propri, sostantivi con der/die/das o con un possessivo. Ich wohne nicht in Rom. Anna ist nicht alt. Das ist nicht mein Auto."
+    ],
+    "pattern": [
+      "ein → kein – non un / nessun",
+      "eine → keine – non una / nessuna",
+      "plurale → keine – nessun… (Wir haben keine Kinder.)",
+      "verbi, aggettivi, nomi → nicht – non"
+    ],
+    "examples": [
+      {
+        "de": "Das ist kein Hund.",
+        "it": "Non è un cane."
+      },
+      {
+        "de": "Wir haben keine Kinder.",
+        "it": "Non abbiamo figli."
+      },
+      {
+        "de": "Ich habe keinen Bruder.",
+        "it": "Non ho fratelli."
+      },
+      {
+        "de": "Ich wohne nicht in Rom.",
+        "it": "Non abito a Roma."
+      },
+      {
+        "de": "Mein Opa ist nicht alt.",
+        "it": "Mio nonno non è vecchio."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe nicht ein Auto.",
+        "right": "Ich habe kein Auto.",
+        "explanationIt": "Con un sostantivo senza articolo determinativo si usa kein, non nicht ein."
+      },
+      {
+        "wrong": "Ich habe kein Bruder.",
+        "right": "Ich habe keinen Bruder.",
+        "explanationIt": "Bruder è maschile ed è l'oggetto: keinen, come einen."
+      },
+      {
+        "wrong": "Ich nicht wohne in Rom.",
+        "right": "Ich wohne nicht in Rom.",
+        "explanationIt": "nicht va dopo il verbo, non prima."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0011-e1",
+        "sentence": "Das ist ___ Hund.",
+        "answers": [
+          "kein"
+        ],
+        "hintIt": "non un",
+        "translationIt": "Non è un cane.",
+        "explanationIt": "Hund con ein → kein."
+      },
+      {
+        "id": "g-a1-0011-e2",
+        "sentence": "Wir haben ___ Kinder.",
+        "answers": [
+          "keine"
+        ],
+        "hintIt": "nessun (plurale)",
+        "translationIt": "Non abbiamo figli.",
+        "explanationIt": "Al plurale: keine."
+      },
+      {
+        "id": "g-a1-0011-e3",
+        "sentence": "Ich wohne ___ in Berlin.",
+        "answers": [
+          "nicht"
+        ],
+        "hintIt": "non",
+        "translationIt": "Non abito a Berlino.",
+        "explanationIt": "Si nega il verbo, non un sostantivo: nicht."
+      },
+      {
+        "id": "g-a1-0011-e4",
+        "sentence": "Ich habe ___ Schwester.",
+        "answers": [
+          "keine"
+        ],
+        "hintIt": "non una (die Schwester)",
+        "translationIt": "Non ho una sorella.",
+        "explanationIt": "Schwester è femminile: keine."
+      },
+      {
+        "id": "g-a1-0011-e5",
+        "sentence": "Ich habe ___ Bruder.",
+        "answers": [
+          "keinen"
+        ],
+        "hintIt": "non un (der Bruder, oggetto)",
+        "translationIt": "Non ho un fratello.",
+        "explanationIt": "Bruder è maschile ed è l'oggetto: keinen."
+      },
+      {
+        "id": "g-a1-0011-e6",
+        "sentence": "Meine Oma ist ___ alt.",
+        "answers": [
+          "nicht"
+        ],
+        "hintIt": "non",
+        "translationIt": "Mia nonna non è vecchia.",
+        "explanationIt": "Si nega un aggettivo: nicht."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0012",
+    "title": "I numeri da 21 a 100",
+    "explanationIt": [
+      "Dopo il 20 il tedesco dice prima le unità e poi le decine, unite da und, tutto attaccato: 21 = einundzwanzig, cioè «uno-e-venti».",
+      "Le decine finiscono in -zig, tranne il 30 che finisce in -ßig: dreißig. Come sechzehn e siebzehn, anche sechzig e siebzig si accorciano.",
+      "Davanti a und, eins perde la s: einundzwanzig. Il 100 è hundert, o einhundert."
+    ],
+    "pattern": [
+      "21 – einundzwanzig",
+      "22 – zweiundzwanzig",
+      "30 – dreißig",
+      "35 – fünfunddreißig",
+      "47 – siebenundvierzig",
+      "60 – sechzig",
+      "70 – siebzig",
+      "99 – neunundneunzig",
+      "100 – hundert"
+    ],
+    "examples": [
+      {
+        "de": "Meine Mutter ist fünfzig.",
+        "it": "Mia madre ha cinquant'anni."
+      },
+      {
+        "de": "Mein Opa ist neunundachtzig Jahre alt.",
+        "it": "Mio nonno ha ottantanove anni."
+      },
+      {
+        "de": "Ich bin einunddreißig.",
+        "it": "Ho trentun anni."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "zwanzigeins",
+        "right": "einundzwanzig",
+        "explanationIt": "Prima le unità, poi le decine, unite da und."
+      },
+      {
+        "wrong": "einsundzwanzig",
+        "right": "einundzwanzig",
+        "explanationIt": "Davanti a und, eins perde la s."
+      },
+      {
+        "wrong": "dreizig",
+        "right": "dreißig",
+        "explanationIt": "Il 30 è l'unica decina con ß."
+      },
+      {
+        "wrong": "sechszig",
+        "right": "sechzig",
+        "explanationIt": "Come sechzehn: niente -s."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0012-e1",
+        "sentence": "Meine Mutter ist ___ Jahre alt.",
+        "answers": [
+          "einundvierzig"
+        ],
+        "hintIt": "41",
+        "translationIt": "Mia madre ha quarantun anni.",
+        "explanationIt": "41 = einundvierzig: uno-e-quaranta."
+      },
+      {
+        "id": "g-a1-0012-e2",
+        "sentence": "Mein Vater ist ___.",
+        "answers": [
+          "dreißig"
+        ],
+        "hintIt": "30",
+        "translationIt": "Mio padre ha trent'anni.",
+        "explanationIt": "30 = dreißig, con ß."
+      },
+      {
+        "id": "g-a1-0012-e3",
+        "sentence": "Mein Opa ist ___ Jahre alt.",
+        "answers": [
+          "sechsundsiebzig"
+        ],
+        "hintIt": "76",
+        "translationIt": "Mio nonno ha settantasei anni.",
+        "explanationIt": "76 = sechsundsiebzig: sei-e-settanta."
+      },
+      {
+        "id": "g-a1-0012-e4",
+        "sentence": "Meine Oma ist ___.",
+        "answers": [
+          "zweiundachtzig"
+        ],
+        "hintIt": "82",
+        "translationIt": "Mia nonna ha ottantadue anni.",
+        "explanationIt": "82 = zweiundachtzig: due-e-ottanta."
+      },
+      {
+        "id": "g-a1-0012-e5",
+        "sentence": "Meine Tante ist ___.",
+        "answers": [
+          "fünfundsechzig"
+        ],
+        "hintIt": "65",
+        "translationIt": "Mia zia ha sessantacinque anni.",
+        "explanationIt": "65 = fünfundsechzig: cinque-e-sessanta, e sechzig senza -s."
+      },
+      {
+        "id": "g-a1-0012-e6",
+        "sentence": "Das Haus ist ___ Jahre alt.",
+        "answers": [
+          "hundert",
+          "einhundert"
+        ],
+        "hintIt": "100",
+        "translationIt": "La casa ha cent'anni.",
+        "explanationIt": "100 = hundert (o einhundert)."
+      }
+    ]
+  }
+]

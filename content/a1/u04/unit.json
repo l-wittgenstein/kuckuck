@@ -1,0 +1,16 @@
+{
+  "id": "a1-u04",
+  "level": "a1",
+  "order": 4,
+  "title": "Guten Appetit! Al bar e a tavola",
+  "summary": "Cibo e bevande, l'accusativo, i verbi essen e nehmen, ordinare con möchten, dire cosa ti piace con mögen e gern.",
+  "batches": [
+    { "id": "a1-u04-b01", "itemIds": ["v-a1-0094", "v-a1-0095", "v-a1-0096", "v-a1-0097", "v-a1-0098"] },
+    { "id": "a1-u04-b02", "itemIds": ["g-a1-0013", "v-a1-0099", "v-a1-0100", "v-a1-0101", "v-a1-0102"] },
+    { "id": "a1-u04-b03", "itemIds": ["v-a1-0103", "v-a1-0104", "v-a1-0105", "v-a1-0106", "v-a1-0107"] },
+    { "id": "a1-u04-b04", "itemIds": ["g-a1-0014", "v-a1-0108", "v-a1-0109", "v-a1-0110", "v-a1-0111"] },
+    { "id": "a1-u04-b05", "itemIds": ["v-a1-0112", "v-a1-0113", "v-a1-0114", "v-a1-0115", "v-a1-0116"] },
+    { "id": "a1-u04-b06", "itemIds": ["g-a1-0015", "v-a1-0117", "v-a1-0118"] },
+    { "id": "a1-u04-b07", "itemIds": ["g-a1-0016", "v-a1-0119", "v-a1-0120"] }
+  ]
+}
