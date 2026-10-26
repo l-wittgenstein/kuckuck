@@ -1,0 +1,434 @@
+[
+  {
+    "id": "v-a1-0531",
+    "pos": "adv",
+    "de": "gestern",
+    "it": ["ieri"],
+    "promptIt": "ieri",
+    "examples": [
+      { "de": "Gestern war ich müde.", "it": "Ieri ero stanca." },
+      { "de": "Was hast du gestern gemacht?", "it": "Cosa hai fatto ieri?" }
+    ]
+  },
+  {
+    "id": "v-a1-0532",
+    "pos": "adv",
+    "de": "vorgestern",
+    "it": ["l'altro ieri", "ieri l'altro", "avantieri"],
+    "promptIt": "l'altro ieri",
+    "examples": [
+      { "de": "Vorgestern war Sonntag.", "it": "L'altro ieri era domenica." },
+      { "de": "Ich habe ihn vorgestern gesehen.", "it": "L'ho visto l'altro ieri." }
+    ]
+  },
+  {
+    "id": "v-a1-0533",
+    "pos": "phrase",
+    "de": "letzte Woche",
+    "it": ["la settimana scorsa", "la settimana passata"],
+    "promptIt": "la settimana scorsa",
+    "acceptDe": ["vorige Woche"],
+    "noteIt": "Allo stesso modo: letzten Monat (il mese scorso), letztes Jahr (l'anno scorso).",
+    "examples": [
+      { "de": "Letzte Woche war ich in Berlin.", "it": "La settimana scorsa ero a Berlino." },
+      { "de": "Was hast du letzte Woche gemacht?", "it": "Cosa hai fatto la settimana scorsa?" }
+    ]
+  },
+  {
+    "id": "v-a1-0534",
+    "pos": "adv",
+    "de": "früher",
+    "it": ["prima", "una volta", "in passato", "un tempo", "più presto"],
+    "promptIt": "una volta (in passato)",
+    "noteIt": "Vuol dire anche «più presto»: Ich komme früher.",
+    "examples": [
+      { "de": "Früher habe ich in Rom gewohnt.", "it": "Una volta abitavo a Roma." },
+      { "de": "Früher war alles anders.", "it": "Una volta era tutto diverso." }
+    ]
+  },
+  {
+    "id": "v-a1-0535",
+    "pos": "adv",
+    "de": "schon",
+    "it": ["già"],
+    "promptIt": "già",
+    "noteIt": "schon mal = già una volta: Warst du schon mal in Berlin?",
+    "examples": [
+      { "de": "Ich habe schon gegessen.", "it": "Ho già mangiato." },
+      { "de": "Bist du schon da?", "it": "Sei già arrivata?" }
+    ]
+  },
+  {
+    "id": "v-a1-0536",
+    "pos": "noun",
+    "de": "Wetter",
+    "article": "das",
+    "plural": null,
+    "it": ["tempo", "meteo"],
+    "promptIt": "il tempo (che fa: sole, pioggia…)",
+    "noteIt": "Il tempo che passa invece è die Zeit.",
+    "examples": [
+      { "de": "Wie ist das Wetter?", "it": "Che tempo fa?" },
+      { "de": "Das Wetter ist heute schön.", "it": "Oggi è bel tempo." }
+    ]
+  },
+  {
+    "id": "v-a1-0537",
+    "pos": "adj",
+    "de": "warm",
+    "it": ["caldo", "calda", "tiepido", "tiepida"],
+    "promptIt": "caldo (piacevole)",
+    "noteIt": "Es ist warm = fa caldo. Mir ist warm = ho caldo.",
+    "examples": [
+      { "de": "Heute ist es warm.", "it": "Oggi fa caldo." },
+      { "de": "Der Tee ist noch warm.", "it": "Il tè è ancora caldo." }
+    ]
+  },
+  {
+    "id": "v-a1-0538",
+    "pos": "adj",
+    "de": "kalt",
+    "it": ["freddo", "fredda"],
+    "promptIt": "freddo",
+    "noteIt": "Es ist kalt = fa freddo. Mir ist kalt = ho freddo.",
+    "examples": [
+      { "de": "Im Winter ist es kalt.", "it": "D'inverno fa freddo." },
+      { "de": "Mir ist kalt.", "it": "Ho freddo." }
+    ]
+  },
+  {
+    "id": "v-a1-0539",
+    "pos": "adj",
+    "de": "heiß",
+    "it": ["caldissimo", "caldissima", "bollente", "molto caldo", "caldo"],
+    "promptIt": "caldissimo (bollente)",
+    "noteIt": "heiß è più forte di warm: Es ist heiß = fa molto caldo.",
+    "examples": [
+      { "de": "Im August ist es heiß.", "it": "Ad agosto fa molto caldo." },
+      { "de": "Vorsicht, der Kaffee ist heiß!", "it": "Attenzione, il caffè scotta!" }
+    ]
+  },
+  {
+    "id": "v-a1-0540",
+    "pos": "noun",
+    "de": "Regen",
+    "article": "der",
+    "plural": null,
+    "it": ["pioggia"],
+    "promptIt": "la pioggia",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Regen.",
+    "examples": [
+      { "de": "Ich mag den Regen nicht.", "it": "Non mi piace la pioggia." },
+      { "de": "Morgen kommt Regen.", "it": "Domani arriva la pioggia." }
+    ]
+  },
+  {
+    "id": "v-a1-0541",
+    "pos": "verb",
+    "de": "regnen",
+    "it": ["piovere"],
+    "promptIt": "piovere",
+    "noteIt": "Sempre con es: Es regnet = piove.",
+    "examples": [
+      { "de": "Es regnet.", "it": "Piove." },
+      { "de": "Gestern hat es viel geregnet.", "it": "Ieri ha piovuto molto." }
+    ]
+  },
+  {
+    "id": "v-a1-0542",
+    "pos": "noun",
+    "de": "Schnee",
+    "article": "der",
+    "plural": null,
+    "it": ["neve"],
+    "promptIt": "la neve",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Schnee.",
+    "examples": [
+      { "de": "Der Schnee ist weiß.", "it": "La neve è bianca." },
+      { "de": "In den Bergen gibt es viel Schnee.", "it": "In montagna c'è molta neve." }
+    ]
+  },
+  {
+    "id": "v-a1-0543",
+    "pos": "verb",
+    "de": "schneien",
+    "it": ["nevicare"],
+    "promptIt": "nevicare",
+    "noteIt": "Sempre con es: Es schneit = nevica.",
+    "examples": [
+      { "de": "Es schneit!", "it": "Nevica!" },
+      { "de": "Im Januar hat es geschneit.", "it": "A gennaio ha nevicato." }
+    ]
+  },
+  {
+    "id": "v-a1-0544",
+    "pos": "verb",
+    "de": "scheinen",
+    "it": ["splendere", "brillare", "sembrare"],
+    "promptIt": "splendere (il sole)",
+    "noteIt": "Die Sonne scheint = c'è il sole. Vuol dire anche «sembrare».",
+    "examples": [
+      { "de": "Die Sonne scheint.", "it": "C'è il sole." },
+      { "de": "Heute scheint die Sonne nicht.", "it": "Oggi non c'è il sole." }
+    ]
+  },
+  {
+    "id": "v-a1-0545",
+    "pos": "adj",
+    "de": "sonnig",
+    "it": ["soleggiato", "soleggiata", "di sole"],
+    "promptIt": "soleggiato",
+    "examples": [
+      { "de": "Heute ist es sonnig.", "it": "Oggi c'è il sole." },
+      { "de": "Der Tag war sonnig und warm.", "it": "La giornata è stata soleggiata e calda." }
+    ]
+  },
+  {
+    "id": "v-a1-0546",
+    "pos": "noun",
+    "de": "Wind",
+    "article": "der",
+    "plural": "Winde",
+    "it": ["vento"],
+    "promptIt": "il vento",
+    "examples": [
+      { "de": "Der Wind ist kalt.", "it": "Il vento è freddo." },
+      { "de": "Heute gibt es viel Wind.", "it": "Oggi c'è molto vento." }
+    ]
+  },
+  {
+    "id": "v-a1-0547",
+    "pos": "noun",
+    "de": "Wolke",
+    "article": "die",
+    "plural": "Wolken",
+    "it": ["nuvola"],
+    "promptIt": "la nuvola",
+    "examples": [
+      { "de": "Heute gibt es viele Wolken.", "it": "Oggi ci sono molte nuvole." },
+      { "de": "Die Wolke ist grau.", "it": "La nuvola è grigia." }
+    ]
+  },
+  {
+    "id": "v-a1-0548",
+    "pos": "noun",
+    "de": "Himmel",
+    "article": "der",
+    "plural": "Himmel",
+    "it": ["cielo"],
+    "promptIt": "il cielo",
+    "examples": [
+      { "de": "Der Himmel ist blau.", "it": "Il cielo è azzurro." },
+      { "de": "Am Himmel sind keine Wolken.", "it": "In cielo non ci sono nuvole." }
+    ]
+  },
+  {
+    "id": "v-a1-0549",
+    "pos": "noun",
+    "de": "Grad",
+    "article": "der",
+    "plural": "Grade",
+    "it": ["grado"],
+    "promptIt": "il grado (della temperatura)",
+    "noteIt": "Dopo un numero resta Grad: zwanzig Grad.",
+    "examples": [
+      { "de": "Es sind zwanzig Grad.", "it": "Ci sono venti gradi." },
+      { "de": "Heute sind es nur fünf Grad.", "it": "Oggi ci sono solo cinque gradi." }
+    ]
+  },
+  {
+    "id": "v-a1-0550",
+    "pos": "phrase",
+    "de": "noch nicht",
+    "it": ["non ancora"],
+    "promptIt": "non ancora",
+    "examples": [
+      { "de": "Ich habe noch nicht gegessen.", "it": "Non ho ancora mangiato." },
+      { "de": "Er ist noch nicht da.", "it": "Non è ancora arrivato." }
+    ]
+  },
+  {
+    "id": "v-a1-0551",
+    "pos": "adv",
+    "de": "zuerst",
+    "it": ["prima", "per prima cosa", "all'inizio"],
+    "promptIt": "per prima cosa",
+    "examples": [
+      { "de": "Zuerst frühstücke ich.", "it": "Per prima cosa faccio colazione." },
+      { "de": "Zuerst haben wir gekocht.", "it": "Prima abbiamo cucinato." }
+    ]
+  },
+  {
+    "id": "v-a1-0552",
+    "pos": "adv",
+    "de": "danach",
+    "it": ["dopo", "poi", "in seguito", "dopodiché", "dopo di che"],
+    "promptIt": "dopodiché (dopo questo)",
+    "examples": [
+      { "de": "Danach haben wir Musik gehört.", "it": "Dopo abbiamo ascoltato musica." },
+      { "de": "Wir essen und danach trinken wir einen Kaffee.", "it": "Mangiamo e poi beviamo un caffè." }
+    ]
+  },
+  {
+    "id": "v-a1-0553",
+    "pos": "adv",
+    "de": "endlich",
+    "it": ["finalmente"],
+    "promptIt": "finalmente",
+    "examples": [
+      { "de": "Endlich ist Wochenende!", "it": "Finalmente è il fine settimana!" },
+      { "de": "Endlich hast du Zeit!", "it": "Finalmente hai tempo!" }
+    ]
+  },
+  {
+    "id": "v-a1-0554",
+    "pos": "verb",
+    "de": "erzählen",
+    "it": ["raccontare"],
+    "promptIt": "raccontare",
+    "examples": [
+      { "de": "Erzähl mal!", "it": "Racconta!" },
+      { "de": "Er erzählt gern von Italien.", "it": "Gli piace raccontare dell'Italia." }
+    ]
+  },
+  {
+    "id": "v-a1-0555",
+    "pos": "verb",
+    "de": "lachen",
+    "it": ["ridere"],
+    "promptIt": "ridere",
+    "examples": [
+      { "de": "Wir lachen viel.", "it": "Ridiamo molto." },
+      { "de": "Warum lachst du?", "it": "Perché ridi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0556",
+    "pos": "verb",
+    "de": "kennen",
+    "it": ["conoscere"],
+    "promptIt": "conoscere",
+    "noteIt": "kennen = conoscere persone, posti e cose; wissen = sapere un'informazione.",
+    "examples": [
+      { "de": "Ich kenne Anna.", "it": "Conosco Anna." },
+      { "de": "Kennst du das Restaurant?", "it": "Conosci il ristorante?" }
+    ]
+  },
+  {
+    "id": "v-a1-0557",
+    "pos": "verb",
+    "de": "wissen",
+    "it": ["sapere"],
+    "promptIt": "sapere (un'informazione)",
+    "noteIt": "Irregolare: ich weiß, du weißt, er weiß. Ich weiß nicht = non lo so. Attenzione: ich weiß (so) si scrive come weiß (bianco).",
+    "examples": [
+      { "de": "Ich weiß es nicht.", "it": "Non lo so." },
+      { "de": "Weißt du das?", "it": "Lo sai?" }
+    ]
+  },
+  {
+    "id": "v-a1-0558",
+    "pos": "verb",
+    "de": "glauben",
+    "it": ["credere", "pensare"],
+    "promptIt": "credere",
+    "examples": [
+      { "de": "Ich glaube, er kommt nicht.", "it": "Credo che non venga." },
+      { "de": "Glaubst du das?", "it": "Ci credi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0559",
+    "pos": "verb",
+    "de": "vergessen",
+    "it": ["dimenticare", "scordare"],
+    "promptIt": "dimenticare",
+    "noteIt": "Cambia vocale: du vergisst, er vergisst. Il participio è uguale all'infinito: vergessen.",
+    "examples": [
+      { "de": "Ich habe den Namen vergessen.", "it": "Ho dimenticato il nome." },
+      { "de": "Er vergisst immer alles.", "it": "Dimentica sempre tutto." }
+    ]
+  },
+  {
+    "id": "v-a1-0560",
+    "pos": "verb",
+    "de": "verlieren",
+    "it": ["perdere"],
+    "promptIt": "perdere",
+    "noteIt": "Il participio è verloren.",
+    "examples": [
+      { "de": "Ich habe mein Handy verloren.", "it": "Ho perso il cellulare." },
+      { "de": "Er verliert oft seine Brille.", "it": "Perde spesso gli occhiali." }
+    ]
+  },
+  {
+    "id": "v-a1-0561",
+    "pos": "noun",
+    "de": "Glück",
+    "article": "das",
+    "plural": null,
+    "it": ["fortuna", "felicità"],
+    "promptIt": "la fortuna",
+    "noteIt": "Glück haben = avere fortuna. Viel Glück! = in bocca al lupo!",
+    "examples": [
+      { "de": "Viel Glück!", "it": "In bocca al lupo!" },
+      { "de": "Wir hatten Glück.", "it": "Abbiamo avuto fortuna." }
+    ]
+  },
+  {
+    "id": "v-a1-0562",
+    "pos": "noun",
+    "de": "Pech",
+    "article": "das",
+    "plural": null,
+    "it": ["sfortuna", "sfiga"],
+    "promptIt": "la sfortuna",
+    "noteIt": "Pech haben = essere sfortunati. So ein Pech! = che sfortuna!",
+    "examples": [
+      { "de": "So ein Pech!", "it": "Che sfortuna!" },
+      { "de": "Ich hatte Pech.", "it": "Sono stata sfortunata." }
+    ]
+  },
+  {
+    "id": "v-a1-0563",
+    "pos": "noun",
+    "de": "Geschichte",
+    "article": "die",
+    "plural": "Geschichten",
+    "it": ["storia", "racconto"],
+    "promptIt": "la storia (il racconto)",
+    "noteIt": "È sia il racconto sia la storia come materia.",
+    "examples": [
+      { "de": "Erzähl mir eine Geschichte!", "it": "Raccontami una storia!" },
+      { "de": "Die Geschichte ist lustig.", "it": "La storia è divertente." }
+    ]
+  },
+  {
+    "id": "v-a1-0564",
+    "pos": "noun",
+    "de": "Ende",
+    "article": "das",
+    "plural": "Enden",
+    "it": ["fine"],
+    "promptIt": "la fine",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Ende. Alla fine: am Ende.",
+    "examples": [
+      { "de": "Der Film hat ein schönes Ende.", "it": "Il film ha un bel finale." },
+      { "de": "Am Ende waren alle müde.", "it": "Alla fine erano tutti stanchi." }
+    ]
+  },
+  {
+    "id": "v-a1-0565",
+    "pos": "noun",
+    "de": "Anfang",
+    "article": "der",
+    "plural": "Anfänge",
+    "it": ["inizio", "principio"],
+    "promptIt": "l'inizio",
+    "noteIt": "All'inizio: am Anfang.",
+    "examples": [
+      { "de": "Am Anfang war es schwer.", "it": "All'inizio era difficile." },
+      { "de": "Der Anfang vom Film ist langweilig.", "it": "L'inizio del film è noioso." }
+    ]
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "g-a1-0057",
+    "title": "Il passato di sein e haben: war, hatte",
+    "explanationIt": [
+      "Per sein e haben, parlando del passato di solito si usa una forma breve, il Präteritum: ich war (ero, sono stata), ich hatte (avevo, ho avuto).",
+      "Con ich ed er/sie/es la forma è la stessa: ich war, er war; ich hatte, sie hatte.",
+      "In italiano a volte corrisponde all'imperfetto, a volte al passato prossimo: Gestern war ich krank = ieri ero malata, ieri sono stata male.",
+      "Come sempre, il verbo resta al secondo posto: Gestern war ich zu Hause."
+    ],
+    "pattern": [
+      "ich war – io ero / sono stata",
+      "du warst – tu eri",
+      "er/sie/es war – lui/lei era",
+      "wir waren – noi eravamo",
+      "ihr wart – voi eravate",
+      "sie/Sie waren – loro erano / Lei era",
+      "ich hatte – io avevo / ho avuto",
+      "du hattest – tu avevi",
+      "er/sie/es hatte – lui/lei aveva",
+      "wir hatten – noi avevamo",
+      "ihr hattet – voi avevate",
+      "sie/Sie hatten – loro avevano / Lei aveva"
+    ],
+    "examples": [
+      { "de": "Gestern war das Wetter schön.", "it": "Ieri faceva bel tempo." },
+      { "de": "Letzte Woche hatte ich keine Zeit.", "it": "La settimana scorsa non avevo tempo." },
+      { "de": "Wart ihr schon in Berlin?", "it": "Siete già stati a Berlino?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Gestern ich war krank.",
+        "right": "Gestern war ich krank.",
+        "explanationIt": "Il verbo resta al secondo posto: subito dopo gestern."
+      },
+      {
+        "wrong": "Er wart zu Hause.",
+        "right": "Er war zu Hause.",
+        "explanationIt": "Con er/sie/es: war, senza -t."
+      },
+      {
+        "wrong": "Wir hattet keine Zeit.",
+        "right": "Wir hatten keine Zeit.",
+        "explanationIt": "Con wir: hatten."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0057-e1",
+        "sentence": "Gestern ___ ich krank.",
+        "answers": ["war"],
+        "hintIt": "sein",
+        "translationIt": "Ieri ero malata.",
+        "explanationIt": "Il passato di sein con ich: war."
+      },
+      {
+        "id": "g-a1-0057-e2",
+        "sentence": "Wie ___ das Wetter gestern?",
+        "answers": ["war"],
+        "hintIt": "sein",
+        "translationIt": "Che tempo faceva ieri?",
+        "explanationIt": "Con es (das Wetter): war."
+      },
+      {
+        "id": "g-a1-0057-e3",
+        "sentence": "Wir ___ letzte Woche in Berlin.",
+        "answers": ["waren"],
+        "hintIt": "sein",
+        "translationIt": "La settimana scorsa eravamo a Berlino.",
+        "explanationIt": "Con wir: waren."
+      },
+      {
+        "id": "g-a1-0057-e4",
+        "sentence": "Ich ___ gestern keine Zeit.",
+        "answers": ["hatte"],
+        "hintIt": "haben",
+        "translationIt": "Ieri non avevo tempo.",
+        "explanationIt": "Il passato di haben con ich: hatte."
+      },
+      {
+        "id": "g-a1-0057-e5",
+        "sentence": "___ du schon mal in Deutschland?",
+        "answers": ["Warst"],
+        "hintIt": "sein",
+        "translationIt": "Sei già stata in Germania?",
+        "explanationIt": "Con du: warst."
+      },
+      {
+        "id": "g-a1-0057-e6",
+        "sentence": "Gestern ___ es sehr heiß.",
+        "answers": ["war"],
+        "hintIt": "sein",
+        "translationIt": "Ieri faceva molto caldo.",
+        "explanationIt": "Con es: war."
+      },
+      {
+        "id": "g-a1-0057-e7",
+        "sentence": "___ ihr gestern Zeit?",
+        "answers": ["Hattet"],
+        "hintIt": "haben",
+        "translationIt": "Ieri avevate tempo?",
+        "explanationIt": "Con ihr: hattet."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0058",
+    "title": "Il Perfekt: Ich habe gekocht",
+    "explanationIt": [
+      "Per raccontare il passato, parlando si usa soprattutto il Perfekt, che somiglia al nostro passato prossimo: Ich habe gekocht = ho cucinato.",
+      "Si forma con haben, coniugato al secondo posto, e il participio passato alla fine della frase. Tutto il resto sta in mezzo: Ich habe gestern Nudeln gekocht.",
+      "Il participio dei verbi regolari: ge- + radice + -t. machen → gemacht, kaufen → gekauft, spielen → gespielt.",
+      "La maggior parte dei verbi vuole haben. Alcuni, soprattutto di movimento, vogliono sein: li vedrai nella prossima unità."
+    ],
+    "pattern": [
+      "Ich habe gekocht. – Ho cucinato.",
+      "Du hast viel gelernt. – Hai studiato molto.",
+      "Er hat Fußball gespielt. – Ha giocato a calcio.",
+      "Wir haben ein Auto gekauft. – Abbiamo comprato una macchina.",
+      "Habt ihr Musik gehört? – Avete ascoltato musica?",
+      "Sie haben in Rom gewohnt. – Hanno abitato a Roma."
+    ],
+    "examples": [
+      { "de": "Gestern habe ich Deutsch gelernt.", "it": "Ieri ho studiato tedesco." },
+      { "de": "Was hast du am Wochenende gemacht?", "it": "Cosa hai fatto nel fine settimana?" },
+      { "de": "Wir haben zusammen gekocht.", "it": "Abbiamo cucinato insieme." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe gekauft ein Buch.",
+        "right": "Ich habe ein Buch gekauft.",
+        "explanationIt": "Il participio va alla fine della frase."
+      },
+      {
+        "wrong": "Ich bin gekocht.",
+        "right": "Ich habe gekocht.",
+        "explanationIt": "kochen vuole haben."
+      },
+      {
+        "wrong": "Gestern ich habe gearbeitet.",
+        "right": "Gestern habe ich gearbeitet.",
+        "explanationIt": "haben resta al secondo posto, subito dopo gestern."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0058-e1",
+        "sentence": "Ich ___ gestern Nudeln gekocht.",
+        "answers": ["habe"],
+        "hintIt": "haben",
+        "translationIt": "Ieri ho cucinato la pasta.",
+        "explanationIt": "Il Perfekt: haben al secondo posto, participio alla fine."
+      },
+      {
+        "id": "g-a1-0058-e2",
+        "sentence": "Wir haben am Samstag Fußball ___.",
+        "answers": ["gespielt"],
+        "hintIt": "spielen",
+        "translationIt": "Sabato abbiamo giocato a calcio.",
+        "explanationIt": "ge- + spiel + -t: gespielt."
+      },
+      {
+        "id": "g-a1-0058-e3",
+        "sentence": "___ du die Hausaufgaben gemacht?",
+        "answers": ["Hast"],
+        "hintIt": "haben",
+        "translationIt": "Hai fatto i compiti?",
+        "explanationIt": "Nella domanda haben va al primo posto: Hast du…?"
+      },
+      {
+        "id": "g-a1-0058-e4",
+        "sentence": "Er hat ein Buch ___.",
+        "answers": ["gekauft"],
+        "hintIt": "kaufen",
+        "translationIt": "Ha comprato un libro.",
+        "explanationIt": "ge- + kauf + -t: gekauft."
+      },
+      {
+        "id": "g-a1-0058-e5",
+        "sentence": "Zuerst haben wir gekocht, danach ___ wir Musik gehört.",
+        "answers": ["haben"],
+        "hintIt": "haben",
+        "translationIt": "Prima abbiamo cucinato, poi abbiamo ascoltato musica.",
+        "explanationIt": "Dopo danach viene subito il verbo: haben wir…"
+      },
+      {
+        "id": "g-a1-0058-e6",
+        "sentence": "Ich habe gestern Deutsch ___.",
+        "answers": ["gelernt"],
+        "hintIt": "lernen",
+        "translationIt": "Ieri ho studiato tedesco.",
+        "explanationIt": "ge- + lern + -t: gelernt."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0059",
+    "title": "Il participio dei verbi regolari",
+    "explanationIt": [
+      "Di solito: ge- + radice + -t. machen → gemacht, hören → gehört, wohnen → gewohnt.",
+      "Se la radice finisce in -t o -d si aggiunge -et: arbeiten → gearbeitet, warten → gewartet.",
+      "I verbi in -ieren non prendono ge-: studieren → studiert, telefonieren → telefoniert, fotografieren → fotografiert.",
+      "Nemmeno i verbi che cominciano con be-, ver-, er- (e pochi altri prefissi): besuchen → besucht, bezahlen → bezahlt, verdienen → verdient, erzählen → erzählt. I verbi separabili, come einkaufen → eingekauft, li vedrai nella prossima unità."
+    ],
+    "pattern": [
+      "machen → gemacht – fatto",
+      "arbeiten → gearbeitet – lavorato",
+      "warten → gewartet – aspettato",
+      "studieren → studiert – studiato",
+      "telefonieren → telefoniert – telefonato",
+      "besuchen → besucht – visitato",
+      "erzählen → erzählt – raccontato"
+    ],
+    "examples": [
+      { "de": "Ich habe gestern lange gearbeitet.", "it": "Ieri ho lavorato a lungo." },
+      { "de": "Sie hat in Bologna studiert.", "it": "Ha studiato a Bologna." },
+      { "de": "Wir haben unsere Freunde besucht.", "it": "Siamo andati a trovare i nostri amici." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe gestudiert.",
+        "right": "Ich habe studiert.",
+        "explanationIt": "I verbi in -ieren non prendono ge-."
+      },
+      {
+        "wrong": "Wir haben Oma gebesucht.",
+        "right": "Wir haben Oma besucht.",
+        "explanationIt": "I verbi con be- non prendono ge-."
+      },
+      {
+        "wrong": "Er hat viel gearbeit.",
+        "right": "Er hat viel gearbeitet.",
+        "explanationIt": "Dopo -t si aggiunge -et: gearbeitet."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0059-e1",
+        "sentence": "Ich habe gestern viel ___.",
+        "answers": ["gearbeitet"],
+        "hintIt": "arbeiten",
+        "translationIt": "Ieri ho lavorato molto.",
+        "explanationIt": "La radice finisce in -t: ge- + arbeit + -et."
+      },
+      {
+        "id": "g-a1-0059-e2",
+        "sentence": "Sie hat in Rom ___.",
+        "answers": ["studiert"],
+        "hintIt": "studieren",
+        "translationIt": "Ha studiato a Roma.",
+        "explanationIt": "I verbi in -ieren non prendono ge-: studiert."
+      },
+      {
+        "id": "g-a1-0059-e3",
+        "sentence": "Wir haben unsere Oma ___.",
+        "answers": ["besucht"],
+        "hintIt": "besuchen",
+        "translationIt": "Siamo andati a trovare la nonna.",
+        "explanationIt": "be- non vuole ge-: besucht."
+      },
+      {
+        "id": "g-a1-0059-e4",
+        "sentence": "Hast du schon ___?",
+        "answers": ["bezahlt"],
+        "hintIt": "bezahlen",
+        "translationIt": "Hai già pagato?",
+        "explanationIt": "be- non vuole ge-: bezahlt."
+      },
+      {
+        "id": "g-a1-0059-e5",
+        "sentence": "Er hat viel von Italien ___.",
+        "answers": ["erzählt"],
+        "hintIt": "erzählen",
+        "translationIt": "Ha raccontato molto dell'Italia.",
+        "explanationIt": "er- non vuole ge-: erzählt."
+      },
+      {
+        "id": "g-a1-0059-e6",
+        "sentence": "Wir haben eine Stunde ___.",
+        "answers": ["gewartet"],
+        "hintIt": "warten",
+        "translationIt": "Abbiamo aspettato un'ora.",
+        "explanationIt": "La radice finisce in -t: ge- + wart + -et."
+      },
+      {
+        "id": "g-a1-0059-e7",
+        "sentence": "Ich habe mit Anna ___.",
+        "answers": ["telefoniert"],
+        "hintIt": "telefonieren",
+        "translationIt": "Ho parlato al telefono con Anna.",
+        "explanationIt": "I verbi in -ieren non prendono ge-: telefoniert."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0060",
+    "title": "Participi irregolari: gegessen, getrunken…",
+    "explanationIt": [
+      "Molti verbi frequenti hanno il participio in -en, spesso con un'altra vocale. Vanno imparati a memoria, come in italiano «fatto», «scritto», «preso».",
+      "Anche qui, con ver- non c'è ge-: vergessen → vergessen, verlieren → verloren.",
+      "Le vocali cambiano spesso nello stesso modo: trinken → getrunken, finden → gefunden; schreiben → geschrieben."
+    ],
+    "pattern": [
+      "essen → gegessen – mangiato",
+      "trinken → getrunken – bevuto",
+      "schlafen → geschlafen – dormito",
+      "sehen → gesehen – visto",
+      "lesen → gelesen – letto",
+      "schreiben → geschrieben – scritto",
+      "sprechen → gesprochen – parlato",
+      "nehmen → genommen – preso",
+      "treffen → getroffen – incontrato",
+      "finden → gefunden – trovato",
+      "vergessen → vergessen – dimenticato",
+      "verlieren → verloren – perso"
+    ],
+    "examples": [
+      { "de": "Ich habe noch nicht gegessen.", "it": "Non ho ancora mangiato." },
+      { "de": "Hast du das Buch schon gelesen?", "it": "Hai già letto il libro?" },
+      { "de": "Er hat seinen Schlüssel gefunden.", "it": "Ha trovato la sua chiave." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe Pizza geesst.",
+        "right": "Ich habe Pizza gegessen.",
+        "explanationIt": "essen è irregolare: gegessen."
+      },
+      {
+        "wrong": "Wir haben Wein getrinkt.",
+        "right": "Wir haben Wein getrunken.",
+        "explanationIt": "trinken è irregolare: getrunken."
+      },
+      {
+        "wrong": "Ich habe den Namen gevergessen.",
+        "right": "Ich habe den Namen vergessen.",
+        "explanationIt": "Con ver- non si aggiunge ge-."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0060-e1",
+        "sentence": "Wir haben Pizza ___.",
+        "answers": ["gegessen"],
+        "hintIt": "essen",
+        "translationIt": "Abbiamo mangiato la pizza.",
+        "explanationIt": "essen → gegessen."
+      },
+      {
+        "id": "g-a1-0060-e2",
+        "sentence": "Hast du Kaffee ___?",
+        "answers": ["getrunken"],
+        "hintIt": "trinken",
+        "translationIt": "Hai bevuto il caffè?",
+        "explanationIt": "trinken → getrunken."
+      },
+      {
+        "id": "g-a1-0060-e3",
+        "sentence": "Ich habe gut ___.",
+        "answers": ["geschlafen"],
+        "hintIt": "schlafen",
+        "translationIt": "Ho dormito bene.",
+        "explanationIt": "schlafen → geschlafen."
+      },
+      {
+        "id": "g-a1-0060-e4",
+        "sentence": "Habt ihr den Film ___?",
+        "answers": ["gesehen"],
+        "hintIt": "sehen",
+        "translationIt": "Avete visto il film?",
+        "explanationIt": "sehen → gesehen."
+      },
+      {
+        "id": "g-a1-0060-e5",
+        "sentence": "Ich habe eine E-Mail ___.",
+        "answers": ["geschrieben"],
+        "hintIt": "schreiben",
+        "translationIt": "Ho scritto un'e-mail.",
+        "explanationIt": "schreiben → geschrieben."
+      },
+      {
+        "id": "g-a1-0060-e6",
+        "sentence": "Er hat sein Handy ___.",
+        "answers": ["verloren"],
+        "hintIt": "verlieren",
+        "translationIt": "Ha perso il cellulare.",
+        "explanationIt": "verlieren → verloren, senza ge-."
+      },
+      {
+        "id": "g-a1-0060-e7",
+        "sentence": "Ich habe Anna im Park ___.",
+        "answers": ["getroffen"],
+        "hintIt": "treffen",
+        "translationIt": "Ho incontrato Anna al parco.",
+        "explanationIt": "treffen → getroffen."
+      }
+    ]
+  }
+]

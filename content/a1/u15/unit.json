@@ -1,0 +1,17 @@
+{
+  "id": "a1-u15",
+  "level": "a1",
+  "order": 15,
+  "title": "Gestern: il passato (1)",
+  "summary": "Raccontare cosa è successo: war e hatte, il Perfekt con haben e i participi; il tempo che fa e le parole per raccontare.",
+  "batches": [
+    { "id": "a1-u15-b01", "itemIds": ["v-a1-0531", "v-a1-0532", "v-a1-0533", "v-a1-0534", "v-a1-0535"] },
+    { "id": "a1-u15-b02", "itemIds": ["g-a1-0057", "v-a1-0536", "v-a1-0537", "v-a1-0538", "v-a1-0539"] },
+    { "id": "a1-u15-b03", "itemIds": ["v-a1-0540", "v-a1-0541", "v-a1-0542", "v-a1-0543", "v-a1-0544"] },
+    { "id": "a1-u15-b04", "itemIds": ["v-a1-0545", "v-a1-0546", "v-a1-0547", "v-a1-0548", "v-a1-0549"] },
+    { "id": "a1-u15-b05", "itemIds": ["g-a1-0058", "v-a1-0550", "v-a1-0551", "v-a1-0552", "v-a1-0553"] },
+    { "id": "a1-u15-b06", "itemIds": ["v-a1-0554", "v-a1-0555", "v-a1-0556", "v-a1-0557", "v-a1-0558"] },
+    { "id": "a1-u15-b07", "itemIds": ["g-a1-0059", "v-a1-0559", "v-a1-0560", "v-a1-0561", "v-a1-0562"] },
+    { "id": "a1-u15-b08", "itemIds": ["g-a1-0060", "v-a1-0563", "v-a1-0564", "v-a1-0565"] }
+  ]
+}
