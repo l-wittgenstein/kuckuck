@@ -5,7 +5,7 @@
     "explanationIt": [
       "In tedesco i sostantivi hanno tre generi: maschile (der), femminile (die) e neutro (das). L'articolo determinativo cambia con il genere.",
       "Il genere spesso non è lo stesso dell'italiano: il sole è maschile, ma die Sonne è femminile; la luna è femminile, ma der Mond è maschile. Per questo ogni sostantivo si impara sempre insieme al suo articolo.",
-      "Qualche aiuto: le parole in -chen sono sempre neutre (das Mädchen); le parole in -ung sono femminili (die Wohnung). Per le persone il genere di solito segue il sesso (der Mann, die Frau), con eccezioni come das Mädchen e das Kind.",
+      "Qualche aiuto: i diminutivi in -chen sono sempre neutri (das Mädchen); le parole in -ung sono femminili (die Wohnung). Per le persone il genere di solito segue il sesso (der Mann, die Frau), con eccezioni come das Mädchen e das Kind.",
       "I sostantivi si scrivono sempre con la lettera maiuscola, anche in mezzo alla frase."
     ],
     "pattern": [
@@ -33,7 +33,7 @@
       {
         "wrong": "die Mädchen (una ragazza)",
         "right": "das Mädchen",
-        "explanationIt": "Le parole in -chen sono sempre neutre, anche quando indicano una femmina."
+        "explanationIt": "I diminutivi in -chen (come Mädchen) sono sempre neutri, anche quando indicano una femmina."
       },
       {
         "wrong": "das buch",
@@ -64,7 +64,7 @@
         "answers": ["Das"],
         "hintIt": "la ragazza",
         "translationIt": "La ragazza si chiama Lisa.",
-        "explanationIt": "Le parole in -chen sono neutre: das Mädchen."
+        "explanationIt": "I diminutivi in -chen sono neutri: das Mädchen."
       },
       {
         "id": "g-a1-0005-e4",
@@ -202,7 +202,7 @@
       {
         "wrong": "die Mädchens",
         "right": "die Mädchen",
-        "explanationIt": "Le parole in -chen al plurale non cambiano."
+        "explanationIt": "I diminutivi in -chen al plurale non cambiano."
       },
       {
         "wrong": "die Buchs",
@@ -267,7 +267,7 @@
     "explanationIt": [
       "«haben» è quasi regolare: solo con du e con er/sie/es la b sparisce. Du hast, er hat.",
       "Attenzione all'età: in tedesco non si «ha» un'età, si «è». Ich bin drei = ho tre anni.",
-      "Dopo haben, ein al maschile diventa einen: Ich habe einen Bruder. È il caso accusativo, che vedremo meglio più avanti. Con il femminile e il neutro non cambia niente: eine Schwester, ein Kind."
+      "Quando un sostantivo maschile è l'oggetto della frase (per esempio dopo haben), ein diventa einen: Ich habe einen Bruder. È il caso accusativo, che vedremo meglio più avanti. Con il femminile e il neutro non cambia niente: eine Schwester, ein Kind."
     ],
     "pattern": [
       "ich habe – io ho",
@@ -303,7 +303,7 @@
       {
         "wrong": "Ich habe ein Bruder.",
         "right": "Ich habe einen Bruder.",
-        "explanationIt": "Dopo haben, ein al maschile diventa einen."
+        "explanationIt": "Bruder è maschile ed è l'oggetto della frase, quindi ein diventa einen."
       }
     ],
     "exercises": [
@@ -325,10 +325,10 @@
       },
       {
         "id": "g-a1-0008-e3",
-        "sentence": "Anna ___ zwei Kinder.",
+        "sentence": "Anna ___ ein Kind.",
         "answers": ["hat"],
         "hintIt": "haben",
-        "translationIt": "Anna ha due figli.",
+        "translationIt": "Anna ha un figlio.",
         "explanationIt": "Anna = sie, quindi: hat."
       },
       {
@@ -343,9 +343,9 @@
         "id": "g-a1-0008-e5",
         "sentence": "Ich habe ___ Bruder.",
         "answers": ["einen"],
-        "hintIt": "un (der Bruder)",
+        "hintIt": "un (der Bruder, oggetto)",
         "translationIt": "Ho un fratello.",
-        "explanationIt": "Bruder è maschile e dopo haben ein diventa einen."
+        "explanationIt": "Bruder è maschile ed è l'oggetto della frase: ein diventa einen."
       },
       {
         "id": "g-a1-0008-e6",

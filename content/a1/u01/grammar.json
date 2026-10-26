@@ -120,7 +120,7 @@
       {
         "wrong": "Ich habe zwanzig Jahre.",
         "right": "Ich bin zwanzig (Jahre alt).",
-        "explanationIt": "Per l'età si usa sein, non haben: letteralmente «sono vent'anni vecchio/a»."
+        "explanationIt": "Per l'età si usa sein, non haben: letteralmente «sono vecchio/a vent'anni»."
       },
       {
         "wrong": "ihr seit",
@@ -307,9 +307,9 @@
         "explanationIt": "Il verbo resta al secondo posto: se la frase non comincia con il soggetto, il soggetto passa dopo il verbo."
       },
       {
-        "wrong": "Du kommst aus Italien?",
+        "wrong": "Du aus Italien kommst?",
         "right": "Kommst du aus Italien?",
-        "explanationIt": "Nel parlato si sente, ma la domanda normale mette il verbo al primo posto."
+        "explanationIt": "Nelle domande sì/no il verbo va al primo posto. Nel parlato si sente anche «Du kommst aus Italien?», ma solo per esprimere sorpresa o chiedere conferma."
       }
     ],
     "exercises": [

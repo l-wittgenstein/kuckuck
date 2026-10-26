@@ -36,7 +36,7 @@
     "plural": "Mädchen",
     "it": ["ragazza", "bambina"],
     "promptIt": "la ragazza (giovane) / la bambina",
-    "noteIt": "È neutro, anche se indica una femmina: tutte le parole in -chen sono neutre. Il plurale non cambia.",
+    "noteIt": "È neutro, anche se indica una femmina: i diminutivi in -chen (come Mädchen) sono sempre neutri. Il plurale non cambia.",
     "examples": [
       { "de": "Das Mädchen heißt Lisa.", "it": "La ragazza si chiama Lisa." },
       { "de": "Die Mädchen lernen Deutsch.", "it": "Le ragazze imparano il tedesco." }
@@ -117,7 +117,7 @@
     "plural": "Katzen",
     "it": ["gatto", "gatta"],
     "promptIt": "il gatto",
-    "noteIt": "È femminile anche quando si parla di un gatto maschio.",
+    "noteIt": "È femminile anche quando si parla di un gatto maschio. Il gatto maschio, se serve precisarlo, è der Kater.",
     "examples": [
       { "de": "Die Katze heißt Luna.", "it": "La gatta si chiama Luna." },
       { "de": "Ich habe eine Katze.", "it": "Ho un gatto." }
@@ -144,7 +144,7 @@
     "plural": null,
     "it": ["sole"],
     "promptIt": "il sole",
-    "noteIt": "In italiano è maschile (il sole), in tedesco femminile (die Sonne). Il plurale si usa quasi mai.",
+    "noteIt": "In italiano è maschile (il sole), in tedesco femminile (die Sonne). Il plurale non si usa quasi mai.",
     "examples": [
       { "de": "Die Sonne scheint.", "it": "C'è il sole." },
       { "de": "Wo ist die Sonne?", "it": "Dov'è il sole?" }

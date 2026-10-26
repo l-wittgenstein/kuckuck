@@ -38,7 +38,7 @@
     "id": "v-a1-0004",
     "pos": "phrase",
     "de": "Guten Abend",
-    "it": ["buonasera"],
+    "it": ["buonasera", "buona sera"],
     "promptIt": "buonasera",
     "examples": [
       { "de": "Guten Abend, Frau Klein!", "it": "Buonasera, signora Klein!" },
@@ -49,9 +49,9 @@
     "id": "v-a1-0005",
     "pos": "phrase",
     "de": "Gute Nacht",
-    "it": ["buonanotte"],
+    "it": ["buonanotte", "buona notte"],
     "promptIt": "buonanotte",
-    "noteIt": "Si dice solo quando si va a dormire, non come saluto di sera.",
+    "noteIt": "Si usa solo per congedarsi la sera tardi o prima di dormire, mai per salutare quando arrivi.",
     "examples": [
       { "de": "Gute Nacht, Anna!", "it": "Buonanotte, Anna!" },
       { "de": "Danke und gute Nacht!", "it": "Grazie e buonanotte!" }
@@ -108,6 +108,7 @@
     "id": "v-a1-0010",
     "pos": "interj",
     "de": "Entschuldigung",
+    "acceptDe": ["Entschuldigen Sie", "Entschuldige"],
     "it": ["scusi", "scusa", "mi scusi"],
     "promptIt": "scusi / scusa",
     "examples": [
@@ -141,7 +142,7 @@
     "id": "v-a1-0013",
     "pos": "phrase",
     "de": "Wie geht's?",
-    "acceptDe": ["Wie geht es?", "Wie geht es dir?"],
+    "acceptDe": ["Wie gehts?", "Wie geht es?", "Wie geht es dir?", "Wie geht's dir?"],
     "it": ["come va?", "come stai?"],
     "promptIt": "come va? (informale)",
     "noteIt": "Forma breve di «Wie geht es?». Con chi dai del Lei: «Wie geht es Ihnen?»",
@@ -154,7 +155,7 @@
     "id": "v-a1-0014",
     "pos": "adj",
     "de": "gut",
-    "it": ["bene", "buono"],
+    "it": ["bene", "buono", "buona"],
     "promptIt": "bene / buono",
     "noteIt": "In tedesco la stessa parola vale per «buono» e per «bene».",
     "examples": [
@@ -334,7 +335,7 @@
     "id": "v-a1-0029",
     "pos": "adv",
     "de": "woher",
-    "it": ["da dove"],
+    "it": ["da dove", "di dove"],
     "promptIt": "da dove",
     "examples": [
       { "de": "Woher kommst du?", "it": "Da dove vieni?" },
