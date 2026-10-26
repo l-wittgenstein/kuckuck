@@ -6,6 +6,8 @@ import { UnitScreen } from "./features/path/UnitScreen";
 import { QuizScreen } from "./features/quiz/QuizScreen";
 import { ReviewScreen } from "./features/review/ReviewScreen";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
+import { ItemScreen } from "./features/vocab/ItemScreen";
+import { VocabScreen } from "./features/vocab/VocabScreen";
 import { it } from "./i18n/it";
 
 function Screen({ title, text }: { title: string; text: string }) {
@@ -34,6 +36,8 @@ export function App() {
           <Route path="/lezione/:batchId" element={<LessonScreen />} />
           <Route path="/quiz/:batchId" element={<QuizScreen />} />
           <Route path="/ripassi" element={<ReviewScreen />} />
+          <Route path="/vocabolario" element={<VocabScreen />} />
+          <Route path="/vocabolario/:itemId" element={<ItemScreen />} />
           <Route path="/impostazioni" element={<SettingsScreen />} />
           <Route path="*" element={<Screen title={it.notFound.title} text={it.notFound.back} />} />
         </Routes>
@@ -44,6 +48,7 @@ export function App() {
             {it.nav.home}
           </NavLink>
           <NavLink to="/percorso">{it.nav.path}</NavLink>
+          <NavLink to="/vocabolario">{it.nav.vocab}</NavLink>
           <NavLink to="/impostazioni">{it.nav.settings}</NavLink>
         </nav>
       )}
