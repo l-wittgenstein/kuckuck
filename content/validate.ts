@@ -118,6 +118,19 @@ export function validateContent(root: string): Report {
     }
   }
 
+  // The German → Italian card shows only the German, so two items with the
+  // same German must accept the same meanings or one of them is unfair.
+  const byGerman = new Map<string, { where: string; meanings: string }>();
+  function checkDuplicateGerman(v: VocabItem, where: string) {
+    const key = `${v.article ?? ""} ${v.de}`.trim().toLowerCase();
+    const meanings = [...v.it].sort().join("|");
+    const earlier = byGerman.get(key);
+    if (!earlier) byGerman.set(key, { where, meanings });
+    else if (earlier.meanings !== meanings) {
+      warnings.push(`${where}: same German as ${earlier.where} but different meanings`);
+    }
+  }
+
   const manifest = read("manifest.json", ManifestSchema);
   if (!manifest) return { errors, warnings, counts };
 
@@ -143,6 +156,7 @@ export function validateContent(root: string): Report {
         const where = `${dir}/vocab.json ${v.id} (${v.de})`;
         claimId(v.id, where);
         checkVocab(v, where);
+        checkDuplicateGerman(v, where);
         items.set(v.id, where);
         counts.vocab++;
       }

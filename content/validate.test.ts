@@ -64,4 +64,12 @@ describe("validateContent", () => {
     const dir = brokenCopy("a1/u02/vocab.json", (v) => (v[0].examples = v[1].examples));
     expect(validateContent(dir).warnings.join("\n")).toMatch(/does not appear/);
   });
+
+  it("warns when two items share their German but not their meanings", () => {
+    const dir = brokenCopy("a1/u13/vocab.json", (v) => {
+      const zu = v.find((item: { de: string }) => item.de === "zu");
+      zu.it = ["troppo"];
+    });
+    expect(validateContent(dir).warnings.join("\n")).toMatch(/same German as/);
+  });
 });
