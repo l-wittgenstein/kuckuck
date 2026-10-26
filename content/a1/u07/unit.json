@@ -1,0 +1,18 @@
+{
+  "id": "a1-u07",
+  "level": "a1",
+  "order": 7,
+  "title": "Zu Hause: la casa",
+  "summary": "Le stanze e i mobili, es gibt, dove si trovano le cose (in, auf, unter, neben + dativo; liegen, stehen, hängen) ed er, sie, es per gli oggetti.",
+  "batches": [
+    { "id": "a1-u07-b01", "itemIds": ["v-a1-0205", "v-a1-0206", "v-a1-0207", "v-a1-0208", "v-a1-0209"] },
+    { "id": "a1-u07-b02", "itemIds": ["g-a1-0025", "v-a1-0210", "v-a1-0211", "v-a1-0212", "v-a1-0213"] },
+    { "id": "a1-u07-b03", "itemIds": ["v-a1-0214", "v-a1-0215", "v-a1-0216", "v-a1-0217", "v-a1-0218"] },
+    { "id": "a1-u07-b04", "itemIds": ["v-a1-0219", "v-a1-0220", "v-a1-0221", "v-a1-0222", "v-a1-0223"] },
+    { "id": "a1-u07-b05", "itemIds": ["g-a1-0026", "v-a1-0224", "v-a1-0225", "v-a1-0226", "v-a1-0227"] },
+    { "id": "a1-u07-b06", "itemIds": ["g-a1-0027", "v-a1-0228", "v-a1-0229", "v-a1-0230"] },
+    { "id": "a1-u07-b07", "itemIds": ["v-a1-0231", "v-a1-0232", "v-a1-0233", "v-a1-0234", "v-a1-0235"] },
+    { "id": "a1-u07-b08", "itemIds": ["g-a1-0028", "v-a1-0236", "v-a1-0237", "v-a1-0238", "v-a1-0239"] },
+    { "id": "a1-u07-b09", "itemIds": ["v-a1-0240", "v-a1-0241", "v-a1-0242", "v-a1-0243", "v-a1-0244"] }
+  ]
+}

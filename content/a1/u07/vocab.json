@@ -1,0 +1,506 @@
+[
+  {
+    "id": "v-a1-0205",
+    "pos": "noun",
+    "de": "Wohnung",
+    "article": "die",
+    "plural": "Wohnungen",
+    "it": ["appartamento", "casa"],
+    "promptIt": "l'appartamento",
+    "noteIt": "die Wohnung è l'appartamento in cui vivi; das Haus è la casa come edificio.",
+    "examples": [
+      { "de": "Die Wohnung ist groß.", "it": "L'appartamento è grande." },
+      { "de": "Meine Wohnung hat drei Zimmer.", "it": "Il mio appartamento ha tre stanze." }
+    ]
+  },
+  {
+    "id": "v-a1-0206",
+    "pos": "noun",
+    "de": "Zimmer",
+    "article": "das",
+    "plural": "Zimmer",
+    "it": ["stanza", "camera"],
+    "promptIt": "la stanza",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Zimmer. Il plurale non cambia.",
+    "examples": [
+      { "de": "Das Zimmer ist klein.", "it": "La stanza è piccola." },
+      { "de": "Die Wohnung hat vier Zimmer.", "it": "L'appartamento ha quattro stanze." }
+    ]
+  },
+  {
+    "id": "v-a1-0207",
+    "pos": "noun",
+    "de": "Küche",
+    "article": "die",
+    "plural": "Küchen",
+    "it": ["cucina"],
+    "promptIt": "la cucina (la stanza)",
+    "examples": [
+      { "de": "Die Küche ist klein.", "it": "La cucina è piccola." },
+      { "de": "Wir essen in der Küche.", "it": "Mangiamo in cucina." }
+    ]
+  },
+  {
+    "id": "v-a1-0208",
+    "pos": "noun",
+    "de": "Bad",
+    "article": "das",
+    "plural": "Bäder",
+    "it": ["bagno"],
+    "promptIt": "il bagno (con doccia o vasca)",
+    "acceptDe": ["Badezimmer"],
+    "noteIt": "das Bad è la stanza con la doccia o la vasca; il WC è die Toilette.",
+    "examples": [
+      { "de": "Das Bad ist neu.", "it": "Il bagno è nuovo." },
+      { "de": "Wo ist das Bad?", "it": "Dov'è il bagno?" }
+    ]
+  },
+  {
+    "id": "v-a1-0209",
+    "pos": "noun",
+    "de": "Schlafzimmer",
+    "article": "das",
+    "plural": "Schlafzimmer",
+    "it": ["camera da letto"],
+    "promptIt": "la camera da letto",
+    "noteIt": "Letteralmente «stanza per dormire»: schlafen + Zimmer.",
+    "examples": [
+      { "de": "Das Schlafzimmer ist ruhig.", "it": "La camera da letto è tranquilla." },
+      { "de": "Die Wohnung hat zwei Schlafzimmer.", "it": "L'appartamento ha due camere da letto." }
+    ]
+  },
+  {
+    "id": "v-a1-0210",
+    "pos": "noun",
+    "de": "Wohnzimmer",
+    "article": "das",
+    "plural": "Wohnzimmer",
+    "it": ["soggiorno", "salotto", "sala"],
+    "promptIt": "il soggiorno",
+    "examples": [
+      { "de": "Wir sehen im Wohnzimmer fern.", "it": "Guardiamo la TV in soggiorno." },
+      { "de": "Das Wohnzimmer ist groß.", "it": "Il soggiorno è grande." }
+    ]
+  },
+  {
+    "id": "v-a1-0211",
+    "pos": "noun",
+    "de": "Garten",
+    "article": "der",
+    "plural": "Gärten",
+    "it": ["giardino"],
+    "promptIt": "il giardino",
+    "examples": [
+      { "de": "Der Garten ist groß.", "it": "Il giardino è grande." },
+      { "de": "Die Kinder spielen im Garten.", "it": "I bambini giocano in giardino." }
+    ]
+  },
+  {
+    "id": "v-a1-0212",
+    "pos": "noun",
+    "de": "Balkon",
+    "article": "der",
+    "plural": "Balkone",
+    "it": ["balcone", "terrazzo"],
+    "promptIt": "il balcone",
+    "noteIt": "Il plurale è Balkone, ma si sente anche Balkons.",
+    "examples": [
+      { "de": "Die Wohnung hat einen Balkon.", "it": "L'appartamento ha un balcone." },
+      { "de": "Wir frühstücken auf dem Balkon.", "it": "Facciamo colazione sul balcone." }
+    ]
+  },
+  {
+    "id": "v-a1-0213",
+    "pos": "noun",
+    "de": "Toilette",
+    "article": "die",
+    "plural": "Toiletten",
+    "it": ["toilette", "bagno", "gabinetto", "wc"],
+    "promptIt": "la toilette (il WC)",
+    "examples": [
+      { "de": "Wo ist die Toilette, bitte?", "it": "Dov'è il bagno, per favore?" },
+      { "de": "Die Toilette ist hier.", "it": "La toilette è qui." }
+    ]
+  },
+  {
+    "id": "v-a1-0214",
+    "pos": "noun",
+    "de": "Tisch",
+    "article": "der",
+    "plural": "Tische",
+    "it": ["tavolo", "tavola"],
+    "promptIt": "il tavolo",
+    "examples": [
+      { "de": "Der Tisch ist groß.", "it": "Il tavolo è grande." },
+      { "de": "Das Buch liegt auf dem Tisch.", "it": "Il libro è sul tavolo." }
+    ]
+  },
+  {
+    "id": "v-a1-0215",
+    "pos": "noun",
+    "de": "Stuhl",
+    "article": "der",
+    "plural": "Stühle",
+    "it": ["sedia"],
+    "promptIt": "la sedia",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Stuhl.",
+    "examples": [
+      { "de": "Der Stuhl ist neu.", "it": "La sedia è nuova." },
+      { "de": "Wir haben vier Stühle.", "it": "Abbiamo quattro sedie." }
+    ]
+  },
+  {
+    "id": "v-a1-0216",
+    "pos": "noun",
+    "de": "Bett",
+    "article": "das",
+    "plural": "Betten",
+    "it": ["letto"],
+    "promptIt": "il letto",
+    "examples": [
+      { "de": "Das Bett ist bequem.", "it": "Il letto è comodo." },
+      { "de": "Ich gehe ins Bett.", "it": "Vado a letto." }
+    ]
+  },
+  {
+    "id": "v-a1-0217",
+    "pos": "noun",
+    "de": "Sofa",
+    "article": "das",
+    "plural": "Sofas",
+    "it": ["divano", "sofà"],
+    "promptIt": "il divano",
+    "noteIt": "In tedesco è neutro: das Sofa.",
+    "examples": [
+      { "de": "Die Katze schläft auf dem Sofa.", "it": "Il gatto dorme sul divano." },
+      { "de": "Das Sofa ist alt.", "it": "Il divano è vecchio." }
+    ]
+  },
+  {
+    "id": "v-a1-0218",
+    "pos": "noun",
+    "de": "Schrank",
+    "article": "der",
+    "plural": "Schränke",
+    "it": ["armadio", "mobile", "credenza"],
+    "promptIt": "l'armadio",
+    "examples": [
+      { "de": "Der Schrank ist groß.", "it": "L'armadio è grande." },
+      { "de": "Im Schrank ist kein Platz.", "it": "Nell'armadio non c'è posto." }
+    ]
+  },
+  {
+    "id": "v-a1-0219",
+    "pos": "noun",
+    "de": "Lampe",
+    "article": "die",
+    "plural": "Lampen",
+    "it": ["lampada"],
+    "promptIt": "la lampada",
+    "examples": [
+      { "de": "Die Lampe ist neu.", "it": "La lampada è nuova." },
+      { "de": "Die Lampe steht neben dem Bett.", "it": "La lampada è accanto al letto." }
+    ]
+  },
+  {
+    "id": "v-a1-0220",
+    "pos": "noun",
+    "de": "Fenster",
+    "article": "das",
+    "plural": "Fenster",
+    "it": ["finestra"],
+    "promptIt": "la finestra",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Fenster. Il plurale non cambia.",
+    "examples": [
+      { "de": "Das Fenster ist offen.", "it": "La finestra è aperta." },
+      { "de": "Das Zimmer hat zwei Fenster.", "it": "La stanza ha due finestre." }
+    ]
+  },
+  {
+    "id": "v-a1-0221",
+    "pos": "noun",
+    "de": "Tür",
+    "article": "die",
+    "plural": "Türen",
+    "it": ["porta"],
+    "promptIt": "la porta",
+    "examples": [
+      { "de": "Die Tür ist offen.", "it": "La porta è aperta." },
+      { "de": "Die Katze sitzt vor der Tür.", "it": "Il gatto è seduto davanti alla porta." }
+    ]
+  },
+  {
+    "id": "v-a1-0222",
+    "pos": "noun",
+    "de": "Kühlschrank",
+    "article": "der",
+    "plural": "Kühlschränke",
+    "it": ["frigorifero", "frigo"],
+    "promptIt": "il frigorifero",
+    "noteIt": "Letteralmente «armadio fresco»: kühl (fresco) + Schrank.",
+    "examples": [
+      { "de": "Die Milch ist im Kühlschrank.", "it": "Il latte è in frigo." },
+      { "de": "Der Kühlschrank ist leer.", "it": "Il frigorifero è vuoto." }
+    ]
+  },
+  {
+    "id": "v-a1-0223",
+    "pos": "noun",
+    "de": "Regal",
+    "article": "das",
+    "plural": "Regale",
+    "it": ["scaffale", "mensola", "libreria"],
+    "promptIt": "lo scaffale",
+    "noteIt": "Attenzione: non è un regalo! Il regalo è das Geschenk.",
+    "examples": [
+      { "de": "Die Bücher stehen im Regal.", "it": "I libri sono sullo scaffale." },
+      { "de": "Das Regal ist voll.", "it": "Lo scaffale è pieno." }
+    ]
+  },
+  {
+    "id": "v-a1-0224",
+    "pos": "prep",
+    "de": "in",
+    "it": ["in", "dentro", "a"],
+    "promptIt": "in (dentro)",
+    "examples": [
+      { "de": "Ich wohne in Berlin.", "it": "Abito a Berlino." },
+      { "de": "Die Milch ist im Kühlschrank.", "it": "Il latte è in frigo." }
+    ]
+  },
+  {
+    "id": "v-a1-0225",
+    "pos": "prep",
+    "de": "auf",
+    "it": ["su", "sopra"],
+    "promptIt": "su (appoggiato sopra)",
+    "examples": [
+      { "de": "Das Buch liegt auf dem Tisch.", "it": "Il libro è sul tavolo." },
+      { "de": "Wir sind auf dem Balkon.", "it": "Siamo sul balcone." }
+    ]
+  },
+  {
+    "id": "v-a1-0226",
+    "pos": "prep",
+    "de": "unter",
+    "it": ["sotto"],
+    "promptIt": "sotto",
+    "examples": [
+      { "de": "Die Katze ist unter dem Bett.", "it": "Il gatto è sotto il letto." },
+      { "de": "Unter dem Tisch liegt ein Buch.", "it": "Sotto il tavolo c'è un libro." }
+    ]
+  },
+  {
+    "id": "v-a1-0227",
+    "pos": "prep",
+    "de": "neben",
+    "it": ["accanto a", "vicino a", "accanto"],
+    "promptIt": "accanto a",
+    "examples": [
+      { "de": "Die Lampe steht neben dem Sofa.", "it": "La lampada è accanto al divano." },
+      { "de": "Das Bad ist neben der Küche.", "it": "Il bagno è accanto alla cucina." }
+    ]
+  },
+  {
+    "id": "v-a1-0228",
+    "pos": "verb",
+    "de": "liegen",
+    "it": ["essere sdraiato", "essere sdraiata", "stare disteso", "trovarsi", "giacere"],
+    "promptIt": "essere sdraiato (stare in orizzontale)",
+    "noteIt": "Per le cose appoggiate in orizzontale: Das Buch liegt auf dem Tisch. Per i luoghi: Berlin liegt in Deutschland.",
+    "examples": [
+      { "de": "Ich liege im Bett.", "it": "Sono a letto." },
+      { "de": "Das Buch liegt auf dem Tisch.", "it": "Il libro è sul tavolo." },
+      { "de": "Berlin liegt in Deutschland.", "it": "Berlino si trova in Germania." }
+    ]
+  },
+  {
+    "id": "v-a1-0229",
+    "pos": "verb",
+    "de": "stehen",
+    "it": ["stare in piedi", "stare", "trovarsi"],
+    "promptIt": "stare in piedi (stare in verticale)",
+    "noteIt": "Per le cose in verticale: Die Lampe steht neben dem Bett. Non confonderlo con aufstehen (alzarsi).",
+    "examples": [
+      { "de": "Die Lampe steht auf dem Tisch.", "it": "La lampada è sul tavolo." },
+      { "de": "Im Zimmer stehen zwei Betten.", "it": "Nella stanza ci sono due letti." }
+    ]
+  },
+  {
+    "id": "v-a1-0230",
+    "pos": "verb",
+    "de": "hängen",
+    "it": ["essere appeso", "essere appesa", "pendere"],
+    "promptIt": "essere appeso",
+    "examples": [
+      { "de": "Die Lampe hängt über dem Tisch.", "it": "La lampada è appesa sopra il tavolo." },
+      { "de": "Das Foto hängt an der Wand.", "it": "La foto è appesa al muro." }
+    ]
+  },
+  {
+    "id": "v-a1-0231",
+    "pos": "adv",
+    "de": "hier",
+    "it": ["qui", "qua"],
+    "promptIt": "qui",
+    "examples": [
+      { "de": "Hier ist die Küche.", "it": "Qui c'è la cucina." },
+      { "de": "Ich wohne hier.", "it": "Abito qui." }
+    ]
+  },
+  {
+    "id": "v-a1-0232",
+    "pos": "adv",
+    "de": "dort",
+    "it": ["là", "lì"],
+    "promptIt": "là",
+    "acceptDe": ["da"],
+    "noteIt": "Parlando si dice spesso da: Da ist die Tür.",
+    "examples": [
+      { "de": "Dort ist das Bad.", "it": "Là c'è il bagno." },
+      { "de": "Wohnst du dort?", "it": "Abiti là?" }
+    ]
+  },
+  {
+    "id": "v-a1-0233",
+    "pos": "adj",
+    "de": "schön",
+    "it": ["bello", "bella"],
+    "promptIt": "bello",
+    "examples": [
+      { "de": "Die Wohnung ist schön.", "it": "L'appartamento è bello." },
+      { "de": "Der Garten ist sehr schön.", "it": "Il giardino è molto bello." }
+    ]
+  },
+  {
+    "id": "v-a1-0234",
+    "pos": "adj",
+    "de": "hell",
+    "it": ["luminoso", "luminosa", "chiaro", "chiara"],
+    "promptIt": "luminoso",
+    "examples": [
+      { "de": "Das Zimmer ist hell.", "it": "La stanza è luminosa." },
+      { "de": "Die Küche ist sehr hell.", "it": "La cucina è molto luminosa." }
+    ]
+  },
+  {
+    "id": "v-a1-0235",
+    "pos": "adj",
+    "de": "dunkel",
+    "it": ["buio", "buia", "scuro", "scura"],
+    "promptIt": "buio (scuro)",
+    "examples": [
+      { "de": "Das Schlafzimmer ist dunkel.", "it": "La camera da letto è buia." },
+      { "de": "Im Winter ist es früh dunkel.", "it": "D'inverno fa buio presto." }
+    ]
+  },
+  {
+    "id": "v-a1-0236",
+    "pos": "adj",
+    "de": "neu",
+    "it": ["nuovo", "nuova"],
+    "promptIt": "nuovo",
+    "examples": [
+      { "de": "Das Sofa ist neu.", "it": "Il divano è nuovo." },
+      { "de": "Meine Wohnung ist neu.", "it": "Il mio appartamento è nuovo." }
+    ]
+  },
+  {
+    "id": "v-a1-0237",
+    "pos": "adj",
+    "de": "gemütlich",
+    "it": ["accogliente", "confortevole"],
+    "promptIt": "accogliente",
+    "noteIt": "Una parola molto tedesca: un posto caldo e accogliente, dove si sta bene.",
+    "examples": [
+      { "de": "Das Wohnzimmer ist gemütlich.", "it": "Il soggiorno è accogliente." },
+      { "de": "Die Küche ist klein, aber gemütlich.", "it": "La cucina è piccola, ma accogliente." }
+    ]
+  },
+  {
+    "id": "v-a1-0238",
+    "pos": "adj",
+    "de": "ruhig",
+    "it": ["tranquillo", "tranquilla", "silenzioso", "silenziosa", "calmo", "calma"],
+    "promptIt": "tranquillo",
+    "examples": [
+      { "de": "Die Straße ist ruhig.", "it": "La strada è tranquilla." },
+      { "de": "Das Zimmer ist sehr ruhig.", "it": "La stanza è molto tranquilla." }
+    ]
+  },
+  {
+    "id": "v-a1-0239",
+    "pos": "adj",
+    "de": "laut",
+    "it": ["rumoroso", "rumorosa", "forte", "ad alta voce"],
+    "promptIt": "rumoroso",
+    "examples": [
+      { "de": "Die Straße ist laut.", "it": "La strada è rumorosa." },
+      { "de": "Die Musik ist zu laut.", "it": "La musica è troppo forte." }
+    ]
+  },
+  {
+    "id": "v-a1-0240",
+    "pos": "verb",
+    "de": "suchen",
+    "it": ["cercare"],
+    "promptIt": "cercare",
+    "examples": [
+      { "de": "Ich suche eine Wohnung.", "it": "Cerco un appartamento." },
+      { "de": "Was suchst du?", "it": "Cosa cerchi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0241",
+    "pos": "verb",
+    "de": "finden",
+    "it": ["trovare"],
+    "promptIt": "trovare",
+    "noteIt": "Con du, er/sie/es e ihr si aggiunge una e: du findest, er findet, ihr findet. Vuol dire anche «trovare» nel senso di pensare: Wie findest du die Wohnung?",
+    "examples": [
+      { "de": "Ich finde den Schlüssel nicht.", "it": "Non trovo la chiave." },
+      { "de": "Wie findest du die Wohnung?", "it": "Come ti sembra l'appartamento?" }
+    ]
+  },
+  {
+    "id": "v-a1-0242",
+    "pos": "noun",
+    "de": "Miete",
+    "article": "die",
+    "plural": "Mieten",
+    "it": ["affitto"],
+    "promptIt": "l'affitto",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Miete.",
+    "examples": [
+      { "de": "Die Miete ist hoch.", "it": "L'affitto è alto." },
+      { "de": "Wie hoch ist die Miete?", "it": "Quanto è l'affitto?" }
+    ]
+  },
+  {
+    "id": "v-a1-0243",
+    "pos": "noun",
+    "de": "Stock",
+    "article": "der",
+    "plural": "Stock",
+    "it": ["piano"],
+    "promptIt": "il piano (di un edificio)",
+    "noteIt": "Al primo piano: im ersten Stock. Il piano terra è das Erdgeschoss. Il plurale Stock si usa dopo un numero (Das Haus ist vier Stock hoch); altrimenti si dice die Stockwerke. Die Stöcke sono i bastoni!",
+    "examples": [
+      { "de": "Ich wohne im dritten Stock.", "it": "Abito al terzo piano." },
+      { "de": "In welchem Stock wohnst du?", "it": "A che piano abiti?" }
+    ]
+  },
+  {
+    "id": "v-a1-0244",
+    "pos": "phrase",
+    "de": "zu Hause",
+    "it": ["a casa", "in casa"],
+    "promptIt": "a casa (dove sei)",
+    "acceptDe": ["zuhause"],
+    "noteIt": "zu Hause = a casa, quando ci sei. Quando ci vai: nach Hause.",
+    "examples": [
+      { "de": "Ich bin zu Hause.", "it": "Sono a casa." },
+      { "de": "Bist du heute Abend zu Hause?", "it": "Sei a casa stasera?" }
+    ]
+  }
+]

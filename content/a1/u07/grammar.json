@@ -1,0 +1,363 @@
+[
+  {
+    "id": "g-a1-0025",
+    "title": "C'è, ci sono: es gibt",
+    "explanationIt": [
+      "Per dire che qualcosa c'è (esiste, si trova in un posto) si usa di solito es gibt: Es gibt einen Balkon.",
+      "es gibt resta uguale al singolare e al plurale: Es gibt zwei Zimmer.",
+      "Dopo es gibt la cosa va all'accusativo, quindi il maschile cambia: einen, keinen.",
+      "Nelle domande: Gibt es eine Toilette? Con la negazione: Es gibt keinen Garten."
+    ],
+    "pattern": [
+      "Es gibt einen Garten. – C'è un giardino.",
+      "Es gibt eine Küche. – C'è una cucina.",
+      "Es gibt ein Bad. – C'è un bagno.",
+      "Es gibt zwei Zimmer. – Ci sono due stanze.",
+      "Es gibt keinen Balkon. – Non c'è il balcone.",
+      "Gibt es eine Toilette? – C'è un bagno?"
+    ],
+    "examples": [
+      { "de": "In der Wohnung gibt es zwei Schlafzimmer.", "it": "Nell'appartamento ci sono due camere da letto." },
+      { "de": "Gibt es einen Garten?", "it": "C'è un giardino?" },
+      { "de": "Es gibt keinen Balkon, aber es gibt einen Garten.", "it": "Non c'è il balcone, ma c'è un giardino." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Es ist ein Garten.",
+        "right": "Es gibt einen Garten.",
+        "explanationIt": "Per «c'è» si usa es gibt, con l'accusativo."
+      },
+      {
+        "wrong": "Es gibt ein Balkon.",
+        "right": "Es gibt einen Balkon.",
+        "explanationIt": "Dopo es gibt il maschile va all'accusativo: einen."
+      },
+      {
+        "wrong": "Es geben zwei Zimmer.",
+        "right": "Es gibt zwei Zimmer.",
+        "explanationIt": "es gibt resta uguale anche al plurale."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0025-e1",
+        "sentence": "Es gibt ___ Garten.",
+        "answers": ["einen"],
+        "hintIt": "un (der Garten)",
+        "translationIt": "C'è un giardino.",
+        "explanationIt": "Dopo es gibt il maschile va all'accusativo: einen."
+      },
+      {
+        "id": "g-a1-0025-e2",
+        "sentence": "Es ___ zwei Schlafzimmer.",
+        "answers": ["gibt"],
+        "hintIt": "ci sono",
+        "translationIt": "Ci sono due camere da letto.",
+        "explanationIt": "es gibt resta uguale anche al plurale."
+      },
+      {
+        "id": "g-a1-0025-e3",
+        "sentence": "Es gibt ___ Balkon.",
+        "answers": ["keinen"],
+        "hintIt": "nessun (der Balkon)",
+        "translationIt": "Non c'è il balcone.",
+        "explanationIt": "Balkon è maschile e dopo es gibt va all'accusativo: keinen."
+      },
+      {
+        "id": "g-a1-0025-e4",
+        "sentence": "___ es eine Toilette?",
+        "answers": ["Gibt"],
+        "hintIt": "c'è…?",
+        "translationIt": "C'è un bagno?",
+        "explanationIt": "Nella domanda il verbo va al primo posto: Gibt es…?"
+      },
+      {
+        "id": "g-a1-0025-e5",
+        "sentence": "In der Wohnung gibt es ___ Bad.",
+        "answers": ["ein"],
+        "hintIt": "un (das Bad)",
+        "translationIt": "Nell'appartamento c'è un bagno.",
+        "explanationIt": "Bad è neutro: all'accusativo resta ein."
+      },
+      {
+        "id": "g-a1-0025-e6",
+        "sentence": "Es gibt ___ Küche.",
+        "answers": ["eine"],
+        "hintIt": "una (die Küche)",
+        "translationIt": "C'è una cucina.",
+        "explanationIt": "Küche è femminile: all'accusativo resta eine."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0026",
+    "title": "Dove? in, auf, unter, neben + dativo",
+    "explanationIt": [
+      "Per dire dove si trova qualcosa (domanda Wo?), le preposizioni in, auf, unter e neben vogliono il dativo.",
+      "Al dativo l'articolo cambia: der e das diventano dem, die diventa der. Anche ein diventa einem (maschile e neutro) ed eine diventa einer.",
+      "Al plurale l'articolo è den e il sostantivo prende una -n, se non finisce già in -n o in -s: in den Zimmern, auf den Sofas.",
+      "Con il movimento (Wohin?, per esempio Ich gehe in die Küche) si usa invece l'accusativo: lo vedrai più avanti.",
+      "in dem si accorcia quasi sempre in im: im Bad, im Garten, im Kühlschrank."
+    ],
+    "pattern": [
+      "der Tisch → auf dem Tisch – sul tavolo",
+      "das Bett → im Bett – nel letto",
+      "die Küche → in der Küche – in cucina",
+      "ein Sofa → auf einem Sofa – su un divano",
+      "eine Wohnung → in einer Wohnung – in un appartamento",
+      "die Betten → unter den Betten – sotto i letti"
+    ],
+    "examples": [
+      { "de": "Die Katze schläft unter dem Tisch.", "it": "Il gatto dorme sotto il tavolo." },
+      { "de": "Wir sind in der Küche.", "it": "Siamo in cucina." },
+      { "de": "Das Bad ist neben dem Schlafzimmer.", "it": "Il bagno è accanto alla camera da letto." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Die Milch ist in der Kühlschrank.",
+        "right": "Die Milch ist im Kühlschrank.",
+        "explanationIt": "Kühlschrank è maschile: in dem, cioè im."
+      },
+      {
+        "wrong": "Ich bin in die Küche.",
+        "right": "Ich bin in der Küche.",
+        "explanationIt": "Per dire dove sei ci vuole il dativo: in der Küche."
+      },
+      {
+        "wrong": "Die Katze ist unter das Bett.",
+        "right": "Die Katze ist unter dem Bett.",
+        "explanationIt": "Bett è neutro: al dativo dem."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0026-e1",
+        "sentence": "Die Milch ist ___ Kühlschrank.",
+        "answers": ["im"],
+        "hintIt": "nel (der Kühlschrank)",
+        "translationIt": "Il latte è in frigo.",
+        "explanationIt": "in + dem si accorcia in im."
+      },
+      {
+        "id": "g-a1-0026-e2",
+        "sentence": "Wir essen in ___ Küche.",
+        "answers": ["der"],
+        "hintIt": "die Küche",
+        "translationIt": "Mangiamo in cucina.",
+        "explanationIt": "Küche è femminile: al dativo der."
+      },
+      {
+        "id": "g-a1-0026-e3",
+        "sentence": "Das Buch ist auf ___ Tisch.",
+        "answers": ["dem"],
+        "hintIt": "der Tisch",
+        "translationIt": "Il libro è sul tavolo.",
+        "explanationIt": "Tisch è maschile: al dativo dem."
+      },
+      {
+        "id": "g-a1-0026-e4",
+        "sentence": "Die Katze ist unter ___ Bett.",
+        "answers": ["dem"],
+        "hintIt": "das Bett",
+        "translationIt": "Il gatto è sotto il letto.",
+        "explanationIt": "Bett è neutro: al dativo dem."
+      },
+      {
+        "id": "g-a1-0026-e5",
+        "sentence": "Ich wohne in ___ Wohnung mit Balkon.",
+        "answers": ["einer"],
+        "hintIt": "un (die Wohnung)",
+        "translationIt": "Abito in un appartamento con balcone.",
+        "explanationIt": "Wohnung è femminile: al dativo eine diventa einer."
+      },
+      {
+        "id": "g-a1-0026-e6",
+        "sentence": "Wir frühstücken auf ___ Balkon.",
+        "answers": ["dem"],
+        "hintIt": "der Balkon",
+        "translationIt": "Facciamo colazione sul balcone.",
+        "explanationIt": "Balkon è maschile: al dativo dem."
+      },
+      {
+        "id": "g-a1-0026-e7",
+        "sentence": "Die Kinder sind ___ Garten.",
+        "answers": ["im"],
+        "hintIt": "in (der Garten)",
+        "translationIt": "I bambini sono in giardino.",
+        "explanationIt": "in + dem si accorcia in im."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0027",
+    "title": "liegen, stehen, hängen: come stanno le cose",
+    "explanationIt": [
+      "In italiano diciamo spesso solo «è sul tavolo». In tedesco, per le cose, si dice anche come si trovano.",
+      "In orizzontale: liegen. Das Buch liegt auf dem Tisch.",
+      "Di solito in verticale, o appoggiato sulla sua base: stehen. Die Lampe steht neben dem Bett.",
+      "Appese: hängen. Die Lampe hängt über dem Tisch.",
+      "Con sein non sbagli, ma i tedeschi usano molto questi tre verbi. liegen si usa anche per i luoghi: Berlin liegt in Deutschland."
+    ],
+    "pattern": [
+      "Das Buch liegt auf dem Tisch. – Il libro è sul tavolo.",
+      "Die Lampe steht neben dem Bett. – La lampada è accanto al letto.",
+      "Die Lampe hängt über dem Tisch. – La lampada è appesa sopra il tavolo.",
+      "Ich liege im Bett. – Sono a letto.",
+      "Berlin liegt in Deutschland. – Berlino si trova in Germania."
+    ],
+    "examples": [
+      { "de": "Die Bücher stehen im Regal.", "it": "I libri sono sullo scaffale." },
+      { "de": "Die Katze liegt auf dem Sofa.", "it": "Il gatto è sdraiato sul divano." },
+      { "de": "Im Wohnzimmer steht ein Sofa.", "it": "In soggiorno c'è un divano." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Der Schrank liegt im Schlafzimmer.",
+        "right": "Der Schrank steht im Schlafzimmer.",
+        "explanationIt": "Un armadio sta in verticale: steht."
+      },
+      {
+        "wrong": "Er liegt im Sofa.",
+        "right": "Er liegt auf dem Sofa.",
+        "explanationIt": "Sul divano: auf, non in."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0027-e1",
+        "sentence": "Das Buch ___ auf dem Tisch.",
+        "answers": ["liegt"],
+        "hintIt": "liegen (in orizzontale)",
+        "translationIt": "Il libro è sul tavolo.",
+        "explanationIt": "Un libro appoggiato in orizzontale: liegt."
+      },
+      {
+        "id": "g-a1-0027-e2",
+        "sentence": "Die Lampe ___ neben dem Sofa.",
+        "answers": ["steht"],
+        "hintIt": "stehen (in verticale)",
+        "translationIt": "La lampada è accanto al divano.",
+        "explanationIt": "Una lampada in piedi sta in verticale: steht."
+      },
+      {
+        "id": "g-a1-0027-e3",
+        "sentence": "Die Lampe ___ über dem Tisch.",
+        "answers": ["hängt"],
+        "hintIt": "hängen (appesa)",
+        "translationIt": "La lampada è appesa sopra il tavolo.",
+        "explanationIt": "Una cosa appesa: hängt."
+      },
+      {
+        "id": "g-a1-0027-e4",
+        "sentence": "Ich ___ im Bett.",
+        "answers": ["liege"],
+        "hintIt": "liegen",
+        "translationIt": "Sono a letto.",
+        "explanationIt": "Sdraiati nel letto: ich liege."
+      },
+      {
+        "id": "g-a1-0027-e5",
+        "sentence": "Im Schlafzimmer ___ zwei Betten.",
+        "answers": ["stehen"],
+        "hintIt": "stehen",
+        "translationIt": "Nella camera da letto ci sono due letti.",
+        "explanationIt": "I mobili stanno in piedi sul pavimento: stehen, al plurale."
+      },
+      {
+        "id": "g-a1-0027-e6",
+        "sentence": "Berlin ___ in Deutschland.",
+        "answers": ["liegt"],
+        "hintIt": "liegen (si trova)",
+        "translationIt": "Berlino si trova in Germania.",
+        "explanationIt": "Per i luoghi si usa liegen."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0028",
+    "title": "er, sie, es: anche per le cose",
+    "explanationIt": [
+      "In tedesco er, sie ed es non vogliono dire solo «lui» e «lei»: si usano anche per le cose, secondo il genere della parola.",
+      "der Tisch → er, die Lampe → sie, das Sofa → es. Al plurale sempre sie.",
+      "Conta il genere tedesco, non quello italiano: Wo ist der Stuhl? Er ist hier. (In italiano «la sedia» è femminile.)"
+    ],
+    "pattern": [
+      "der Tisch → er – Er ist neu.",
+      "die Lampe → sie – Sie ist schön.",
+      "das Sofa → es – Es ist gemütlich.",
+      "die Stühle → sie – Sie sind alt."
+    ],
+    "examples": [
+      { "de": "Wie ist die Wohnung? Sie ist groß und hell.", "it": "Com'è l'appartamento? È grande e luminoso." },
+      { "de": "Wo ist der Kühlschrank? Er ist in der Küche.", "it": "Dov'è il frigorifero? È in cucina." },
+      { "de": "Wie ist das Zimmer? Es ist ruhig.", "it": "Com'è la stanza? È tranquilla." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Wo ist der Stuhl? Sie ist hier.",
+        "right": "Wo ist der Stuhl? Er ist hier.",
+        "explanationIt": "der Stuhl è maschile: er, anche se «la sedia» è femminile."
+      },
+      {
+        "wrong": "Wie ist das Zimmer? Er ist hell.",
+        "right": "Wie ist das Zimmer? Es ist hell.",
+        "explanationIt": "das Zimmer è neutro: es."
+      },
+      {
+        "wrong": "Die Wohnung ist neu. Es ist schön.",
+        "right": "Die Wohnung ist neu. Sie ist schön.",
+        "explanationIt": "die Wohnung è femminile: sie."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0028-e1",
+        "sentence": "Wo ist der Stuhl? ___ ist hier.",
+        "answers": ["Er"],
+        "hintIt": "der Stuhl",
+        "translationIt": "Dov'è la sedia? È qui.",
+        "explanationIt": "der Stuhl è maschile: er."
+      },
+      {
+        "id": "g-a1-0028-e2",
+        "sentence": "Wie ist die Küche? ___ ist klein.",
+        "answers": ["Sie"],
+        "hintIt": "die Küche",
+        "translationIt": "Com'è la cucina? È piccola.",
+        "explanationIt": "die Küche è femminile: sie."
+      },
+      {
+        "id": "g-a1-0028-e3",
+        "sentence": "Wie ist das Wohnzimmer? ___ ist gemütlich.",
+        "answers": ["Es"],
+        "hintIt": "das Wohnzimmer",
+        "translationIt": "Com'è il soggiorno? È accogliente.",
+        "explanationIt": "das Wohnzimmer è neutro: es."
+      },
+      {
+        "id": "g-a1-0028-e4",
+        "sentence": "Wo sind die Stühle? ___ sind im Garten.",
+        "answers": ["Sie"],
+        "hintIt": "die Stühle",
+        "translationIt": "Dove sono le sedie? Sono in giardino.",
+        "explanationIt": "Al plurale si usa sempre sie."
+      },
+      {
+        "id": "g-a1-0028-e5",
+        "sentence": "Der Balkon ist groß, aber ___ ist laut.",
+        "answers": ["er"],
+        "hintIt": "der Balkon",
+        "translationIt": "Il balcone è grande, ma è rumoroso.",
+        "explanationIt": "der Balkon è maschile: er."
+      },
+      {
+        "id": "g-a1-0028-e6",
+        "sentence": "Wie ist das Fenster? ___ ist neu.",
+        "answers": ["Es"],
+        "hintIt": "das Fenster",
+        "translationIt": "Com'è la finestra? È nuova.",
+        "explanationIt": "das Fenster è neutro: es, anche se «la finestra» è femminile."
+      }
+    ]
+  }
+]
