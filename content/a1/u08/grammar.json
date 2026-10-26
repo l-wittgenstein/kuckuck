@@ -1,0 +1,373 @@
+[
+  {
+    "id": "g-a1-0029",
+    "title": "In autobus, a piedi: mit + dativo",
+    "explanationIt": [
+      "Per dire con che mezzo vai si usa mit + dativo: mit dem Bus, mit der U-Bahn. In italiano diciamo «in autobus», in tedesco «con l'autobus».",
+      "Ricorda il dativo: der e das diventano dem, die diventa der.",
+      "A piedi si dice zu Fuß, senza mit.",
+      "Con un mezzo il verbo è di solito fahren (fährt), a piedi gehen. mit vale anche per le persone: mit meiner Mutter."
+    ],
+    "pattern": [
+      "der Bus → mit dem Bus – in autobus",
+      "der Zug → mit dem Zug – in treno",
+      "die U-Bahn → mit der U-Bahn – in metropolitana",
+      "das Fahrrad → mit dem Fahrrad – in bicicletta",
+      "das Auto → mit dem Auto – in macchina",
+      "zu Fuß – a piedi",
+      "mit meiner Mutter – con mia madre"
+    ],
+    "examples": [
+      { "de": "Ich fahre mit dem Fahrrad.", "it": "Vado in bicicletta." },
+      { "de": "Fährst du mit der U-Bahn?", "it": "Vai in metro?" },
+      { "de": "Er fährt mit seiner Schwester nach Berlin.", "it": "Va a Berlino con sua sorella." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich fahre in Bus.",
+        "right": "Ich fahre mit dem Bus.",
+        "explanationIt": "Per il mezzo di trasporto non si usa in, ma mit + dativo."
+      },
+      {
+        "wrong": "Ich fahre mit die U-Bahn.",
+        "right": "Ich fahre mit der U-Bahn.",
+        "explanationIt": "mit vuole il dativo: die diventa der."
+      },
+      {
+        "wrong": "Wir kommen mit Fuß.",
+        "right": "Wir kommen zu Fuß.",
+        "explanationIt": "A piedi si dice zu Fuß."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0029-e1",
+        "sentence": "Ich fahre mit ___ Bus.",
+        "answers": ["dem"],
+        "hintIt": "der Bus",
+        "translationIt": "Vado in autobus.",
+        "explanationIt": "mit vuole il dativo: der Bus → dem Bus."
+      },
+      {
+        "id": "g-a1-0029-e2",
+        "sentence": "Wir fahren mit ___ U-Bahn.",
+        "answers": ["der"],
+        "hintIt": "die U-Bahn",
+        "translationIt": "Andiamo in metro.",
+        "explanationIt": "mit vuole il dativo: die U-Bahn → der U-Bahn."
+      },
+      {
+        "id": "g-a1-0029-e3",
+        "sentence": "Er ___ mit dem Zug.",
+        "answers": ["fährt"],
+        "hintIt": "fahren",
+        "translationIt": "Va in treno.",
+        "explanationIt": "fahren cambia vocale con er: fährt."
+      },
+      {
+        "id": "g-a1-0029-e4",
+        "sentence": "Wir kommen ___ Fuß.",
+        "answers": ["zu"],
+        "hintIt": "a piedi",
+        "translationIt": "Veniamo a piedi.",
+        "explanationIt": "A piedi si dice zu Fuß."
+      },
+      {
+        "id": "g-a1-0029-e5",
+        "sentence": "Fährst du mit ___ Fahrrad?",
+        "answers": ["dem"],
+        "hintIt": "das Fahrrad",
+        "translationIt": "Vai in bicicletta?",
+        "explanationIt": "mit vuole il dativo: das Fahrrad → dem Fahrrad."
+      },
+      {
+        "id": "g-a1-0029-e6",
+        "sentence": "Ich fahre ___ meiner Mutter nach Berlin.",
+        "answers": ["mit"],
+        "hintIt": "con",
+        "translationIt": "Vado a Berlino con mia madre.",
+        "explanationIt": "con = mit, e dopo mit il dativo: meiner Mutter."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0030",
+    "title": "Dove vai? zum, zur, nach",
+    "explanationIt": [
+      "Per andare verso un posto in città (un edificio, un negozio) o da una persona si usa zu + dativo. zu + dem diventa zum, zu + der diventa zur: zum Bahnhof, zur Post, zu Anna.",
+      "Con le città e i paesi senza articolo si usa nach: nach Berlin, nach Italien.",
+      "A casa, quando ci vai: nach Hause. Quando ci sei: zu Hause.",
+      "Per alcuni posti si usa di solito in + accusativo: ins Kino, in den Park, ins Zentrum. Per ora impara queste espressioni così come sono."
+    ],
+    "pattern": [
+      "der Bahnhof → zum Bahnhof – alla stazione",
+      "der Supermarkt → zum Supermarkt – al supermercato",
+      "die Post → zur Post – alla posta",
+      "die Bank → zur Bank – in banca",
+      "Anna → zu Anna – da Anna",
+      "Berlin → nach Berlin – a Berlino",
+      "nach Hause – a casa (ci vado)",
+      "zu Hause – a casa (ci sono)"
+    ],
+    "examples": [
+      { "de": "Ich gehe zur Bank.", "it": "Vado in banca." },
+      { "de": "Wir fahren zum Flughafen.", "it": "Andiamo all'aeroporto." },
+      { "de": "Im August fahren wir nach Italien.", "it": "Ad agosto andiamo in Italia." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich fahre zu Berlin.",
+        "right": "Ich fahre nach Berlin.",
+        "explanationIt": "Con le città e i paesi si usa nach."
+      },
+      {
+        "wrong": "Ich gehe zu Hause.",
+        "right": "Ich gehe nach Hause.",
+        "explanationIt": "Quando vai a casa: nach Hause. zu Hause è dove sei."
+      },
+      {
+        "wrong": "Ich gehe zum Post.",
+        "right": "Ich gehe zur Post.",
+        "explanationIt": "die Post è femminile: zu + der = zur."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0030-e1",
+        "sentence": "Ich gehe ___ Bahnhof.",
+        "answers": ["zum"],
+        "hintIt": "alla (der Bahnhof)",
+        "translationIt": "Vado alla stazione.",
+        "explanationIt": "Bahnhof è maschile: zu + dem = zum."
+      },
+      {
+        "id": "g-a1-0030-e2",
+        "sentence": "Wir gehen ___ Post.",
+        "answers": ["zur"],
+        "hintIt": "alla (die Post)",
+        "translationIt": "Andiamo alla posta.",
+        "explanationIt": "Post è femminile: zu + der = zur."
+      },
+      {
+        "id": "g-a1-0030-e3",
+        "sentence": "Er fährt ___ Berlin.",
+        "answers": ["nach"],
+        "hintIt": "a",
+        "translationIt": "Va a Berlino.",
+        "explanationIt": "Con le città si usa nach."
+      },
+      {
+        "id": "g-a1-0030-e4",
+        "sentence": "Ich gehe jetzt ___ Hause.",
+        "answers": ["nach"],
+        "hintIt": "a casa (ci vado)",
+        "translationIt": "Adesso vado a casa.",
+        "explanationIt": "Quando vai a casa: nach Hause."
+      },
+      {
+        "id": "g-a1-0030-e5",
+        "sentence": "Fährst du ___ Supermarkt?",
+        "answers": ["zum"],
+        "hintIt": "al (der Supermarkt)",
+        "translationIt": "Vai al supermercato?",
+        "explanationIt": "Supermarkt è maschile: zu + dem = zum."
+      },
+      {
+        "id": "g-a1-0030-e6",
+        "sentence": "Am Abend bin ich ___ Hause.",
+        "answers": ["zu"],
+        "hintIt": "a casa (ci sono)",
+        "translationIt": "La sera sono a casa.",
+        "explanationIt": "Quando sei a casa: zu Hause."
+      },
+      {
+        "id": "g-a1-0030-e7",
+        "sentence": "Wir fahren ___ Italien.",
+        "answers": ["nach"],
+        "hintIt": "in (verso un paese)",
+        "translationIt": "Andiamo in Italia.",
+        "explanationIt": "Con i paesi senza articolo si usa nach."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0031",
+    "title": "Da qualcuno: bei e zu",
+    "explanationIt": [
+      "bei + dativo dice dove sei: presso qualcuno o qualcosa. Ich bin bei Anna = sono da Anna (a casa sua).",
+      "zu + dativo dice dove vai: Ich gehe zu Anna = vado da Anna.",
+      "bei + dem si accorcia in beim. bei indica anche la vicinanza: Das Hotel ist beim Bahnhof = l'albergo è vicino alla stazione.",
+      "Dopo bei, come dopo zu e mit, ci vuole il dativo. I possessivi al dativo fanno come ein: meinem (der, das), meiner (die), e al plurale meinen: bei meiner Oma, bei meinem Bruder, bei meinen Eltern."
+    ],
+    "pattern": [
+      "Ich bin bei Anna. – Sono da Anna.",
+      "Ich gehe zu Anna. – Vado da Anna.",
+      "bei meiner Oma – da mia nonna",
+      "bei meinem Bruder – da mio fratello",
+      "bei meinen Eltern – dai miei genitori",
+      "beim Bahnhof – vicino alla stazione"
+    ],
+    "examples": [
+      { "de": "Am Sonntag essen wir bei meiner Oma.", "it": "Domenica mangiamo da mia nonna." },
+      { "de": "Er wohnt bei seinen Eltern.", "it": "Abita dai suoi genitori." },
+      { "de": "Kommst du zu mir?", "it": "Vieni da me?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich bin zu Anna.",
+        "right": "Ich bin bei Anna.",
+        "explanationIt": "Per dire dove sei si usa bei; zu è per dove vai."
+      },
+      {
+        "wrong": "Ich gehe bei Anna.",
+        "right": "Ich gehe zu Anna.",
+        "explanationIt": "Per dire dove vai si usa zu."
+      },
+      {
+        "wrong": "Ich wohne bei meine Oma.",
+        "right": "Ich wohne bei meiner Oma.",
+        "explanationIt": "bei vuole il dativo: meine diventa meiner."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0031-e1",
+        "sentence": "Ich bin heute Abend ___ Anna.",
+        "answers": ["bei"],
+        "hintIt": "da (ci sono)",
+        "translationIt": "Stasera sono da Anna.",
+        "explanationIt": "Per dire dove sei: bei."
+      },
+      {
+        "id": "g-a1-0031-e2",
+        "sentence": "Ich gehe ___ Anna.",
+        "answers": ["zu"],
+        "hintIt": "da (ci vado)",
+        "translationIt": "Vado da Anna.",
+        "explanationIt": "Per dire dove vai: zu."
+      },
+      {
+        "id": "g-a1-0031-e3",
+        "sentence": "Er wohnt bei ___ Oma.",
+        "answers": ["seiner"],
+        "hintIt": "sua (seine Oma)",
+        "translationIt": "Abita da sua nonna.",
+        "explanationIt": "bei vuole il dativo: seine diventa seiner."
+      },
+      {
+        "id": "g-a1-0031-e4",
+        "sentence": "Das Hotel ist ___ Bahnhof.",
+        "answers": ["beim", "am"],
+        "hintIt": "vicino alla (der Bahnhof)",
+        "translationIt": "L'albergo è vicino alla stazione.",
+        "explanationIt": "bei + dem = beim."
+      },
+      {
+        "id": "g-a1-0031-e5",
+        "sentence": "Wir essen bei ___ Eltern.",
+        "answers": ["unseren"],
+        "hintIt": "i nostri (unsere Eltern)",
+        "translationIt": "Mangiamo dai nostri genitori.",
+        "explanationIt": "Al dativo plurale unsere diventa unseren."
+      },
+      {
+        "id": "g-a1-0031-e6",
+        "sentence": "Wir feiern ___ meinem Bruder.",
+        "answers": ["bei"],
+        "hintIt": "da (ci siamo)",
+        "translationIt": "Festeggiamo da mio fratello.",
+        "explanationIt": "Per dire dove si festeggia: bei."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0032",
+    "title": "Dare indicazioni: Gehen Sie geradeaus!",
+    "explanationIt": [
+      "Per dare indicazioni a chi dai del Lei si usa l'imperativo con Sie. Si forma come la domanda, con il verbo all'inizio e Sie subito dopo, ma senza punto di domanda: Gehen Sie geradeaus! (Unica eccezione: sein → Seien Sie.)",
+      "Sie non si può togliere: Gehen geradeaus! è sbagliato. Nelle indicazioni si sente spesso anche la frase normale, con il verbo al secondo posto: Sie gehen geradeaus, an der Ampel gehen Sie rechts.",
+      "Per chiedere la strada: Entschuldigung, wie komme ich zum Bahnhof? (zur Post, zum Hotel…).",
+      "Espressioni utili: die erste Straße links (la prima a sinistra), an der Ampel rechts (al semaforo a destra). L'imperativo con du e ihr lo vedrai più avanti."
+    ],
+    "pattern": [
+      "Gehen Sie geradeaus. – Vada dritto.",
+      "Gehen Sie links. – Vada a sinistra.",
+      "Nehmen Sie die erste Straße rechts. – Prenda la prima strada a destra.",
+      "Fahren Sie mit dem Bus. – Prenda l'autobus.",
+      "Fragen Sie am Bahnhof. – Chieda alla stazione."
+    ],
+    "examples": [
+      { "de": "Wie komme ich zur Post? Gehen Sie hier links.", "it": "Come arrivo alla posta? Vada qui a sinistra." },
+      { "de": "Gehen Sie an der Ampel rechts.", "it": "Al semaforo vada a destra." },
+      { "de": "Nehmen Sie die U-Bahn, das ist schneller.", "it": "Prenda la metro, è più veloce." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Gehen geradeaus!",
+        "right": "Gehen Sie geradeaus!",
+        "explanationIt": "Nell'imperativo con il Lei, Sie non manca mai."
+      },
+      {
+        "wrong": "Gehen Sie zu links.",
+        "right": "Gehen Sie links.",
+        "explanationIt": "Si dice links, oppure nach links; mai zu links."
+      },
+      {
+        "wrong": "Wie komme ich zu Bahnhof?",
+        "right": "Wie komme ich zum Bahnhof?",
+        "explanationIt": "Davanti a Bahnhof ci vuole l'articolo: zu + dem = zum."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0032-e1",
+        "sentence": "___ Sie geradeaus!",
+        "answers": ["Gehen"],
+        "hintIt": "andare a piedi",
+        "translationIt": "Vada dritto!",
+        "explanationIt": "L'imperativo con il Lei comincia con il verbo: Gehen Sie…"
+      },
+      {
+        "id": "g-a1-0032-e2",
+        "sentence": "Gehen ___ links!",
+        "answers": ["Sie"],
+        "caseSensitive": true,
+        "hintIt": "Lei",
+        "translationIt": "Vada a sinistra!",
+        "explanationIt": "Dopo il verbo viene sempre Sie, con la maiuscola."
+      },
+      {
+        "id": "g-a1-0032-e3",
+        "sentence": "Nehmen Sie die ___ Straße rechts.",
+        "answers": ["erste"],
+        "hintIt": "la prima",
+        "translationIt": "Prenda la prima strada a destra.",
+        "explanationIt": "Primo: erste, come nelle date."
+      },
+      {
+        "id": "g-a1-0032-e4",
+        "sentence": "Entschuldigung, wie komme ich ___ Bahnhof?",
+        "answers": ["zum"],
+        "hintIt": "alla (der Bahnhof)",
+        "translationIt": "Scusi, come arrivo alla stazione?",
+        "explanationIt": "Bahnhof è maschile: zu + dem = zum."
+      },
+      {
+        "id": "g-a1-0032-e5",
+        "sentence": "Fahren Sie mit ___ U-Bahn.",
+        "answers": ["der"],
+        "hintIt": "die U-Bahn",
+        "translationIt": "Prenda la metro.",
+        "explanationIt": "mit vuole il dativo: der U-Bahn."
+      },
+      {
+        "id": "g-a1-0032-e6",
+        "sentence": "An der Ampel gehen Sie ___.",
+        "answers": ["rechts"],
+        "hintIt": "a destra",
+        "translationIt": "Al semaforo vada a destra.",
+        "explanationIt": "A destra: rechts."
+      }
+    ]
+  }
+]

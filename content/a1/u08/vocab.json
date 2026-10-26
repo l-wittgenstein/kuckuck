@@ -1,0 +1,596 @@
+[
+  {
+    "id": "v-a1-0245",
+    "pos": "noun",
+    "de": "Stadt",
+    "article": "die",
+    "plural": "Städte",
+    "it": ["città"],
+    "promptIt": "la città",
+    "examples": [
+      { "de": "Berlin ist eine große Stadt.", "it": "Berlino è una grande città." },
+      { "de": "Ich wohne in der Stadt.", "it": "Abito in città." }
+    ]
+  },
+  {
+    "id": "v-a1-0246",
+    "pos": "noun",
+    "de": "Straße",
+    "article": "die",
+    "plural": "Straßen",
+    "it": ["strada", "via"],
+    "promptIt": "la strada (la via)",
+    "examples": [
+      { "de": "Ich wohne in der Goethestraße.", "it": "Abito in via Goethe." },
+      { "de": "Die Straße ist lang.", "it": "La strada è lunga." }
+    ]
+  },
+  {
+    "id": "v-a1-0247",
+    "pos": "noun",
+    "de": "Platz",
+    "article": "der",
+    "plural": "Plätze",
+    "it": ["piazza", "posto"],
+    "promptIt": "la piazza",
+    "noteIt": "In italiano «la piazza» è femminile, in tedesco maschile: der Platz. Vuol dire anche «posto»: Ist der Platz frei?",
+    "examples": [
+      { "de": "Der Platz ist schön.", "it": "La piazza è bella." },
+      { "de": "Das Café ist am Marktplatz.", "it": "Il bar è in piazza del mercato." }
+    ]
+  },
+  {
+    "id": "v-a1-0248",
+    "pos": "noun",
+    "de": "Bahnhof",
+    "article": "der",
+    "plural": "Bahnhöfe",
+    "it": ["stazione"],
+    "promptIt": "la stazione (dei treni)",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Bahnhof.",
+    "examples": [
+      { "de": "Wo ist der Bahnhof?", "it": "Dov'è la stazione?" },
+      { "de": "Ich bin am Bahnhof.", "it": "Sono alla stazione." }
+    ]
+  },
+  {
+    "id": "v-a1-0249",
+    "pos": "noun",
+    "de": "Flughafen",
+    "article": "der",
+    "plural": "Flughäfen",
+    "it": ["aeroporto"],
+    "promptIt": "l'aeroporto",
+    "examples": [
+      { "de": "Der Flughafen ist groß.", "it": "L'aeroporto è grande." },
+      { "de": "Wir fahren zum Flughafen.", "it": "Andiamo all'aeroporto." }
+    ]
+  },
+  {
+    "id": "v-a1-0250",
+    "pos": "noun",
+    "de": "Bus",
+    "article": "der",
+    "plural": "Busse",
+    "it": ["autobus", "bus", "pullman"],
+    "promptIt": "l'autobus",
+    "examples": [
+      { "de": "Der Bus kommt.", "it": "Arriva l'autobus." },
+      { "de": "Der Bus ist voll.", "it": "L'autobus è pieno." }
+    ]
+  },
+  {
+    "id": "v-a1-0251",
+    "pos": "noun",
+    "de": "Zug",
+    "article": "der",
+    "plural": "Züge",
+    "it": ["treno"],
+    "promptIt": "il treno",
+    "examples": [
+      { "de": "Der Zug kommt um zehn Uhr.", "it": "Il treno arriva alle dieci." },
+      { "de": "Der Zug ist pünktlich.", "it": "Il treno è puntuale." }
+    ]
+  },
+  {
+    "id": "v-a1-0252",
+    "pos": "noun",
+    "de": "U-Bahn",
+    "article": "die",
+    "plural": "U-Bahnen",
+    "it": ["metropolitana", "metro"],
+    "promptIt": "la metropolitana",
+    "noteIt": "La U sta per Untergrundbahn (ferrovia sotterranea). La S-Bahn invece è il treno suburbano.",
+    "examples": [
+      { "de": "Die U-Bahn ist schnell.", "it": "La metro è veloce." },
+      { "de": "Wo ist die U-Bahn?", "it": "Dov'è la metro?" }
+    ]
+  },
+  {
+    "id": "v-a1-0253",
+    "pos": "noun",
+    "de": "Straßenbahn",
+    "article": "die",
+    "plural": "Straßenbahnen",
+    "it": ["tram"],
+    "promptIt": "il tram",
+    "acceptDe": ["Tram"],
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Straßenbahn. In molte città si dice anche die Tram.",
+    "examples": [
+      { "de": "Die Straßenbahn kommt.", "it": "Arriva il tram." },
+      { "de": "Die Straßenbahn ist voll.", "it": "Il tram è pieno." }
+    ]
+  },
+  {
+    "id": "v-a1-0254",
+    "pos": "noun",
+    "de": "Fahrrad",
+    "article": "das",
+    "plural": "Fahrräder",
+    "it": ["bicicletta", "bici"],
+    "promptIt": "la bicicletta",
+    "acceptDe": ["Rad"],
+    "noteIt": "In tedesco è neutro: das Fahrrad. Parlando si dice spesso das Rad.",
+    "examples": [
+      { "de": "Das Fahrrad ist neu.", "it": "La bicicletta è nuova." },
+      { "de": "Mein Fahrrad steht im Garten.", "it": "La mia bici è in giardino." }
+    ]
+  },
+  {
+    "id": "v-a1-0255",
+    "pos": "prep",
+    "de": "mit",
+    "it": ["con"],
+    "promptIt": "con",
+    "examples": [
+      { "de": "Kaffee mit Milch, bitte.", "it": "Un caffè con il latte, per favore." },
+      { "de": "Ich fahre mit dem Bus.", "it": "Vado in autobus." }
+    ]
+  },
+  {
+    "id": "v-a1-0256",
+    "pos": "verb",
+    "de": "fahren",
+    "it": ["andare", "guidare", "viaggiare"],
+    "promptIt": "andare (con un mezzo)",
+    "noteIt": "Cambia vocale: du fährst, er fährt. Si usa per andare con un mezzo; a piedi si dice gehen.",
+    "examples": [
+      { "de": "Ich fahre mit dem Zug.", "it": "Vado in treno." },
+      { "de": "Fährst du nach Berlin?", "it": "Vai a Berlino?" },
+      { "de": "Er fährt gut Auto.", "it": "Guida bene." }
+    ]
+  },
+  {
+    "id": "v-a1-0257",
+    "pos": "phrase",
+    "de": "zu Fuß",
+    "it": ["a piedi"],
+    "promptIt": "a piedi",
+    "examples": [
+      { "de": "Wir kommen zu Fuß.", "it": "Veniamo a piedi." },
+      { "de": "Zu Fuß sind es zehn Minuten.", "it": "A piedi ci vogliono dieci minuti." }
+    ]
+  },
+  {
+    "id": "v-a1-0258",
+    "pos": "noun",
+    "de": "Haltestelle",
+    "article": "die",
+    "plural": "Haltestellen",
+    "it": ["fermata", "fermata dell'autobus"],
+    "promptIt": "la fermata (dell'autobus)",
+    "examples": [
+      { "de": "Wo ist die Haltestelle?", "it": "Dov'è la fermata?" },
+      { "de": "Die Haltestelle ist hier.", "it": "La fermata è qui." }
+    ]
+  },
+  {
+    "id": "v-a1-0259",
+    "pos": "verb",
+    "de": "gehen",
+    "it": ["andare", "andare a piedi", "camminare"],
+    "promptIt": "andare (a piedi)",
+    "noteIt": "gehen è andare a piedi, o andare in generale; con un mezzo si usa fahren.",
+    "examples": [
+      { "de": "Ich gehe zu Fuß.", "it": "Vado a piedi." },
+      { "de": "Wir gehen ins Kino.", "it": "Andiamo al cinema." }
+    ]
+  },
+  {
+    "id": "v-a1-0260",
+    "pos": "noun",
+    "de": "Bank",
+    "article": "die",
+    "plural": "Banken",
+    "it": ["banca"],
+    "promptIt": "la banca",
+    "noteIt": "die Bank è anche la panchina, ma allora il plurale è Bänke.",
+    "examples": [
+      { "de": "Die Bank ist heute geschlossen.", "it": "Oggi la banca è chiusa." },
+      { "de": "Die Bank ist neben der Post.", "it": "La banca è accanto alla posta." }
+    ]
+  },
+  {
+    "id": "v-a1-0261",
+    "pos": "noun",
+    "de": "Post",
+    "article": "die",
+    "plural": null,
+    "it": ["posta", "ufficio postale"],
+    "promptIt": "la posta (l'ufficio postale)",
+    "examples": [
+      { "de": "Die Post ist am Marktplatz.", "it": "La posta è in piazza del mercato." },
+      { "de": "Ist Post für mich da?", "it": "C'è posta per me?" }
+    ]
+  },
+  {
+    "id": "v-a1-0262",
+    "pos": "noun",
+    "de": "Restaurant",
+    "article": "das",
+    "plural": "Restaurants",
+    "it": ["ristorante"],
+    "promptIt": "il ristorante",
+    "examples": [
+      { "de": "Das Restaurant ist gut.", "it": "Il ristorante è buono." },
+      { "de": "Wir essen heute im Restaurant.", "it": "Oggi mangiamo al ristorante." }
+    ]
+  },
+  {
+    "id": "v-a1-0263",
+    "pos": "noun",
+    "de": "Hotel",
+    "article": "das",
+    "plural": "Hotels",
+    "it": ["albergo", "hotel"],
+    "promptIt": "l'albergo",
+    "examples": [
+      { "de": "Das Hotel ist im Zentrum.", "it": "L'albergo è in centro." },
+      { "de": "Wir schlafen im Hotel.", "it": "Dormiamo in albergo." }
+    ]
+  },
+  {
+    "id": "v-a1-0264",
+    "pos": "noun",
+    "de": "Museum",
+    "article": "das",
+    "plural": "Museen",
+    "it": ["museo"],
+    "promptIt": "il museo",
+    "noteIt": "Plurale irregolare: die Museen.",
+    "examples": [
+      { "de": "Das Museum ist am Montag geschlossen.", "it": "Lunedì il museo è chiuso." },
+      { "de": "In Berlin gibt es viele Museen.", "it": "A Berlino ci sono molti musei." }
+    ]
+  },
+  {
+    "id": "v-a1-0265",
+    "pos": "noun",
+    "de": "Kirche",
+    "article": "die",
+    "plural": "Kirchen",
+    "it": ["chiesa"],
+    "promptIt": "la chiesa",
+    "examples": [
+      { "de": "Die Kirche ist sehr alt.", "it": "La chiesa è molto antica." },
+      { "de": "Neben der Kirche ist ein Café.", "it": "Accanto alla chiesa c'è un bar." }
+    ]
+  },
+  {
+    "id": "v-a1-0266",
+    "pos": "noun",
+    "de": "Park",
+    "article": "der",
+    "plural": "Parks",
+    "it": ["parco"],
+    "promptIt": "il parco",
+    "examples": [
+      { "de": "Der Park ist groß.", "it": "Il parco è grande." },
+      { "de": "Wir gehen in den Park.", "it": "Andiamo al parco." }
+    ]
+  },
+  {
+    "id": "v-a1-0267",
+    "pos": "noun",
+    "de": "Kino",
+    "article": "das",
+    "plural": "Kinos",
+    "it": ["cinema"],
+    "promptIt": "il cinema",
+    "noteIt": "Andare al cinema: ins Kino gehen.",
+    "examples": [
+      { "de": "Gehen wir heute Abend ins Kino?", "it": "Andiamo al cinema stasera?" },
+      { "de": "Das Kino ist neben dem Bahnhof.", "it": "Il cinema è accanto alla stazione." }
+    ]
+  },
+  {
+    "id": "v-a1-0268",
+    "pos": "noun",
+    "de": "Apotheke",
+    "article": "die",
+    "plural": "Apotheken",
+    "it": ["farmacia"],
+    "promptIt": "la farmacia",
+    "examples": [
+      { "de": "Die Apotheke ist an der Ecke.", "it": "La farmacia è all'angolo." },
+      { "de": "Gibt es hier eine Apotheke?", "it": "C'è una farmacia qui?" }
+    ]
+  },
+  {
+    "id": "v-a1-0269",
+    "pos": "prep",
+    "de": "zu",
+    "it": ["a", "da", "verso"],
+    "promptIt": "a / da (verso un edificio o una persona, non una città)",
+    "noteIt": "zu + dem = zum, zu + der = zur: zum Bahnhof, zur Post.",
+    "examples": [
+      { "de": "Ich gehe zu Anna.", "it": "Vado da Anna." },
+      { "de": "Wir gehen zum Bahnhof.", "it": "Andiamo alla stazione." }
+    ]
+  },
+  {
+    "id": "v-a1-0270",
+    "pos": "noun",
+    "de": "Supermarkt",
+    "article": "der",
+    "plural": "Supermärkte",
+    "it": ["supermercato"],
+    "promptIt": "il supermercato",
+    "examples": [
+      { "de": "Der Supermarkt ist neben dem Bahnhof.", "it": "Il supermercato è accanto alla stazione." },
+      { "de": "Ich gehe zum Supermarkt.", "it": "Vado al supermercato." }
+    ]
+  },
+  {
+    "id": "v-a1-0271",
+    "pos": "phrase",
+    "de": "nach Hause",
+    "it": ["a casa", "verso casa"],
+    "promptIt": "a casa (quando ci vai)",
+    "acceptDe": ["nachhause"],
+    "noteIt": "nach Hause = a casa, quando ci vai. Quando ci sei: zu Hause.",
+    "examples": [
+      { "de": "Ich gehe jetzt nach Hause.", "it": "Adesso vado a casa." },
+      { "de": "Wann kommst du nach Hause?", "it": "Quando torni a casa?" }
+    ]
+  },
+  {
+    "id": "v-a1-0272",
+    "pos": "noun",
+    "de": "Fahrkarte",
+    "article": "die",
+    "plural": "Fahrkarten",
+    "it": ["biglietto"],
+    "promptIt": "il biglietto (del treno, dell'autobus)",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Fahrkarte. Si dice anche das Ticket.",
+    "examples": [
+      { "de": "Eine Fahrkarte nach Berlin, bitte.", "it": "Un biglietto per Berlino, per favore." },
+      { "de": "Hast du eine Fahrkarte?", "it": "Hai un biglietto?" }
+    ]
+  },
+  {
+    "id": "v-a1-0273",
+    "pos": "adv",
+    "de": "links",
+    "it": ["a sinistra", "sinistra"],
+    "promptIt": "a sinistra",
+    "examples": [
+      { "de": "Die Post ist links.", "it": "La posta è a sinistra." },
+      { "de": "Das Bad ist links neben der Küche.", "it": "Il bagno è a sinistra della cucina." }
+    ]
+  },
+  {
+    "id": "v-a1-0274",
+    "pos": "adv",
+    "de": "rechts",
+    "it": ["a destra", "destra"],
+    "promptIt": "a destra",
+    "examples": [
+      { "de": "Der Bahnhof ist rechts.", "it": "La stazione è a destra." },
+      { "de": "Die Apotheke ist hier rechts.", "it": "La farmacia è qui a destra." }
+    ]
+  },
+  {
+    "id": "v-a1-0275",
+    "pos": "adv",
+    "de": "geradeaus",
+    "it": ["dritto", "diritto", "sempre dritto"],
+    "promptIt": "dritto (avanti)",
+    "examples": [
+      { "de": "Immer geradeaus!", "it": "Sempre dritto!" },
+      { "de": "Hier geradeaus und dann links.", "it": "Di qui dritto e poi a sinistra." }
+    ]
+  },
+  {
+    "id": "v-a1-0276",
+    "pos": "adj",
+    "de": "weit",
+    "it": ["lontano", "lontana"],
+    "promptIt": "lontano",
+    "examples": [
+      { "de": "Ist der Bahnhof weit?", "it": "La stazione è lontana?" },
+      { "de": "Das Hotel ist nicht weit.", "it": "L'albergo non è lontano." }
+    ]
+  },
+  {
+    "id": "v-a1-0277",
+    "pos": "adj",
+    "de": "nah",
+    "it": ["vicino", "vicina"],
+    "promptIt": "vicino (non lontano)",
+    "acceptDe": ["nahe"],
+    "noteIt": "Si dice spesso anche in der Nähe (nelle vicinanze): hier in der Nähe = qui vicino.",
+    "examples": [
+      { "de": "Der Park ist ganz nah.", "it": "Il parco è molto vicino." },
+      { "de": "Ist die Post nah?", "it": "La posta è vicina?" }
+    ]
+  },
+  {
+    "id": "v-a1-0278",
+    "pos": "prep",
+    "de": "bei",
+    "it": ["da", "presso", "vicino a"],
+    "promptIt": "presso (da qualcuno: sono da Anna)",
+    "noteIt": "bei + dem = beim: beim Bahnhof.",
+    "examples": [
+      { "de": "Ich bin heute bei Anna.", "it": "Oggi sono da Anna." },
+      { "de": "Er wohnt bei seinen Eltern.", "it": "Abita dai suoi genitori." }
+    ]
+  },
+  {
+    "id": "v-a1-0279",
+    "pos": "noun",
+    "de": "Ecke",
+    "article": "die",
+    "plural": "Ecken",
+    "it": ["angolo"],
+    "promptIt": "l'angolo",
+    "noteIt": "In italiano è maschile, in tedesco femminile: an der Ecke = all'angolo.",
+    "examples": [
+      { "de": "Die Bank ist an der Ecke.", "it": "La banca è all'angolo." },
+      { "de": "Um die Ecke gibt es ein Café.", "it": "Dietro l'angolo c'è un bar." }
+    ]
+  },
+  {
+    "id": "v-a1-0280",
+    "pos": "noun",
+    "de": "Ampel",
+    "article": "die",
+    "plural": "Ampeln",
+    "it": ["semaforo"],
+    "promptIt": "il semaforo",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Ampel.",
+    "examples": [
+      { "de": "Die Ampel ist rot.", "it": "Il semaforo è rosso." },
+      { "de": "An der Ampel gehen Sie rechts.", "it": "Al semaforo vada a destra." }
+    ]
+  },
+  {
+    "id": "v-a1-0281",
+    "pos": "noun",
+    "de": "Brücke",
+    "article": "die",
+    "plural": "Brücken",
+    "it": ["ponte"],
+    "promptIt": "il ponte",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Brücke.",
+    "examples": [
+      { "de": "Die Brücke ist sehr alt.", "it": "Il ponte è molto antico." },
+      { "de": "Das Museum ist gleich hinter der Brücke.", "it": "Il museo è subito dopo il ponte." }
+    ]
+  },
+  {
+    "id": "v-a1-0282",
+    "pos": "phrase",
+    "de": "Wie komme ich zum Bahnhof?",
+    "it": ["come arrivo alla stazione?", "come si arriva alla stazione?", "come faccio ad arrivare alla stazione?", "come vado alla stazione?", "come si va alla stazione?"],
+    "promptIt": "come arrivo alla stazione?",
+    "acceptDe": ["Wie komme ich zum Bahnhof, bitte?", "Wie komme ich bitte zum Bahnhof?"],
+    "examples": [
+      { "de": "Entschuldigung, wie komme ich zum Bahnhof?", "it": "Scusi, come arrivo alla stazione?" },
+      { "de": "Wie komme ich zur Post?", "it": "Come arrivo alla posta?" }
+    ]
+  },
+  {
+    "id": "v-a1-0283",
+    "pos": "verb",
+    "de": "fragen",
+    "it": ["chiedere", "domandare"],
+    "promptIt": "chiedere (fare una domanda)",
+    "noteIt": "Vuole l'accusativo: Ich frage den Mann = chiedo all'uomo.",
+    "examples": [
+      { "de": "Ich frage den Mann.", "it": "Chiedo all'uomo." },
+      { "de": "Wir fragen die Frau nach dem Weg.", "it": "Chiediamo la strada alla signora." }
+    ]
+  },
+  {
+    "id": "v-a1-0284",
+    "pos": "noun",
+    "de": "Weg",
+    "article": "der",
+    "plural": "Wege",
+    "it": ["strada", "percorso", "cammino"],
+    "promptIt": "la strada (il percorso per arrivare)",
+    "noteIt": "der Weg (maschile) è il percorso per arrivare da qualche parte; die Straße è la via con le case.",
+    "examples": [
+      { "de": "Ist das der Weg zum Bahnhof?", "it": "È questa la strada per la stazione?" },
+      { "de": "Der Weg ist nicht weit.", "it": "Non è lontano." }
+    ]
+  },
+  {
+    "id": "v-a1-0285",
+    "pos": "noun",
+    "de": "Stadtplan",
+    "article": "der",
+    "plural": "Stadtpläne",
+    "it": ["piantina", "piantina della città", "mappa", "mappa della città", "cartina", "pianta della città"],
+    "promptIt": "la piantina della città",
+    "examples": [
+      { "de": "Hast du einen Stadtplan?", "it": "Hai una piantina della città?" },
+      { "de": "Ich suche das Hotel auf dem Stadtplan.", "it": "Cerco l'albergo sulla piantina." }
+    ]
+  },
+  {
+    "id": "v-a1-0286",
+    "pos": "verb",
+    "de": "ankommen",
+    "it": ["arrivare"],
+    "promptIt": "arrivare (a destinazione)",
+    "noteIt": "Separabile: Der Zug kommt um acht an.",
+    "examples": [
+      { "de": "Wann kommst du an?", "it": "Quando arrivi?" },
+      { "de": "Der Zug kommt um zehn Uhr an.", "it": "Il treno arriva alle dieci." }
+    ]
+  },
+  {
+    "id": "v-a1-0287",
+    "pos": "verb",
+    "de": "abfahren",
+    "it": ["partire"],
+    "promptIt": "partire (con un mezzo)",
+    "noteIt": "Separabile e con cambio di vocale: Der Zug fährt um neun ab.",
+    "examples": [
+      { "de": "Der Bus fährt um acht Uhr ab.", "it": "L'autobus parte alle otto." },
+      { "de": "Wann fährt der Zug ab?", "it": "Quando parte il treno?" }
+    ]
+  },
+  {
+    "id": "v-a1-0288",
+    "pos": "verb",
+    "de": "umsteigen",
+    "it": ["cambiare", "cambiare treno", "fare cambio", "fare il cambio"],
+    "promptIt": "cambiare (treno, autobus…)",
+    "noteIt": "Separabile: Wir steigen in Köln um.",
+    "examples": [
+      { "de": "Wir steigen in Köln um.", "it": "Cambiamo a Colonia." },
+      { "de": "Wo steigst du um?", "it": "Dove cambi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0289",
+    "pos": "noun",
+    "de": "Taxi",
+    "article": "das",
+    "plural": "Taxis",
+    "it": ["taxi"],
+    "promptIt": "il taxi",
+    "examples": [
+      { "de": "Wir nehmen ein Taxi.", "it": "Prendiamo un taxi." },
+      { "de": "Das Taxi ist da.", "it": "Il taxi è arrivato." }
+    ]
+  },
+  {
+    "id": "v-a1-0290",
+    "pos": "noun",
+    "de": "Zentrum",
+    "article": "das",
+    "plural": "Zentren",
+    "it": ["centro", "centro città"],
+    "promptIt": "il centro (della città)",
+    "noteIt": "In tedesco è neutro: das Zentrum. Plurale irregolare: die Zentren.",
+    "examples": [
+      { "de": "Das Hotel ist im Zentrum.", "it": "L'albergo è in centro." },
+      { "de": "Wie komme ich ins Zentrum?", "it": "Come arrivo in centro?" }
+    ]
+  }
+]

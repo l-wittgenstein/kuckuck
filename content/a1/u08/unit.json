@@ -1,0 +1,19 @@
+{
+  "id": "a1-u08",
+  "level": "a1",
+  "order": 8,
+  "title": "In der Stadt: in città",
+  "summary": "Luoghi e mezzi di trasporto, chiedere e dare indicazioni; mit, zu e bei con il dativo, nach Berlin, nach Hause.",
+  "batches": [
+    { "id": "a1-u08-b01", "itemIds": ["v-a1-0245", "v-a1-0246", "v-a1-0247", "v-a1-0248", "v-a1-0249"] },
+    { "id": "a1-u08-b02", "itemIds": ["v-a1-0250", "v-a1-0251", "v-a1-0252", "v-a1-0253", "v-a1-0254"] },
+    { "id": "a1-u08-b03", "itemIds": ["g-a1-0029", "v-a1-0255", "v-a1-0256", "v-a1-0257", "v-a1-0258"] },
+    { "id": "a1-u08-b04", "itemIds": ["v-a1-0259", "v-a1-0260", "v-a1-0261", "v-a1-0262", "v-a1-0263"] },
+    { "id": "a1-u08-b05", "itemIds": ["v-a1-0264", "v-a1-0265", "v-a1-0266", "v-a1-0267", "v-a1-0268"] },
+    { "id": "a1-u08-b06", "itemIds": ["g-a1-0030", "v-a1-0269", "v-a1-0270", "v-a1-0271", "v-a1-0272"] },
+    { "id": "a1-u08-b07", "itemIds": ["v-a1-0273", "v-a1-0274", "v-a1-0275", "v-a1-0276", "v-a1-0277"] },
+    { "id": "a1-u08-b08", "itemIds": ["g-a1-0031", "v-a1-0278", "v-a1-0279", "v-a1-0280", "v-a1-0281"] },
+    { "id": "a1-u08-b09", "itemIds": ["g-a1-0032", "v-a1-0282", "v-a1-0283", "v-a1-0284", "v-a1-0285"] },
+    { "id": "a1-u08-b10", "itemIds": ["v-a1-0286", "v-a1-0287", "v-a1-0288", "v-a1-0289", "v-a1-0290"] }
+  ]
+}
