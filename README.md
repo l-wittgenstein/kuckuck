@@ -34,6 +34,17 @@ Per correggere una parola basta modificare il testo; `npm run validate-content` 
 
 Stack: Vite, React, TypeScript. I progressi restano sul telefono (IndexedDB).
 
+## Sul telefono
+
+- **Installare:** apri il sito in Chrome → menu (⋮) → «Installa app». Dopo la prima apertura funziona anche offline.
+- **Aggiornamenti:** quando esce una nuova versione compare un avviso «Aggiorna»; niente si ricarica a metà di un quiz.
+- **Copia di sicurezza:** i progressi restano solo sul telefono. In *Impostazioni → Copia di sicurezza* si salva un file `.json` e da lì si ripristina (anche su un altro telefono).
+- **Audio:** usa la voce tedesca del telefono. Se manca, *Impostazioni → Audio* spiega come installarla.
+
+## Icone
+
+`scripts/icon.svg` è il disegno; `node scripts/render-icons.cjs` rigenera i PNG in `public/` (serve Playwright).
+
 ## Pubblicazione
 
 Il workflow `.github/workflows/deploy.yml` costruisce l'app e la pubblica su GitHub Pages a ogni push su `main`.

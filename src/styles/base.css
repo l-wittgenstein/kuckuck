@@ -215,7 +215,15 @@ a { color: var(--accent); }
 
 /* ---------- Path ---------- */
 
-.is-locked { opacity: 0.55; }
+/* Locked and unstudied things look quieter without fading the text below
+   readable contrast: no fill, a dashed edge, muted (but legible) ink. */
+.is-locked {
+  background: transparent;
+  border-style: dashed;
+  color: var(--muted);
+}
+
+.is-locked .unit-number { color: var(--muted); }
 
 .mini-bar,
 .progress-bar {
@@ -601,7 +609,8 @@ a { color: var(--accent); }
 .vocab-text { display: flex; flex-direction: column; min-width: 0; }
 .vocab-text .muted { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .vocab-de { font-size: 1.1rem; }
-.is-unstudied { opacity: 0.55; }
+.is-unstudied .vocab-de,
+.is-unstudied .vocab-de [class^="article-"] { color: var(--muted); font-weight: 500; }
 
 .card-row {
   flex-direction: row;
@@ -661,3 +670,21 @@ a { color: var(--accent); }
 }
 
 .toggle input { width: 20px; height: 20px; accent-color: var(--accent); }
+
+/* ---------- App ---------- */
+
+.update-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  padding-top: calc(10px + env(safe-area-inset-top));
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+}
+
+.update-banner span { flex: 1; }
+.update-banner .button { min-height: 38px; padding: 0 16px; }
+.hint-button { margin-top: 12px; }
+.vocab-item > .small { white-space: nowrap; }

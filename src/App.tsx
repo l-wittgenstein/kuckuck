@@ -9,6 +9,7 @@ import { SettingsScreen } from "./features/settings/SettingsScreen";
 import { ItemScreen } from "./features/vocab/ItemScreen";
 import { VocabScreen } from "./features/vocab/VocabScreen";
 import { it } from "./i18n/it";
+import { UpdateBanner } from "./pwa/UpdateBanner";
 
 function Screen({ title, text }: { title: string; text: string }) {
   return (
@@ -28,6 +29,7 @@ export function App() {
 
   return (
     <div className="shell">
+      <UpdateBanner />
       <main className="content">
         <Routes>
           <Route path="/" element={<HomeScreen />} />

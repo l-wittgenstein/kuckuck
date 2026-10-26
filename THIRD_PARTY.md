@@ -11,3 +11,5 @@
 | ts-fsrs | MIT |
 | fake-indexeddb (solo test) | Apache-2.0 |
 | Vitest, tsx (solo sviluppo) | MIT |
+| vite-plugin-pwa, Workbox | MIT |
+| axe-core (solo test di accessibilità) | MPL-2.0 |

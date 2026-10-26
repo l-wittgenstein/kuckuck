@@ -5,6 +5,8 @@ import { germanLabel } from "../../components/German";
 import { deleteFlag, exportFlags, useFlags } from "../../db/flags";
 import { setSetting, useSettings } from "../../db/settings";
 import { it } from "../../i18n/it";
+import { isInstalled, useInstallPrompt } from "../../pwa/install";
+import { BackupSection } from "./BackupSection";
 
 function itemLabel(itemId: string): string {
   const content = findItem(itemId);
@@ -18,10 +20,29 @@ export function SettingsScreen() {
   const voice = useVoiceStatus();
   // Shown immediately; the database catches up a moment later.
   const [autoplay, setAutoplay] = useState<boolean>();
+  const { canInstall, install } = useInstallPrompt();
 
   return (
     <section className="screen">
       <h1>{it.settings.title}</h1>
+
+      <h2>{it.pwa.installTitle}</h2>
+      <div className="card audio-card">
+        {isInstalled() ? (
+          <span>✓ {it.pwa.installed}</span>
+        ) : (
+          <>
+            <span>{it.pwa.installText}</span>
+            {canInstall ? (
+              <button type="button" className="button" onClick={install}>
+                {it.pwa.install}
+              </button>
+            ) : (
+              <span className="muted small">{it.pwa.installManual}</span>
+            )}
+          </>
+        )}
+      </div>
 
       <h2>{it.audio.title}</h2>
       <div className="card audio-card">
@@ -59,6 +80,8 @@ export function SettingsScreen() {
         <span className="muted small">{it.audio.slowTip}</span>
       </div>
 
+      <BackupSection />
+
       <h2>{it.settings.flags}</h2>
       {!flags ? null : flags.length === 0 ? (
         <p className="muted">{it.settings.noFlags}</p>
@@ -84,7 +107,6 @@ export function SettingsScreen() {
         </>
       )}
 
-      <p className="muted settings-later">{it.settings.comingSoon}</p>
     </section>
   );
 }

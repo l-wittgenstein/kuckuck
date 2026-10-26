@@ -8,12 +8,18 @@ import { useNow } from "../../db/reviews";
 import { MAX_DUE_FOR_LESSONS } from "../../domain/config";
 import { batchStatuses, nextBatch, unitProgress } from "../../domain/progress";
 import { itemStats } from "../../domain/stats";
+import { useSettings } from "../../db/settings";
 import { it } from "../../i18n/it";
+import { isInstalled, useInstallPrompt } from "../../pwa/install";
+
+const BACKUP_EVERY_DAYS = 30;
 
 export function HomeScreen() {
   const now = useNow();
   const passed = usePassedBatches();
   const cards = useAllCards();
+  const settings = useSettings();
+  const { canInstall, install } = useInstallPrompt();
   if (!passed || !cards) return <p className="screen muted">{it.home.loading}</p>;
 
   const active = cards.filter((c) => !c.retired);
@@ -23,11 +29,20 @@ export function HomeScreen() {
   const units = levels.flatMap((l) => l.unitContents);
   const statuses = batchStatuses(allBatches, passed);
   const stats = itemStats(units, groupByItem(cards));
+  const lastBackup = settings?.lastBackupAt?.getTime() ?? 0;
+  const backupDue =
+    settings && cards.length > 0 && now.getTime() - lastBackup > BACKUP_EVERY_DAYS * 86_400_000;
 
   return (
     <section className="screen dashboard">
       <h1>{it.home.greeting}</h1>
       <p className="muted">{it.app.tagline}</p>
+
+      {canInstall && !isInstalled() && (
+        <button type="button" className="button secondary wide hint-button" onClick={install}>
+          📲 {it.pwa.homeHint}
+        </button>
+      )}
 
       <div className="card next-card">
         <span className="unit-number">{it.home.nextUp}</span>
@@ -73,6 +88,12 @@ export function HomeScreen() {
         </div>
       </div>
       {next && paused && <p className="note">{it.home.paused(MAX_DUE_FOR_LESSONS)}</p>}
+
+      {backupDue && (
+        <p className="note">
+          {it.backup.reminder} <Link to="/impostazioni">{it.backup.reminderLink}</Link>
+        </p>
+      )}
 
       <ForecastChart dues={active.map((c) => c.due)} now={now} />
 

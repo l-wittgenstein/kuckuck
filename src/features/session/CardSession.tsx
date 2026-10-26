@@ -144,11 +144,11 @@ function Prompt({ card }: { card: CardRef }) {
     return (
       <div className="prompt">
         <span className="prompt-label">{it.quiz.cloze}</span>
-        <p className="prompt-main prompt-sentence" lang="de">
+        <h1 className="prompt-main prompt-sentence" lang="de">
           {before}
           <span className="gap">{"\u2003\u2003\u2003"}</span>
           {after}
-        </p>
+        </h1>
         {card.exercise.hintIt && <p className="hint">({card.exercise.hintIt})</p>}
         <p className="muted">{card.exercise.translationIt}</p>
       </div>
@@ -158,10 +158,10 @@ function Prompt({ card }: { card: CardRef }) {
     return (
       <div className="prompt">
         <span className="prompt-label">{it.quiz.recognition}</span>
-        <p className="prompt-main with-audio">
+        <h1 className="prompt-main with-audio">
           <GermanWord item={card.item} />
           <PlayButton text={germanLabel(card.item)} size="large" />
-        </p>
+        </h1>
       </div>
     );
   }
@@ -170,7 +170,7 @@ function Prompt({ card }: { card: CardRef }) {
       <span className="prompt-label">
         {card.item.pos === "noun" ? it.quiz.productionNoun : it.quiz.production}
       </span>
-      <p className="prompt-main">{card.item.promptIt}</p>
+      <h1 className="prompt-main">{card.item.promptIt}</h1>
     </div>
   );
 }
