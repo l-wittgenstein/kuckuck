@@ -82,7 +82,7 @@ export const it = {
     wrong: "Non proprio",
     answerWas: "Risposta giusta:",
     yourAnswer: "Hai scritto:",
-    override: "Ero giusta io: segna come corretta",
+    override: "Invece è corretto",
     overridden: "Segnata come corretta",
     retryLater: "La ritroverai alla fine del quiz.",
     notes: {

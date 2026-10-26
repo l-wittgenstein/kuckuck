@@ -8,7 +8,6 @@ import { cardsFor, type CardRef } from "../../domain/cards";
 import { nextBatch } from "../../domain/progress";
 import { cardsCleared, isFinished, quizReducer, startQuiz } from "../../domain/quiz";
 import { it } from "../../i18n/it";
-import { UmlautKeys } from "./UmlautKeys";
 
 export function QuizScreen() {
   const { batchId = "" } = useParams();
@@ -103,7 +102,6 @@ function Quiz({ batch }: { batch: BatchInfo }) {
           enterKeyHint={feedback ? "next" : "done"}
           autoFocus
         />
-        {german && !feedback && <UmlautKeys inputRef={inputRef} onInsert={setAnswer} />}
         {feedback && (
           <Feedback
             card={card}
