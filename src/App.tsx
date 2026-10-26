@@ -1,4 +1,6 @@
 import { NavLink, Route, Routes } from "react-router-dom";
+import { PathScreen } from "./features/path/PathScreen";
+import { UnitPreview } from "./features/path/UnitPreview";
 import { it } from "./i18n/it";
 
 function Screen({ title, text }: { title: string; text: string }) {
@@ -19,10 +21,8 @@ export function App() {
             path="/"
             element={<Screen title={it.home.greeting} text={it.home.comingSoon} />}
           />
-          <Route
-            path="/percorso"
-            element={<Screen title={it.path.title} text={it.path.comingSoon} />}
-          />
+          <Route path="/percorso" element={<PathScreen />} />
+          <Route path="/percorso/:unitId" element={<UnitPreview />} />
           <Route
             path="/impostazioni"
             element={<Screen title={it.settings.title} text={it.settings.comingSoon} />}

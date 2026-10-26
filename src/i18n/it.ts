@@ -15,7 +15,15 @@ export const it = {
   },
   path: {
     title: "Il tuo percorso",
-    comingSoon: "Da A1 a B1, un'unità alla volta.",
+    subtitle: "Da A1 a B1, un'unità alla volta.",
+    unit: (n: number) => `Unità ${n}`,
+    counts: (vocab: number, grammar: number) =>
+      `${vocab} parole · ${grammar} ${grammar === 1 ? "regola" : "regole"} di grammatica`,
+    back: "Percorso",
+    grammar: "Grammatica",
+    vocab: "Parole",
+    plural: "plurale",
+    noPlural: "senza plurale",
   },
   settings: {
     title: "Impostazioni",
