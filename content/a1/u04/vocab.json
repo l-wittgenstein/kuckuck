@@ -1,0 +1,360 @@
+[
+  {
+    "id": "v-a1-0094",
+    "pos": "noun",
+    "de": "Kaffee",
+    "article": "der",
+    "plural": "Kaffees",
+    "it": ["caffè"],
+    "promptIt": "il caffè",
+    "examples": [
+      { "de": "Der Kaffee ist gut.", "it": "Il caffè è buono." },
+      { "de": "Trinkst du Kaffee?", "it": "Bevi il caffè?" }
+    ]
+  },
+  {
+    "id": "v-a1-0095",
+    "pos": "noun",
+    "de": "Tee",
+    "article": "der",
+    "plural": "Tees",
+    "it": ["tè"],
+    "promptIt": "il tè",
+    "examples": [
+      { "de": "Ich trinke Tee.", "it": "Bevo il tè." },
+      { "de": "Der Tee ist heiß.", "it": "Il tè è caldo." }
+    ]
+  },
+  {
+    "id": "v-a1-0096",
+    "pos": "noun",
+    "de": "Wasser",
+    "article": "das",
+    "plural": null,
+    "it": ["acqua"],
+    "promptIt": "l'acqua",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Wasser.",
+    "examples": [
+      { "de": "Ein Wasser, bitte.", "it": "Un'acqua, per favore." },
+      { "de": "Das Wasser ist kalt.", "it": "L'acqua è fredda." }
+    ]
+  },
+  {
+    "id": "v-a1-0097",
+    "pos": "noun",
+    "de": "Milch",
+    "article": "die",
+    "plural": null,
+    "it": ["latte"],
+    "promptIt": "il latte",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Milch.",
+    "examples": [
+      { "de": "Die Milch ist kalt.", "it": "Il latte è freddo." },
+      { "de": "Trinkst du Milch?", "it": "Bevi il latte?" }
+    ]
+  },
+  {
+    "id": "v-a1-0098",
+    "pos": "verb",
+    "de": "trinken",
+    "it": ["bere"],
+    "promptIt": "bere",
+    "examples": [
+      { "de": "Ich trinke Wasser.", "it": "Bevo acqua." },
+      { "de": "Was trinkst du?", "it": "Cosa bevi?" },
+      { "de": "Wir trinken Tee.", "it": "Beviamo il tè." }
+    ]
+  },
+  {
+    "id": "v-a1-0099",
+    "pos": "noun",
+    "de": "Saft",
+    "article": "der",
+    "plural": "Säfte",
+    "it": ["succo", "succo di frutta"],
+    "promptIt": "il succo",
+    "examples": [
+      { "de": "Ich trinke einen Saft.", "it": "Bevo un succo." },
+      { "de": "Der Saft ist kalt.", "it": "Il succo è freddo." }
+    ]
+  },
+  {
+    "id": "v-a1-0100",
+    "pos": "noun",
+    "de": "Bier",
+    "article": "das",
+    "plural": "Biere",
+    "it": ["birra"],
+    "promptIt": "la birra",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Bier.",
+    "examples": [
+      { "de": "Ein Bier, bitte!", "it": "Una birra, per favore!" },
+      { "de": "Das Bier ist kalt.", "it": "La birra è fredda." }
+    ]
+  },
+  {
+    "id": "v-a1-0101",
+    "pos": "noun",
+    "de": "Wein",
+    "article": "der",
+    "plural": "Weine",
+    "it": ["vino"],
+    "promptIt": "il vino",
+    "examples": [
+      { "de": "Der Wein kommt aus Italien.", "it": "Il vino viene dall'Italia." },
+      { "de": "Trinkst du Wein?", "it": "Bevi vino?" }
+    ]
+  },
+  {
+    "id": "v-a1-0102",
+    "pos": "noun",
+    "de": "Brot",
+    "article": "das",
+    "plural": "Brote",
+    "it": ["pane"],
+    "promptIt": "il pane",
+    "noteIt": "In italiano è maschile, in tedesco neutro: das Brot.",
+    "examples": [
+      { "de": "Das Brot ist gut.", "it": "Il pane è buono." },
+      { "de": "Wir haben kein Brot.", "it": "Non abbiamo pane." }
+    ]
+  },
+  {
+    "id": "v-a1-0103",
+    "pos": "noun",
+    "de": "Brötchen",
+    "article": "das",
+    "plural": "Brötchen",
+    "it": ["panino"],
+    "promptIt": "il panino",
+    "noteIt": "Il panino tipico della colazione tedesca. È un diminutivo in -chen: neutro, e al plurale non cambia.",
+    "examples": [
+      { "de": "Ich esse ein Brötchen.", "it": "Mangio un panino." },
+      { "de": "Zwei Brötchen, bitte!", "it": "Due panini, per favore!" }
+    ]
+  },
+  {
+    "id": "v-a1-0104",
+    "pos": "noun",
+    "de": "Käse",
+    "article": "der",
+    "plural": null,
+    "it": ["formaggio"],
+    "promptIt": "il formaggio",
+    "examples": [
+      { "de": "Der Käse ist gut.", "it": "Il formaggio è buono." },
+      { "de": "Ein Brötchen mit Käse, bitte.", "it": "Un panino con il formaggio, per favore." }
+    ]
+  },
+  {
+    "id": "v-a1-0105",
+    "pos": "noun",
+    "de": "Ei",
+    "article": "das",
+    "plural": "Eier",
+    "it": ["uovo"],
+    "promptIt": "l'uovo",
+    "noteIt": "Come lo stadio Uovo dei tuoi ripassi. 🥚",
+    "examples": [
+      { "de": "Ich esse ein Ei.", "it": "Mangio un uovo." },
+      { "de": "Wir haben sechs Eier.", "it": "Abbiamo sei uova." }
+    ]
+  },
+  {
+    "id": "v-a1-0106",
+    "pos": "noun",
+    "de": "Apfel",
+    "article": "der",
+    "plural": "Äpfel",
+    "it": ["mela"],
+    "promptIt": "la mela",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Apfel.",
+    "examples": [
+      { "de": "Ich esse einen Apfel.", "it": "Mangio una mela." },
+      { "de": "Die Äpfel sind gut.", "it": "Le mele sono buone." }
+    ]
+  },
+  {
+    "id": "v-a1-0107",
+    "pos": "noun",
+    "de": "Banane",
+    "article": "die",
+    "plural": "Bananen",
+    "it": ["banana"],
+    "promptIt": "la banana",
+    "examples": [
+      { "de": "Ich esse eine Banane.", "it": "Mangio una banana." },
+      { "de": "Hast du Bananen?", "it": "Hai delle banane?" }
+    ]
+  },
+  {
+    "id": "v-a1-0108",
+    "pos": "verb",
+    "de": "essen",
+    "it": ["mangiare"],
+    "promptIt": "mangiare",
+    "noteIt": "Cambia vocale: du isst, er isst.",
+    "examples": [
+      { "de": "Was isst du?", "it": "Cosa mangi?" },
+      { "de": "Wir essen Fisch.", "it": "Mangiamo pesce." },
+      { "de": "Anna isst kein Fleisch.", "it": "Anna non mangia carne." }
+    ]
+  },
+  {
+    "id": "v-a1-0109",
+    "pos": "verb",
+    "de": "nehmen",
+    "it": ["prendere"],
+    "promptIt": "prendere",
+    "noteIt": "Cambia: du nimmst, er nimmt.",
+    "examples": [
+      { "de": "Ich nehme einen Kaffee.", "it": "Prendo un caffè." },
+      { "de": "Was nimmst du?", "it": "Cosa prendi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0110",
+    "pos": "noun",
+    "de": "Kuchen",
+    "article": "der",
+    "plural": "Kuchen",
+    "it": ["torta", "dolce"],
+    "promptIt": "la torta",
+    "noteIt": "Finisce in -chen ma non è un diminutivo: è maschile, der Kuchen.",
+    "examples": [
+      { "de": "Der Kuchen ist gut.", "it": "La torta è buona." },
+      { "de": "Ich nehme den Kuchen.", "it": "Prendo la torta." }
+    ]
+  },
+  {
+    "id": "v-a1-0111",
+    "pos": "noun",
+    "de": "Suppe",
+    "article": "die",
+    "plural": "Suppen",
+    "it": ["zuppa", "minestra"],
+    "promptIt": "la zuppa",
+    "examples": [
+      { "de": "Die Suppe ist heiß.", "it": "La zuppa è calda." },
+      { "de": "Ich nehme die Suppe.", "it": "Prendo la zuppa." }
+    ]
+  },
+  {
+    "id": "v-a1-0112",
+    "pos": "noun",
+    "de": "Fisch",
+    "article": "der",
+    "plural": "Fische",
+    "it": ["pesce"],
+    "promptIt": "il pesce",
+    "examples": [
+      { "de": "Der Fisch ist gut.", "it": "Il pesce è buono." },
+      { "de": "Ich esse keinen Fisch.", "it": "Non mangio pesce." }
+    ]
+  },
+  {
+    "id": "v-a1-0113",
+    "pos": "noun",
+    "de": "Fleisch",
+    "article": "das",
+    "plural": null,
+    "it": ["carne"],
+    "promptIt": "la carne",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Fleisch.",
+    "examples": [
+      { "de": "Das Fleisch ist gut.", "it": "La carne è buona." },
+      { "de": "Anna isst kein Fleisch.", "it": "Anna non mangia carne." }
+    ]
+  },
+  {
+    "id": "v-a1-0114",
+    "pos": "noun",
+    "de": "Salat",
+    "article": "der",
+    "plural": "Salate",
+    "it": ["insalata"],
+    "promptIt": "l'insalata",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Salat.",
+    "examples": [
+      { "de": "Ich nehme einen Salat.", "it": "Prendo un'insalata." },
+      { "de": "Der Salat ist lecker.", "it": "L'insalata è buonissima." }
+    ]
+  },
+  {
+    "id": "v-a1-0115",
+    "pos": "adj",
+    "de": "lecker",
+    "it": ["buonissimo", "buonissima", "buono", "buona", "gustoso", "gustosa", "delizioso", "deliziosa", "squisito"],
+    "promptIt": "gustoso / buonissimo (cibo)",
+    "noteIt": "Si usa solo per cibo e bevande (gustoso, buonissimo). gut va bene per tutto, anche per il cibo.",
+    "examples": [
+      { "de": "Der Kuchen ist lecker!", "it": "La torta è buonissima!" },
+      { "de": "Mmm, lecker!", "it": "Mmm, che buono!" }
+    ]
+  },
+  {
+    "id": "v-a1-0116",
+    "pos": "phrase",
+    "de": "Guten Appetit",
+    "it": ["buon appetito"],
+    "promptIt": "buon appetito",
+    "examples": [
+      { "de": "Guten Appetit! – Danke, gleichfalls!", "it": "Buon appetito! – Grazie, altrettanto!" },
+      { "de": "Das Essen ist fertig. Guten Appetit!", "it": "Il pranzo è pronto. Buon appetito!" }
+    ]
+  },
+  {
+    "id": "v-a1-0117",
+    "pos": "verb",
+    "de": "möchten",
+    "acceptDe": ["möchte"],
+    "it": ["vorrei", "volere", "desiderare"],
+    "promptIt": "vorrei (volere, in modo cortese)",
+    "noteIt": "Il modo gentile di chiedere: Ich möchte… = vorrei… Quando si ordina si dice zwei Bier, zwei Kaffee: senza plurale.",
+    "examples": [
+      { "de": "Ich möchte einen Kaffee.", "it": "Vorrei un caffè." },
+      { "de": "Was möchtest du?", "it": "Cosa vorresti?" },
+      { "de": "Wir möchten zwei Bier.", "it": "Vorremmo due birre." }
+    ]
+  },
+  {
+    "id": "v-a1-0118",
+    "pos": "noun",
+    "de": "Rechnung",
+    "article": "die",
+    "plural": "Rechnungen",
+    "it": ["conto", "fattura"],
+    "promptIt": "il conto (al ristorante)",
+    "examples": [
+      { "de": "Die Rechnung, bitte!", "it": "Il conto, per favore!" },
+      { "de": "Wo ist die Rechnung?", "it": "Dov'è il conto?" }
+    ]
+  },
+  {
+    "id": "v-a1-0119",
+    "pos": "verb",
+    "de": "mögen",
+    "it": ["piacere"],
+    "promptIt": "piacere (mi piace…)",
+    "noteIt": "Al contrario dell'italiano: chi prova il piacere è il soggetto. Ich mag Kaffee = mi piace il caffè.",
+    "examples": [
+      { "de": "Ich mag Kaffee.", "it": "Mi piace il caffè." },
+      { "de": "Magst du Fisch?", "it": "Ti piace il pesce?" },
+      { "de": "Anna mag keinen Käse.", "it": "Ad Anna non piace il formaggio." }
+    ]
+  },
+  {
+    "id": "v-a1-0120",
+    "pos": "adv",
+    "de": "gern",
+    "it": ["volentieri", "con piacere"],
+    "promptIt": "volentieri",
+    "noteIt": "Verbo + gern = mi piace fare qualcosa. Si scrive anche gerne.",
+    "examples": [
+      { "de": "Ich trinke gern Tee.", "it": "Mi piace bere il tè." },
+      { "de": "Isst du gern Fisch?", "it": "Ti piace mangiare il pesce?" },
+      { "de": "Ein Kaffee? – Gern!", "it": "Un caffè? – Volentieri!" }
+    ],
+    "acceptDe": ["gerne"]
+  }
+]

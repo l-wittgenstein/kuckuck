@@ -1,0 +1,475 @@
+[
+  {
+    "id": "g-a1-0013",
+    "title": "L'accusativo: den, einen, keinen",
+    "explanationIt": [
+      "Il complemento oggetto, cioè la persona o la cosa che riceve l'azione, in tedesco va al caso accusativo. In Ich trinke den Kaffee, den Kaffee è l'oggetto.",
+      "La buona notizia: cambia solo l'articolo maschile (e il possessivo). der diventa den, ein diventa einen, kein diventa keinen, mein diventa meinen. Femminile, neutro e plurale restano uguali.",
+      "L'hai già visto con haben: Ich habe einen Bruder. Anche trinken, essen, nehmen, möchten e mögen vogliono l'accusativo.",
+      "Il soggetto invece resta com'è: Der Kaffee ist gut. Qui il caffè non riceve un'azione, è il soggetto."
+    ],
+    "pattern": [
+      "der Kaffee → den Kaffee – maschile: cambia",
+      "ein Saft → einen Saft – maschile: cambia",
+      "kein Fisch → keinen Fisch – maschile: cambia",
+      "die Milch → die Milch – femminile: uguale",
+      "das Bier → das Bier – neutro: uguale",
+      "die Eier → die Eier – plurale: uguale"
+    ],
+    "examples": [
+      {
+        "de": "Ich trinke den Tee.",
+        "it": "Bevo il tè."
+      },
+      {
+        "de": "Ich trinke einen Saft.",
+        "it": "Bevo un succo."
+      },
+      {
+        "de": "Wir trinken die Milch.",
+        "it": "Beviamo il latte."
+      },
+      {
+        "de": "Er hat keinen Hund.",
+        "it": "Non ha un cane."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich trinke der Kaffee.",
+        "right": "Ich trinke den Kaffee.",
+        "explanationIt": "Kaffee è l'oggetto ed è maschile: den."
+      },
+      {
+        "wrong": "Ich esse einen Banane.",
+        "right": "Ich esse eine Banane.",
+        "explanationIt": "Cambia solo il maschile: Banane è femminile."
+      },
+      {
+        "wrong": "Den Kaffee ist gut.",
+        "right": "Der Kaffee ist gut.",
+        "explanationIt": "Qui Kaffee è il soggetto, non l'oggetto: resta der."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0013-e1",
+        "sentence": "Ich trinke ___ Kaffee.",
+        "answers": [
+          "den"
+        ],
+        "hintIt": "il (der Kaffee)",
+        "translationIt": "Bevo il caffè.",
+        "explanationIt": "Kaffee è maschile ed è l'oggetto: den."
+      },
+      {
+        "id": "g-a1-0013-e2",
+        "sentence": "Ich trinke ___ Saft.",
+        "answers": [
+          "einen"
+        ],
+        "hintIt": "un (der Saft)",
+        "translationIt": "Bevo un succo.",
+        "explanationIt": "Saft è maschile ed è l'oggetto: einen."
+      },
+      {
+        "id": "g-a1-0013-e3",
+        "sentence": "Wir trinken ___ Milch.",
+        "answers": [
+          "die"
+        ],
+        "hintIt": "il (die Milch)",
+        "translationIt": "Beviamo il latte.",
+        "explanationIt": "Milch è femminile: all'accusativo non cambia."
+      },
+      {
+        "id": "g-a1-0013-e4",
+        "sentence": "Ich trinke ___ Bier.",
+        "answers": [
+          "ein"
+        ],
+        "hintIt": "una (das Bier)",
+        "translationIt": "Bevo una birra.",
+        "explanationIt": "Bier è neutro: all'accusativo non cambia."
+      },
+      {
+        "id": "g-a1-0013-e5",
+        "sentence": "Wir haben ___ Brot.",
+        "answers": [
+          "kein"
+        ],
+        "hintIt": "non… (das Brot)",
+        "translationIt": "Non abbiamo pane.",
+        "explanationIt": "Brot è neutro: kein, senza desinenza."
+      },
+      {
+        "id": "g-a1-0013-e6",
+        "sentence": "Er hat ___ Bruder.",
+        "answers": [
+          "keinen"
+        ],
+        "hintIt": "nessun (der Bruder)",
+        "translationIt": "Non ha fratelli.",
+        "explanationIt": "Bruder è maschile ed è l'oggetto: keinen."
+      },
+      {
+        "id": "g-a1-0013-e7",
+        "sentence": "___ Wein ist gut.",
+        "answers": [
+          "Der"
+        ],
+        "hintIt": "il (soggetto!)",
+        "translationIt": "Il vino è buono.",
+        "explanationIt": "Trappola! Qui Wein è il soggetto: resta der."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0014",
+    "title": "Verbi che cambiano vocale: essen e nehmen",
+    "explanationIt": [
+      "Alcuni verbi cambiano la vocale della radice, ma solo con du e con er/sie/es. Le altre persone sono regolari.",
+      "essen: la e diventa i, du isst, er isst. La radice finisce già in s, quindi con du si aggiunge solo -t: du isst, come du heißt.",
+      "nehmen: la e diventa i, la h cade e la m raddoppia: du nimmst, er nimmt."
+    ],
+    "pattern": [
+      "ich esse – io mangio",
+      "du isst – tu mangi",
+      "er/sie/es isst – lui/lei mangia",
+      "wir essen – noi mangiamo",
+      "ihr esst – voi mangiate",
+      "sie/Sie essen – loro mangiano / Lei mangia",
+      "du nimmst – tu prendi",
+      "er/sie/es nimmt – lui/lei prende"
+    ],
+    "examples": [
+      {
+        "de": "Was isst du?",
+        "it": "Cosa mangi?"
+      },
+      {
+        "de": "Anna isst kein Fleisch.",
+        "it": "Anna non mangia carne."
+      },
+      {
+        "de": "Was nimmst du?",
+        "it": "Cosa prendi?"
+      },
+      {
+        "de": "Er nimmt den Fisch.",
+        "it": "Prende il pesce."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "du esst",
+        "right": "du isst",
+        "explanationIt": "Con du la e diventa i."
+      },
+      {
+        "wrong": "er nehmt",
+        "right": "er nimmt",
+        "explanationIt": "Con er: nimmt, con la doppia m."
+      },
+      {
+        "wrong": "ich isse",
+        "right": "ich esse",
+        "explanationIt": "Con ich la vocale non cambia."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0014-e1",
+        "sentence": "Was ___ du?",
+        "answers": [
+          "isst"
+        ],
+        "hintIt": "essen",
+        "translationIt": "Cosa mangi?",
+        "explanationIt": "Con du: isst."
+      },
+      {
+        "id": "g-a1-0014-e2",
+        "sentence": "Anna ___ einen Apfel.",
+        "answers": [
+          "isst"
+        ],
+        "hintIt": "essen",
+        "translationIt": "Anna mangia una mela.",
+        "explanationIt": "Con er/sie: isst."
+      },
+      {
+        "id": "g-a1-0014-e3",
+        "sentence": "Ich ___ ein Brötchen.",
+        "answers": [
+          "esse"
+        ],
+        "hintIt": "essen",
+        "translationIt": "Mangio un panino.",
+        "explanationIt": "Con ich la vocale non cambia: esse."
+      },
+      {
+        "id": "g-a1-0014-e4",
+        "sentence": "___ du einen Kaffee?",
+        "answers": [
+          "Nimmst"
+        ],
+        "hintIt": "nehmen",
+        "translationIt": "Prendi un caffè?",
+        "explanationIt": "Con du: nimmst."
+      },
+      {
+        "id": "g-a1-0014-e5",
+        "sentence": "Er ___ den Kuchen.",
+        "answers": [
+          "nimmt"
+        ],
+        "hintIt": "nehmen",
+        "translationIt": "Prende la torta.",
+        "explanationIt": "Con er: nimmt."
+      },
+      {
+        "id": "g-a1-0014-e6",
+        "sentence": "Wir ___ die Suppe.",
+        "answers": [
+          "nehmen"
+        ],
+        "hintIt": "nehmen",
+        "translationIt": "Prendiamo la zuppa.",
+        "explanationIt": "Con wir il verbo è regolare: nehmen."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0015",
+    "title": "Ordinare con möchten",
+    "explanationIt": [
+      "Per chiedere qualcosa in modo gentile si usa möchten: Ich möchte einen Kaffee = vorrei un caffè. È molto più cortese di Ich will (voglio).",
+      "Attenzione: con er/sie/es non c'è la -t. Er möchte, proprio come ich möchte.",
+      "Quello che desideri è l'oggetto, quindi va all'accusativo: Ich möchte einen Tee.",
+      "Se c'è un altro verbo, il suo infinito va in fondo alla frase: Ich möchte Deutsch lernen."
+    ],
+    "pattern": [
+      "ich möchte – io vorrei",
+      "du möchtest – tu vorresti",
+      "er/sie/es möchte – lui/lei vorrebbe",
+      "wir möchten – noi vorremmo",
+      "ihr möchtet – voi vorreste",
+      "sie/Sie möchten – loro vorrebbero / Lei vorrebbe"
+    ],
+    "examples": [
+      {
+        "de": "Ich möchte einen Kaffee, bitte.",
+        "it": "Vorrei un caffè, per favore."
+      },
+      {
+        "de": "Was möchtest du?",
+        "it": "Cosa vorresti?"
+      },
+      {
+        "de": "Wir möchten die Rechnung, bitte.",
+        "it": "Vorremmo il conto, per favore."
+      },
+      {
+        "de": "Ich möchte Deutsch lernen.",
+        "it": "Vorrei imparare il tedesco."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "er möchtet",
+        "right": "er möchte",
+        "explanationIt": "Con er/sie/es niente -t: möchte."
+      },
+      {
+        "wrong": "Ich möchte ein Tee.",
+        "right": "Ich möchte einen Tee.",
+        "explanationIt": "Tee è maschile ed è l'oggetto: einen."
+      },
+      {
+        "wrong": "Ich möchte trinken einen Kaffee.",
+        "right": "Ich möchte einen Kaffee trinken.",
+        "explanationIt": "L'infinito va in fondo alla frase."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0015-e1",
+        "sentence": "Ich ___ einen Kaffee.",
+        "answers": [
+          "möchte"
+        ],
+        "hintIt": "möchten",
+        "translationIt": "Vorrei un caffè.",
+        "explanationIt": "Con ich: möchte."
+      },
+      {
+        "id": "g-a1-0015-e2",
+        "sentence": "Was ___ du?",
+        "answers": [
+          "möchtest"
+        ],
+        "hintIt": "möchten",
+        "translationIt": "Cosa vorresti?",
+        "explanationIt": "Con du: möchtest."
+      },
+      {
+        "id": "g-a1-0015-e3",
+        "sentence": "Anna ___ eine Suppe.",
+        "answers": [
+          "möchte"
+        ],
+        "hintIt": "möchten",
+        "translationIt": "Anna vorrebbe una zuppa.",
+        "explanationIt": "Con er/sie: möchte, senza -t."
+      },
+      {
+        "id": "g-a1-0015-e4",
+        "sentence": "Wir ___ die Rechnung, bitte.",
+        "answers": [
+          "möchten"
+        ],
+        "hintIt": "möchten",
+        "translationIt": "Vorremmo il conto, per favore.",
+        "explanationIt": "Con wir: möchten."
+      },
+      {
+        "id": "g-a1-0015-e5",
+        "sentence": "Ich möchte ___ Tee.",
+        "answers": [
+          "einen"
+        ],
+        "hintIt": "un (der Tee)",
+        "translationIt": "Vorrei un tè.",
+        "explanationIt": "Tee è maschile ed è l'oggetto: einen."
+      },
+      {
+        "id": "g-a1-0015-e6",
+        "sentence": "Ich möchte Deutsch ___.",
+        "answers": [
+          "lernen"
+        ],
+        "hintIt": "imparare",
+        "translationIt": "Vorrei imparare il tedesco.",
+        "explanationIt": "Il secondo verbo va all'infinito, in fondo alla frase."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0016",
+    "title": "«Mi piace»: mögen e gern",
+    "explanationIt": [
+      "«Mi piace il caffè» in tedesco si dice al contrario: Ich mag Kaffee. Chi prova il piacere è il soggetto, la cosa che piace è l'oggetto.",
+      "mögen è irregolare: ich mag, du magst, er/sie/es mag. Con ich e con er non c'è desinenza.",
+      "Per dire che ti piace fare qualcosa si usa gern dopo il verbo coniugato (e dopo il soggetto, se il soggetto viene dopo il verbo): Ich trinke gern Tee = mi piace bere il tè. Trinkst du gern Tee? Per il contrario: Ich esse nicht gern Fisch."
+    ],
+    "pattern": [
+      "ich mag – a me piace",
+      "du magst – a te piace",
+      "er/sie/es mag – a lui/lei piace",
+      "wir mögen – a noi piace",
+      "ihr mögt – a voi piace",
+      "sie/Sie mögen – a loro piace / a Lei piace",
+      "Ich trinke gern Tee. – Mi piace bere il tè."
+    ],
+    "examples": [
+      {
+        "de": "Ich mag Kaffee.",
+        "it": "Mi piace il caffè."
+      },
+      {
+        "de": "Magst du Bier?",
+        "it": "Ti piace la birra?"
+      },
+      {
+        "de": "Wir essen gern Pizza.",
+        "it": "Ci piace mangiare la pizza."
+      },
+      {
+        "de": "Ich esse nicht gern Fisch.",
+        "it": "Non mi piace mangiare il pesce."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich mage Kaffee.",
+        "right": "Ich mag Kaffee.",
+        "explanationIt": "Con ich niente desinenza: mag."
+      },
+      {
+        "wrong": "Mir mag Kaffee.",
+        "right": "Ich mag Kaffee.",
+        "explanationIt": "In italiano «mi piace», ma in tedesco chi prova il piacere è il soggetto: ich."
+      },
+      {
+        "wrong": "Ich gern trinke Tee.",
+        "right": "Ich trinke gern Tee.",
+        "explanationIt": "gern va dopo il verbo coniugato, mai prima."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0016-e1",
+        "sentence": "Ich ___ Kaffee.",
+        "answers": [
+          "mag"
+        ],
+        "hintIt": "mögen",
+        "translationIt": "Mi piace il caffè.",
+        "explanationIt": "Con ich: mag, senza desinenza."
+      },
+      {
+        "id": "g-a1-0016-e2",
+        "sentence": "___ du Fisch?",
+        "answers": [
+          "Magst"
+        ],
+        "hintIt": "mögen",
+        "translationIt": "Ti piace il pesce?",
+        "explanationIt": "Con du: magst."
+      },
+      {
+        "id": "g-a1-0016-e3",
+        "sentence": "Anna ___ keinen Käse.",
+        "answers": [
+          "mag"
+        ],
+        "hintIt": "mögen",
+        "translationIt": "Ad Anna non piace il formaggio.",
+        "explanationIt": "Con er/sie: mag, senza desinenza."
+      },
+      {
+        "id": "g-a1-0016-e4",
+        "sentence": "Ich trinke ___ Tee.",
+        "answers": [
+          "gern",
+          "gerne"
+        ],
+        "hintIt": "volentieri",
+        "translationIt": "Mi piace bere il tè.",
+        "explanationIt": "Verbo + gern = mi piace farlo."
+      },
+      {
+        "id": "g-a1-0016-e5",
+        "sentence": "Wir ___ Kuchen.",
+        "answers": [
+          "mögen"
+        ],
+        "hintIt": "mögen",
+        "translationIt": "A noi piace la torta.",
+        "explanationIt": "Con wir: mögen."
+      },
+      {
+        "id": "g-a1-0016-e6",
+        "sentence": "Ich esse nicht ___ Fisch.",
+        "answers": [
+          "gern",
+          "gerne"
+        ],
+        "hintIt": "volentieri",
+        "translationIt": "Non mi piace mangiare il pesce.",
+        "explanationIt": "nicht gern = non mi piace."
+      }
+    ]
+  }
+]

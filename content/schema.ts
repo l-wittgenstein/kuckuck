@@ -18,6 +18,7 @@ export const PartOfSpeech = z.enum([
   "pron",
   "prep",
   "conj",
+  "det", // determiner other than der/die/das, e.g. kein
   "num",
   "interj",
   "phrase",
@@ -32,6 +33,8 @@ export const VocabItemSchema = z.object({
   article: ArticleSchema.optional(),
   // null = no plural in normal use (e.g. die Sonne)
   plural: text.nullable().optional(),
+  // Exists only in the plural (die Eltern); plural is then null.
+  pluralOnly: z.literal(true).optional(),
   // Accepted Italian meanings; the first is the one shown.
   it: z.array(text).min(1),
   // Prompt for Italian → German, disambiguated where needed.

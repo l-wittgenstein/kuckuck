@@ -1,3 +1,4 @@
+/// <reference types="vitest/config" />
 import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
@@ -25,6 +26,11 @@ function contentSecurityPolicy(): Plugin {
 // Relative base so the build works under any GitHub Pages sub-path.
 export default defineConfig({
   base: "./",
+  test: {
+    // Vitest's on-disk module cache doesn't notice new content files, so
+    // the content loader's glob would go stale after adding a unit.
+    fsModuleCache: false,
+  },
   plugins: [
     react(),
     contentSecurityPolicy(),

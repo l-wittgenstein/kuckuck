@@ -1,0 +1,16 @@
+{
+  "id": "a1-u03",
+  "level": "a1",
+  "order": 3,
+  "title": "Meine Familie: la famiglia",
+  "summary": "La famiglia e le persone, i possessivi, gli aggettivi dopo sein, la negazione con nicht e kein, i numeri fino a 100.",
+  "batches": [
+    { "id": "a1-u03-b01", "itemIds": ["g-a1-0009", "v-a1-0064", "v-a1-0065", "v-a1-0066", "v-a1-0067"] },
+    { "id": "a1-u03-b02", "itemIds": ["v-a1-0068", "v-a1-0069", "v-a1-0070", "v-a1-0071", "v-a1-0072"] },
+    { "id": "a1-u03-b03", "itemIds": ["v-a1-0073", "v-a1-0074", "v-a1-0075", "v-a1-0076", "v-a1-0077"] },
+    { "id": "a1-u03-b04", "itemIds": ["v-a1-0078", "v-a1-0079", "v-a1-0080", "v-a1-0081", "g-a1-0010"] },
+    { "id": "a1-u03-b05", "itemIds": ["g-a1-0011", "v-a1-0082", "v-a1-0083", "v-a1-0084", "v-a1-0085"] },
+    { "id": "a1-u03-b06", "itemIds": ["g-a1-0012", "v-a1-0086", "v-a1-0087", "v-a1-0088", "v-a1-0089"] },
+    { "id": "a1-u03-b07", "itemIds": ["v-a1-0090", "v-a1-0091", "v-a1-0092", "v-a1-0093"] }
+  ]
+}

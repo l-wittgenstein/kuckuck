@@ -6,7 +6,7 @@ const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one :
 export const it = {
   app: {
     name: "Kuckuck",
-    tagline: "il tedesco, un passo alla volta",
+    tagline: "Il tedesco, un passo alla volta",
   },
   nav: {
     home: "Oggi",
@@ -56,6 +56,7 @@ export const it = {
     reviewOnly: "Hai già completato questa lezione.",
     plural: "plurale",
     noPlural: "senza plurale",
+    pluralOnly: "esiste solo al plurale",
     examples: "Esempi",
     pattern: "Schema",
     mistakes: "Errori tipici",
@@ -70,6 +71,7 @@ export const it = {
       pron: "pronome",
       prep: "preposizione",
       conj: "congiunzione",
+      det: "articolo",
       num: "numero",
       interj: "esclamazione",
       phrase: "espressione",

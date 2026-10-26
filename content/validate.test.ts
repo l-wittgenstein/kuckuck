@@ -1,15 +1,19 @@
-import { cpSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
+import { cpSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { describe, expect, it } from "vitest";
+import { afterAll, describe, expect, it } from "vitest";
 import { validateContent } from "./validate";
 
 const root = fileURLToPath(new URL(".", import.meta.url));
 
+const copies: string[] = [];
+afterAll(() => copies.forEach((dir) => rmSync(dir, { recursive: true, force: true })));
+
 // Copies the real content and lets a test break one file.
 function brokenCopy(file: string, edit: (data: any) => void): string {
   const dir = mkdtempSync(join(tmpdir(), "kuckuck-content-"));
+  copies.push(dir);
   cpSync(root, dir, { recursive: true });
   const path = join(dir, file);
   const data = JSON.parse(readFileSync(path, "utf8"));
@@ -23,7 +27,7 @@ describe("validateContent", () => {
     const report = validateContent(root);
     expect(report.errors).toEqual([]);
     expect(report.warnings).toEqual([]);
-    expect(report.counts.units).toBe(2);
+    expect(report.counts.units).toBeGreaterThan(0);
   });
 
   it("rejects a noun without article", () => {
