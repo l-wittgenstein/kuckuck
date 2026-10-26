@@ -164,6 +164,13 @@ export const it = {
     doneTitle: "Ripassi finiti!",
     doneText: (right: number, total: number) => `Al primo colpo: ${right} su ${total}.`,
     promoted: (n: number) => `${plural(n, "elemento è salito", "elementi sono saliti")} di livello.`,
+    accuracy: (pct: number) => `Precisione: ${pct}%`,
+    wrongItems: (n: number) => `Da rivedere (${n})`,
+    rightItems: (n: number) => `Giusti (${n})`,
+    drill: "Esercitati ancora",
+    drillHint: "Ogni domanda sbagliata ti torna 3 volte. È solo pratica: i ripassi non cambiano.",
+    drillDone: "Esercizio finito. Brava!",
+    toResults: "Risultati",
   },
   stages: {
     uovo: "Uovo",

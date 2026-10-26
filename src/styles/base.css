@@ -711,3 +711,40 @@ a { color: var(--accent); }
 
 .lesson-grammar { display: flex; align-items: baseline; gap: 8px; margin-top: 2px; }
 .lesson-grammar .tag { flex: none; font-size: 0.75rem; padding: 1px 8px; }
+
+/* ---------- Review results ---------- */
+
+.focus-header button.back-link { text-decoration: none; padding: 0; }
+
+.results { text-align: left; }
+.results h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.05rem;
+  margin: 28px 0 10px;
+}
+.accuracy {
+  height: 10px;
+  border-radius: 5px;
+  background: var(--line);
+  overflow: hidden;
+  margin: 8px 0 4px;
+}
+.accuracy > span { display: block; height: 100%; background: var(--das); }
+.result-chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; list-style: none; }
+.result-chip {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 6px 12px;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--das);
+  max-width: 100%;
+}
+.result-chip.is-wrong { border-left-color: var(--die); }
+.result-chip .de { font-weight: 600; }
+.result-chip .it { font-size: 0.85rem; color: var(--muted); }
+.button.small { min-height: 40px; padding: 0 16px; font-size: 0.95rem; }

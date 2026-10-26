@@ -24,12 +24,18 @@ export type QuizAction =
   | { type: "undoOverride" }
   | { type: "continue" };
 
-export function startQuiz(cards: CardRef[], random: () => number = Math.random): QuizState {
-  const queue = [...cards];
-  for (let i = queue.length - 1; i > 0; i--) {
+export function shuffled<T>(items: T[], random: () => number = Math.random): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i--) {
     const j = Math.floor(random() * (i + 1));
-    [queue[i], queue[j]] = [queue[j], queue[i]];
+    [copy[i], copy[j]] = [copy[j], copy[i]];
   }
+  return copy;
+}
+
+// ordered: ask the cards as given (the extra-practice drill builds its own order).
+export function startQuiz(cards: CardRef[], random: () => number = Math.random, ordered = false): QuizState {
+  const queue = ordered ? [...cards] : shuffled(cards, random);
   return { queue, firstAttempts: {}, total: cards.length };
 }
 

@@ -47,7 +47,11 @@ function check(card: CardRef, answer: string): CheckResult {
 
 export interface CardSessionProps {
   cards: CardRef[];
-  closeTo: string;
+  // Where the top-left link leaves to, or a button that replaces it.
+  closeTo?: string;
+  close?: { label: string; onClick: () => void };
+  // Ask the cards in the given order instead of shuffling them.
+  ordered?: boolean;
   // Called for every submitted answer; isFirst is false on retries.
   onAnswer?: (card: CardRef, answer: string, result: CheckResult, isFirst: boolean) => void;
   // overridden=false when she taps "Annulla".
@@ -56,8 +60,17 @@ export interface CardSessionProps {
   renderDone: (state: QuizState) => ReactNode;
 }
 
-export function CardSession({ cards, closeTo, onAnswer, onOverride, extraFeedback, renderDone }: CardSessionProps) {
-  const [state, dispatch] = useReducer(quizReducer, cards, (c) => startQuiz(c));
+export function CardSession({
+  cards,
+  closeTo = "/",
+  close,
+  ordered,
+  onAnswer,
+  onOverride,
+  extraFeedback,
+  renderDone,
+}: CardSessionProps) {
+  const [state, dispatch] = useReducer(quizReducer, cards, (c) => startQuiz(c, Math.random, ordered));
   const [answer, setAnswer] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
   const settings = useSettings();
@@ -85,9 +98,15 @@ export function CardSession({ cards, closeTo, onAnswer, onOverride, extraFeedbac
   return (
     <section className="screen quiz">
       <header className="focus-header">
-        <Link to={closeTo} className="back-link">
-          ✕ {it.quiz.quit}
-        </Link>
+        {close ? (
+          <button type="button" className="back-link link-button" onClick={close.onClick}>
+            ← {close.label}
+          </button>
+        ) : (
+          <Link to={closeTo} className="back-link">
+            ✕ {it.quiz.quit}
+          </Link>
+        )}
         <span className="muted">{it.quiz.progress(cardsCleared(state), state.total)}</span>
       </header>
       <div className="progress-bar" aria-hidden="true">
