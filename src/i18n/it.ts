@@ -171,6 +171,8 @@ export const it = {
     drillHint: "Ogni domanda sbagliata ti torna 3 volte. È solo pratica: i ripassi non cambiano.",
     drillDone: "Esercizio finito. Brava!",
     toResults: "Risultati",
+    resultsTitle: "Com'è andata finora",
+    continue: "Continua i ripassi",
   },
   stages: {
     uovo: "Uovo",

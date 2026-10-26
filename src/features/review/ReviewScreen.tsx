@@ -13,8 +13,16 @@ import { CardSession } from "../session/CardSession";
 import { Arrow } from "../../components/Arrow";
 
 // Reviews of everything due now. The first answer to each card is rated
-// and saved immediately; retries after a miss are practice only.
+// and saved immediately; retries after a miss are practice only. She can
+// stop at any point and see the results so far; "continue" starts a new
+// round with whatever is still due.
 export function ReviewScreen() {
+  const [round, setRound] = useState(0);
+  return <ReviewRound key={round} onRestart={() => setRound((r) => r + 1)} />;
+}
+
+function ReviewRound({ onRestart }: { onRestart: () => void }) {
+  const [stoppedAt, setStoppedAt] = useState<QuizState>();
   const [cards, setCards] = useState<CardRef[]>();
   const [outcomes, setOutcomes] = useState<Record<string, ReviewOutcome>>({});
   const saved = useRef<Record<string, ReviewOutcome>>({});
@@ -34,6 +42,11 @@ export function ReviewScreen() {
   }, []);
 
   if (!cards) return <p className="screen muted">{it.review.loading}</p>;
+  // Wait for pending saves, so the next round doesn't ask them again.
+  const restart = () => void queue.current.then(onRestart);
+  if (stoppedAt) {
+    return <ReviewDone cards={cards} state={stoppedAt} outcomes={outcomes} onContinue={restart} />;
+  }
   if (cards.length === 0) {
     return (
       <section className="screen quiz-done">
@@ -61,6 +74,11 @@ export function ReviewScreen() {
     <CardSession
       cards={cards}
       closeTo="/"
+      close={{
+        label: it.review.toResults,
+        onClick: setStoppedAt,
+        show: (state) => Object.keys(state.firstAttempts).length > 0,
+      }}
       onAnswer={(card, answer, result, isFirst) => {
         if (isFirst) save(card, () => recordReview(card.id, answer, result));
       }}
@@ -93,11 +111,14 @@ function ReviewDone({
   cards,
   state,
   outcomes,
+  onContinue,
 }: {
   cards: CardRef[];
   state: QuizState;
   outcomes: Record<string, ReviewOutcome>;
+  onContinue?: () => void;
 }) {
+  const stoppedEarly = state.queue.length > 0;
   const [drilling, setDrilling] = useState(false);
   const [drills, setDrills] = useState(0);
   const results = sessionResults(cards, state.firstAttempts);
@@ -126,7 +147,7 @@ function ReviewDone({
   return (
     <section className="screen quiz-done">
       <p className="big-emoji" aria-hidden="true">🐦</p>
-      <h1>{it.review.doneTitle}</h1>
+      <h1>{stoppedEarly ? it.review.resultsTitle : it.review.doneTitle}</h1>
       <div className="results">
         <p>{it.review.doneText(results.rightCards, results.answeredCards)}</p>
         <div
@@ -166,7 +187,12 @@ function ReviewDone({
         )}
       </div>
       <div className="stack">
-        <Link to="/" className="button wide">
+        {stoppedEarly && onContinue && (
+          <button type="button" className="button wide" onClick={onContinue}>
+            {it.review.continue}
+          </button>
+        )}
+        <Link to="/" className={`button wide ${stoppedEarly ? "secondary" : ""}`}>
           {it.quiz.backHome}
         </Link>
       </div>

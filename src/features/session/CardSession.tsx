@@ -50,7 +50,9 @@ export interface CardSessionProps {
   cards: CardRef[];
   // Where the top-left link leaves to, or a button that replaces it.
   closeTo?: string;
-  close?: { label: string; onClick: () => void };
+  // Shown in place of the link while `show` (default: always) holds;
+  // onClick gets the session so far.
+  close?: { label: string; onClick: (state: QuizState) => void; show?: (state: QuizState) => boolean };
   // Ask the cards in the given order instead of shuffling them.
   ordered?: boolean;
   // Called for every submitted answer; isFirst is false on retries.
@@ -99,8 +101,8 @@ export function CardSession({
   return (
     <section className="screen quiz">
       <header className="focus-header">
-        {close ? (
-          <button type="button" className="back-link link-button" onClick={close.onClick}>
+        {close && (close.show?.(state) ?? true) ? (
+          <button type="button" className="back-link link-button" onClick={() => close.onClick(state)}>
             <Arrow left /> {close.label}
           </button>
         ) : (
