@@ -114,6 +114,7 @@ a { color: var(--accent); }
 }
 
 .unit-number {
+  display: block;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -128,7 +129,7 @@ a { color: var(--accent); }
 
 .back-link {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   text-decoration: none;
 }
 
@@ -141,3 +142,24 @@ a { color: var(--accent); }
 .article-der { color: var(--der); }
 .article-die { color: var(--die); }
 .article-das { color: var(--das); }
+
+.pattern {
+  width: 100%;
+  margin-top: 8px;
+  border-collapse: collapse;
+}
+
+.pattern td {
+  padding: 7px 0;
+  border-top: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.pattern tr:first-child td { border-top: none; }
+
+.pattern td.pattern-de {
+  width: 1%;
+  white-space: nowrap;
+  padding-right: 24px;
+  font-weight: 600;
+}

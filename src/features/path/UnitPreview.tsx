@@ -33,7 +33,26 @@ export function UnitPreview() {
         {unit.grammar.map((g) => (
           <li key={g.id} className="card">
             <strong>{g.title}</strong>
-            <span className="muted">{g.pattern.join(" · ")}</span>
+            <table className="pattern">
+              <tbody>
+                {g.pattern.map((line) => {
+                  // "ich bin – io sono" → German | Italian; other lines span both.
+                  const [de, itText] = line.split(" – ");
+                  return (
+                    <tr key={line}>
+                      {itText === undefined ? (
+                        <td colSpan={2} lang="de">{line}</td>
+                      ) : (
+                        <>
+                          <td lang="de" className="pattern-de">{de}</td>
+                          <td className="muted">{itText}</td>
+                        </>
+                      )}
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </li>
         ))}
       </ul>

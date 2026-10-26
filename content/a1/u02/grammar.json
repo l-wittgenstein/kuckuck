@@ -180,12 +180,13 @@
       "Spesso il plurale aggiunge l'Umlaut (i due puntini) sulla vocale: Buch → Bücher, Bruder → Brüder."
     ],
     "pattern": [
-      "-e: der Hund → die Hunde",
-      "-er (con Umlaut): der Mann → die Männer, das Buch → die Bücher",
-      "-n / -en: die Katze → die Katzen, die Frau → die Frauen",
-      "-s: das Auto → die Autos",
-      "uguale: das Mädchen → die Mädchen",
-      "solo Umlaut: der Bruder → die Brüder"
+      "-e – Hund → die Hunde",
+      "-er + Umlaut – Buch → die Bücher",
+      "-er – Kind → die Kinder",
+      "-n / -en – Katze → die Katzen",
+      "-s – Auto → die Autos",
+      "uguale – Mädchen → die Mädchen",
+      "solo Umlaut – Bruder → die Brüder"
     ],
     "examples": [
       { "de": "Die Kinder lernen Deutsch.", "it": "I bambini imparano il tedesco." },
