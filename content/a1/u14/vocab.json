@@ -1,0 +1,543 @@
+[
+  {
+    "id": "v-a1-0490",
+    "pos": "noun",
+    "de": "Körper",
+    "article": "der",
+    "plural": "Körper",
+    "it": ["corpo"],
+    "promptIt": "il corpo",
+    "examples": [
+      { "de": "Der Körper braucht Wasser.", "it": "Il corpo ha bisogno di acqua." },
+      { "de": "Sport ist gut für den Körper.", "it": "Lo sport fa bene al corpo." }
+    ]
+  },
+  {
+    "id": "v-a1-0491",
+    "pos": "noun",
+    "de": "Kopf",
+    "article": "der",
+    "plural": "Köpfe",
+    "it": ["testa"],
+    "promptIt": "la testa",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Kopf.",
+    "examples": [
+      { "de": "Mein Kopf tut weh.", "it": "Mi fa male la testa." },
+      { "de": "Sein Kopf ist ganz heiß.", "it": "Ha la testa che scotta." }
+    ]
+  },
+  {
+    "id": "v-a1-0492",
+    "pos": "noun",
+    "de": "Arm",
+    "article": "der",
+    "plural": "Arme",
+    "it": ["braccio"],
+    "promptIt": "il braccio",
+    "noteIt": "Il plurale è regolare: die Arme (in italiano le braccia).",
+    "examples": [
+      { "de": "Mein Arm tut weh.", "it": "Mi fa male il braccio." },
+      { "de": "Er hat lange Arme.", "it": "Ha le braccia lunghe." }
+    ]
+  },
+  {
+    "id": "v-a1-0493",
+    "pos": "noun",
+    "de": "Bein",
+    "article": "das",
+    "plural": "Beine",
+    "it": ["gamba"],
+    "promptIt": "la gamba",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Bein.",
+    "examples": [
+      { "de": "Mein Bein tut weh.", "it": "Mi fa male la gamba." },
+      { "de": "Sie hat lange Beine.", "it": "Ha le gambe lunghe." }
+    ]
+  },
+  {
+    "id": "v-a1-0494",
+    "pos": "noun",
+    "de": "Hand",
+    "article": "die",
+    "plural": "Hände",
+    "it": ["mano"],
+    "promptIt": "la mano",
+    "examples": [
+      { "de": "Gib mir die Hand!", "it": "Dammi la mano!" },
+      { "de": "Meine Hände sind kalt.", "it": "Ho le mani fredde." }
+    ]
+  },
+  {
+    "id": "v-a1-0495",
+    "pos": "noun",
+    "de": "Fuß",
+    "article": "der",
+    "plural": "Füße",
+    "it": ["piede"],
+    "promptIt": "il piede",
+    "examples": [
+      { "de": "Mein Fuß tut weh.", "it": "Mi fa male il piede." },
+      { "de": "Nach dem Wandern tun mir die Füße weh.", "it": "Dopo l'escursione mi fanno male i piedi." }
+    ]
+  },
+  {
+    "id": "v-a1-0496",
+    "pos": "noun",
+    "de": "Bauch",
+    "article": "der",
+    "plural": "Bäuche",
+    "it": ["pancia", "stomaco", "ventre"],
+    "promptIt": "la pancia",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Bauch.",
+    "examples": [
+      { "de": "Mein Bauch tut weh.", "it": "Mi fa male la pancia." },
+      { "de": "Ich schlafe gern auf dem Bauch.", "it": "Mi piace dormire a pancia in giù." }
+    ]
+  },
+  {
+    "id": "v-a1-0497",
+    "pos": "noun",
+    "de": "Rücken",
+    "article": "der",
+    "plural": "Rücken",
+    "it": ["schiena"],
+    "promptIt": "la schiena",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Rücken.",
+    "examples": [
+      { "de": "Mein Rücken tut weh.", "it": "Mi fa male la schiena." },
+      { "de": "Ich schlafe auf dem Rücken.", "it": "Dormo sulla schiena." }
+    ]
+  },
+  {
+    "id": "v-a1-0498",
+    "pos": "noun",
+    "de": "Auge",
+    "article": "das",
+    "plural": "Augen",
+    "it": ["occhio"],
+    "promptIt": "l'occhio",
+    "noteIt": "In tedesco è neutro: das Auge.",
+    "examples": [
+      { "de": "Sie hat blaue Augen.", "it": "Ha gli occhi azzurri." },
+      { "de": "Mein Auge tut weh.", "it": "Mi fa male l'occhio." }
+    ]
+  },
+  {
+    "id": "v-a1-0499",
+    "pos": "noun",
+    "de": "Ohr",
+    "article": "das",
+    "plural": "Ohren",
+    "it": ["orecchio"],
+    "promptIt": "l'orecchio",
+    "noteIt": "In tedesco è neutro: das Ohr.",
+    "examples": [
+      { "de": "Mein Ohr tut weh.", "it": "Mi fa male l'orecchio." },
+      { "de": "Der Hund hat große Ohren.", "it": "Il cane ha le orecchie grandi." }
+    ]
+  },
+  {
+    "id": "v-a1-0500",
+    "pos": "noun",
+    "de": "Nase",
+    "article": "die",
+    "plural": "Nasen",
+    "it": ["naso"],
+    "promptIt": "il naso",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Nase.",
+    "examples": [
+      { "de": "Meine Nase läuft.", "it": "Mi cola il naso." },
+      { "de": "Seine Nase ist rot.", "it": "Ha il naso rosso." }
+    ]
+  },
+  {
+    "id": "v-a1-0501",
+    "pos": "noun",
+    "de": "Mund",
+    "article": "der",
+    "plural": "Münder",
+    "it": ["bocca"],
+    "promptIt": "la bocca",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Mund.",
+    "examples": [
+      { "de": "Mach bitte den Mund auf!", "it": "Apri la bocca, per favore!" },
+      { "de": "Mein Mund ist ganz trocken.", "it": "Ho la bocca secca." }
+    ]
+  },
+  {
+    "id": "v-a1-0502",
+    "pos": "noun",
+    "de": "Zahn",
+    "article": "der",
+    "plural": "Zähne",
+    "it": ["dente"],
+    "promptIt": "il dente",
+    "examples": [
+      { "de": "Mein Zahn tut weh.", "it": "Mi fa male un dente." },
+      { "de": "Ich putze mir die Zähne.", "it": "Mi lavo i denti." }
+    ]
+  },
+  {
+    "id": "v-a1-0503",
+    "pos": "noun",
+    "de": "Hals",
+    "article": "der",
+    "plural": "Hälse",
+    "it": ["collo", "gola"],
+    "promptIt": "il collo (e la gola)",
+    "noteIt": "Vuol dire anche «gola»: Mein Hals tut weh = mi fa male la gola.",
+    "examples": [
+      { "de": "Mein Hals tut weh.", "it": "Mi fa male la gola." },
+      { "de": "Die Giraffe hat einen langen Hals.", "it": "La giraffa ha il collo lungo." }
+    ]
+  },
+  {
+    "id": "v-a1-0504",
+    "pos": "noun",
+    "de": "Haar",
+    "article": "das",
+    "plural": "Haare",
+    "it": ["capello", "capelli"],
+    "promptIt": "il capello",
+    "acceptDe": ["Haare"],
+    "noteIt": "Di solito si usa al plurale, come in italiano: die Haare = i capelli.",
+    "examples": [
+      { "de": "Sie hat lange Haare.", "it": "Ha i capelli lunghi." },
+      { "de": "Er hat schwarze Haare.", "it": "Ha i capelli neri." }
+    ]
+  },
+  {
+    "id": "v-a1-0505",
+    "pos": "verb",
+    "de": "wehtun",
+    "it": ["fare male", "far male"],
+    "promptIt": "fare male",
+    "acceptDe": ["weh tun"],
+    "noteIt": "Separabile: Der Kopf tut mir weh = mi fa male la testa.",
+    "examples": [
+      { "de": "Mein Kopf tut weh.", "it": "Mi fa male la testa." },
+      { "de": "Tut das weh?", "it": "Fa male?" }
+    ]
+  },
+  {
+    "id": "v-a1-0506",
+    "pos": "noun",
+    "de": "Schmerz",
+    "article": "der",
+    "plural": "Schmerzen",
+    "it": ["dolore", "male"],
+    "promptIt": "il dolore",
+    "acceptDe": ["Schmerzen"],
+    "noteIt": "Di solito si usa al plurale: Ich habe Schmerzen = ho dei dolori.",
+    "examples": [
+      { "de": "Ich habe Schmerzen.", "it": "Ho dei dolori." },
+      { "de": "Der Schmerz ist stark.", "it": "Il dolore è forte." }
+    ]
+  },
+  {
+    "id": "v-a1-0507",
+    "pos": "adj",
+    "de": "krank",
+    "it": ["malato", "malata"],
+    "promptIt": "malato",
+    "examples": [
+      { "de": "Ich bin krank.", "it": "Sono malata." },
+      { "de": "Mein Sohn ist seit Montag krank.", "it": "Mio figlio è malato da lunedì." }
+    ]
+  },
+  {
+    "id": "v-a1-0508",
+    "pos": "adj",
+    "de": "gesund",
+    "it": ["sano", "sana", "in salute", "salutare"],
+    "promptIt": "sano (in salute)",
+    "noteIt": "Vuol dire anche «che fa bene»: Obst ist gesund.",
+    "examples": [
+      { "de": "Ich bin wieder gesund.", "it": "Sto di nuovo bene." },
+      { "de": "Obst ist gesund.", "it": "La frutta fa bene." }
+    ]
+  },
+  {
+    "id": "v-a1-0509",
+    "pos": "noun",
+    "de": "Fieber",
+    "article": "das",
+    "plural": null,
+    "it": ["febbre"],
+    "promptIt": "la febbre",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Fieber.",
+    "examples": [
+      { "de": "Ich habe Fieber.", "it": "Ho la febbre." },
+      { "de": "Das Kind hat hohes Fieber.", "it": "Il bambino ha la febbre alta." }
+    ]
+  },
+  {
+    "id": "v-a1-0510",
+    "pos": "noun",
+    "de": "Erkältung",
+    "article": "die",
+    "plural": "Erkältungen",
+    "it": ["raffreddore"],
+    "promptIt": "il raffreddore (con tosse, mal di gola…)",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Erkältung.",
+    "examples": [
+      { "de": "Ich habe eine Erkältung.", "it": "Ho il raffreddore." },
+      { "de": "Meine Erkältung ist schon besser.", "it": "Il raffreddore va già meglio." }
+    ]
+  },
+  {
+    "id": "v-a1-0511",
+    "pos": "noun",
+    "de": "Husten",
+    "article": "der",
+    "plural": null,
+    "it": ["tosse"],
+    "promptIt": "la tosse",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Husten.",
+    "examples": [
+      { "de": "Ich habe Husten.", "it": "Ho la tosse." },
+      { "de": "Mein Husten ist schon besser.", "it": "La tosse va meglio." }
+    ]
+  },
+  {
+    "id": "v-a1-0512",
+    "pos": "noun",
+    "de": "Schnupfen",
+    "article": "der",
+    "plural": null,
+    "it": ["raffreddore", "naso che cola"],
+    "promptIt": "il naso che cola",
+    "examples": [
+      { "de": "Ich habe Schnupfen.", "it": "Mi cola il naso." },
+      { "de": "Der Schnupfen ist weg.", "it": "Il raffreddore è passato." }
+    ]
+  },
+  {
+    "id": "v-a1-0513",
+    "pos": "noun",
+    "de": "Grippe",
+    "article": "die",
+    "plural": "Grippen",
+    "it": ["influenza"],
+    "promptIt": "l'influenza",
+    "examples": [
+      { "de": "Er hat die Grippe.", "it": "Ha l'influenza." },
+      { "de": "Die Grippe dauert eine Woche.", "it": "L'influenza dura una settimana." }
+    ]
+  },
+  {
+    "id": "v-a1-0514",
+    "pos": "phrase",
+    "de": "Gute Besserung!",
+    "it": ["guarisci presto!", "buona guarigione!", "pronta guarigione!", "rimettiti presto!"],
+    "promptIt": "guarisci presto!",
+    "examples": [
+      { "de": "Du bist krank? Gute Besserung!", "it": "Sei malata? Guarisci presto!" },
+      { "de": "Gute Besserung, Oma!", "it": "Rimettiti presto, nonna!" }
+    ]
+  },
+  {
+    "id": "v-a1-0515",
+    "pos": "adj",
+    "de": "schlecht",
+    "it": ["male", "cattivo", "cattiva", "brutto", "brutta"],
+    "promptIt": "male (cattivo)",
+    "noteIt": "Mir ist schlecht = ho la nausea.",
+    "examples": [
+      { "de": "Mir geht es schlecht.", "it": "Sto male." },
+      { "de": "Das Essen ist schlecht.", "it": "Il cibo è cattivo." }
+    ]
+  },
+  {
+    "id": "v-a1-0516",
+    "pos": "adj",
+    "de": "besser",
+    "it": ["meglio", "migliore"],
+    "promptIt": "meglio",
+    "noteIt": "È il comparativo di gut: gut → besser.",
+    "examples": [
+      { "de": "Heute geht es mir besser.", "it": "Oggi sto meglio." },
+      { "de": "Das ist besser.", "it": "Così è meglio." }
+    ]
+  },
+  {
+    "id": "v-a1-0517",
+    "pos": "noun",
+    "de": "Tablette",
+    "article": "die",
+    "plural": "Tabletten",
+    "it": ["pastiglia", "compressa", "pillola"],
+    "promptIt": "la pastiglia",
+    "examples": [
+      { "de": "Nehmen Sie eine Tablette.", "it": "Prenda una pastiglia." },
+      { "de": "Die Tabletten helfen.", "it": "Le pastiglie fanno effetto." }
+    ]
+  },
+  {
+    "id": "v-a1-0518",
+    "pos": "noun",
+    "de": "Medikament",
+    "article": "das",
+    "plural": "Medikamente",
+    "it": ["medicina", "medicinale", "farmaco"],
+    "promptIt": "la medicina (il farmaco)",
+    "noteIt": "In tedesco è neutro: das Medikament.",
+    "examples": [
+      { "de": "Das Medikament gibt es in der Apotheke.", "it": "La medicina si trova in farmacia." },
+      { "de": "Nimmst du Medikamente?", "it": "Prendi medicine?" }
+    ]
+  },
+  {
+    "id": "v-a1-0519",
+    "pos": "noun",
+    "de": "Praxis",
+    "article": "die",
+    "plural": "Praxen",
+    "it": ["studio medico", "ambulatorio", "studio"],
+    "promptIt": "lo studio medico",
+    "noteIt": "Plurale irregolare: die Praxen. Vuol dire anche «pratica».",
+    "examples": [
+      { "de": "Die Praxis ist im ersten Stock.", "it": "Lo studio medico è al primo piano." },
+      { "de": "Die Praxis macht um acht Uhr auf.", "it": "L'ambulatorio apre alle otto." }
+    ]
+  },
+  {
+    "id": "v-a1-0520",
+    "pos": "noun",
+    "de": "Krankenhaus",
+    "article": "das",
+    "plural": "Krankenhäuser",
+    "it": ["ospedale"],
+    "promptIt": "l'ospedale",
+    "noteIt": "Letteralmente «casa dei malati»: Kranken (i malati) + Haus. È neutro come das Haus.",
+    "examples": [
+      { "de": "Er ist im Krankenhaus.", "it": "È in ospedale." },
+      { "de": "Das Krankenhaus ist groß.", "it": "L'ospedale è grande." }
+    ]
+  },
+  {
+    "id": "v-a1-0521",
+    "pos": "verb",
+    "de": "gehören",
+    "it": ["appartenere", "essere di"],
+    "promptIt": "appartenere (essere di qualcuno)",
+    "noteIt": "Vuole il dativo: Das gehört mir = è mio.",
+    "examples": [
+      { "de": "Das Buch gehört mir.", "it": "Il libro è mio." },
+      { "de": "Wem gehört die Tasche?", "it": "Di chi è la borsa?" }
+    ]
+  },
+  {
+    "id": "v-a1-0522",
+    "pos": "verb",
+    "de": "sollen",
+    "it": ["dovere"],
+    "promptIt": "dovere (su consiglio di qualcuno)",
+    "noteIt": "ich soll, du sollst, er soll. Esprime un consiglio o una richiesta di qualcun altro.",
+    "examples": [
+      { "de": "Ich soll viel Wasser trinken.", "it": "Devo bere molta acqua." },
+      { "de": "Soll ich dir helfen?", "it": "Vuoi che ti aiuti?" }
+    ]
+  },
+  {
+    "id": "v-a1-0523",
+    "pos": "verb",
+    "de": "bleiben",
+    "it": ["restare", "rimanere", "stare"],
+    "promptIt": "restare (rimanere)",
+    "examples": [
+      { "de": "Ich bleibe heute zu Hause.", "it": "Oggi resto a casa." },
+      { "de": "Wie lange bleibst du?", "it": "Quanto tempo resti?" }
+    ]
+  },
+  {
+    "id": "v-a1-0524",
+    "pos": "interj",
+    "de": "Gesundheit!",
+    "it": ["salute!"],
+    "promptIt": "salute! (dopo uno starnuto)",
+    "noteIt": "die Gesundheit è anche la salute in generale.",
+    "examples": [
+      { "de": "Hatschi! Gesundheit!", "it": "Eccì! Salute!" },
+      { "de": "Gesundheit! Danke!", "it": "Salute! Grazie!" }
+    ]
+  },
+  {
+    "id": "v-a1-0525",
+    "pos": "verb",
+    "de": "schmecken",
+    "it": ["piacere", "avere sapore", "essere buono"],
+    "promptIt": "essere buono (di sapore)",
+    "noteIt": "Das schmeckt mir = mi piace (da mangiare). Schmeckt's? = ti piace?",
+    "examples": [
+      { "de": "Die Suppe schmeckt gut.", "it": "La zuppa è buona." },
+      { "de": "Schmeckt dir der Kuchen?", "it": "Ti piace la torta?" }
+    ]
+  },
+  {
+    "id": "v-a1-0526",
+    "pos": "noun",
+    "de": "Zahnarzt",
+    "article": "der",
+    "plural": "Zahnärzte",
+    "it": ["dentista"],
+    "promptIt": "il dentista",
+    "noteIt": "Letteralmente «medico dei denti». Una donna: die Zahnärztin.",
+    "examples": [
+      { "de": "Morgen gehe ich zum Zahnarzt.", "it": "Domani vado dal dentista." },
+      { "de": "Der Zahnarzt ist sehr nett.", "it": "Il dentista è molto gentile." }
+    ]
+  },
+  {
+    "id": "v-a1-0527",
+    "pos": "noun",
+    "de": "Patient",
+    "article": "der",
+    "plural": "Patienten",
+    "it": ["paziente"],
+    "promptIt": "il paziente",
+    "noteIt": "Una donna: die Patientin.",
+    "examples": [
+      { "de": "Der Patient wartet.", "it": "Il paziente aspetta." },
+      { "de": "Heute sind viele Patienten in der Praxis.", "it": "Oggi ci sono molti pazienti nello studio." }
+    ]
+  },
+  {
+    "id": "v-a1-0528",
+    "pos": "phrase",
+    "de": "Was fehlt Ihnen?",
+    "it": ["che cos'ha?", "cos'ha?", "che cosa ha?", "cosa c'è che non va?", "cosa si sente?", "che problema ha?"],
+    "promptIt": "che cos'ha? (dal medico)",
+    "acceptDe": ["Was fehlt dir?"],
+    "examples": [
+      { "de": "Guten Tag, was fehlt Ihnen?", "it": "Buongiorno, che cos'ha?" },
+      { "de": "Was fehlt Ihnen? Ich habe Fieber.", "it": "Che cos'ha? Ho la febbre." }
+    ]
+  },
+  {
+    "id": "v-a1-0529",
+    "pos": "phrase",
+    "de": "Mir geht es gut.",
+    "it": ["sto bene."],
+    "promptIt": "sto bene.",
+    "acceptDe": ["Es geht mir gut.", "Mir geht's gut."],
+    "examples": [
+      { "de": "Danke, mir geht es gut.", "it": "Grazie, sto bene." },
+      { "de": "Heute geht es mir gut.", "it": "Oggi sto bene." }
+    ]
+  },
+  {
+    "id": "v-a1-0530",
+    "pos": "noun",
+    "de": "Hilfe",
+    "article": "die",
+    "plural": "Hilfen",
+    "it": ["aiuto"],
+    "promptIt": "l'aiuto",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Hilfe. Hilfe! = aiuto!",
+    "examples": [
+      { "de": "Hilfe!", "it": "Aiuto!" },
+      { "de": "Danke für die Hilfe!", "it": "Grazie dell'aiuto!" }
+    ]
+  }
+]

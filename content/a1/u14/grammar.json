@@ -1,0 +1,362 @@
+[
+  {
+    "id": "g-a1-0053",
+    "title": "Mi fa male: Der Kopf tut mir weh",
+    "explanationIt": [
+      "Per dire che cosa ti fa male: Der Kopf tut mir weh, oppure Mein Kopf tut weh. Se la parte del corpo è al plurale, anche il verbo: Die Füße tun mir weh.",
+      "wehtun è separabile: tut… weh, con weh alla fine.",
+      "Con molte parti del corpo si dice anche, tutto attaccato: Ich habe Kopfschmerzen, Bauchschmerzen, Rückenschmerzen, Zahnschmerzen, Halsschmerzen.",
+      "Dal medico ti chiederanno: Wo tut es weh? (dove fa male?)"
+    ],
+    "pattern": [
+      "Der Kopf tut mir weh. – Mi fa male la testa.",
+      "Der Bauch tut mir weh. – Mi fa male la pancia.",
+      "Die Füße tun mir weh. – Mi fanno male i piedi.",
+      "Ich habe Kopfschmerzen. – Ho mal di testa.",
+      "Ich habe Halsschmerzen. – Ho mal di gola.",
+      "Wo tut es weh? – Dove fa male?"
+    ],
+    "examples": [
+      { "de": "Mir tut der Rücken weh.", "it": "Mi fa male la schiena." },
+      { "de": "Ich habe Zahnschmerzen.", "it": "Ho mal di denti." },
+      { "de": "Die Augen tun mir weh.", "it": "Mi fanno male gli occhi." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe Schmerzen von Kopf.",
+        "right": "Ich habe Kopfschmerzen.",
+        "explanationIt": "In tedesco si fa una parola sola: Kopf + Schmerzen."
+      },
+      {
+        "wrong": "Die Füße tut mir weh.",
+        "right": "Die Füße tun mir weh.",
+        "explanationIt": "Con il plurale anche il verbo va al plurale: tun."
+      },
+      {
+        "wrong": "Mir tut weh der Kopf.",
+        "right": "Mir tut der Kopf weh.",
+        "explanationIt": "weh si stacca e va alla fine."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0053-e1",
+        "sentence": "Der Kopf ___ mir weh.",
+        "answers": ["tut"],
+        "hintIt": "wehtun",
+        "translationIt": "Mi fa male la testa.",
+        "explanationIt": "Con una parte del corpo al singolare: tut."
+      },
+      {
+        "id": "g-a1-0053-e2",
+        "sentence": "Die Füße tun mir ___.",
+        "answers": ["weh"],
+        "hintIt": "wehtun",
+        "translationIt": "Mi fanno male i piedi.",
+        "explanationIt": "weh si stacca e va alla fine."
+      },
+      {
+        "id": "g-a1-0053-e3",
+        "sentence": "Ich habe ___.",
+        "answers": ["Kopfschmerzen", "Kopfweh"],
+        "hintIt": "mal di testa",
+        "translationIt": "Ho mal di testa.",
+        "explanationIt": "Una parola sola: Kopf + Schmerzen."
+      },
+      {
+        "id": "g-a1-0053-e4",
+        "sentence": "Die Augen ___ mir weh.",
+        "answers": ["tun"],
+        "hintIt": "wehtun",
+        "translationIt": "Mi fanno male gli occhi.",
+        "explanationIt": "Con una parte del corpo al plurale: tun."
+      },
+      {
+        "id": "g-a1-0053-e5",
+        "sentence": "Ich habe ___.",
+        "answers": ["Bauchschmerzen", "Bauchweh"],
+        "hintIt": "mal di pancia",
+        "translationIt": "Ho mal di pancia.",
+        "explanationIt": "Una parola sola: Bauch + Schmerzen."
+      },
+      {
+        "id": "g-a1-0053-e6",
+        "sentence": "Wo tut es ___?",
+        "answers": ["weh"],
+        "hintIt": "wehtun",
+        "translationIt": "Dove fa male?",
+        "explanationIt": "weh va alla fine."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0054",
+    "title": "Pronomi al dativo: mir, dir, ihm…",
+    "explanationIt": [
+      "Il dativo risponde alla domanda «a chi?»: Wie geht es dir? (come va a te?), Der Kopf tut mir weh (la testa fa male a me).",
+      "Le forme: mir, dir, ihm (lui), ihr (lei), ihm (esso), uns, euch, ihnen (loro), Ihnen (Lei).",
+      "Alcune le conosci già: Wie geht es dir? Wie geht es Ihnen? uns ed euch sono uguali all'accusativo.",
+      "Attenzione: ihr può essere «voi» (soggetto), «a lei» (dativo) o «suo, di lei» / «loro» (possessivo)."
+    ],
+    "pattern": [
+      "ich → mir – a me, mi",
+      "du → dir – a te, ti",
+      "er → ihm – a lui, gli",
+      "sie → ihr – a lei, le",
+      "es → ihm – gli",
+      "wir → uns – a noi, ci",
+      "ihr → euch – a voi, vi",
+      "sie → ihnen – a loro",
+      "Sie → Ihnen – a Lei, Le"
+    ],
+    "examples": [
+      { "de": "Wie geht es dir? Mir geht es gut.", "it": "Come stai? Sto bene." },
+      { "de": "Wie geht es Ihnen, Herr Weber?", "it": "Come sta, signor Weber?" },
+      { "de": "Anna ist krank. Wie geht es ihr?", "it": "Anna è malata. Come sta?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Wie geht es du?",
+        "right": "Wie geht es dir?",
+        "explanationIt": "Qui ci vuole il dativo: dir."
+      },
+      {
+        "wrong": "Der Kopf tut mich weh.",
+        "right": "Der Kopf tut mir weh.",
+        "explanationIt": "Con wehtun la persona va al dativo: mir."
+      },
+      {
+        "wrong": "Wie geht es sie?",
+        "right": "Wie geht es ihr?",
+        "explanationIt": "Al dativo sie (lei) diventa ihr."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0054-e1",
+        "sentence": "Wie geht es ___?",
+        "answers": ["dir"],
+        "hintIt": "a te",
+        "translationIt": "Come stai?",
+        "explanationIt": "Al dativo du diventa dir."
+      },
+      {
+        "id": "g-a1-0054-e2",
+        "sentence": "Der Bauch tut ___ weh.",
+        "answers": ["mir"],
+        "hintIt": "a me",
+        "translationIt": "Mi fa male la pancia.",
+        "explanationIt": "Al dativo ich diventa mir."
+      },
+      {
+        "id": "g-a1-0054-e3",
+        "sentence": "Wie geht es ___, Frau Weber?",
+        "answers": ["Ihnen"],
+        "caseSensitive": true,
+        "hintIt": "a Lei",
+        "translationIt": "Come sta, signora Weber?",
+        "explanationIt": "Al dativo Sie diventa Ihnen, con la maiuscola."
+      },
+      {
+        "id": "g-a1-0054-e4",
+        "sentence": "Marco hat Fieber. Der Kopf tut ___ weh.",
+        "answers": ["ihm"],
+        "hintIt": "a lui",
+        "translationIt": "Marco ha la febbre. Gli fa male la testa.",
+        "explanationIt": "Al dativo er diventa ihm."
+      },
+      {
+        "id": "g-a1-0054-e5",
+        "sentence": "Anna ist krank. Wie geht es ___?",
+        "answers": ["ihr"],
+        "hintIt": "a lei",
+        "translationIt": "Anna è malata. Come sta?",
+        "explanationIt": "Al dativo sie (lei) diventa ihr."
+      },
+      {
+        "id": "g-a1-0054-e6",
+        "sentence": "Die Kinder sind krank. Der Bauch tut ___ weh.",
+        "answers": ["ihnen"],
+        "caseSensitive": true,
+        "hintIt": "a loro",
+        "translationIt": "I bambini sono malati. Gli fa male la pancia.",
+        "explanationIt": "Al dativo sie (loro) diventa ihnen."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0055",
+    "title": "Verbi con il dativo: helfen, gefallen, gehören",
+    "explanationIt": [
+      "Alcuni verbi vogliono il dativo e non l'accusativo: helfen (aiutare), gefallen (piacere), gehören (essere di), danken (ringraziare) e schmecken (piacere, del cibo).",
+      "Attenzione a helfen e danken: in italiano «aiuto mia madre» e «La ringrazio» hanno il complemento oggetto, in tedesco il dativo: Ich helfe meiner Mutter. Ich danke Ihnen.",
+      "Con gli articoli e i possessivi usi le stesse forme che conosci da mit e bei: dem, der, meinem, meiner…"
+    ],
+    "pattern": [
+      "Ich helfe dir. – Ti aiuto.",
+      "Ich helfe meiner Mutter. – Aiuto mia madre.",
+      "Das Kleid gefällt mir. – Il vestito mi piace.",
+      "Das Buch gehört mir. – Il libro è mio.",
+      "Ich danke Ihnen. – La ringrazio."
+    ],
+    "examples": [
+      { "de": "Kannst du mir helfen?", "it": "Mi puoi aiutare?" },
+      { "de": "Gefällt dir die Wohnung?", "it": "Ti piace l'appartamento?" },
+      { "de": "Wem gehört das Handy? Es gehört meinem Bruder.", "it": "Di chi è il cellulare? È di mio fratello." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich helfe dich.",
+        "right": "Ich helfe dir.",
+        "explanationIt": "helfen vuole il dativo: dir."
+      },
+      {
+        "wrong": "Das Buch gehört mich.",
+        "right": "Das Buch gehört mir.",
+        "explanationIt": "gehören vuole il dativo: mir, non mich."
+      },
+      {
+        "wrong": "Ich danke dich.",
+        "right": "Ich danke dir.",
+        "explanationIt": "danken vuole il dativo: dir."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0055-e1",
+        "sentence": "Kannst du ___ helfen?",
+        "answers": ["mir"],
+        "hintIt": "mi",
+        "translationIt": "Mi puoi aiutare?",
+        "explanationIt": "helfen vuole il dativo: mir."
+      },
+      {
+        "id": "g-a1-0055-e2",
+        "sentence": "Das Buch gehört ___.",
+        "answers": ["mir"],
+        "hintIt": "a me",
+        "translationIt": "Il libro è mio.",
+        "explanationIt": "gehören vuole il dativo: mir."
+      },
+      {
+        "id": "g-a1-0055-e3",
+        "sentence": "Ich helfe ___ Mutter.",
+        "answers": ["meiner"],
+        "hintIt": "mia (die Mutter)",
+        "translationIt": "Aiuto mia madre.",
+        "explanationIt": "helfen vuole il dativo: meine diventa meiner."
+      },
+      {
+        "id": "g-a1-0055-e4",
+        "sentence": "Gefällt ___ die Jacke?",
+        "answers": ["dir"],
+        "hintIt": "ti",
+        "translationIt": "Ti piace la giacca?",
+        "explanationIt": "gefallen vuole il dativo: dir."
+      },
+      {
+        "id": "g-a1-0055-e5",
+        "sentence": "Wem gehört das Handy? Es gehört ___.",
+        "answers": ["ihm"],
+        "hintIt": "a lui",
+        "translationIt": "Di chi è il cellulare? È suo.",
+        "explanationIt": "gehören vuole il dativo: ihm."
+      },
+      {
+        "id": "g-a1-0055-e6",
+        "sentence": "Ich danke ___!",
+        "answers": ["Ihnen"],
+        "caseSensitive": true,
+        "hintIt": "La (Sie)",
+        "translationIt": "La ringrazio!",
+        "explanationIt": "danken vuole il dativo: Ihnen."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0056",
+    "title": "Consigli e istruzioni: sollen",
+    "explanationIt": [
+      "sollen vuol dire «dovere» quando è qualcun altro a dirlo o a consigliarlo: Der Arzt sagt, ich soll im Bett bleiben.",
+      "Le forme: ich soll, du sollst, er/sie/es soll (senza -t), wir sollen, ihr sollt, sie/Sie sollen.",
+      "Nelle domande chiede che cosa fare: Soll ich das Fenster aufmachen? = Vuoi che apra la finestra?",
+      "La differenza: müssen = è necessario, un obbligo; sollen = un consiglio o una richiesta di qualcuno."
+    ],
+    "pattern": [
+      "ich soll – io devo",
+      "du sollst – tu devi",
+      "er/sie/es soll – lui/lei deve",
+      "wir sollen – noi dobbiamo",
+      "ihr sollt – voi dovete",
+      "sie/Sie sollen – loro devono / Lei deve",
+      "Soll ich…? – Vuoi che io…?"
+    ],
+    "examples": [
+      { "de": "Der Arzt sagt, ich soll viel Wasser trinken.", "it": "Il medico dice che devo bere molta acqua." },
+      { "de": "Sie sollen drei Tage zu Hause bleiben.", "it": "Deve restare a casa tre giorni." },
+      { "de": "Soll ich dir helfen?", "it": "Vuoi che ti aiuti?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Er sollt im Bett bleiben.",
+        "right": "Er soll im Bett bleiben.",
+        "explanationIt": "Con er/sie/es: soll, senza -t."
+      },
+      {
+        "wrong": "Soll ich helfen dir?",
+        "right": "Soll ich dir helfen?",
+        "explanationIt": "Il secondo verbo va alla fine."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0056-e1",
+        "sentence": "Du ___ viel Wasser trinken.",
+        "answers": ["sollst"],
+        "hintIt": "sollen",
+        "translationIt": "Devi bere molta acqua.",
+        "explanationIt": "Con du: sollst."
+      },
+      {
+        "id": "g-a1-0056-e2",
+        "sentence": "Der Arzt sagt, ich ___ im Bett bleiben.",
+        "answers": ["soll"],
+        "hintIt": "sollen",
+        "translationIt": "Il medico dice che devo restare a letto.",
+        "explanationIt": "Con ich: soll."
+      },
+      {
+        "id": "g-a1-0056-e3",
+        "sentence": "___ ich das Fenster aufmachen?",
+        "answers": ["Soll"],
+        "hintIt": "sollen",
+        "translationIt": "Vuoi che apra la finestra?",
+        "explanationIt": "Per chiedere cosa fare: Soll ich…?"
+      },
+      {
+        "id": "g-a1-0056-e4",
+        "sentence": "Sie ___ zwei Tabletten nehmen.",
+        "answers": ["sollen"],
+        "hintIt": "sollen, al Lei",
+        "translationIt": "Deve prendere due pastiglie.",
+        "explanationIt": "Con Sie: sollen."
+      },
+      {
+        "id": "g-a1-0056-e5",
+        "sentence": "Ihr ___ zu Hause bleiben.",
+        "answers": ["sollt"],
+        "hintIt": "sollen",
+        "translationIt": "Dovete restare a casa.",
+        "explanationIt": "Con ihr: sollt."
+      },
+      {
+        "id": "g-a1-0056-e6",
+        "sentence": "Er soll heute im Bett ___.",
+        "answers": ["bleiben"],
+        "hintIt": "restare",
+        "translationIt": "Oggi deve restare a letto.",
+        "explanationIt": "Il secondo verbo va all'infinito, alla fine."
+      }
+    ]
+  }
+]

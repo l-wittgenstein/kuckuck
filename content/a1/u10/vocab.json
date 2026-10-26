@@ -122,7 +122,7 @@
     "pos": "verb",
     "de": "müssen",
     "it": ["dovere"],
-    "promptIt": "dovere",
+    "promptIt": "dovere (è necessario, un obbligo)",
     "noteIt": "Al singolare è irregolare: ich muss, du musst, er muss.",
     "examples": [
       { "de": "Ich muss jetzt gehen.", "it": "Adesso devo andare." },

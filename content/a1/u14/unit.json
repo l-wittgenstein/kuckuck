@@ -1,0 +1,18 @@
+{
+  "id": "a1-u14",
+  "level": "a1",
+  "order": 14,
+  "title": "Gesundheit: la salute",
+  "summary": "Il corpo, i malanni e il medico; «mi fa male» con wehtun, i pronomi al dativo (mir, dir…), i verbi con il dativo e i consigli con sollen.",
+  "batches": [
+    { "id": "a1-u14-b01", "itemIds": ["v-a1-0490", "v-a1-0491", "v-a1-0492", "v-a1-0493", "v-a1-0494"] },
+    { "id": "a1-u14-b02", "itemIds": ["v-a1-0495", "v-a1-0496", "v-a1-0497", "v-a1-0498", "v-a1-0499"] },
+    { "id": "a1-u14-b03", "itemIds": ["v-a1-0500", "v-a1-0501", "v-a1-0502", "v-a1-0503", "v-a1-0504"] },
+    { "id": "a1-u14-b04", "itemIds": ["g-a1-0053", "v-a1-0505", "v-a1-0506", "v-a1-0507", "v-a1-0508"] },
+    { "id": "a1-u14-b05", "itemIds": ["v-a1-0509", "v-a1-0510", "v-a1-0511", "v-a1-0512", "v-a1-0513"] },
+    { "id": "a1-u14-b06", "itemIds": ["g-a1-0054", "v-a1-0514", "v-a1-0515", "v-a1-0516", "v-a1-0517"] },
+    { "id": "a1-u14-b07", "itemIds": ["g-a1-0055", "v-a1-0525", "v-a1-0519", "v-a1-0520", "v-a1-0521"] },
+    { "id": "a1-u14-b08", "itemIds": ["g-a1-0056", "v-a1-0522", "v-a1-0523", "v-a1-0524", "v-a1-0518"] },
+    { "id": "a1-u14-b09", "itemIds": ["v-a1-0526", "v-a1-0527", "v-a1-0528", "v-a1-0529", "v-a1-0530"] }
+  ]
+}
