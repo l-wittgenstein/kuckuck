@@ -1,0 +1,17 @@
+{
+  "id": "a1-u11",
+  "level": "a1",
+  "order": 11,
+  "title": "Arbeit: il lavoro",
+  "summary": "Le professioni (anche al femminile), l'ufficio e lo studio; Ich bin Lehrerin senza articolo, arbeiten e i verbi con una e in più, seit e von… bis.",
+  "batches": [
+    { "id": "a1-u11-b01", "itemIds": ["v-a1-0373", "v-a1-0374", "v-a1-0375", "v-a1-0376", "v-a1-0377"] },
+    { "id": "a1-u11-b02", "itemIds": ["v-a1-0378", "v-a1-0379", "v-a1-0380", "v-a1-0381", "v-a1-0382"] },
+    { "id": "a1-u11-b03", "itemIds": ["g-a1-0041", "v-a1-0383", "v-a1-0384", "v-a1-0385", "v-a1-0386"] },
+    { "id": "a1-u11-b04", "itemIds": ["g-a1-0042", "v-a1-0387", "v-a1-0388", "v-a1-0389", "v-a1-0390"] },
+    { "id": "a1-u11-b05", "itemIds": ["v-a1-0391", "v-a1-0392", "v-a1-0393", "v-a1-0394", "v-a1-0395"] },
+    { "id": "a1-u11-b06", "itemIds": ["g-a1-0043", "v-a1-0396", "v-a1-0397", "v-a1-0398", "v-a1-0399"] },
+    { "id": "a1-u11-b07", "itemIds": ["v-a1-0400", "v-a1-0401", "v-a1-0402", "v-a1-0403", "v-a1-0404"] },
+    { "id": "a1-u11-b08", "itemIds": ["g-a1-0044", "v-a1-0405", "v-a1-0406", "v-a1-0407"] }
+  ]
+}

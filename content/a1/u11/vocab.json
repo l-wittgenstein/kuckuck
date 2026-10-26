@@ -1,0 +1,462 @@
+[
+  {
+    "id": "v-a1-0373",
+    "pos": "verb",
+    "de": "arbeiten",
+    "it": ["lavorare"],
+    "promptIt": "lavorare",
+    "noteIt": "Con du, er e ihr si aggiunge una e: du arbeitest, er arbeitet.",
+    "examples": [
+      { "de": "Ich arbeite in einem Büro.", "it": "Lavoro in un ufficio." },
+      { "de": "Wo arbeitest du?", "it": "Dove lavori?" }
+    ]
+  },
+  {
+    "id": "v-a1-0374",
+    "pos": "noun",
+    "de": "Arbeit",
+    "article": "die",
+    "plural": "Arbeiten",
+    "it": ["lavoro"],
+    "promptIt": "il lavoro (in generale; anche il posto: vado al lavoro)",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Arbeit.",
+    "examples": [
+      { "de": "Die Arbeit ist interessant.", "it": "Il lavoro è interessante." },
+      { "de": "Ich fahre mit dem Bus zur Arbeit.", "it": "Vado al lavoro in autobus." }
+    ]
+  },
+  {
+    "id": "v-a1-0375",
+    "pos": "noun",
+    "de": "Beruf",
+    "article": "der",
+    "plural": "Berufe",
+    "it": ["professione", "mestiere", "lavoro"],
+    "promptIt": "la professione",
+    "examples": [
+      { "de": "Was ist dein Beruf?", "it": "Qual è la tua professione?" },
+      { "de": "Ich mag meinen Beruf.", "it": "Mi piace il mio lavoro." }
+    ]
+  },
+  {
+    "id": "v-a1-0376",
+    "pos": "phrase",
+    "de": "Was sind Sie von Beruf?",
+    "it": ["che lavoro fa?", "che lavoro fai?", "che lavoro fa lei?", "che mestiere fa?", "che mestiere fai?"],
+    "promptIt": "che lavoro fa? (al Lei)",
+    "acceptDe": ["Was machen Sie beruflich?", "Was ist Ihr Beruf?"],
+    "noteIt": "Con il tu: Was bist du von Beruf?",
+    "examples": [
+      { "de": "Was sind Sie von Beruf? Ich bin Ärztin.", "it": "Che lavoro fa? Sono medico." },
+      { "de": "Was bist du von Beruf?", "it": "Che lavoro fai?" }
+    ]
+  },
+  {
+    "id": "v-a1-0377",
+    "pos": "noun",
+    "de": "Firma",
+    "article": "die",
+    "plural": "Firmen",
+    "it": ["ditta", "azienda", "impresa"],
+    "promptIt": "la ditta (l'azienda)",
+    "noteIt": "Falso amico: la firma su un documento è die Unterschrift. Il plurale è Firmen.",
+    "examples": [
+      { "de": "Die Firma ist in München.", "it": "La ditta è a Monaco." },
+      { "de": "Er arbeitet bei einer großen Firma.", "it": "Lavora in una grande azienda." }
+    ]
+  },
+  {
+    "id": "v-a1-0378",
+    "pos": "noun",
+    "de": "Lehrer",
+    "article": "der",
+    "plural": "Lehrer",
+    "it": ["insegnante", "maestro", "professore"],
+    "promptIt": "l'insegnante (uomo)",
+    "noteIt": "Una donna: die Lehrerin.",
+    "examples": [
+      { "de": "Der Lehrer ist nett.", "it": "L'insegnante è gentile." },
+      { "de": "Mein Vater ist Lehrer.", "it": "Mio padre è insegnante." }
+    ]
+  },
+  {
+    "id": "v-a1-0379",
+    "pos": "noun",
+    "de": "Arzt",
+    "article": "der",
+    "plural": "Ärzte",
+    "it": ["medico", "dottore"],
+    "promptIt": "il medico (uomo)",
+    "noteIt": "Una donna: die Ärztin, con l'Umlaut.",
+    "examples": [
+      { "de": "Ich gehe heute zum Arzt.", "it": "Oggi vado dal medico." },
+      { "de": "Der Arzt kommt um zehn Uhr.", "it": "Il medico arriva alle dieci." }
+    ]
+  },
+  {
+    "id": "v-a1-0380",
+    "pos": "noun",
+    "de": "Student",
+    "article": "der",
+    "plural": "Studenten",
+    "it": ["studente", "universitario"],
+    "promptIt": "lo studente (universitario)",
+    "noteIt": "Una donna: die Studentin. Student è solo all'università; a scuola: der Schüler.",
+    "examples": [
+      { "de": "Er ist Student.", "it": "È studente." },
+      { "de": "Die Studenten lernen viel.", "it": "Gli studenti studiano molto." }
+    ]
+  },
+  {
+    "id": "v-a1-0381",
+    "pos": "noun",
+    "de": "Kellner",
+    "article": "der",
+    "plural": "Kellner",
+    "it": ["cameriere"],
+    "promptIt": "il cameriere",
+    "noteIt": "Una donna: die Kellnerin.",
+    "examples": [
+      { "de": "Der Kellner bringt die Rechnung.", "it": "Il cameriere porta il conto." },
+      { "de": "Ich arbeite als Kellner.", "it": "Lavoro come cameriere." }
+    ]
+  },
+  {
+    "id": "v-a1-0382",
+    "pos": "noun",
+    "de": "Koch",
+    "article": "der",
+    "plural": "Köche",
+    "it": ["cuoco", "chef"],
+    "promptIt": "il cuoco",
+    "noteIt": "Una donna: die Köchin. Viene da kochen (cucinare).",
+    "examples": [
+      { "de": "Der Koch kocht sehr gut.", "it": "Il cuoco cucina molto bene." },
+      { "de": "Mein Bruder ist Koch.", "it": "Mio fratello fa il cuoco." }
+    ]
+  },
+  {
+    "id": "v-a1-0383",
+    "pos": "noun",
+    "de": "Verkäufer",
+    "article": "der",
+    "plural": "Verkäufer",
+    "it": ["commesso", "venditore"],
+    "promptIt": "il commesso (in un negozio)",
+    "noteIt": "Una donna: die Verkäuferin. Viene da verkaufen (vendere).",
+    "examples": [
+      { "de": "Der Verkäufer ist freundlich.", "it": "Il commesso è gentile." },
+      { "de": "Fragen Sie den Verkäufer!", "it": "Chieda al commesso!" }
+    ]
+  },
+  {
+    "id": "v-a1-0384",
+    "pos": "noun",
+    "de": "Ingenieur",
+    "article": "der",
+    "plural": "Ingenieure",
+    "it": ["ingegnere"],
+    "promptIt": "l'ingegnere",
+    "noteIt": "Una donna: die Ingenieurin. Si pronuncia alla francese, più o meno «insceniör».",
+    "examples": [
+      { "de": "Er ist Ingenieur.", "it": "È ingegnere." },
+      { "de": "Die Firma sucht Ingenieure.", "it": "L'azienda cerca ingegneri." }
+    ]
+  },
+  {
+    "id": "v-a1-0385",
+    "pos": "noun",
+    "de": "Polizist",
+    "article": "der",
+    "plural": "Polizisten",
+    "it": ["poliziotto", "agente"],
+    "promptIt": "il poliziotto",
+    "noteIt": "Una donna: die Polizistin. La polizia: die Polizei.",
+    "examples": [
+      { "de": "Der Polizist hilft uns.", "it": "Il poliziotto ci aiuta." },
+      { "de": "Dort sind zwei Polizisten.", "it": "Là ci sono due poliziotti." }
+    ]
+  },
+  {
+    "id": "v-a1-0386",
+    "pos": "noun",
+    "de": "Friseur",
+    "article": "der",
+    "plural": "Friseure",
+    "it": ["parrucchiere", "barbiere"],
+    "promptIt": "il parrucchiere",
+    "acceptDe": ["Frisör"],
+    "noteIt": "Una donna: die Friseurin.",
+    "examples": [
+      { "de": "Ich gehe morgen zum Friseur.", "it": "Domani vado dal parrucchiere." },
+      { "de": "Der Friseur ist neben der Bank.", "it": "Il parrucchiere è accanto alla banca." }
+    ]
+  },
+  {
+    "id": "v-a1-0387",
+    "pos": "noun",
+    "de": "Büro",
+    "article": "das",
+    "plural": "Büros",
+    "it": ["ufficio"],
+    "promptIt": "l'ufficio",
+    "examples": [
+      { "de": "Ich arbeite im Büro.", "it": "Lavoro in ufficio." },
+      { "de": "Das Büro ist im dritten Stock.", "it": "L'ufficio è al terzo piano." }
+    ]
+  },
+  {
+    "id": "v-a1-0388",
+    "pos": "noun",
+    "de": "Kollege",
+    "article": "der",
+    "plural": "Kollegen",
+    "it": ["collega"],
+    "promptIt": "il collega",
+    "noteIt": "Una donna: die Kollegin.",
+    "examples": [
+      { "de": "Mein Kollege ist sehr nett.", "it": "Il mio collega è molto simpatico." },
+      { "de": "Ich esse mit meinen Kollegen.", "it": "Mangio con i miei colleghi." }
+    ]
+  },
+  {
+    "id": "v-a1-0389",
+    "pos": "noun",
+    "de": "Chef",
+    "article": "der",
+    "plural": "Chefs",
+    "it": ["capo", "direttore", "titolare"],
+    "promptIt": "il capo (sul lavoro)",
+    "noteIt": "Falso amico: der Chef è il capo, non il cuoco (der Koch). Una donna: die Chefin. Si pronuncia «scef».",
+    "examples": [
+      { "de": "Der Chef ist heute nicht da.", "it": "Oggi il capo non c'è." },
+      { "de": "Mein Chef ist jung.", "it": "Il mio capo è giovane." }
+    ]
+  },
+  {
+    "id": "v-a1-0390",
+    "pos": "noun",
+    "de": "Job",
+    "article": "der",
+    "plural": "Jobs",
+    "it": ["lavoro", "lavoretto", "impiego"],
+    "promptIt": "il lavoro (colloquiale)",
+    "noteIt": "Più colloquiale di die Arbeit; si usa anche per un lavoretto.",
+    "examples": [
+      { "de": "Ich suche einen Job.", "it": "Cerco lavoro." },
+      { "de": "Mein Job ist langweilig.", "it": "Il mio lavoro è noioso." }
+    ]
+  },
+  {
+    "id": "v-a1-0391",
+    "pos": "noun",
+    "de": "Schule",
+    "article": "die",
+    "plural": "Schulen",
+    "it": ["scuola"],
+    "promptIt": "la scuola",
+    "examples": [
+      { "de": "Die Kinder sind in der Schule.", "it": "I bambini sono a scuola." },
+      { "de": "Die Schule beginnt um acht.", "it": "La scuola comincia alle otto." }
+    ]
+  },
+  {
+    "id": "v-a1-0392",
+    "pos": "noun",
+    "de": "Universität",
+    "article": "die",
+    "plural": "Universitäten",
+    "it": ["università"],
+    "promptIt": "l'università",
+    "acceptDe": ["Uni"],
+    "noteIt": "Parlando si dice die Uni.",
+    "examples": [
+      { "de": "Ich studiere an der Universität.", "it": "Studio all'università." },
+      { "de": "Die Universität ist im Zentrum.", "it": "L'università è in centro." }
+    ]
+  },
+  {
+    "id": "v-a1-0393",
+    "pos": "verb",
+    "de": "studieren",
+    "it": ["studiare"],
+    "promptIt": "studiare (all'università)",
+    "noteIt": "studieren è studiare all'università. Per studiare a scuola o imparare qualcosa si usa lernen: Ich lerne Deutsch.",
+    "examples": [
+      { "de": "Sie studiert Medizin.", "it": "Studia medicina." },
+      { "de": "Was studierst du?", "it": "Cosa studi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0394",
+    "pos": "noun",
+    "de": "Geld",
+    "article": "das",
+    "plural": null,
+    "it": ["soldi", "denaro"],
+    "promptIt": "i soldi",
+    "noteIt": "In tedesco è singolare: Das Geld ist weg = i soldi sono finiti.",
+    "examples": [
+      { "de": "Ich habe kein Geld.", "it": "Non ho soldi." },
+      { "de": "Das Geld ist auf der Bank.", "it": "I soldi sono in banca." }
+    ]
+  },
+  {
+    "id": "v-a1-0395",
+    "pos": "verb",
+    "de": "verdienen",
+    "it": ["guadagnare"],
+    "promptIt": "guadagnare",
+    "examples": [
+      { "de": "Er verdient gut.", "it": "Guadagna bene." },
+      { "de": "Wie viel verdienst du?", "it": "Quanto guadagni?" }
+    ]
+  },
+  {
+    "id": "v-a1-0396",
+    "pos": "verb",
+    "de": "anfangen",
+    "it": ["cominciare", "iniziare"],
+    "promptIt": "cominciare",
+    "acceptDe": ["beginnen"],
+    "noteIt": "Separabile e con cambio di vocale: Der Kurs fängt um neun an.",
+    "examples": [
+      { "de": "Die Arbeit fängt um acht Uhr an.", "it": "Il lavoro comincia alle otto." },
+      { "de": "Wann fängst du an?", "it": "Quando cominci?" }
+    ]
+  },
+  {
+    "id": "v-a1-0397",
+    "pos": "noun",
+    "de": "Pause",
+    "article": "die",
+    "plural": "Pausen",
+    "it": ["pausa", "intervallo"],
+    "promptIt": "la pausa",
+    "examples": [
+      { "de": "Wir machen eine Pause.", "it": "Facciamo una pausa." },
+      { "de": "Die Pause ist um zwölf Uhr.", "it": "La pausa è a mezzogiorno." }
+    ]
+  },
+  {
+    "id": "v-a1-0398",
+    "pos": "noun",
+    "de": "Feierabend",
+    "article": "der",
+    "plural": "Feierabende",
+    "it": ["fine del lavoro", "fine della giornata di lavoro", "fine della giornata lavorativa", "fine giornata"],
+    "promptIt": "la fine della giornata di lavoro",
+    "noteIt": "Una parola che in italiano non c'è: il momento in cui finisce il lavoro. Feierabend! = si stacca!",
+    "examples": [
+      { "de": "Um fünf Uhr habe ich Feierabend.", "it": "Alle cinque stacco dal lavoro." },
+      { "de": "Schönen Feierabend!", "it": "Buona serata!" }
+    ]
+  },
+  {
+    "id": "v-a1-0399",
+    "pos": "adj",
+    "de": "müde",
+    "it": ["stanco", "stanca"],
+    "promptIt": "stanco",
+    "examples": [
+      { "de": "Ich bin müde.", "it": "Sono stanca." },
+      { "de": "Nach der Arbeit ist er sehr müde.", "it": "Dopo il lavoro è molto stanco." }
+    ]
+  },
+  {
+    "id": "v-a1-0400",
+    "pos": "adj",
+    "de": "arbeitslos",
+    "it": ["disoccupato", "disoccupata", "senza lavoro"],
+    "promptIt": "disoccupato",
+    "examples": [
+      { "de": "Er ist seit einem Jahr arbeitslos.", "it": "È disoccupato da un anno." },
+      { "de": "Sie ist leider arbeitslos.", "it": "Purtroppo è disoccupata." }
+    ]
+  },
+  {
+    "id": "v-a1-0401",
+    "pos": "noun",
+    "de": "Computer",
+    "article": "der",
+    "plural": "Computer",
+    "it": ["computer", "pc"],
+    "promptIt": "il computer",
+    "examples": [
+      { "de": "Ich arbeite am Computer.", "it": "Lavoro al computer." },
+      { "de": "Der Computer ist neu.", "it": "Il computer è nuovo." }
+    ]
+  },
+  {
+    "id": "v-a1-0402",
+    "pos": "noun",
+    "de": "E-Mail",
+    "article": "die",
+    "plural": "E-Mails",
+    "it": ["e-mail", "email", "mail"],
+    "promptIt": "l'e-mail",
+    "acceptDe": ["Mail"],
+    "examples": [
+      { "de": "Ich schreibe eine E-Mail.", "it": "Scrivo un'e-mail." },
+      { "de": "Die E-Mail ist von meiner Chefin.", "it": "L'e-mail è della mia capa." }
+    ]
+  },
+  {
+    "id": "v-a1-0403",
+    "pos": "verb",
+    "de": "schreiben",
+    "it": ["scrivere"],
+    "promptIt": "scrivere",
+    "examples": [
+      { "de": "Schreibst du oft E-Mails?", "it": "Scrivi spesso e-mail?" },
+      { "de": "Wie schreibt man das?", "it": "Come si scrive?" }
+    ]
+  },
+  {
+    "id": "v-a1-0404",
+    "pos": "verb",
+    "de": "telefonieren",
+    "it": ["telefonare", "parlare al telefono"],
+    "promptIt": "parlare al telefono",
+    "noteIt": "telefonieren (mit) = parlare al telefono con qualcuno; anrufen = chiamare qualcuno. «Ti telefono» si dice Ich rufe dich an, non Ich telefoniere dir.",
+    "examples": [
+      { "de": "Er telefoniert gerade.", "it": "Sta telefonando." },
+      { "de": "Ich telefoniere mit meiner Mutter.", "it": "Parlo al telefono con mia madre." }
+    ]
+  },
+  {
+    "id": "v-a1-0405",
+    "pos": "prep",
+    "de": "seit",
+    "it": ["da"],
+    "promptIt": "da (da quanto tempo: da due anni)",
+    "noteIt": "Vuole il dativo: seit einem Jahr, seit zwei Jahren.",
+    "examples": [
+      { "de": "Ich wohne seit einem Jahr hier.", "it": "Abito qui da un anno." },
+      { "de": "Seit wann lernst du Deutsch?", "it": "Da quando studi tedesco?" }
+    ]
+  },
+  {
+    "id": "v-a1-0406",
+    "pos": "prep",
+    "de": "von",
+    "it": ["da", "di"],
+    "promptIt": "da (dalle nove alle cinque; anche «di»: il libro di Anna)",
+    "noteIt": "Vuol dire anche «di»: das Buch von Anna = il libro di Anna. Vuole il dativo.",
+    "examples": [
+      { "de": "Ich arbeite von neun bis fünf.", "it": "Lavoro dalle nove alle cinque." },
+      { "de": "Das ist ein Geschenk von meiner Mutter.", "it": "È un regalo di mia madre." }
+    ]
+  },
+  {
+    "id": "v-a1-0407",
+    "pos": "prep",
+    "de": "bis",
+    "it": ["fino a", "fino"],
+    "promptIt": "fino a",
+    "examples": [
+      { "de": "Der Kurs geht bis zwölf Uhr.", "it": "Il corso dura fino a mezzogiorno." },
+      { "de": "Bis morgen!", "it": "A domani!" }
+    ]
+  }
+]

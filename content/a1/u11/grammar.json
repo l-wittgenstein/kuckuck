@@ -1,0 +1,357 @@
+[
+  {
+    "id": "g-a1-0041",
+    "title": "Le professioni al femminile: -in",
+    "explanationIt": [
+      "Quasi tutte le professioni hanno una forma femminile in -in: der Lehrer → die Lehrerin, der Kellner → die Kellnerin. Il femminile è sempre die.",
+      "Alcune prendono anche l'Umlaut: der Arzt → die Ärztin, der Koch → die Köchin.",
+      "Al plurale il femminile fa -innen: die Lehrerinnen, die Ärztinnen.",
+      "Lo stesso vale per molte persone: der Freund → die Freundin, der Nachbar → die Nachbarin (il vicino di casa → la vicina)."
+    ],
+    "pattern": [
+      "der Lehrer → die Lehrerin – l'insegnante",
+      "der Kellner → die Kellnerin – la cameriera",
+      "der Student → die Studentin – la studentessa",
+      "der Arzt → die Ärztin – la dottoressa",
+      "der Koch → die Köchin – la cuoca",
+      "der Freund → die Freundin – l'amica",
+      "die Lehrerinnen – le insegnanti"
+    ],
+    "examples": [
+      { "de": "Meine Mutter ist Ärztin.", "it": "Mia madre è medico." },
+      { "de": "Die Verkäuferin ist sehr nett.", "it": "La commessa è molto gentile." },
+      { "de": "Die Studentinnen lernen zusammen.", "it": "Le studentesse studiano insieme." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Sie ist Arztin.",
+        "right": "Sie ist Ärztin.",
+        "explanationIt": "Arzt al femminile prende l'Umlaut: Ärztin."
+      },
+      {
+        "wrong": "Der Lehrerin ist nett.",
+        "right": "Die Lehrerin ist nett.",
+        "explanationIt": "Le forme in -in sono sempre femminili: die."
+      },
+      {
+        "wrong": "die Lehrerinen",
+        "right": "die Lehrerinnen",
+        "explanationIt": "Al plurale la n raddoppia: -innen."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0041-e1",
+        "sentence": "Anna ist ___.",
+        "answers": ["Lehrerin"],
+        "hintIt": "insegnante (der Lehrer)",
+        "translationIt": "Anna è insegnante.",
+        "explanationIt": "Al femminile: Lehrer + in."
+      },
+      {
+        "id": "g-a1-0041-e2",
+        "sentence": "Meine Schwester ist ___.",
+        "answers": ["Ärztin"],
+        "hintIt": "medico (der Arzt)",
+        "translationIt": "Mia sorella è medico.",
+        "explanationIt": "Arzt al femminile prende l'Umlaut: Ärztin."
+      },
+      {
+        "id": "g-a1-0041-e3",
+        "sentence": "Die ___ bringt den Kaffee.",
+        "answers": ["Kellnerin"],
+        "hintIt": "la cameriera (der Kellner)",
+        "translationIt": "La cameriera porta il caffè.",
+        "explanationIt": "Al femminile: Kellner + in."
+      },
+      {
+        "id": "g-a1-0041-e4",
+        "sentence": "Sie ist ___ in einem Restaurant.",
+        "answers": ["Köchin"],
+        "hintIt": "cuoca (der Koch)",
+        "translationIt": "Fa la cuoca in un ristorante.",
+        "explanationIt": "Koch al femminile prende l'Umlaut: Köchin."
+      },
+      {
+        "id": "g-a1-0041-e5",
+        "sentence": "___ Studentin wohnt in Berlin.",
+        "answers": ["Die"],
+        "hintIt": "la",
+        "translationIt": "La studentessa abita a Berlino.",
+        "explanationIt": "Le forme in -in sono femminili: die."
+      },
+      {
+        "id": "g-a1-0041-e6",
+        "sentence": "Die ___ arbeiten viel.",
+        "answers": ["Ärztinnen"],
+        "hintIt": "dottoresse (der Arzt)",
+        "translationIt": "Le dottoresse lavorano molto.",
+        "explanationIt": "Femminile plurale con l'Umlaut: Ärztin + nen."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0042",
+    "title": "Ich bin Lehrerin: la professione senza articolo",
+    "explanationIt": [
+      "Per dire che lavoro fai di solito non si usa l'articolo: Ich bin Lehrerin. Er ist Koch. In italiano: «sono insegnante» o «faccio l'insegnante».",
+      "Se c'è un aggettivo, l'articolo torna: Sie ist eine gute Ärztin.",
+      "Per dire in che ruolo lavori si usa als: Ich arbeite als Kellnerin = lavoro come cameriera. Per l'azienda di solito si usa bei: Ich arbeite bei einer Firma in Berlin. Con il nome dell'azienda sempre bei: Ich arbeite bei Siemens.",
+      "La domanda: Was sind Sie von Beruf? oppure Was bist du von Beruf?"
+    ],
+    "pattern": [
+      "Ich bin Lehrerin. – Sono insegnante.",
+      "Er ist Student. – È studente.",
+      "Sie ist eine gute Ärztin. – È un bravo medico.",
+      "Ich arbeite als Kellnerin. – Lavoro come cameriera.",
+      "Ich arbeite bei einer Firma. – Lavoro in un'azienda.",
+      "Was bist du von Beruf? – Che lavoro fai?"
+    ],
+    "examples": [
+      { "de": "Was sind Sie von Beruf? Ich bin Ingenieurin.", "it": "Che lavoro fa? Sono ingegnere." },
+      { "de": "Mein Bruder arbeitet als Koch.", "it": "Mio fratello lavora come cuoco." },
+      { "de": "Sie arbeitet bei einer Firma in Hamburg.", "it": "Lavora in un'azienda di Amburgo." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich bin eine Lehrerin.",
+        "right": "Ich bin Lehrerin.",
+        "explanationIt": "Con la professione di solito non si usa l'articolo."
+      },
+      {
+        "wrong": "Ich arbeite wie Kellnerin.",
+        "right": "Ich arbeite als Kellnerin.",
+        "explanationIt": "«Come» nel senso di «in qualità di» si dice als."
+      },
+      {
+        "wrong": "Ich arbeite in Siemens.",
+        "right": "Ich arbeite bei Siemens.",
+        "explanationIt": "Con il nome di un'azienda si usa bei."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0042-e1",
+        "sentence": "Was sind Sie von ___?",
+        "answers": ["Beruf"],
+        "hintIt": "che lavoro fa?",
+        "translationIt": "Che lavoro fa?",
+        "explanationIt": "La domanda fissa è Was sind Sie von Beruf?"
+      },
+      {
+        "id": "g-a1-0042-e2",
+        "sentence": "Ich arbeite ___ Kellnerin.",
+        "answers": ["als"],
+        "hintIt": "come",
+        "translationIt": "Lavoro come cameriera.",
+        "explanationIt": "«Come» nel senso di «in qualità di»: als."
+      },
+      {
+        "id": "g-a1-0042-e3",
+        "sentence": "Sie arbeitet ___ einer Firma in München.",
+        "answers": ["bei", "in"],
+        "hintIt": "presso",
+        "translationIt": "Lavora in un'azienda di Monaco.",
+        "explanationIt": "Per l'azienda si usa bei."
+      },
+      {
+        "id": "g-a1-0042-e4",
+        "sentence": "Mein Bruder ist ___.",
+        "answers": ["Student"],
+        "hintIt": "studente",
+        "translationIt": "Mio fratello è studente.",
+        "explanationIt": "Con la professione non c'è articolo: ist Student."
+      },
+      {
+        "id": "g-a1-0042-e5",
+        "sentence": "Sie ist eine gute ___.",
+        "answers": ["Ärztin"],
+        "hintIt": "dottoressa",
+        "translationIt": "È un bravo medico.",
+        "explanationIt": "Con un aggettivo l'articolo torna; al femminile Ärztin."
+      },
+      {
+        "id": "g-a1-0042-e6",
+        "sentence": "Was ___ du von Beruf?",
+        "answers": ["bist"],
+        "hintIt": "sein",
+        "translationIt": "Che lavoro fai?",
+        "explanationIt": "Con du: Was bist du von Beruf?"
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0043",
+    "title": "arbeiten, finden, warten: una e in più",
+    "explanationIt": [
+      "Se la radice del verbo finisce in -t o -d, di solito con du, er/sie/es e ihr si aggiunge una e, perché sarebbe difficile da pronunciare: du arbeitest, er arbeitet, ihr arbeitet.",
+      "Funzionano così anche finden (du findest), warten (er wartet), antworten (du antwortest).",
+      "Con ich, wir e sie/Sie niente di nuovo: ich arbeite, wir arbeiten."
+    ],
+    "pattern": [
+      "ich arbeite – io lavoro",
+      "du arbeitest – tu lavori",
+      "er/sie/es arbeitet – lui/lei lavora",
+      "wir arbeiten – noi lavoriamo",
+      "ihr arbeitet – voi lavorate",
+      "sie/Sie arbeiten – loro lavorano / Lei lavora"
+    ],
+    "examples": [
+      { "de": "Meine Mutter arbeitet im Büro.", "it": "Mia madre lavora in ufficio." },
+      { "de": "Wie findest du den Job?", "it": "Come ti sembra il lavoro?" },
+      { "de": "Er wartet auf den Bus.", "it": "Aspetta l'autobus." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Er arbeit viel.",
+        "right": "Er arbeitet viel.",
+        "explanationIt": "Con er la radice arbeit- prende -et: arbeitet."
+      },
+      {
+        "wrong": "Du findst den Weg.",
+        "right": "Du findest den Weg.",
+        "explanationIt": "Con du la radice find- prende -est: findest."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0043-e1",
+        "sentence": "Er ___ in einem Büro.",
+        "answers": ["arbeitet"],
+        "hintIt": "arbeiten",
+        "translationIt": "Lavora in un ufficio.",
+        "explanationIt": "Con er: arbeit + et."
+      },
+      {
+        "id": "g-a1-0043-e2",
+        "sentence": "Wo ___ du?",
+        "answers": ["arbeitest"],
+        "hintIt": "arbeiten",
+        "translationIt": "Dove lavori?",
+        "explanationIt": "Con du: arbeit + est."
+      },
+      {
+        "id": "g-a1-0043-e3",
+        "sentence": "Wie ___ du die Arbeit?",
+        "answers": ["findest"],
+        "hintIt": "finden",
+        "translationIt": "Come ti sembra il lavoro?",
+        "explanationIt": "Con du: find + est."
+      },
+      {
+        "id": "g-a1-0043-e4",
+        "sentence": "Ihr ___ zu viel.",
+        "answers": ["arbeitet"],
+        "hintIt": "arbeiten",
+        "translationIt": "Lavorate troppo.",
+        "explanationIt": "Con ihr: arbeit + et."
+      },
+      {
+        "id": "g-a1-0043-e5",
+        "sentence": "Sie ___ auf den Bus.",
+        "answers": ["wartet"],
+        "hintIt": "warten, lei",
+        "translationIt": "Aspetta l'autobus.",
+        "explanationIt": "Con sie (lei): wart + et."
+      },
+      {
+        "id": "g-a1-0043-e6",
+        "sentence": "Ich ___ am Montag nicht.",
+        "answers": ["arbeite"],
+        "hintIt": "arbeiten",
+        "translationIt": "Lunedì non lavoro.",
+        "explanationIt": "Con ich niente di nuovo: arbeite."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0044",
+    "title": "Da quando? seit; dalle… alle: von… bis",
+    "explanationIt": [
+      "seit dice da quanto tempo dura qualcosa che continua ancora: Ich arbeite seit zwei Jahren hier = lavoro qui da due anni. Il verbo resta al presente, come in italiano.",
+      "seit vuole il dativo: seit einem Jahr, seit einer Woche. Al plurale si aggiunge una -n, se non c'è già: seit zwei Jahren, seit drei Monaten (ma seit zwei Wochen). seit funziona anche con un punto di partenza: seit Montag = da lunedì.",
+      "Per un periodo con un inizio e una fine: von… bis. Von neun bis fünf Uhr, von Montag bis Freitag."
+    ],
+    "pattern": [
+      "seit einem Jahr – da un anno",
+      "seit einer Woche – da una settimana",
+      "seit zwei Jahren – da due anni",
+      "seit drei Monaten – da tre mesi",
+      "von neun bis fünf Uhr – dalle nove alle cinque",
+      "von Montag bis Freitag – dal lunedì al venerdì",
+      "Seit wann…? – Da quando…?"
+    ],
+    "examples": [
+      { "de": "Ich lerne seit einem Monat Deutsch.", "it": "Studio tedesco da un mese." },
+      { "de": "Die Bank ist von Montag bis Freitag offen.", "it": "La banca è aperta dal lunedì al venerdì." },
+      { "de": "Seit wann wohnst du in Berlin?", "it": "Da quando abiti a Berlino?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich wohne hier von zwei Jahren.",
+        "right": "Ich wohne hier seit zwei Jahren.",
+        "explanationIt": "«Da» + quanto tempo si dice seit, non von."
+      },
+      {
+        "wrong": "Ich wohne hier seit zwei Jahre.",
+        "right": "Ich wohne hier seit zwei Jahren.",
+        "explanationIt": "seit vuole il dativo: al plurale Jahren, con la -n."
+      },
+      {
+        "wrong": "von Montag zu Freitag",
+        "right": "von Montag bis Freitag",
+        "explanationIt": "«Da… a…» si dice von… bis."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0044-e1",
+        "sentence": "Ich lerne ___ einem Jahr Deutsch.",
+        "answers": ["seit"],
+        "hintIt": "da",
+        "translationIt": "Studio tedesco da un anno.",
+        "explanationIt": "Per qualcosa che dura ancora: seit."
+      },
+      {
+        "id": "g-a1-0044-e2",
+        "sentence": "Wir wohnen seit drei ___ in Berlin.",
+        "answers": ["Monaten"],
+        "hintIt": "mesi (der Monat)",
+        "translationIt": "Abitiamo a Berlino da tre mesi.",
+        "explanationIt": "seit vuole il dativo: al plurale Monaten."
+      },
+      {
+        "id": "g-a1-0044-e3",
+        "sentence": "Ich arbeite ___ neun bis fünf Uhr.",
+        "answers": ["von"],
+        "hintIt": "dalle",
+        "translationIt": "Lavoro dalle nove alle cinque.",
+        "explanationIt": "«Dalle… alle…»: von… bis."
+      },
+      {
+        "id": "g-a1-0044-e4",
+        "sentence": "Der Supermarkt ist von Montag ___ Samstag offen.",
+        "answers": ["bis"],
+        "hintIt": "al",
+        "translationIt": "Il supermercato è aperto dal lunedì al sabato.",
+        "explanationIt": "«Da… a…»: von… bis."
+      },
+      {
+        "id": "g-a1-0044-e5",
+        "sentence": "Sie arbeitet seit zwei ___ bei der Firma.",
+        "answers": ["Jahren"],
+        "hintIt": "anni (das Jahr)",
+        "translationIt": "Lavora nell'azienda da due anni.",
+        "explanationIt": "seit vuole il dativo: al plurale Jahren."
+      },
+      {
+        "id": "g-a1-0044-e6",
+        "sentence": "Er wartet seit einer ___.",
+        "answers": ["Stunde"],
+        "hintIt": "un'ora (sessanta minuti)",
+        "translationIt": "Aspetta da un'ora.",
+        "explanationIt": "Un'ora di tempo è die Stunde: seit einer Stunde."
+      }
+    ]
+  }
+]
