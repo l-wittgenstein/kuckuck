@@ -1,5 +1,6 @@
 import type { GrammarItem } from "../../../content/schema";
 import { PatternTable } from "../../components/PatternTable";
+import { PlayButton } from "../../components/PlayButton";
 import { FlagButton } from "../../components/FlagButton";
 import { it } from "../../i18n/it";
 
@@ -23,9 +24,12 @@ export function GrammarLesson({ item }: { item: GrammarItem }) {
       <h2>{it.lesson.examples}</h2>
       <ul className="examples">
         {item.examples.map((ex) => (
-          <li key={ex.de}>
-            <span lang="de" className="example-de">{ex.de}</span>
-            <span className="muted">{ex.it}</span>
+          <li key={ex.de} className="example">
+            <PlayButton text={ex.de} />
+            <span className="example-text">
+              <span lang="de" className="example-de">{ex.de}</span>
+              <span className="muted">{ex.it}</span>
+            </span>
           </li>
         ))}
       </ul>
@@ -37,8 +41,11 @@ export function GrammarLesson({ item }: { item: GrammarItem }) {
             <span lang="de" className="mistake-wrong">
               <span className="sr-only">{it.lesson.wrong}: </span>✗ {m.wrong}
             </span>
-            <span lang="de" className="mistake-right">
-              <span className="sr-only">{it.lesson.right}: </span>✓ {m.right}
+            <span lang="de" className="mistake-right with-audio">
+              <span>
+                <span className="sr-only">{it.lesson.right}: </span>✓ {m.right}
+              </span>
+              <PlayButton text={m.right} />
             </span>
             <span className="muted">{m.explanationIt}</span>
           </li>

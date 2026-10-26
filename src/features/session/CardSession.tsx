@@ -4,7 +4,10 @@
 import { useReducer, useRef, useState, type ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { checkCloze, checkGerman, checkMeaning, type CheckResult } from "../../checker/check";
+import { speak } from "../../audio/tts";
 import { FlagButton } from "../../components/FlagButton";
+import { PlayButton } from "../../components/PlayButton";
+import { useSettings } from "../../db/settings";
 import { GermanWord, germanLabel } from "../../components/German";
 import { levels } from "../../content";
 import type { CardRef } from "../../domain/cards";
@@ -16,6 +19,13 @@ import { it } from "../../i18n/it";
 const allVocab = levels.flatMap((l) => l.unitContents).flatMap((u) => u.vocab);
 const knownGerman = allVocab.flatMap((v) => [v.de, ...(v.acceptDe ?? [])]);
 const knownItalian = allVocab.flatMap((v) => v.it);
+
+// The German worth hearing once a card is answered.
+function germanOf(card: CardRef): string {
+  return card.kind === "cloze"
+    ? card.exercise.sentence.replace("___", card.exercise.answers[0])
+    : germanLabel(card.item);
+}
 
 function check(card: CardRef, answer: string): CheckResult {
   switch (card.kind) {
@@ -43,6 +53,7 @@ export function CardSession({ cards, closeTo, onAnswer, onOverride, extraFeedbac
   const [state, dispatch] = useReducer(quizReducer, cards, (c) => startQuiz(c));
   const [answer, setAnswer] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
+  const settings = useSettings();
 
   if (isFinished(state)) return <>{renderDone(state)}</>;
 
@@ -59,6 +70,7 @@ export function CardSession({ cards, closeTo, onAnswer, onOverride, extraFeedbac
       const result = check(card, answer);
       onAnswer?.(card, answer, result, !(card.id in state.firstAttempts));
       dispatch({ type: "answer", answer, result });
+      if (settings?.autoplay) speak(germanOf(card), { repeatSlower: false });
     }
     inputRef.current?.focus();
   }
@@ -139,8 +151,9 @@ function Prompt({ card }: { card: CardRef }) {
     return (
       <div className="prompt">
         <span className="prompt-label">{it.quiz.recognition}</span>
-        <p className="prompt-main">
+        <p className="prompt-main with-audio">
           <GermanWord item={card.item} />
+          <PlayButton text={germanLabel(card.item)} size="large" />
         </p>
       </div>
     );
@@ -182,14 +195,18 @@ function Feedback(props: {
 
       {card.kind === "cloze" ? (
         <>
-          <span lang="de" className="example-de">
-            {card.exercise.sentence.replace("___", card.exercise.answers[0])}
+          <span lang="de" className="example-de with-audio">
+            {germanOf(card)}
+            <PlayButton text={germanOf(card)} />
           </span>
           <span className="muted">{card.exercise.explanationIt}</span>
         </>
       ) : (
-        <span>
-          <b lang="de">{germanLabel(card.item)}</b> · {card.item.it.join(", ")}
+        <span className="with-audio">
+          <span>
+            <b lang="de">{germanLabel(card.item)}</b> · {card.item.it.join(", ")}
+          </span>
+          <PlayButton text={germanOf(card)} />
         </span>
       )}
 

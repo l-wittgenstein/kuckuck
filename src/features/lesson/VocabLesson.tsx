@@ -1,5 +1,6 @@
 import type { VocabItem } from "../../../content/schema";
-import { GermanWord } from "../../components/German";
+import { GermanWord, germanLabel } from "../../components/German";
+import { PlayButton } from "../../components/PlayButton";
 import { FlagButton } from "../../components/FlagButton";
 import { it } from "../../i18n/it";
 
@@ -10,12 +11,14 @@ export function VocabLesson({ item }: { item: VocabItem }) {
         <span className="tag">{it.lesson.pos[item.pos]}</span>
         <FlagButton itemId={item.id} />
       </div>
-      <h1 className="headword">
+      <h1 className="headword with-audio">
         <GermanWord item={item} />
+        <PlayButton text={germanLabel(item)} size="large" />
       </h1>
       {item.pos === "noun" && (
-        <p className="muted" lang="de">
+        <p className="muted with-audio" lang="de">
           {it.lesson.plural}: {item.plural ? `die ${item.plural}` : it.lesson.noPlural}
+          {item.plural && <PlayButton text={`die ${item.plural}`} />}
         </p>
       )}
       <p className="meaning">{item.it.join(", ")}</p>
@@ -24,9 +27,12 @@ export function VocabLesson({ item }: { item: VocabItem }) {
       <h2>{it.lesson.examples}</h2>
       <ul className="examples">
         {item.examples.map((ex) => (
-          <li key={ex.de}>
-            <span lang="de" className="example-de">{ex.de}</span>
-            <span className="muted">{ex.it}</span>
+          <li key={ex.de} className="example">
+            <PlayButton text={ex.de} />
+            <span className="example-text">
+              <span lang="de" className="example-de">{ex.de}</span>
+              <span className="muted">{ex.it}</span>
+            </span>
           </li>
         ))}
       </ul>
