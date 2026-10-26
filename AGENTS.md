@@ -61,9 +61,12 @@ Planned (about 16 units for A1, roughly 650 words):
 - `npm run validate-content`, `npm test`, `npx tsc -b`, `npm run build`.
 - For UI changes, look at the screens (Playwright screenshots at phone size, light and dark); for new screens run the axe audit (`axe-core` is a dev dependency) and keep it at 0 violations.
 - Vitest's on-disk module cache is turned off in `vite.config.ts` because it hid newly added content files; keep it off.
+- The production build carries a Content Security Policy meta tag (same-origin only, no inline scripts). Browser tests that inject scripts (axe) need Playwright's `bypassCSP: true`. Any new external resource or inline script needs the policy updated deliberately.
+- Don't use Playwright's fake clock (`page.clock`): it stalls the app's live database queries. To test reviews, let missed quiz cards come due (about a minute) instead.
 
 ## Git and deployment
 
 - The GitHub repo is `l-wittgenstein/kuckuck` (it was renamed from `kuckcuck`).
+- Other sessions may push to `main` too: fetch and merge `origin/main` before pushing (merge, don't rebase or force-push), then rerun the checks.
 - Pushing to `main` runs `.github/workflows/deploy.yml`, which tests, builds and publishes to GitHub Pages. After pushing, confirm the live site serves the new build.
 - Commit in small, focused steps with clear messages.
