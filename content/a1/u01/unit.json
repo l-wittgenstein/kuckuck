@@ -1,0 +1,16 @@
+{
+  "id": "a1-u01",
+  "level": "a1",
+  "order": 1,
+  "title": "Hallo! Piacere di conoscerti",
+  "summary": "Saluti, presentazioni, i pronomi personali, il verbo sein e l'ordine delle parole nelle frasi e nelle domande.",
+  "batches": [
+    { "id": "a1-u01-b01", "itemIds": ["v-a1-0001", "v-a1-0002", "v-a1-0003", "v-a1-0004", "v-a1-0005"] },
+    { "id": "a1-u01-b02", "itemIds": ["v-a1-0006", "v-a1-0007", "v-a1-0008", "v-a1-0009", "v-a1-0010"] },
+    { "id": "a1-u01-b03", "itemIds": ["v-a1-0011", "v-a1-0012", "v-a1-0014", "g-a1-0001", "g-a1-0002"] },
+    { "id": "a1-u01-b04", "itemIds": ["v-a1-0013", "v-a1-0015", "v-a1-0016", "v-a1-0017", "v-a1-0018"] },
+    { "id": "a1-u01-b05", "itemIds": ["g-a1-0003", "v-a1-0019", "v-a1-0020", "v-a1-0021", "v-a1-0022"] },
+    { "id": "a1-u01-b06", "itemIds": ["v-a1-0023", "v-a1-0024", "v-a1-0025", "v-a1-0026", "v-a1-0027"] },
+    { "id": "a1-u01-b07", "itemIds": ["v-a1-0028", "v-a1-0029", "v-a1-0030", "g-a1-0004"] }
+  ]
+}

@@ -1,0 +1,356 @@
+[
+  {
+    "id": "v-a1-0001",
+    "pos": "interj",
+    "de": "Hallo",
+    "it": ["ciao", "salve"],
+    "promptIt": "ciao (quando arrivi)",
+    "examples": [
+      { "de": "Hallo, ich bin Anna.", "it": "Ciao, sono Anna." },
+      { "de": "Hallo, wie geht's?", "it": "Ciao, come va?" }
+    ]
+  },
+  {
+    "id": "v-a1-0002",
+    "pos": "phrase",
+    "de": "Guten Morgen",
+    "it": ["buongiorno"],
+    "promptIt": "buongiorno (di mattina)",
+    "noteIt": "Si usa di mattina, più o meno fino alle 10–11.",
+    "examples": [
+      { "de": "Guten Morgen, Frau Schmidt!", "it": "Buongiorno, signora Schmidt!" },
+      { "de": "Guten Morgen! Wie geht's?", "it": "Buongiorno! Come va?" }
+    ]
+  },
+  {
+    "id": "v-a1-0003",
+    "pos": "phrase",
+    "de": "Guten Tag",
+    "it": ["buongiorno", "buon pomeriggio", "salve"],
+    "promptIt": "buongiorno (durante il giorno, formale)",
+    "noteIt": "Saluto formale per tutta la giornata, dalla tarda mattina al tardo pomeriggio.",
+    "examples": [
+      { "de": "Guten Tag, Herr Müller!", "it": "Buongiorno, signor Müller!" },
+      { "de": "Guten Tag, ich heiße Paul Weber.", "it": "Buongiorno, mi chiamo Paul Weber." }
+    ]
+  },
+  {
+    "id": "v-a1-0004",
+    "pos": "phrase",
+    "de": "Guten Abend",
+    "it": ["buonasera"],
+    "promptIt": "buonasera",
+    "examples": [
+      { "de": "Guten Abend, Frau Klein!", "it": "Buonasera, signora Klein!" },
+      { "de": "Guten Abend! Ich bin Marco.", "it": "Buonasera! Sono Marco." }
+    ]
+  },
+  {
+    "id": "v-a1-0005",
+    "pos": "phrase",
+    "de": "Gute Nacht",
+    "it": ["buonanotte"],
+    "promptIt": "buonanotte",
+    "noteIt": "Si dice solo quando si va a dormire, non come saluto di sera.",
+    "examples": [
+      { "de": "Gute Nacht, Anna!", "it": "Buonanotte, Anna!" },
+      { "de": "Danke und gute Nacht!", "it": "Grazie e buonanotte!" }
+    ]
+  },
+  {
+    "id": "v-a1-0006",
+    "pos": "interj",
+    "de": "Tschüss",
+    "acceptDe": ["Tschüs"],
+    "it": ["ciao", "ciao ciao"],
+    "promptIt": "ciao (quando te ne vai, informale)",
+    "noteIt": "Si scrive anche «Tschüs». Per salutare quando arrivi si usa «Hallo».",
+    "examples": [
+      { "de": "Tschüss, Lena!", "it": "Ciao, Lena!" },
+      { "de": "Danke! Tschüss!", "it": "Grazie! Ciao!" }
+    ]
+  },
+  {
+    "id": "v-a1-0007",
+    "pos": "phrase",
+    "de": "Auf Wiedersehen",
+    "it": ["arrivederci", "arrivederla"],
+    "promptIt": "arrivederci (formale)",
+    "examples": [
+      { "de": "Auf Wiedersehen, Herr Becker!", "it": "Arrivederci, signor Becker!" },
+      { "de": "Danke! Auf Wiedersehen!", "it": "Grazie! Arrivederci!" }
+    ]
+  },
+  {
+    "id": "v-a1-0008",
+    "pos": "interj",
+    "de": "danke",
+    "it": ["grazie"],
+    "promptIt": "grazie",
+    "examples": [
+      { "de": "Danke, Anna!", "it": "Grazie, Anna!" },
+      { "de": "Gut, danke!", "it": "Bene, grazie!" }
+    ]
+  },
+  {
+    "id": "v-a1-0009",
+    "pos": "interj",
+    "de": "bitte",
+    "it": ["prego", "per favore", "per piacere"],
+    "promptIt": "per favore / prego",
+    "noteIt": "Vuol dire sia «per favore» sia «prego» (in risposta a «danke»).",
+    "examples": [
+      { "de": "Danke! – Bitte!", "it": "Grazie! – Prego!" },
+      { "de": "Wie heißen Sie, bitte?", "it": "Come si chiama, per favore?" }
+    ]
+  },
+  {
+    "id": "v-a1-0010",
+    "pos": "interj",
+    "de": "Entschuldigung",
+    "it": ["scusi", "scusa", "mi scusi"],
+    "promptIt": "scusi / scusa",
+    "examples": [
+      { "de": "Entschuldigung, wie heißen Sie?", "it": "Scusi, come si chiama?" },
+      { "de": "Entschuldigung, sind Sie Frau Weber?", "it": "Scusi, è lei la signora Weber?" }
+    ]
+  },
+  {
+    "id": "v-a1-0011",
+    "pos": "adv",
+    "de": "ja",
+    "it": ["sì"],
+    "promptIt": "sì",
+    "examples": [
+      { "de": "Ja, ich bin Anna.", "it": "Sì, sono Anna." },
+      { "de": "Bist du Marco? – Ja!", "it": "Sei Marco? – Sì!" }
+    ]
+  },
+  {
+    "id": "v-a1-0012",
+    "pos": "adv",
+    "de": "nein",
+    "it": ["no"],
+    "promptIt": "no",
+    "examples": [
+      { "de": "Nein, ich bin Lisa.", "it": "No, sono Lisa." },
+      { "de": "Kommst du aus Rom? – Nein, aus Mailand.", "it": "Vieni da Roma? – No, da Milano." }
+    ]
+  },
+  {
+    "id": "v-a1-0013",
+    "pos": "phrase",
+    "de": "Wie geht's?",
+    "acceptDe": ["Wie geht es?", "Wie geht es dir?"],
+    "it": ["come va?", "come stai?"],
+    "promptIt": "come va? (informale)",
+    "noteIt": "Forma breve di «Wie geht es?». Con chi dai del Lei: «Wie geht es Ihnen?»",
+    "examples": [
+      { "de": "Hallo, Tom! Wie geht's?", "it": "Ciao, Tom! Come va?" },
+      { "de": "Wie geht's? – Gut, danke!", "it": "Come va? – Bene, grazie!" }
+    ]
+  },
+  {
+    "id": "v-a1-0014",
+    "pos": "adj",
+    "de": "gut",
+    "it": ["bene", "buono"],
+    "promptIt": "bene / buono",
+    "noteIt": "In tedesco la stessa parola vale per «buono» e per «bene».",
+    "examples": [
+      { "de": "Mir geht es gut.", "it": "Sto bene." },
+      { "de": "Gut, danke! Und dir?", "it": "Bene, grazie! E tu?" }
+    ]
+  },
+  {
+    "id": "v-a1-0015",
+    "pos": "phrase",
+    "de": "Freut mich",
+    "it": ["piacere", "molto piacere"],
+    "promptIt": "piacere! (quando conosci qualcuno)",
+    "examples": [
+      { "de": "Ich bin Lena. – Freut mich!", "it": "Sono Lena. – Piacere!" },
+      { "de": "Freut mich, Herr Wagner.", "it": "Piacere, signor Wagner." }
+    ]
+  },
+  {
+    "id": "v-a1-0016",
+    "pos": "noun",
+    "de": "Name",
+    "article": "der",
+    "plural": "Namen",
+    "it": ["nome"],
+    "promptIt": "il nome",
+    "examples": [
+      { "de": "Mein Name ist Giulia.", "it": "Il mio nome è Giulia." },
+      { "de": "Wie ist Ihr Name?", "it": "Qual è il suo nome?" }
+    ]
+  },
+  {
+    "id": "v-a1-0017",
+    "pos": "noun",
+    "de": "Frau",
+    "article": "die",
+    "plural": "Frauen",
+    "it": ["donna", "signora", "moglie"],
+    "promptIt": "la donna / la signora",
+    "noteIt": "Davanti al cognome si usa senza articolo: Frau Schmidt (la signora Schmidt). Vuol dire anche «moglie».",
+    "examples": [
+      { "de": "Das ist Frau Schmidt.", "it": "Questa è la signora Schmidt." },
+      { "de": "Die Frau heißt Maria.", "it": "La donna si chiama Maria." }
+    ]
+  },
+  {
+    "id": "v-a1-0018",
+    "pos": "noun",
+    "de": "Herr",
+    "article": "der",
+    "plural": "Herren",
+    "it": ["signore"],
+    "promptIt": "il signore (davanti al cognome)",
+    "noteIt": "Davanti al cognome si usa senza articolo: Herr Müller (il signor Müller).",
+    "examples": [
+      { "de": "Das ist Herr Müller.", "it": "Questo è il signor Müller." },
+      { "de": "Guten Tag, Herr Fischer!", "it": "Buongiorno, signor Fischer!" }
+    ]
+  },
+  {
+    "id": "v-a1-0019",
+    "pos": "verb",
+    "de": "heißen",
+    "it": ["chiamarsi"],
+    "promptIt": "chiamarsi",
+    "noteIt": "Attenzione: du heißt (non «heißst»).",
+    "examples": [
+      { "de": "Ich heiße Giulia.", "it": "Mi chiamo Giulia." },
+      { "de": "Wie heißt du?", "it": "Come ti chiami?" },
+      { "de": "Wie heißen Sie?", "it": "Come si chiama?" }
+    ]
+  },
+  {
+    "id": "v-a1-0020",
+    "pos": "verb",
+    "de": "kommen",
+    "it": ["venire", "arrivare"],
+    "promptIt": "venire",
+    "examples": [
+      { "de": "Ich komme aus Italien.", "it": "Vengo dall'Italia." },
+      { "de": "Woher kommst du?", "it": "Da dove vieni?" },
+      { "de": "Er kommt aus Berlin.", "it": "Viene da Berlino." }
+    ]
+  },
+  {
+    "id": "v-a1-0021",
+    "pos": "verb",
+    "de": "wohnen",
+    "it": ["abitare", "vivere"],
+    "promptIt": "abitare",
+    "examples": [
+      { "de": "Ich wohne in Bologna.", "it": "Abito a Bologna." },
+      { "de": "Wo wohnst du?", "it": "Dove abiti?" },
+      { "de": "Wir wohnen in Berlin.", "it": "Abitiamo a Berlino." }
+    ]
+  },
+  {
+    "id": "v-a1-0022",
+    "pos": "verb",
+    "de": "lernen",
+    "it": ["imparare", "studiare"],
+    "promptIt": "imparare",
+    "examples": [
+      { "de": "Ich lerne Deutsch.", "it": "Imparo il tedesco." },
+      { "de": "Lernst du auch Deutsch?", "it": "Anche tu impari il tedesco?" }
+    ]
+  },
+  {
+    "id": "v-a1-0023",
+    "pos": "prep",
+    "de": "aus",
+    "it": ["da", "di"],
+    "promptIt": "da (provenienza)",
+    "examples": [
+      { "de": "Anna kommt aus Wien.", "it": "Anna viene da Vienna." },
+      { "de": "Kommen Sie aus Deutschland?", "it": "Lei viene dalla Germania?" }
+    ]
+  },
+  {
+    "id": "v-a1-0024",
+    "pos": "propn",
+    "de": "Italien",
+    "article": "das",
+    "it": ["Italia"],
+    "promptIt": "l'Italia",
+    "noteIt": "Di solito senza articolo: aus Italien (dall'Italia), in Italien (in Italia).",
+    "examples": [
+      { "de": "Ich komme aus Italien.", "it": "Vengo dall'Italia." },
+      { "de": "Italien ist schön.", "it": "L'Italia è bella." }
+    ]
+  },
+  {
+    "id": "v-a1-0025",
+    "pos": "adv",
+    "de": "auch",
+    "it": ["anche"],
+    "promptIt": "anche",
+    "examples": [
+      { "de": "Ich komme auch aus Italien.", "it": "Anch'io vengo dall'Italia." },
+      { "de": "Ich auch!", "it": "Anch'io!" }
+    ]
+  },
+  {
+    "id": "v-a1-0026",
+    "pos": "pron",
+    "de": "wer",
+    "it": ["chi"],
+    "promptIt": "chi",
+    "examples": [
+      { "de": "Wer ist das?", "it": "Chi è?" },
+      { "de": "Wer bist du?", "it": "Chi sei?" }
+    ]
+  },
+  {
+    "id": "v-a1-0027",
+    "pos": "pron",
+    "de": "was",
+    "it": ["che cosa", "cosa", "che"],
+    "promptIt": "che cosa",
+    "examples": [
+      { "de": "Was ist das?", "it": "Che cos'è?" },
+      { "de": "Was lernst du?", "it": "Che cosa studi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0028",
+    "pos": "adv",
+    "de": "wo",
+    "it": ["dove"],
+    "promptIt": "dove (in che luogo)",
+    "examples": [
+      { "de": "Wo wohnst du?", "it": "Dove abiti?" },
+      { "de": "Wo ist Anna?", "it": "Dov'è Anna?" }
+    ]
+  },
+  {
+    "id": "v-a1-0029",
+    "pos": "adv",
+    "de": "woher",
+    "it": ["da dove"],
+    "promptIt": "da dove",
+    "examples": [
+      { "de": "Woher kommst du?", "it": "Da dove vieni?" },
+      { "de": "Woher kommen Sie?", "it": "Da dove viene?" }
+    ]
+  },
+  {
+    "id": "v-a1-0030",
+    "pos": "adv",
+    "de": "wie",
+    "it": ["come"],
+    "promptIt": "come",
+    "noteIt": "«Qual è il tuo nome?» in tedesco si dice con wie: Wie ist dein Name?",
+    "examples": [
+      { "de": "Wie heißt du?", "it": "Come ti chiami?" },
+      { "de": "Wie ist dein Name?", "it": "Qual è il tuo nome?" }
+    ]
+  }
+]

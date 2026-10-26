@@ -1,0 +1,401 @@
+[
+  {
+    "id": "v-a1-0031",
+    "pos": "noun",
+    "de": "Mann",
+    "article": "der",
+    "plural": "Männer",
+    "it": ["uomo", "marito"],
+    "promptIt": "l'uomo",
+    "noteIt": "Vuol dire anche «marito»: mein Mann = mio marito.",
+    "examples": [
+      { "de": "Der Mann heißt Peter.", "it": "L'uomo si chiama Peter." },
+      { "de": "Das ist mein Mann.", "it": "Questo è mio marito." },
+      { "de": "Die Männer kommen aus Berlin.", "it": "Gli uomini vengono da Berlino." }
+    ]
+  },
+  {
+    "id": "v-a1-0032",
+    "pos": "noun",
+    "de": "Kind",
+    "article": "das",
+    "plural": "Kinder",
+    "it": ["bambino", "bambina", "figlio", "figlia"],
+    "promptIt": "il bambino / la bambina",
+    "noteIt": "È neutro, sia per i maschi sia per le femmine. Vuol dire anche «figlio/figlia».",
+    "examples": [
+      { "de": "Das Kind heißt Mia.", "it": "La bambina si chiama Mia." },
+      { "de": "Wir haben zwei Kinder.", "it": "Abbiamo due figli." }
+    ]
+  },
+  {
+    "id": "v-a1-0033",
+    "pos": "noun",
+    "de": "Mädchen",
+    "article": "das",
+    "plural": "Mädchen",
+    "it": ["ragazza", "bambina"],
+    "promptIt": "la ragazza (giovane) / la bambina",
+    "noteIt": "È neutro, anche se indica una femmina: tutte le parole in -chen sono neutre. Il plurale non cambia.",
+    "examples": [
+      { "de": "Das Mädchen heißt Lisa.", "it": "La ragazza si chiama Lisa." },
+      { "de": "Die Mädchen lernen Deutsch.", "it": "Le ragazze imparano il tedesco." }
+    ]
+  },
+  {
+    "id": "v-a1-0034",
+    "pos": "noun",
+    "de": "Bruder",
+    "article": "der",
+    "plural": "Brüder",
+    "it": ["fratello"],
+    "promptIt": "il fratello",
+    "examples": [
+      { "de": "Mein Bruder wohnt in Rom.", "it": "Mio fratello abita a Roma." },
+      { "de": "Ich habe zwei Brüder.", "it": "Ho due fratelli." }
+    ]
+  },
+  {
+    "id": "v-a1-0035",
+    "pos": "noun",
+    "de": "Schwester",
+    "article": "die",
+    "plural": "Schwestern",
+    "it": ["sorella"],
+    "promptIt": "la sorella",
+    "examples": [
+      { "de": "Meine Schwester heißt Sara.", "it": "Mia sorella si chiama Sara." },
+      { "de": "Hast du eine Schwester?", "it": "Hai una sorella?" }
+    ]
+  },
+  {
+    "id": "v-a1-0036",
+    "pos": "noun",
+    "de": "Haus",
+    "article": "das",
+    "plural": "Häuser",
+    "it": ["casa"],
+    "promptIt": "la casa (l'edificio)",
+    "examples": [
+      { "de": "Das ist ein Haus.", "it": "Questa è una casa." },
+      { "de": "Wir haben ein Haus in Italien.", "it": "Abbiamo una casa in Italia." },
+      { "de": "Die Häuser sind schön.", "it": "Le case sono belle." }
+    ]
+  },
+  {
+    "id": "v-a1-0037",
+    "pos": "noun",
+    "de": "Buch",
+    "article": "das",
+    "plural": "Bücher",
+    "it": ["libro"],
+    "promptIt": "il libro",
+    "examples": [
+      { "de": "Das ist ein Buch.", "it": "Questo è un libro." },
+      { "de": "Ich habe drei Bücher.", "it": "Ho tre libri." }
+    ]
+  },
+  {
+    "id": "v-a1-0038",
+    "pos": "noun",
+    "de": "Auto",
+    "article": "das",
+    "plural": "Autos",
+    "it": ["auto", "macchina", "automobile"],
+    "promptIt": "l'auto / la macchina",
+    "noteIt": "In italiano è femminile, in tedesco è neutro.",
+    "examples": [
+      { "de": "Das Auto ist neu.", "it": "La macchina è nuova." },
+      { "de": "Wir haben zwei Autos.", "it": "Abbiamo due macchine." }
+    ]
+  },
+  {
+    "id": "v-a1-0039",
+    "pos": "noun",
+    "de": "Katze",
+    "article": "die",
+    "plural": "Katzen",
+    "it": ["gatto", "gatta"],
+    "promptIt": "il gatto",
+    "noteIt": "È femminile anche quando si parla di un gatto maschio.",
+    "examples": [
+      { "de": "Die Katze heißt Luna.", "it": "La gatta si chiama Luna." },
+      { "de": "Ich habe eine Katze.", "it": "Ho un gatto." }
+    ]
+  },
+  {
+    "id": "v-a1-0040",
+    "pos": "noun",
+    "de": "Hund",
+    "article": "der",
+    "plural": "Hunde",
+    "it": ["cane"],
+    "promptIt": "il cane",
+    "examples": [
+      { "de": "Der Hund heißt Bello.", "it": "Il cane si chiama Bello." },
+      { "de": "Hast du einen Hund?", "it": "Hai un cane?" }
+    ]
+  },
+  {
+    "id": "v-a1-0041",
+    "pos": "noun",
+    "de": "Sonne",
+    "article": "die",
+    "plural": null,
+    "it": ["sole"],
+    "promptIt": "il sole",
+    "noteIt": "In italiano è maschile (il sole), in tedesco femminile (die Sonne). Il plurale si usa quasi mai.",
+    "examples": [
+      { "de": "Die Sonne scheint.", "it": "C'è il sole." },
+      { "de": "Wo ist die Sonne?", "it": "Dov'è il sole?" }
+    ]
+  },
+  {
+    "id": "v-a1-0042",
+    "pos": "noun",
+    "de": "Mond",
+    "article": "der",
+    "plural": "Monde",
+    "it": ["luna"],
+    "promptIt": "la luna",
+    "noteIt": "In italiano è femminile (la luna), in tedesco maschile (der Mond).",
+    "examples": [
+      { "de": "Der Mond ist schön.", "it": "La luna è bella." },
+      { "de": "Wo ist der Mond?", "it": "Dov'è la luna?" }
+    ]
+  },
+  {
+    "id": "v-a1-0043",
+    "pos": "num",
+    "de": "null",
+    "it": ["zero"],
+    "promptIt": "zero",
+    "examples": [
+      { "de": "Zwei minus zwei ist null.", "it": "Due meno due fa zero." },
+      { "de": "Es ist null Uhr.", "it": "È mezzanotte." }
+    ]
+  },
+  {
+    "id": "v-a1-0044",
+    "pos": "num",
+    "de": "eins",
+    "it": ["uno"],
+    "promptIt": "uno (quando conti)",
+    "noteIt": "Si dice «eins» quando conti. Davanti a un sostantivo diventa ein/eine: ein Kind, eine Katze.",
+    "examples": [
+      { "de": "Eins plus eins ist zwei.", "it": "Uno più uno fa due." },
+      { "de": "Zehn minus neun ist eins.", "it": "Dieci meno nove fa uno." }
+    ]
+  },
+  {
+    "id": "v-a1-0045",
+    "pos": "num",
+    "de": "zwei",
+    "it": ["due"],
+    "promptIt": "due",
+    "examples": [
+      { "de": "Ich habe zwei Brüder.", "it": "Ho due fratelli." },
+      { "de": "Ich habe zwei Katzen.", "it": "Ho due gatti." }
+    ]
+  },
+  {
+    "id": "v-a1-0046",
+    "pos": "num",
+    "de": "drei",
+    "it": ["tre"],
+    "promptIt": "tre",
+    "examples": [
+      { "de": "Eins, zwei, drei!", "it": "Uno, due, tre!" },
+      { "de": "Ich habe drei Bücher.", "it": "Ho tre libri." }
+    ]
+  },
+  {
+    "id": "v-a1-0047",
+    "pos": "num",
+    "de": "vier",
+    "it": ["quattro"],
+    "promptIt": "quattro",
+    "examples": [
+      { "de": "Zwei plus zwei ist vier.", "it": "Due più due fa quattro." },
+      { "de": "Wir haben vier Kinder.", "it": "Abbiamo quattro figli." }
+    ]
+  },
+  {
+    "id": "v-a1-0048",
+    "pos": "num",
+    "de": "fünf",
+    "it": ["cinque"],
+    "promptIt": "cinque",
+    "examples": [
+      { "de": "Drei plus zwei ist fünf.", "it": "Tre più due fa cinque." },
+      { "de": "Das Kind ist fünf.", "it": "Il bambino ha cinque anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0049",
+    "pos": "num",
+    "de": "sechs",
+    "it": ["sei"],
+    "promptIt": "sei (il numero)",
+    "examples": [
+      { "de": "Drei plus drei ist sechs.", "it": "Tre più tre fa sei." },
+      { "de": "Wir haben sechs Katzen.", "it": "Abbiamo sei gatti." }
+    ]
+  },
+  {
+    "id": "v-a1-0050",
+    "pos": "num",
+    "de": "sieben",
+    "it": ["sette"],
+    "promptIt": "sette",
+    "examples": [
+      { "de": "Vier plus drei ist sieben.", "it": "Quattro più tre fa sette." },
+      { "de": "Die Woche hat sieben Tage.", "it": "La settimana ha sette giorni." }
+    ]
+  },
+  {
+    "id": "v-a1-0051",
+    "pos": "num",
+    "de": "acht",
+    "it": ["otto"],
+    "promptIt": "otto",
+    "examples": [
+      { "de": "Vier plus vier ist acht.", "it": "Quattro più quattro fa otto." },
+      { "de": "Lisa ist acht.", "it": "Lisa ha otto anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0052",
+    "pos": "num",
+    "de": "neun",
+    "it": ["nove"],
+    "promptIt": "nove",
+    "examples": [
+      { "de": "Fünf plus vier ist neun.", "it": "Cinque più quattro fa nove." },
+      { "de": "Das Mädchen ist neun Jahre alt.", "it": "La bambina ha nove anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0053",
+    "pos": "num",
+    "de": "zehn",
+    "it": ["dieci"],
+    "promptIt": "dieci",
+    "examples": [
+      { "de": "Fünf plus fünf ist zehn.", "it": "Cinque più cinque fa dieci." },
+      { "de": "Ich habe zehn Bücher.", "it": "Ho dieci libri." }
+    ]
+  },
+  {
+    "id": "v-a1-0054",
+    "pos": "num",
+    "de": "elf",
+    "it": ["undici"],
+    "promptIt": "undici",
+    "examples": [
+      { "de": "Zehn plus eins ist elf.", "it": "Dieci più uno fa undici." },
+      { "de": "Mein Bruder ist elf.", "it": "Mio fratello ha undici anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0055",
+    "pos": "num",
+    "de": "zwölf",
+    "it": ["dodici"],
+    "promptIt": "dodici",
+    "examples": [
+      { "de": "Sechs plus sechs ist zwölf.", "it": "Sei più sei fa dodici." },
+      { "de": "Das Jahr hat zwölf Monate.", "it": "L'anno ha dodici mesi." }
+    ]
+  },
+  {
+    "id": "v-a1-0056",
+    "pos": "num",
+    "de": "dreizehn",
+    "it": ["tredici"],
+    "promptIt": "tredici",
+    "examples": [
+      { "de": "Zehn plus drei ist dreizehn.", "it": "Dieci più tre fa tredici." },
+      { "de": "Meine Schwester ist dreizehn.", "it": "Mia sorella ha tredici anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0057",
+    "pos": "num",
+    "de": "vierzehn",
+    "it": ["quattordici"],
+    "promptIt": "quattordici",
+    "examples": [
+      { "de": "Sieben plus sieben ist vierzehn.", "it": "Sette più sette fa quattordici." },
+      { "de": "Tom ist vierzehn Jahre alt.", "it": "Tom ha quattordici anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0058",
+    "pos": "num",
+    "de": "fünfzehn",
+    "it": ["quindici"],
+    "promptIt": "quindici",
+    "examples": [
+      { "de": "Zehn plus fünf ist fünfzehn.", "it": "Dieci più cinque fa quindici." },
+      { "de": "Anna ist fünfzehn.", "it": "Anna ha quindici anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0059",
+    "pos": "num",
+    "de": "sechzehn",
+    "it": ["sedici"],
+    "promptIt": "sedici",
+    "noteIt": "Attenzione: sechzehn perde la -s di sechs.",
+    "examples": [
+      { "de": "Acht plus acht ist sechzehn.", "it": "Otto più otto fa sedici." },
+      { "de": "Ich bin sechzehn.", "it": "Ho sedici anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0060",
+    "pos": "num",
+    "de": "siebzehn",
+    "it": ["diciassette"],
+    "promptIt": "diciassette",
+    "noteIt": "Attenzione: siebzehn perde la -en di sieben.",
+    "examples": [
+      { "de": "Zehn plus sieben ist siebzehn.", "it": "Dieci più sette fa diciassette." },
+      { "de": "Lena ist siebzehn Jahre alt.", "it": "Lena ha diciassette anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0061",
+    "pos": "num",
+    "de": "achtzehn",
+    "it": ["diciotto"],
+    "promptIt": "diciotto",
+    "examples": [
+      { "de": "Neun plus neun ist achtzehn.", "it": "Nove più nove fa diciotto." },
+      { "de": "Mein Bruder ist achtzehn.", "it": "Mio fratello ha diciotto anni." }
+    ]
+  },
+  {
+    "id": "v-a1-0062",
+    "pos": "num",
+    "de": "neunzehn",
+    "it": ["diciannove"],
+    "promptIt": "diciannove",
+    "examples": [
+      { "de": "Zehn plus neun ist neunzehn.", "it": "Dieci più nove fa diciannove." },
+      { "de": "Wir haben neunzehn Bücher.", "it": "Abbiamo diciannove libri." }
+    ]
+  },
+  {
+    "id": "v-a1-0063",
+    "pos": "num",
+    "de": "zwanzig",
+    "it": ["venti"],
+    "promptIt": "venti",
+    "examples": [
+      { "de": "Zehn plus zehn ist zwanzig.", "it": "Dieci più dieci fa venti." },
+      { "de": "Ich bin zwanzig Jahre alt.", "it": "Ho vent'anni." }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "a1-u02",
+  "level": "a1",
+  "order": 2,
+  "title": "Der, die, das: famiglia, cose e numeri",
+  "summary": "Il genere dei sostantivi, gli articoli der/die/das ed ein/eine, il plurale, il verbo haben e i numeri da 0 a 20.",
+  "batches": [
+    { "id": "a1-u02-b01", "itemIds": ["g-a1-0005", "v-a1-0031", "v-a1-0032", "v-a1-0033", "v-a1-0034"] },
+    { "id": "a1-u02-b02", "itemIds": ["v-a1-0035", "v-a1-0036", "v-a1-0037", "v-a1-0038", "v-a1-0039"] },
+    { "id": "a1-u02-b03", "itemIds": ["v-a1-0040", "v-a1-0041", "v-a1-0042", "g-a1-0006", "g-a1-0007"] },
+    { "id": "a1-u02-b04", "itemIds": ["v-a1-0043", "v-a1-0044", "v-a1-0045", "v-a1-0046", "g-a1-0008"] },
+    { "id": "a1-u02-b05", "itemIds": ["v-a1-0047", "v-a1-0048", "v-a1-0049", "v-a1-0050", "v-a1-0051"] },
+    { "id": "a1-u02-b06", "itemIds": ["v-a1-0052", "v-a1-0053", "v-a1-0054", "v-a1-0055", "v-a1-0056"] },
+    { "id": "a1-u02-b07", "itemIds": ["v-a1-0057", "v-a1-0058", "v-a1-0059", "v-a1-0060", "v-a1-0061"] },
+    { "id": "a1-u02-b08", "itemIds": ["v-a1-0062", "v-a1-0063"] }
+  ]
+}

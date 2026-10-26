@@ -1,0 +1,366 @@
+[
+  {
+    "id": "g-a1-0001",
+    "title": "I pronomi personali (e il «Lei»)",
+    "explanationIt": [
+      "In italiano il soggetto si può sottintendere: «Abito a Roma». In tedesco no: il pronome ci vuole sempre. «Ich wohne in Rom», mai solo «Wohne in Rom».",
+      "Per dare del Lei si usa «Sie», sempre con la S maiuscola, anche in mezzo alla frase. Si usa sia per una persona sia per più persone, e il verbo è lo stesso di «sie» (loro).",
+      "«sie» minuscolo ha due significati: «lei» e «loro». Si capisce dal verbo: sie wohnt (lei abita), sie wohnen (loro abitano)."
+    ],
+    "pattern": [
+      "ich – io",
+      "du – tu",
+      "er – lui",
+      "sie – lei",
+      "es – esso/essa (neutro)",
+      "wir – noi",
+      "ihr – voi",
+      "sie – loro",
+      "Sie – Lei (forma di cortesia)"
+    ],
+    "examples": [
+      { "de": "Ich bin Giulia.", "it": "Sono Giulia." },
+      { "de": "Du bist Tom.", "it": "Tu sei Tom." },
+      { "de": "Wir wohnen in Rom.", "it": "Abitiamo a Roma." },
+      { "de": "Sind Sie Herr Müller?", "it": "Lei è il signor Müller?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Bin Giulia.",
+        "right": "Ich bin Giulia.",
+        "explanationIt": "Il soggetto non si omette mai, neanche quando il verbo fa capire chi è."
+      },
+      {
+        "wrong": "Wie heißen sie? (per dare del Lei)",
+        "right": "Wie heißen Sie?",
+        "explanationIt": "La forma di cortesia si scrive sempre con la maiuscola. Con la minuscola vuol dire «Come si chiamano (loro)?»."
+      },
+      {
+        "wrong": "Wie heißt Sie?",
+        "right": "Wie heißen Sie?",
+        "explanationIt": "Con «Sie» di cortesia il verbo va alla forma di «loro», non a quella di «lei»."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0001-e1",
+        "sentence": "___ bin Giulia.",
+        "answers": ["Ich"],
+        "hintIt": "io",
+        "translationIt": "Sono Giulia.",
+        "explanationIt": "«Io» si dice «ich». A inizio frase si scrive con la maiuscola."
+      },
+      {
+        "id": "g-a1-0001-e2",
+        "sentence": "___ wohnen in Rom.",
+        "answers": ["Wir"],
+        "hintIt": "noi",
+        "translationIt": "Abitiamo a Roma.",
+        "explanationIt": "«Noi» si dice «wir»."
+      },
+      {
+        "id": "g-a1-0001-e3",
+        "sentence": "Wie heißt ___?",
+        "answers": ["du"],
+        "hintIt": "tu",
+        "translationIt": "Come ti chiami?",
+        "explanationIt": "«Tu» si dice «du». Il verbo heißt è la forma di du."
+      },
+      {
+        "id": "g-a1-0001-e4",
+        "sentence": "Wie heißen ___?",
+        "answers": ["Sie"],
+        "caseSensitive": true,
+        "hintIt": "Lei (forma di cortesia)",
+        "translationIt": "Come si chiama?",
+        "explanationIt": "La forma di cortesia è «Sie», sempre con la S maiuscola."
+      },
+      {
+        "id": "g-a1-0001-e5",
+        "sentence": "Das ist Tom. ___ kommt aus Berlin.",
+        "answers": ["Er"],
+        "hintIt": "lui",
+        "translationIt": "Questo è Tom. Viene da Berlino.",
+        "explanationIt": "«Lui» si dice «er»."
+      },
+      {
+        "id": "g-a1-0001-e6",
+        "sentence": "Das ist Anna. ___ wohnt in Wien.",
+        "answers": ["Sie"],
+        "hintIt": "lei",
+        "translationIt": "Questa è Anna. Abita a Vienna.",
+        "explanationIt": "«Lei» si dice «sie»; qui è maiuscolo solo perché è a inizio frase. Il verbo wohnt mostra che è «lei» e non «loro»."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0002",
+    "title": "Il verbo sein (essere)",
+    "explanationIt": [
+      "«sein» è irregolare: le sue forme vanno imparate a memoria, proprio come «essere» in italiano.",
+      "Si usa per presentarsi (Ich bin Giulia), per dire da dove si viene (Ich bin aus Italien) e anche per l'età: in tedesco l'età si «è», non si «ha». Ich bin zwanzig = ho vent'anni."
+    ],
+    "pattern": [
+      "ich bin – io sono",
+      "du bist – tu sei",
+      "er/sie/es ist – lui/lei è",
+      "wir sind – noi siamo",
+      "ihr seid – voi siete",
+      "sie sind – loro sono",
+      "Sie sind – Lei è"
+    ],
+    "examples": [
+      { "de": "Ich bin Giulia.", "it": "Sono Giulia." },
+      { "de": "Bist du Marco?", "it": "Sei Marco?" },
+      { "de": "Das ist Herr Weber.", "it": "Questo è il signor Weber." },
+      { "de": "Wir sind aus Italien.", "it": "Veniamo dall'Italia." },
+      { "de": "Ihr seid in Berlin.", "it": "Voi siete a Berlino." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe zwanzig Jahre.",
+        "right": "Ich bin zwanzig (Jahre alt).",
+        "explanationIt": "Per l'età si usa sein, non haben: letteralmente «sono vent'anni vecchio/a»."
+      },
+      {
+        "wrong": "ihr seit",
+        "right": "ihr seid",
+        "explanationIt": "«seid» (con la d) è il verbo: voi siete. «seit» (con la t) è un'altra parola, vuol dire «da» in senso di tempo."
+      },
+      {
+        "wrong": "Ist Sie Herr Müller?",
+        "right": "Sind Sie Herr Müller?",
+        "explanationIt": "Con il «Sie» di cortesia il verbo è «sind», anche se parli con una persona sola."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0002-e1",
+        "sentence": "Ich ___ Giulia.",
+        "answers": ["bin"],
+        "hintIt": "sein",
+        "translationIt": "Sono Giulia.",
+        "explanationIt": "Con ich: bin."
+      },
+      {
+        "id": "g-a1-0002-e2",
+        "sentence": "___ du Marco?",
+        "answers": ["Bist"],
+        "hintIt": "sein",
+        "translationIt": "Sei Marco?",
+        "explanationIt": "Con du: bist. Nelle domande sì/no il verbo va al primo posto."
+      },
+      {
+        "id": "g-a1-0002-e3",
+        "sentence": "Anna ___ in Wien.",
+        "answers": ["ist"],
+        "hintIt": "sein",
+        "translationIt": "Anna è a Vienna.",
+        "explanationIt": "Anna = sie (lei), quindi: ist."
+      },
+      {
+        "id": "g-a1-0002-e4",
+        "sentence": "Wir ___ aus Italien.",
+        "answers": ["sind"],
+        "hintIt": "sein",
+        "translationIt": "Veniamo dall'Italia.",
+        "explanationIt": "Con wir: sind."
+      },
+      {
+        "id": "g-a1-0002-e5",
+        "sentence": "Ihr ___ in Berlin.",
+        "answers": ["seid"],
+        "hintIt": "sein",
+        "translationIt": "Voi siete a Berlino.",
+        "explanationIt": "Con ihr: seid, con la d finale."
+      },
+      {
+        "id": "g-a1-0002-e6",
+        "sentence": "___ Sie Frau Schmidt?",
+        "answers": ["Sind"],
+        "hintIt": "sein",
+        "translationIt": "Lei è la signora Schmidt?",
+        "explanationIt": "Con il Sie di cortesia: sind."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0003",
+    "title": "Il presente dei verbi regolari",
+    "explanationIt": [
+      "Quasi tutti i verbi tedeschi all'infinito finiscono in -en: wohnen, kommen, lernen. Togli -en e ottieni la radice: wohn-, komm-, lern-.",
+      "Alla radice aggiungi la desinenza della persona. Sono le stesse per tutti i verbi regolari, quindi basta impararle una volta.",
+      "Se la radice finisce in -s, -ß o -z, con du si aggiunge solo -t: du heißt (non «heißst»)."
+    ],
+    "pattern": [
+      "ich wohn-e",
+      "du wohn-st",
+      "er/sie/es wohn-t",
+      "wir wohn-en",
+      "ihr wohn-t",
+      "sie/Sie wohn-en"
+    ],
+    "examples": [
+      { "de": "Ich wohne in Bologna.", "it": "Abito a Bologna." },
+      { "de": "Du kommst aus Italien.", "it": "Vieni dall'Italia." },
+      { "de": "Er lernt Deutsch.", "it": "Lui impara il tedesco." },
+      { "de": "Ihr wohnt in Berlin.", "it": "Voi abitate a Berlino." },
+      { "de": "Sie kommen aus Wien.", "it": "Vengono da Vienna." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich wohnen in Rom.",
+        "right": "Ich wohne in Rom.",
+        "explanationIt": "L'infinito (wohnen) non si usa con ich: con ich la desinenza è -e."
+      },
+      {
+        "wrong": "du heißst",
+        "right": "du heißt",
+        "explanationIt": "La radice finisce già con ß, quindi con du si aggiunge solo -t."
+      },
+      {
+        "wrong": "Er lerne Deutsch.",
+        "right": "Er lernt Deutsch.",
+        "explanationIt": "Con er, sie, es la desinenza è -t."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0003-e1",
+        "sentence": "Ich ___ in Bologna.",
+        "answers": ["wohne"],
+        "hintIt": "wohnen",
+        "translationIt": "Abito a Bologna.",
+        "explanationIt": "ich → radice + e: wohne."
+      },
+      {
+        "id": "g-a1-0003-e2",
+        "sentence": "Du ___ aus Italien.",
+        "answers": ["kommst"],
+        "hintIt": "kommen",
+        "translationIt": "Vieni dall'Italia.",
+        "explanationIt": "du → radice + st: kommst."
+      },
+      {
+        "id": "g-a1-0003-e3",
+        "sentence": "Er ___ Deutsch.",
+        "answers": ["lernt"],
+        "hintIt": "lernen",
+        "translationIt": "Lui impara il tedesco.",
+        "explanationIt": "er → radice + t: lernt."
+      },
+      {
+        "id": "g-a1-0003-e4",
+        "sentence": "Wie ___ du?",
+        "answers": ["heißt"],
+        "hintIt": "heißen",
+        "translationIt": "Come ti chiami?",
+        "explanationIt": "La radice heiß- finisce in ß: con du si aggiunge solo -t."
+      },
+      {
+        "id": "g-a1-0003-e5",
+        "sentence": "Wir ___ in Rom.",
+        "answers": ["wohnen"],
+        "hintIt": "wohnen",
+        "translationIt": "Abitiamo a Roma.",
+        "explanationIt": "Con wir la forma è uguale all'infinito: wohnen."
+      },
+      {
+        "id": "g-a1-0003-e6",
+        "sentence": "Ihr ___ Deutsch.",
+        "answers": ["lernt"],
+        "hintIt": "lernen",
+        "translationIt": "Voi imparate il tedesco.",
+        "explanationIt": "ihr → radice + t: lernt (come er)."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0004",
+    "title": "L'ordine delle parole: frasi e domande",
+    "explanationIt": [
+      "Nella frase affermativa il verbo coniugato sta sempre al secondo posto. Al primo posto di solito c'è il soggetto, ma può esserci anche altro: in quel caso il soggetto va subito dopo il verbo. In Berlin wohnt Anna.",
+      "Nelle domande con parola interrogativa (wer, was, wo, woher, wie) la parola interrogativa va al primo posto e il verbo subito dopo, poi il soggetto: Wo wohnst du?",
+      "Nelle domande a cui si risponde sì o no, il verbo va al primo posto: Wohnst du in Rom?"
+    ],
+    "pattern": [
+      "Frase: Ich (1) wohne (2) in Rom.",
+      "Frase: In Rom (1) wohne (2) ich.",
+      "Domanda W: Wo (1) wohnst (2) du?",
+      "Domanda sì/no: Wohnst (1) du in Rom?"
+    ],
+    "examples": [
+      { "de": "Anna wohnt in Berlin.", "it": "Anna abita a Berlino." },
+      { "de": "In Berlin wohnt Anna.", "it": "A Berlino abita Anna." },
+      { "de": "Woher kommst du?", "it": "Da dove vieni?" },
+      { "de": "Kommst du aus Italien?", "it": "Vieni dall'Italia?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Wo du wohnst?",
+        "right": "Wo wohnst du?",
+        "explanationIt": "Dopo la parola interrogativa viene subito il verbo, poi il soggetto."
+      },
+      {
+        "wrong": "In Rom ich wohne.",
+        "right": "In Rom wohne ich.",
+        "explanationIt": "Il verbo resta al secondo posto: se la frase non comincia con il soggetto, il soggetto passa dopo il verbo."
+      },
+      {
+        "wrong": "Du kommst aus Italien?",
+        "right": "Kommst du aus Italien?",
+        "explanationIt": "Nel parlato si sente, ma la domanda normale mette il verbo al primo posto."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0004-e1",
+        "sentence": "Wo ___ du?",
+        "answers": ["wohnst"],
+        "hintIt": "wohnen",
+        "translationIt": "Dove abiti?",
+        "explanationIt": "Parola interrogativa, poi il verbo: Wo wohnst du?"
+      },
+      {
+        "id": "g-a1-0004-e2",
+        "sentence": "___ du aus Italien?",
+        "answers": ["Kommst"],
+        "hintIt": "kommen",
+        "translationIt": "Vieni dall'Italia?",
+        "explanationIt": "Domanda sì/no: il verbo va al primo posto."
+      },
+      {
+        "id": "g-a1-0004-e3",
+        "sentence": "In Berlin ___ Anna.",
+        "answers": ["wohnt"],
+        "hintIt": "wohnen",
+        "translationIt": "A Berlino abita Anna.",
+        "explanationIt": "Il verbo resta al secondo posto, il soggetto Anna va dopo."
+      },
+      {
+        "id": "g-a1-0004-e4",
+        "sentence": "___ heißt du?",
+        "answers": ["Wie"],
+        "hintIt": "come",
+        "translationIt": "Come ti chiami?",
+        "explanationIt": "La parola interrogativa va al primo posto."
+      },
+      {
+        "id": "g-a1-0004-e5",
+        "sentence": "___ ihr Deutsch?",
+        "answers": ["Lernt"],
+        "hintIt": "lernen",
+        "translationIt": "Imparate il tedesco?",
+        "explanationIt": "Domanda sì/no: il verbo coniugato (lernt) va al primo posto."
+      },
+      {
+        "id": "g-a1-0004-e6",
+        "sentence": "___ kommen Sie?",
+        "answers": ["Woher"],
+        "hintIt": "da dove",
+        "translationIt": "Da dove viene?",
+        "explanationIt": "«Da dove» si dice woher, e va al primo posto."
+      }
+    ]
+  }
+]

@@ -1,0 +1,359 @@
+[
+  {
+    "id": "g-a1-0005",
+    "title": "Il genere: der, die, das",
+    "explanationIt": [
+      "In tedesco i sostantivi hanno tre generi: maschile (der), femminile (die) e neutro (das). L'articolo determinativo cambia con il genere.",
+      "Il genere spesso non è lo stesso dell'italiano: il sole è maschile, ma die Sonne è femminile; la luna è femminile, ma der Mond è maschile. Per questo ogni sostantivo si impara sempre insieme al suo articolo.",
+      "Qualche aiuto: le parole in -chen sono sempre neutre (das Mädchen); le parole in -ung sono femminili (die Wohnung). Per le persone il genere di solito segue il sesso (der Mann, die Frau), con eccezioni come das Mädchen e das Kind.",
+      "I sostantivi si scrivono sempre con la lettera maiuscola, anche in mezzo alla frase."
+    ],
+    "pattern": [
+      "der – maschile: der Mann, der Hund, der Mond",
+      "die – femminile: die Frau, die Katze, die Sonne",
+      "das – neutro: das Kind, das Mädchen, das Auto"
+    ],
+    "examples": [
+      { "de": "Der Mann heißt Tom.", "it": "L'uomo si chiama Tom." },
+      { "de": "Die Frau heißt Anna.", "it": "La donna si chiama Anna." },
+      { "de": "Das Kind heißt Mia.", "it": "La bambina si chiama Mia." },
+      { "de": "Das Mädchen kommt aus Italien.", "it": "La ragazza viene dall'Italia." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "der Sonne",
+        "right": "die Sonne",
+        "explanationIt": "Il sole è maschile in italiano, ma in tedesco è femminile."
+      },
+      {
+        "wrong": "die Mond",
+        "right": "der Mond",
+        "explanationIt": "La luna è femminile in italiano, ma in tedesco è maschile."
+      },
+      {
+        "wrong": "die Mädchen (una ragazza)",
+        "right": "das Mädchen",
+        "explanationIt": "Le parole in -chen sono sempre neutre, anche quando indicano una femmina."
+      },
+      {
+        "wrong": "das buch",
+        "right": "das Buch",
+        "explanationIt": "I sostantivi si scrivono sempre con la maiuscola."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0005-e1",
+        "sentence": "___ Mann heißt Peter.",
+        "answers": ["Der"],
+        "hintIt": "l'uomo",
+        "translationIt": "L'uomo si chiama Peter.",
+        "explanationIt": "Mann è maschile: der Mann."
+      },
+      {
+        "id": "g-a1-0005-e2",
+        "sentence": "Wo ist ___ Sonne?",
+        "answers": ["die"],
+        "hintIt": "il sole",
+        "translationIt": "Dov'è il sole?",
+        "explanationIt": "Sonne è femminile: die Sonne. In italiano è maschile, attenzione!"
+      },
+      {
+        "id": "g-a1-0005-e3",
+        "sentence": "___ Mädchen heißt Lisa.",
+        "answers": ["Das"],
+        "hintIt": "la ragazza",
+        "translationIt": "La ragazza si chiama Lisa.",
+        "explanationIt": "Le parole in -chen sono neutre: das Mädchen."
+      },
+      {
+        "id": "g-a1-0005-e4",
+        "sentence": "Wo ist ___ Mond?",
+        "answers": ["der"],
+        "hintIt": "la luna",
+        "translationIt": "Dov'è la luna?",
+        "explanationIt": "Mond è maschile: der Mond. In italiano è femminile, attenzione!"
+      },
+      {
+        "id": "g-a1-0005-e5",
+        "sentence": "___ Auto ist neu.",
+        "answers": ["Das"],
+        "hintIt": "la macchina",
+        "translationIt": "La macchina è nuova.",
+        "explanationIt": "Auto è neutro: das Auto."
+      },
+      {
+        "id": "g-a1-0005-e6",
+        "sentence": "___ Katze heißt Luna.",
+        "answers": ["Die"],
+        "hintIt": "la gatta",
+        "translationIt": "La gatta si chiama Luna.",
+        "explanationIt": "Katze è femminile: die Katze."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0006",
+    "title": "L'articolo indeterminativo: ein, eine",
+    "explanationIt": [
+      "«Un, una» in tedesco si dice ein oppure eine. Dipende dal genere: ein per maschile e neutro, eine per femminile.",
+      "Al plurale non c'è articolo indeterminativo. Dove l'italiano dice «dei libri» o semplicemente «libri», il tedesco dice solo Bücher."
+    ],
+    "pattern": [
+      "der Mann → ein Mann",
+      "das Kind → ein Kind",
+      "die Frau → eine Frau",
+      "plurale: Kinder (nessun articolo)"
+    ],
+    "examples": [
+      { "de": "Das ist ein Hund.", "it": "Questo è un cane." },
+      { "de": "Das ist eine Katze.", "it": "Questa è una gatta." },
+      { "de": "Das ist ein Buch.", "it": "Questo è un libro." },
+      { "de": "Das sind Bücher.", "it": "Questi sono libri." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "eine Buch",
+        "right": "ein Buch",
+        "explanationIt": "Buch è neutro (das Buch), quindi: ein."
+      },
+      {
+        "wrong": "ein Katze",
+        "right": "eine Katze",
+        "explanationIt": "Katze è femminile (die Katze), quindi: eine."
+      },
+      {
+        "wrong": "Das sind eine Bücher.",
+        "right": "Das sind Bücher.",
+        "explanationIt": "Al plurale l'articolo indeterminativo non c'è."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0006-e1",
+        "sentence": "Das ist ___ Hund.",
+        "answers": ["ein"],
+        "hintIt": "un (der Hund)",
+        "translationIt": "Questo è un cane.",
+        "explanationIt": "Hund è maschile: ein Hund."
+      },
+      {
+        "id": "g-a1-0006-e2",
+        "sentence": "Das ist ___ Katze.",
+        "answers": ["eine"],
+        "hintIt": "una (die Katze)",
+        "translationIt": "Questa è una gatta.",
+        "explanationIt": "Katze è femminile: eine Katze."
+      },
+      {
+        "id": "g-a1-0006-e3",
+        "sentence": "Das ist ___ Haus.",
+        "answers": ["ein"],
+        "hintIt": "una (das Haus)",
+        "translationIt": "Questa è una casa.",
+        "explanationIt": "Haus è neutro: ein Haus. In italiano è femminile, ma conta il genere tedesco."
+      },
+      {
+        "id": "g-a1-0006-e4",
+        "sentence": "Das ist ___ Frau.",
+        "answers": ["eine"],
+        "hintIt": "una (die Frau)",
+        "translationIt": "Questa è una donna.",
+        "explanationIt": "Frau è femminile: eine Frau."
+      },
+      {
+        "id": "g-a1-0006-e5",
+        "sentence": "Das ist ___ Auto.",
+        "answers": ["ein"],
+        "hintIt": "una (das Auto)",
+        "translationIt": "Questa è una macchina.",
+        "explanationIt": "Auto è neutro: ein Auto."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0007",
+    "title": "Il plurale",
+    "explanationIt": [
+      "Al plurale l'articolo determinativo è sempre die, per tutti e tre i generi: der Mann → die Männer, das Kind → die Kinder.",
+      "La forma del plurale invece cambia da parola a parola, quindi va imparata insieme al sostantivo. Ci sono alcuni schemi frequenti, ma molte eccezioni.",
+      "Spesso il plurale aggiunge l'Umlaut (i due puntini) sulla vocale: Buch → Bücher, Bruder → Brüder."
+    ],
+    "pattern": [
+      "-e: der Hund → die Hunde",
+      "-er (con Umlaut): der Mann → die Männer, das Buch → die Bücher",
+      "-n / -en: die Katze → die Katzen, die Frau → die Frauen",
+      "-s: das Auto → die Autos",
+      "uguale: das Mädchen → die Mädchen",
+      "solo Umlaut: der Bruder → die Brüder"
+    ],
+    "examples": [
+      { "de": "Die Kinder lernen Deutsch.", "it": "I bambini imparano il tedesco." },
+      { "de": "Die Bücher sind gut.", "it": "I libri sono buoni." },
+      { "de": "Die Hunde heißen Max und Bello.", "it": "I cani si chiamano Max e Bello." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "der Männer",
+        "right": "die Männer",
+        "explanationIt": "Al plurale l'articolo è sempre die, anche per i maschili e i neutri."
+      },
+      {
+        "wrong": "die Mädchens",
+        "right": "die Mädchen",
+        "explanationIt": "Le parole in -chen al plurale non cambiano."
+      },
+      {
+        "wrong": "die Buchs",
+        "right": "die Bücher",
+        "explanationIt": "La -s del plurale è rara: si usa soprattutto per parole straniere come Auto → Autos."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0007-e1",
+        "sentence": "Ich habe zwei ___.",
+        "answers": ["Brüder"],
+        "hintIt": "der Bruder (plurale)",
+        "translationIt": "Ho due fratelli.",
+        "explanationIt": "Bruder → Brüder: solo l'Umlaut."
+      },
+      {
+        "id": "g-a1-0007-e2",
+        "sentence": "Wir haben drei ___.",
+        "answers": ["Kinder"],
+        "hintIt": "das Kind (plurale)",
+        "translationIt": "Abbiamo tre figli.",
+        "explanationIt": "Kind → Kinder."
+      },
+      {
+        "id": "g-a1-0007-e3",
+        "sentence": "___ Männer kommen aus Wien.",
+        "answers": ["Die"],
+        "hintIt": "gli",
+        "translationIt": "Gli uomini vengono da Vienna.",
+        "explanationIt": "Al plurale l'articolo è sempre die."
+      },
+      {
+        "id": "g-a1-0007-e4",
+        "sentence": "Wir haben zwei ___.",
+        "answers": ["Autos"],
+        "hintIt": "das Auto (plurale)",
+        "translationIt": "Abbiamo due macchine.",
+        "explanationIt": "Auto → Autos, con la -s."
+      },
+      {
+        "id": "g-a1-0007-e5",
+        "sentence": "Anna hat zwei ___.",
+        "answers": ["Katzen"],
+        "hintIt": "die Katze (plurale)",
+        "translationIt": "Anna ha due gatti.",
+        "explanationIt": "Katze → Katzen."
+      },
+      {
+        "id": "g-a1-0007-e6",
+        "sentence": "Die ___ sind gut.",
+        "answers": ["Bücher"],
+        "hintIt": "das Buch (plurale)",
+        "translationIt": "I libri sono buoni.",
+        "explanationIt": "Buch → Bücher: -er e l'Umlaut."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0008",
+    "title": "Il verbo haben (avere)",
+    "explanationIt": [
+      "«haben» è quasi regolare: solo con du e con er/sie/es la b sparisce. Du hast, er hat.",
+      "Attenzione all'età: in tedesco non si «ha» un'età, si «è». Ich bin drei = ho tre anni.",
+      "Dopo haben, ein al maschile diventa einen: Ich habe einen Bruder. È il caso accusativo, che vedremo meglio più avanti. Con il femminile e il neutro non cambia niente: eine Schwester, ein Kind."
+    ],
+    "pattern": [
+      "ich habe – io ho",
+      "du hast – tu hai",
+      "er/sie/es hat – lui/lei ha",
+      "wir haben – noi abbiamo",
+      "ihr habt – voi avete",
+      "sie haben – loro hanno",
+      "Sie haben – Lei ha"
+    ],
+    "examples": [
+      { "de": "Ich habe eine Schwester.", "it": "Ho una sorella." },
+      { "de": "Hast du einen Hund?", "it": "Hai un cane?" },
+      { "de": "Anna hat zwei Kinder.", "it": "Anna ha due figli." },
+      { "de": "Wir haben ein Auto.", "it": "Abbiamo una macchina." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "du habst",
+        "right": "du hast",
+        "explanationIt": "Con du la b sparisce: hast."
+      },
+      {
+        "wrong": "er habt",
+        "right": "er hat",
+        "explanationIt": "Con er, sie, es: hat."
+      },
+      {
+        "wrong": "Ich habe drei Jahre.",
+        "right": "Ich bin drei (Jahre alt).",
+        "explanationIt": "Per l'età si usa sein, non haben."
+      },
+      {
+        "wrong": "Ich habe ein Bruder.",
+        "right": "Ich habe einen Bruder.",
+        "explanationIt": "Dopo haben, ein al maschile diventa einen."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0008-e1",
+        "sentence": "Ich ___ eine Schwester.",
+        "answers": ["habe"],
+        "hintIt": "haben",
+        "translationIt": "Ho una sorella.",
+        "explanationIt": "Con ich: habe."
+      },
+      {
+        "id": "g-a1-0008-e2",
+        "sentence": "___ du einen Hund?",
+        "answers": ["Hast"],
+        "hintIt": "haben",
+        "translationIt": "Hai un cane?",
+        "explanationIt": "Con du: hast, senza la b."
+      },
+      {
+        "id": "g-a1-0008-e3",
+        "sentence": "Anna ___ zwei Kinder.",
+        "answers": ["hat"],
+        "hintIt": "haben",
+        "translationIt": "Anna ha due figli.",
+        "explanationIt": "Anna = sie, quindi: hat."
+      },
+      {
+        "id": "g-a1-0008-e4",
+        "sentence": "___ ihr eine Katze?",
+        "answers": ["Habt"],
+        "hintIt": "haben",
+        "translationIt": "Avete un gatto?",
+        "explanationIt": "Con ihr: habt."
+      },
+      {
+        "id": "g-a1-0008-e5",
+        "sentence": "Ich habe ___ Bruder.",
+        "answers": ["einen"],
+        "hintIt": "un (der Bruder)",
+        "translationIt": "Ho un fratello.",
+        "explanationIt": "Bruder è maschile e dopo haben ein diventa einen."
+      },
+      {
+        "id": "g-a1-0008-e6",
+        "sentence": "Lisa ___ drei Jahre alt.",
+        "answers": ["ist"],
+        "hintIt": "ha (per l'età!)",
+        "translationIt": "Lisa ha tre anni.",
+        "explanationIt": "Trappola! Per l'età si usa sein: Lisa ist drei Jahre alt."
+      }
+    ]
+  }
+]
