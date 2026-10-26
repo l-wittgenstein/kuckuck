@@ -14,8 +14,25 @@
   color-scheme: light dark;
 }
 
+/* Dark: when chosen in Impostazioni, or by default when the phone is dark. */
+:root[data-theme="dark"] {
+  --bg: #181a19;
+  --surface: #212423;
+  --text: #ece8dc;
+  --muted: #a09c90;
+  --accent: #8cc3ad;
+  --accent-text: #14211c;
+  --line: #2f3331;
+  --der: #8ab8de;
+  --die: #e59aa4;
+  --das: #93c9a0;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] { color-scheme: light; }
+
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #181a19;
     --surface: #212423;
     --text: #ece8dc;
@@ -688,3 +705,6 @@ a { color: var(--accent); }
 .update-banner .button { min-height: 38px; padding: 0 16px; }
 .hint-button { margin-top: 12px; }
 .vocab-item > .small { white-space: nowrap; }
+
+.theme-choice { align-self: stretch; }
+.theme-choice button { flex: 1; padding: 10px 8px; font-size: 0.95rem; }

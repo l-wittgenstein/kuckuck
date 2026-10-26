@@ -227,6 +227,13 @@ export const it = {
     reminder: "È da un po' che non salvi una copia dei progressi.",
     reminderLink: "Salvala ora",
   },
+  theme: {
+    title: "Aspetto",
+    auto: "Automatico",
+    light: "Chiaro",
+    dark: "Scuro",
+    autoHint: "Automatico segue il tema del telefono.",
+  },
   settings: {
     title: "Impostazioni",
     flags: "Segnalazioni",

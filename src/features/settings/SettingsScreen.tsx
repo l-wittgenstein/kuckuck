@@ -6,6 +6,7 @@ import { deleteFlag, exportFlags, useFlags } from "../../db/flags";
 import { setSetting, useSettings } from "../../db/settings";
 import { it } from "../../i18n/it";
 import { isInstalled, useInstallPrompt } from "../../pwa/install";
+import { useTheme, type Theme } from "../../theme/theme";
 import { BackupSection } from "./BackupSection";
 
 function itemLabel(itemId: string): string {
@@ -21,6 +22,7 @@ export function SettingsScreen() {
   // Shown immediately; the database catches up a moment later.
   const [autoplay, setAutoplay] = useState<boolean>();
   const { canInstall, install } = useInstallPrompt();
+  const [theme, setTheme] = useTheme();
 
   return (
     <section className="screen">
@@ -42,6 +44,18 @@ export function SettingsScreen() {
             )}
           </>
         )}
+      </div>
+
+      <h2>{it.theme.title}</h2>
+      <div className="card audio-card">
+        <div className="segmented theme-choice" role="group" aria-label={it.theme.title}>
+          {(["auto", "light", "dark"] as Theme[]).map((t) => (
+            <button key={t} type="button" aria-pressed={theme === t} onClick={() => setTheme(t)}>
+              {it.theme[t]}
+            </button>
+          ))}
+        </div>
+        <span className="muted small">{it.theme.autoHint}</span>
       </div>
 
       <h2>{it.audio.title}</h2>

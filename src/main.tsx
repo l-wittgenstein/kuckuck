@@ -4,8 +4,10 @@ import { HashRouter } from "react-router-dom";
 import { App } from "./App";
 import { requestPersistentStorage } from "./db/db";
 import { listenForInstallPrompt } from "./pwa/install";
+import { applyTheme } from "./theme/theme";
 import "./styles/base.css";
 
+applyTheme();
 requestPersistentStorage();
 listenForInstallPrompt();
 
