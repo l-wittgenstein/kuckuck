@@ -6,14 +6,22 @@ export interface Bucket {
   count: number;
 }
 
+// The first bucket is what is due right now; the rest are clock-aligned
+// blocks (20:00, 22:00, …), the first of them starting at the current block.
 export function forecastHours(dues: Date[], now: Date, buckets = 12, hoursPerBucket = 2): Bucket[] {
   const size = hoursPerBucket * 3_600_000;
-  const result: Bucket[] = Array.from({ length: buckets }, (_, i) => ({
-    start: new Date(now.getTime() + i * size),
-    count: 0,
-  }));
+  const base = new Date(now);
+  base.setHours(now.getHours() - (now.getHours() % hoursPerBucket), 0, 0, 0);
+  const result: Bucket[] = [
+    { start: now, count: 0 },
+    ...Array.from({ length: buckets - 1 }, (_, i) => ({ start: new Date(base.getTime() + i * size), count: 0 })),
+  ];
   for (const due of dues) {
-    const i = Math.max(0, Math.floor((due.getTime() - now.getTime()) / size));
+    if (due.getTime() <= now.getTime()) {
+      result[0].count++;
+      continue;
+    }
+    const i = 1 + Math.floor((due.getTime() - base.getTime()) / size);
     if (i < buckets) result[i].count++;
   }
   return result;
