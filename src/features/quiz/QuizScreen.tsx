@@ -2,7 +2,7 @@ import { useEffect, useMemo, useReducer, useRef, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { checkCloze, checkGerman, checkMeaning } from "../../checker/check";
 import { GermanWord, germanLabel } from "../../components/German";
-import { allBatches, findBatch, type BatchInfo } from "../../content";
+import { allBatches, findBatch, levels, type BatchInfo } from "../../content";
 import { completeQuiz, usePassedBatches } from "../../db/lessons";
 import { cardsFor, type CardRef } from "../../domain/cards";
 import { nextBatch } from "../../domain/progress";
@@ -24,12 +24,18 @@ export function QuizScreen() {
   return <Quiz key={batch.id} batch={batch} />;
 }
 
+// Every answer in the course: a typo that lands on another real word
+// (nein for neun) is a different word, not a typo.
+const allVocab = levels.flatMap((l) => l.unitContents).flatMap((u) => u.vocab);
+const knownGerman = allVocab.flatMap((v) => [v.de, ...(v.acceptDe ?? [])]);
+const knownItalian = allVocab.flatMap((v) => v.it);
+
 function check(card: CardRef, answer: string) {
   switch (card.kind) {
     case "recognition":
-      return checkMeaning(answer, card.item);
+      return checkMeaning(answer, card.item, { knownAnswers: knownItalian });
     case "production":
-      return checkGerman(answer, card.item);
+      return checkGerman(answer, card.item, { knownAnswers: knownGerman });
     case "cloze":
       return checkCloze(answer, card.exercise);
   }
