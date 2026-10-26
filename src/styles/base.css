@@ -380,3 +380,72 @@ a { color: var(--accent); }
 
 .quiz-done { text-align: center; padding-top: 48px; }
 .big-emoji { font-size: 4rem; margin: 0; }
+
+/* ---------- Stages, flags, reviews ---------- */
+
+.big-number { font-size: 2.6rem; line-height: 1.1; }
+
+.stage {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+}
+
+.stage-change { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+
+.item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flag-button {
+  background: none;
+  border: none;
+  padding: 6px 0;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.feedback-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.sheet {
+  width: min(560px, calc(100% - 32px));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  padding: 20px;
+}
+
+.sheet::backdrop { background: rgb(0 0 0 / 0.4); }
+.sheet h2 { margin-top: 0; }
+
+.sheet textarea {
+  width: 100%;
+  font: inherit;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.sheet .lesson-nav { margin-top: 16px; }
+.status-paused { color: var(--muted); }
+.export { margin-top: 16px; }
+.settings-later { margin-top: 32px; }

@@ -4,6 +4,8 @@ import { LessonScreen } from "./features/lesson/LessonScreen";
 import { PathScreen } from "./features/path/PathScreen";
 import { UnitScreen } from "./features/path/UnitScreen";
 import { QuizScreen } from "./features/quiz/QuizScreen";
+import { ReviewScreen } from "./features/review/ReviewScreen";
+import { SettingsScreen } from "./features/settings/SettingsScreen";
 import { it } from "./i18n/it";
 
 function Screen({ title, text }: { title: string; text: string }) {
@@ -16,7 +18,7 @@ function Screen({ title, text }: { title: string; text: string }) {
 }
 
 // Lessons and quizzes take the whole screen, without the tab bar.
-const FOCUS_ROUTES = /^\/(lezione|quiz)\//;
+const FOCUS_ROUTES = /^\/(lezione\/|quiz\/|ripassi)/;
 
 export function App() {
   const { pathname } = useLocation();
@@ -31,10 +33,8 @@ export function App() {
           <Route path="/percorso/:unitId" element={<UnitScreen />} />
           <Route path="/lezione/:batchId" element={<LessonScreen />} />
           <Route path="/quiz/:batchId" element={<QuizScreen />} />
-          <Route
-            path="/impostazioni"
-            element={<Screen title={it.settings.title} text={it.settings.comingSoon} />}
-          />
+          <Route path="/ripassi" element={<ReviewScreen />} />
+          <Route path="/impostazioni" element={<SettingsScreen />} />
           <Route path="*" element={<Screen title={it.notFound.title} text={it.notFound.back} />} />
         </Routes>
       </main>

@@ -1,11 +1,15 @@
 import type { VocabItem } from "../../../content/schema";
 import { GermanWord } from "../../components/German";
+import { FlagButton } from "../../components/FlagButton";
 import { it } from "../../i18n/it";
 
 export function VocabLesson({ item }: { item: VocabItem }) {
   return (
     <article className="lesson-item">
-      <span className="tag">{it.lesson.pos[item.pos]}</span>
+      <div className="item-top">
+        <span className="tag">{it.lesson.pos[item.pos]}</span>
+        <FlagButton itemId={item.id} />
+      </div>
       <h1 className="headword">
         <GermanWord item={item} />
       </h1>

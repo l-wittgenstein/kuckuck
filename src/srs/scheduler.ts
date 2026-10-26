@@ -5,6 +5,7 @@ import {
   fsrs,
   generatorParameters,
   Rating,
+  State,
   type Card,
   type Grade,
   type ReviewLog,
@@ -15,7 +16,7 @@ const scheduler = fsrs(generatorParameters({ enable_fuzz: true }));
 
 export type SrsState = Card;
 export type { Grade };
-export { Rating };
+export { Rating, State };
 
 export function newSrsState(now: Date): SrsState {
   return createEmptyCard(now);

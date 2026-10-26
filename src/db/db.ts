@@ -18,6 +18,7 @@ export interface CardRecord {
   createdAt: Date;
   srs: SrsState;
   due: Date; // copy of srs.due, indexed for the review queue
+  retired?: boolean; // reached Aquila: out of the review queue
 }
 
 export interface ReviewRecord {

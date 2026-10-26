@@ -1,11 +1,15 @@
 import type { GrammarItem } from "../../../content/schema";
 import { PatternTable } from "../../components/PatternTable";
+import { FlagButton } from "../../components/FlagButton";
 import { it } from "../../i18n/it";
 
 export function GrammarLesson({ item }: { item: GrammarItem }) {
   return (
     <article className="lesson-item">
-      <span className="tag tag-grammar">{it.lesson.grammarTag}</span>
+      <div className="item-top">
+        <span className="tag tag-grammar">{it.lesson.grammarTag}</span>
+        <FlagButton itemId={item.id} />
+      </div>
       <h1>{item.title}</h1>
       {item.explanationIt.map((p) => (
         <p key={p}>{p}</p>

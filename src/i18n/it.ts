@@ -19,6 +19,11 @@ export const it = {
     lessonOf: (unit: number, lesson: number) => `Unità ${unit} · Lezione ${lesson}`,
     start: "Inizia la lezione",
     allDone: "Hai finito tutte le lezioni per ora. Bravissima!",
+    reviews: "Ripassi",
+    reviewsDue: (n: number) =>
+      n === 0 ? "Nessun ripasso da fare. Kuckuck!" : `${plural(n, "ripasso ti aspetta", "ripassi ti aspettano")}.`,
+    startReviews: "Inizia i ripassi",
+    paused: (n: number) => `Prima i ripassi: le nuove lezioni ripartono sotto i ${n} ripassi in attesa.`,
     loading: "Un attimo…",
   },
   path: {
@@ -35,6 +40,7 @@ export const it = {
       done: "Completata",
       available: "Da fare",
       locked: "Bloccata",
+      paused: "In pausa",
     },
   },
   lesson: {
@@ -103,8 +109,36 @@ export const it = {
     saving: "Salvo…",
     quit: "Esci",
   },
+  review: {
+    title: "Ripassi",
+    loading: "Preparo i ripassi…",
+    none: "Niente da ripassare adesso. Torna più tardi!",
+    doneTitle: "Ripassi finiti!",
+    doneText: (right: number, total: number) => `Al primo colpo: ${right} su ${total}.`,
+    promoted: (n: number) => `${plural(n, "elemento è salito", "elementi sono saliti")} di livello.`,
+  },
+  stages: {
+    uovo: "Uovo",
+    pulcino: "Pulcino",
+    passerotto: "Passerotto",
+    gufo: "Gufo",
+    aquila: "Aquila",
+  },
+  flag: {
+    button: "Segnala",
+    title: "Qualcosa non va?",
+    text: "Scrivi cosa ti sembra sbagliato. La segnalazione resta sul telefono finché non la esporti.",
+    placeholder: "Per esempio: l'articolo è sbagliato",
+    save: "Salva",
+    cancel: "Annulla",
+    saved: "Segnalazione salvata. Danke!",
+  },
   settings: {
     title: "Impostazioni",
+    flags: "Segnalazioni",
+    noFlags: "Nessuna segnalazione.",
+    export: "Esporta segnalazioni",
+    resolve: "Elimina",
     comingSoon: "Presto qui: copia di sicurezza e preferenze.",
   },
   notFound: {
