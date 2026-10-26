@@ -6,6 +6,7 @@ import { useDueCount, useNow } from "../../db/reviews";
 import { MAX_DUE_FOR_LESSONS } from "../../domain/config";
 import { batchStatuses } from "../../domain/progress";
 import { it } from "../../i18n/it";
+import { Arrow } from "../../components/Arrow";
 
 export function UnitScreen() {
   const { unitId = "" } = useParams();
@@ -29,7 +30,7 @@ export function UnitScreen() {
   return (
     <section className="screen">
       <Link to="/percorso" className="back-link">
-        ← {it.path.back}
+        <Arrow left /> {it.path.back}
       </Link>
       <span className="unit-number">{it.path.unit(unit.order)}</span>
       <h1>{unit.title}</h1>

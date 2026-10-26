@@ -3,6 +3,7 @@ import { PatternTable } from "../../components/PatternTable";
 import { PlayButton } from "../../components/PlayButton";
 import { FlagButton } from "../../components/FlagButton";
 import { it } from "../../i18n/it";
+import { withArrows } from "../../components/Arrow";
 
 export function GrammarLesson({ item }: { item: GrammarItem }) {
   return (
@@ -13,7 +14,7 @@ export function GrammarLesson({ item }: { item: GrammarItem }) {
       </div>
       <h1>{item.title}</h1>
       {item.explanationIt.map((p) => (
-        <p key={p}>{p}</p>
+        <p key={p}>{withArrows(p)}</p>
       ))}
 
       <h2>{it.lesson.pattern}</h2>
@@ -47,7 +48,7 @@ export function GrammarLesson({ item }: { item: GrammarItem }) {
               </span>
               <PlayButton text={m.right} />
             </span>
-            <span className="muted">{m.explanationIt}</span>
+            <span className="muted">{withArrows(m.explanationIt)}</span>
           </li>
         ))}
       </ul>

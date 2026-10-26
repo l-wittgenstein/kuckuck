@@ -11,6 +11,7 @@ import { cardStage, itemStage } from "../../domain/stages";
 import { it } from "../../i18n/it";
 import { GrammarLesson } from "../lesson/GrammarLesson";
 import { VocabLesson } from "../lesson/VocabLesson";
+import { Arrow, withArrows } from "../../components/Arrow";
 
 const relative = new Intl.RelativeTimeFormat("it", { numeric: "auto" });
 
@@ -59,7 +60,7 @@ export function ItemScreen() {
   return (
     <section className="screen">
       <Link to="/vocabolario" className="back-link">
-        ← {it.vocab.back}
+        <Arrow left /> {it.vocab.back}
       </Link>
 
       {content.kind === "vocab" ? <VocabLesson item={content.item} /> : <GrammarLesson item={content.item} />}
@@ -79,7 +80,7 @@ export function ItemScreen() {
                 <li key={card.id} className="card card-row">
                   <span>
                     <strong>
-                      {card.kind === "cloze" ? it.vocab.cardKind.cloze(i + 1) : it.vocab.cardKind[card.kind]}
+                      {card.kind === "cloze" ? it.vocab.cardKind.cloze(i + 1) : withArrows(it.vocab.cardKind[card.kind])}
                     </strong>
                     <span className="muted small">
                       {record.retired ? it.vocab.retired : `${it.vocab.due} ${when(record.due, now)}`}

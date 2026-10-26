@@ -748,3 +748,7 @@ a { color: var(--accent); }
 .result-chip .de { font-weight: 600; }
 .result-chip .it { font-size: 0.85rem; color: var(--muted); }
 .button.small { min-height: 40px; padding: 0 16px; font-size: 0.95rem; }
+
+/* Drawn arrows sit on the middle of the lowercase letters. */
+.arrow { display: inline-block; vertical-align: -0.12em; }
+.arrow-left { transform: scaleX(-1); }

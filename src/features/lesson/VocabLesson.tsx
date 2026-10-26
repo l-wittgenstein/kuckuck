@@ -3,6 +3,7 @@ import { GermanWord, germanLabel } from "../../components/German";
 import { PlayButton } from "../../components/PlayButton";
 import { FlagButton } from "../../components/FlagButton";
 import { it } from "../../i18n/it";
+import { withArrows } from "../../components/Arrow";
 
 export function VocabLesson({ item }: { item: VocabItem }) {
   return (
@@ -24,7 +25,7 @@ export function VocabLesson({ item }: { item: VocabItem }) {
         </p>
       )}
       <p className="meaning">{item.it.join(", ")}</p>
-      {item.noteIt && <p className="note">{item.noteIt}</p>}
+      {item.noteIt && <p className="note">{withArrows(item.noteIt)}</p>}
 
       <h2>{it.lesson.examples}</h2>
       <ul className="examples">

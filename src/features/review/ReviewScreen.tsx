@@ -10,6 +10,7 @@ import type { QuizState } from "../../domain/quiz";
 import { stageRank } from "../../domain/stages";
 import { it } from "../../i18n/it";
 import { CardSession } from "../session/CardSession";
+import { Arrow } from "../../components/Arrow";
 
 // Reviews of everything due now. The first answer to each card is rated
 // and saved immediately; retries after a miss are practice only.
@@ -76,7 +77,7 @@ export function ReviewScreen() {
           <span className="stage-change">
             {o.stageBefore !== o.stageAfter && (
               <>
-                <StageBadge stage={o.stageBefore} /> →{" "}
+                <StageBadge stage={o.stageBefore} /> <Arrow />{" "}
               </>
             )}
             <StageBadge stage={o.stageAfter} />

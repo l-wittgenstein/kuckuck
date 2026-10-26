@@ -13,6 +13,7 @@ import { levels } from "../../content";
 import { gapStartsSentence, type CardRef } from "../../domain/cards";
 import { cardsCleared, isFinished, quizReducer, startQuiz, type QuizState } from "../../domain/quiz";
 import { it } from "../../i18n/it";
+import { Arrow, withArrows } from "../../components/Arrow";
 
 // Every answer in the course: a typo that lands on another real word
 // (nein for neun) is a different word, not a typo.
@@ -100,7 +101,7 @@ export function CardSession({
       <header className="focus-header">
         {close ? (
           <button type="button" className="back-link link-button" onClick={close.onClick}>
-            ← {close.label}
+            <Arrow left /> {close.label}
           </button>
         ) : (
           <Link to={closeTo} className="back-link">
@@ -168,7 +169,7 @@ function Prompt({ card }: { card: CardRef }) {
           <span className="gap">{"\u2003\u2003\u2003"}</span>
           {after}
         </h1>
-        {card.exercise.hintIt && <p className="hint">({card.exercise.hintIt})</p>}
+        {card.exercise.hintIt && <p className="hint">({withArrows(card.exercise.hintIt)})</p>}
         <p className="muted">{card.exercise.translationIt}</p>
       </div>
     );
@@ -225,7 +226,7 @@ function Feedback(props: {
             {germanOf(card)}
             <PlayButton text={germanOf(card)} />
           </span>
-          <span className="muted">{card.exercise.explanationIt}</span>
+          <span className="muted">{withArrows(card.exercise.explanationIt)}</span>
         </>
       ) : (
         <span className="with-audio">
