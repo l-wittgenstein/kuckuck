@@ -52,13 +52,21 @@ describe("reviews", () => {
     const expected = (await twin.cards.get(cards[0].id))!;
 
     const outcome = await recordReview(cards[0].id, "x", wrong, at, db);
-    await overrideReview(cards[0].id, outcome, db);
+    const wrongState = (await db.cards.get(cards[0].id))!;
+    await overrideReview(cards[0].id, outcome, true, db);
     const card = (await db.cards.get(cards[0].id))!;
     expect(card.due).toEqual(expected.due);
     expect(card.srs.lapses).toBe(0);
     const log = await db.reviews.get(outcome.reviewId);
     expect(log?.grade).toBe(Rating.Good);
     expect(log?.overridden).toBe(true);
+
+    // Annulla: back to exactly what the checker decided.
+    await overrideReview(cards[0].id, outcome, false, db);
+    expect((await db.cards.get(cards[0].id))!.due).toEqual(wrongState.due);
+    const undone = await db.reviews.get(outcome.reviewId);
+    expect(undone?.grade).toBe(Rating.Again);
+    expect(undone?.overridden).toBe(false);
   });
 
   it("reports the item's stage before and after", async () => {

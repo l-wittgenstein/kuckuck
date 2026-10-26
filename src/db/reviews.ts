@@ -2,7 +2,7 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { useEffect, useState } from "react";
 import type { CheckResult } from "../checker/check";
 import { itemStage, shouldRetire, type Stage } from "../domain/stages";
-import { gradeFor, rate, Rating, type SrsState } from "../srs/scheduler";
+import { gradeFor, rate, Rating, type Grade, type SrsState } from "../srs/scheduler";
 import { db, type CardRecord, type KuckuckDB } from "./db";
 
 export async function loadDueCards(now = new Date(), database: KuckuckDB = db): Promise<CardRecord[]> {
@@ -14,6 +14,7 @@ export interface ReviewOutcome {
   reviewId: number;
   at: Date;
   before: SrsState;
+  grade: Grade; // as the checker rated it, before any override
   stageBefore: Stage;
   stageAfter: Stage;
 }
@@ -53,26 +54,29 @@ export async function recordReview(
       grade,
     });
     const stageAfter = await stageOfItem(database, card.itemId);
-    return { reviewId: reviewId as number, at: now, before: card.srs, stageBefore, stageAfter };
+    return { reviewId: reviewId as number, at: now, before: card.srs, grade, stageBefore, stageAfter };
   });
 }
 
-// "Invece è corretto": redo the rating as Good from the state before it.
+// "Invece è corretto" re-rates the review as Good from the state before
+// it; "Annulla" puts back the checker's rating.
 export async function overrideReview(
   cardId: string,
   outcome: ReviewOutcome,
+  overridden = true,
   database: KuckuckDB = db,
 ): Promise<ReviewOutcome> {
   return database.transaction("rw", database.cards, database.reviews, async () => {
     const card = await database.cards.get(cardId);
     if (!card) throw new Error(`Unknown card ${cardId}`);
-    const { state } = rate(outcome.before, Rating.Good, outcome.at);
+    const grade = overridden ? Rating.Good : outcome.grade;
+    const { state } = rate(outcome.before, grade, outcome.at);
     await database.cards.update(cardId, {
       srs: state,
       due: state.due,
-      retired: shouldRetire(state, Rating.Good),
+      retired: shouldRetire(state, grade),
     });
-    await database.reviews.update(outcome.reviewId, { grade: Rating.Good, overridden: true });
+    await database.reviews.update(outcome.reviewId, { grade, overridden });
     return { ...outcome, stageAfter: await stageOfItem(database, card.itemId) };
   });
 }

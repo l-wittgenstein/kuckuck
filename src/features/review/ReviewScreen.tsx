@@ -61,9 +61,11 @@ export function ReviewScreen() {
       onAnswer={(card, answer, result, isFirst) => {
         if (isFirst) save(card, () => recordReview(card.id, answer, result));
       }}
-      onOverride={(card, isFirst) => {
+      onOverride={(card, isFirst, overridden) => {
         if (!isFirst) return;
-        save(card, async (previous) => (previous ? overrideReview(card.id, previous) : undefined));
+        save(card, async (previous) =>
+          previous ? overrideReview(card.id, previous, overridden) : undefined,
+        );
       }}
       extraFeedback={(card) => {
         const o = outcomes[card.id];

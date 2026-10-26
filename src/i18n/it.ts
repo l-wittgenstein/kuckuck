@@ -90,6 +90,7 @@ export const it = {
     yourAnswer: "Hai scritto:",
     override: "Invece è corretto",
     overridden: "Segnata come corretta",
+    undoOverride: "Annulla",
     retryLater: "La ritroverai alla fine del quiz.",
     notes: {
       typo: "Attenzione all'ortografia.",

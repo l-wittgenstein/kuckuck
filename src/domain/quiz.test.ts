@@ -65,6 +65,17 @@ describe("quiz", () => {
     expect(state.firstAttempts[id].overridden).toBe(false);
   });
 
+  it("undoing an override restores the miss and requeues the card", () => {
+    let state = startQuiz(cards.slice(0, 2), () => 0.99);
+    const id = state.queue[0].id;
+    state = quizReducer(state, { type: "answer", answer: "a", result: wrong });
+    state = quizReducer(state, { type: "override" });
+    state = quizReducer(state, { type: "undoOverride" });
+    expect(state.firstAttempts[id].overridden).toBe(false);
+    state = quizReducer(state, { type: "continue" });
+    expect(state.queue.at(-1)?.id).toBe(id);
+  });
+
   it("ignores override on a correct answer", () => {
     let state = startQuiz(cards.slice(0, 1));
     state = quizReducer(state, { type: "answer", answer: "a", result: right });

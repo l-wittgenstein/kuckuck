@@ -33,7 +33,8 @@ export interface CardSessionProps {
   closeTo: string;
   // Called for every submitted answer; isFirst is false on retries.
   onAnswer?: (card: CardRef, answer: string, result: CheckResult, isFirst: boolean) => void;
-  onOverride?: (card: CardRef, isFirst: boolean) => void;
+  // overridden=false when she taps "Annulla".
+  onOverride?: (card: CardRef, isFirst: boolean, overridden: boolean) => void;
   extraFeedback?: (card: CardRef) => ReactNode;
   renderDone: (state: QuizState) => ReactNode;
 }
@@ -99,11 +100,12 @@ export function CardSession({ cards, closeTo, onAnswer, onOverride, extraFeedbac
             outcome={feedback.overridden ? "correct" : feedback.result.outcome}
             notes={feedback.overridden ? [] : feedback.result.notes}
             expected={feedback.result.expected}
-            canOverride={feedback.result.outcome === "wrong" && !feedback.overridden}
+            canOverride={feedback.result.outcome === "wrong"}
             overridden={feedback.overridden}
             onOverride={() => {
-              onOverride?.(card, feedback.isFirst);
-              dispatch({ type: "override" });
+              const overridden = !feedback.overridden;
+              onOverride?.(card, feedback.isFirst, overridden);
+              dispatch({ type: overridden ? "override" : "undoOverride" });
               inputRef.current?.focus();
             }}
             extra={extraFeedback?.(card)}
@@ -177,7 +179,6 @@ function Feedback(props: {
           {it.quiz.answerWas} <b lang={card.kind === "recognition" ? "it" : "de"}>{props.expected}</b>
         </span>
       )}
-      {props.overridden && <span>{it.quiz.overridden}</span>}
 
       {card.kind === "cloze" ? (
         <>
@@ -196,9 +197,12 @@ function Feedback(props: {
       {outcome === "wrong" && !props.overridden && <span className="muted">{it.quiz.retryLater}</span>}
       <span className="feedback-actions">
         {props.canOverride && (
-          <button type="button" className="link-button" onClick={props.onOverride}>
-            {it.quiz.override}
-          </button>
+          <span>
+            {props.overridden && <span className="muted">{it.quiz.overridden} · </span>}
+            <button type="button" className="link-button" onClick={props.onOverride}>
+              {props.overridden ? it.quiz.undoOverride : it.quiz.override}
+            </button>
+          </span>
         )}
         <FlagButton itemId={card.itemId} />
       </span>

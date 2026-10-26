@@ -21,6 +21,7 @@ export interface QuizState {
 export type QuizAction =
   | { type: "answer"; answer: string; result: CheckResult }
   | { type: "override" }
+  | { type: "undoOverride" }
   | { type: "continue" };
 
 export function startQuiz(cards: CardRef[], random: () => number = Math.random): QuizState {
@@ -63,6 +64,16 @@ export function quizReducer(state: QuizState, action: QuizAction): QuizState {
           }
         : state.firstAttempts;
       return { ...state, firstAttempts, feedback: { ...state.feedback, overridden: true } };
+    }
+    case "undoOverride": {
+      if (!state.feedback?.overridden) return state;
+      const firstAttempts = state.feedback.isFirst
+        ? {
+            ...state.firstAttempts,
+            [current.id]: { ...state.firstAttempts[current.id], overridden: false },
+          }
+        : state.firstAttempts;
+      return { ...state, firstAttempts, feedback: { ...state.feedback, overridden: false } };
     }
     case "continue": {
       if (!state.feedback) return state;
