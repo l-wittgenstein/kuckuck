@@ -1,0 +1,507 @@
+[
+  {
+    "id": "v-a1-0291",
+    "pos": "noun",
+    "de": "Freizeit",
+    "article": "die",
+    "plural": null,
+    "it": ["tempo libero"],
+    "promptIt": "il tempo libero",
+    "examples": [
+      { "de": "In meiner Freizeit lese ich.", "it": "Nel tempo libero leggo." },
+      { "de": "Was machst du in deiner Freizeit?", "it": "Cosa fai nel tempo libero?" }
+    ]
+  },
+  {
+    "id": "v-a1-0292",
+    "pos": "noun",
+    "de": "Hobby",
+    "article": "das",
+    "plural": "Hobbys",
+    "it": ["hobby", "passatempo"],
+    "promptIt": "l'hobby",
+    "noteIt": "Il plurale è Hobbys, con la y.",
+    "examples": [
+      { "de": "Mein Hobby ist Musik.", "it": "Il mio hobby è la musica." },
+      { "de": "Hast du ein Hobby?", "it": "Hai un hobby?" }
+    ]
+  },
+  {
+    "id": "v-a1-0293",
+    "pos": "verb",
+    "de": "spielen",
+    "it": ["giocare", "suonare"],
+    "promptIt": "giocare (e suonare uno strumento)",
+    "noteIt": "Vuol dire anche suonare: Ich spiele Gitarre = suono la chitarra.",
+    "examples": [
+      { "de": "Die Kinder spielen im Park.", "it": "I bambini giocano al parco." },
+      { "de": "Spielst du Fußball?", "it": "Giochi a calcio?" }
+    ]
+  },
+  {
+    "id": "v-a1-0294",
+    "pos": "noun",
+    "de": "Fußball",
+    "article": "der",
+    "plural": "Fußbälle",
+    "it": ["calcio", "pallone"],
+    "promptIt": "il calcio (lo sport e il pallone)",
+    "noteIt": "Giocare a calcio: Fußball spielen, senza articolo.",
+    "examples": [
+      { "de": "Er spielt gern Fußball.", "it": "Gli piace giocare a calcio." },
+      { "de": "Der Fußball ist neu.", "it": "Il pallone è nuovo." }
+    ]
+  },
+  {
+    "id": "v-a1-0295",
+    "pos": "verb",
+    "de": "schwimmen",
+    "it": ["nuotare"],
+    "promptIt": "nuotare",
+    "examples": [
+      { "de": "Im Sommer schwimmen wir im Meer.", "it": "D'estate nuotiamo in mare." },
+      { "de": "Kannst du schwimmen?", "it": "Sai nuotare?" }
+    ]
+  },
+  {
+    "id": "v-a1-0296",
+    "pos": "verb",
+    "de": "tanzen",
+    "it": ["ballare", "danzare"],
+    "promptIt": "ballare",
+    "examples": [
+      { "de": "Wir tanzen gern.", "it": "Ci piace ballare." },
+      { "de": "Tanzt du?", "it": "Balli?" }
+    ]
+  },
+  {
+    "id": "v-a1-0297",
+    "pos": "verb",
+    "de": "singen",
+    "it": ["cantare"],
+    "promptIt": "cantare",
+    "examples": [
+      { "de": "Sie singt sehr gut.", "it": "Canta molto bene." },
+      { "de": "Wir singen zusammen.", "it": "Cantiamo insieme." }
+    ]
+  },
+  {
+    "id": "v-a1-0298",
+    "pos": "verb",
+    "de": "lesen",
+    "it": ["leggere"],
+    "promptIt": "leggere",
+    "noteIt": "Cambia vocale: du liest, er liest.",
+    "examples": [
+      { "de": "Ich lese ein Buch.", "it": "Leggo un libro." },
+      { "de": "Liest du gern?", "it": "Ti piace leggere?" }
+    ]
+  },
+  {
+    "id": "v-a1-0299",
+    "pos": "verb",
+    "de": "hören",
+    "it": ["ascoltare", "sentire"],
+    "promptIt": "ascoltare",
+    "examples": [
+      { "de": "Ich höre Musik.", "it": "Ascolto musica." },
+      { "de": "Hörst du das?", "it": "Lo senti?" }
+    ]
+  },
+  {
+    "id": "v-a1-0300",
+    "pos": "noun",
+    "de": "Musik",
+    "article": "die",
+    "plural": null,
+    "it": ["musica"],
+    "promptIt": "la musica",
+    "examples": [
+      { "de": "Ich höre gern Musik.", "it": "Mi piace ascoltare musica." },
+      { "de": "Die Musik ist laut.", "it": "La musica è alta." }
+    ]
+  },
+  {
+    "id": "v-a1-0301",
+    "pos": "verb",
+    "de": "können",
+    "it": ["potere", "sapere", "essere capace"],
+    "promptIt": "potere / sapere (fare qualcosa)",
+    "noteIt": "Ich kann schwimmen = so nuotare. Al singolare è irregolare: ich kann, du kannst, er kann.",
+    "examples": [
+      { "de": "Ich kann schwimmen.", "it": "So nuotare." },
+      { "de": "Kannst du morgen kommen?", "it": "Puoi venire domani?" }
+    ]
+  },
+  {
+    "id": "v-a1-0302",
+    "pos": "noun",
+    "de": "Film",
+    "article": "der",
+    "plural": "Filme",
+    "it": ["film"],
+    "promptIt": "il film",
+    "examples": [
+      { "de": "Der Film ist lang.", "it": "Il film è lungo." },
+      { "de": "Wir sehen heute einen Film.", "it": "Oggi guardiamo un film." }
+    ]
+  },
+  {
+    "id": "v-a1-0303",
+    "pos": "verb",
+    "de": "sehen",
+    "it": ["vedere", "guardare"],
+    "promptIt": "vedere",
+    "noteIt": "Cambia vocale: du siehst, er sieht, come fernsehen.",
+    "examples": [
+      { "de": "Ich sehe einen Film.", "it": "Guardo un film." },
+      { "de": "Siehst du das Haus?", "it": "Vedi la casa?" }
+    ]
+  },
+  {
+    "id": "v-a1-0304",
+    "pos": "noun",
+    "de": "Konzert",
+    "article": "das",
+    "plural": "Konzerte",
+    "it": ["concerto"],
+    "promptIt": "il concerto",
+    "noteIt": "In tedesco è neutro: das Konzert. Andare a un concerto: ins Konzert gehen.",
+    "examples": [
+      { "de": "Das Konzert ist am Samstag.", "it": "Il concerto è sabato." },
+      { "de": "Wir gehen heute ins Konzert.", "it": "Oggi andiamo a un concerto." }
+    ]
+  },
+  {
+    "id": "v-a1-0305",
+    "pos": "noun",
+    "de": "Sport",
+    "article": "der",
+    "plural": null,
+    "it": ["sport"],
+    "promptIt": "lo sport",
+    "noteIt": "Fare sport: Sport machen.",
+    "examples": [
+      { "de": "Ich mache gern Sport.", "it": "Mi piace fare sport." },
+      { "de": "Sport ist gesund.", "it": "Lo sport fa bene alla salute." }
+    ]
+  },
+  {
+    "id": "v-a1-0306",
+    "pos": "verb",
+    "de": "laufen",
+    "it": ["correre", "fare jogging", "camminare"],
+    "promptIt": "correre (fare jogging)",
+    "acceptDe": ["joggen"],
+    "noteIt": "Cambia vocale: du läufst, er läuft. Nella lingua parlata vuol dire anche andare a piedi, camminare.",
+    "examples": [
+      { "de": "Ich laufe jeden Morgen.", "it": "Corro ogni mattina." },
+      { "de": "Er läuft sehr schnell.", "it": "Corre molto veloce." }
+    ]
+  },
+  {
+    "id": "v-a1-0307",
+    "pos": "verb",
+    "de": "wandern",
+    "it": ["fare escursioni", "fare un'escursione", "fare trekking", "camminare in montagna"],
+    "promptIt": "fare escursioni (a piedi)",
+    "examples": [
+      { "de": "Am Wochenende wandern wir.", "it": "Nel fine settimana facciamo escursioni." },
+      { "de": "Wanderst du gern?", "it": "Ti piace fare escursioni?" }
+    ]
+  },
+  {
+    "id": "v-a1-0308",
+    "pos": "verb",
+    "de": "reisen",
+    "it": ["viaggiare"],
+    "promptIt": "viaggiare",
+    "examples": [
+      { "de": "Ich reise gern.", "it": "Mi piace viaggiare." },
+      { "de": "Im Sommer reisen wir nach Spanien.", "it": "D'estate andiamo in Spagna." }
+    ]
+  },
+  {
+    "id": "v-a1-0309",
+    "pos": "verb",
+    "de": "fotografieren",
+    "it": ["fotografare", "fare foto", "fare una foto", "fare fotografie"],
+    "promptIt": "fotografare",
+    "examples": [
+      { "de": "Er fotografiert gern.", "it": "Gli piace fotografare." },
+      { "de": "Wir fotografieren die Kirche.", "it": "Fotografiamo la chiesa." }
+    ]
+  },
+  {
+    "id": "v-a1-0310",
+    "pos": "verb",
+    "de": "wollen",
+    "it": ["volere"],
+    "promptIt": "volere (in modo diretto: ich will)",
+    "noteIt": "Al singolare è irregolare: ich will, du willst, er will. ich will è diretto: per chiedere con gentilezza si usa ich möchte.",
+    "examples": [
+      { "de": "Ich will ins Kino gehen.", "it": "Voglio andare al cinema." },
+      { "de": "Willst du mitkommen?", "it": "Vuoi venire con noi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0311",
+    "pos": "noun",
+    "de": "Lust",
+    "article": "die",
+    "plural": null,
+    "it": ["voglia"],
+    "promptIt": "la voglia",
+    "noteIt": "Lust haben = avere voglia. Hast du Lust? = ti va?",
+    "examples": [
+      { "de": "Hast du Lust?", "it": "Ti va?" },
+      { "de": "Ich habe heute keine Lust.", "it": "Oggi non ne ho voglia." }
+    ]
+  },
+  {
+    "id": "v-a1-0312",
+    "pos": "noun",
+    "de": "Spaß",
+    "article": "der",
+    "plural": "Späße",
+    "it": ["divertimento"],
+    "promptIt": "il divertimento",
+    "noteIt": "Das macht Spaß = è divertente. Viel Spaß! = buon divertimento!",
+    "examples": [
+      { "de": "Tanzen macht Spaß.", "it": "Ballare è divertente." },
+      { "de": "Viel Spaß!", "it": "Buon divertimento!" }
+    ]
+  },
+  {
+    "id": "v-a1-0313",
+    "pos": "verb",
+    "de": "mitkommen",
+    "it": ["venire con", "venire con noi", "venire con me", "venire anche", "venire insieme", "accompagnare"],
+    "promptIt": "venire con (qualcuno)",
+    "noteIt": "Separabile: Kommst du mit? = vieni anche tu?",
+    "examples": [
+      { "de": "Kommst du mit?", "it": "Vieni anche tu?" },
+      { "de": "Ich komme gern mit.", "it": "Vengo volentieri." }
+    ]
+  },
+  {
+    "id": "v-a1-0314",
+    "pos": "noun",
+    "de": "Foto",
+    "article": "das",
+    "plural": "Fotos",
+    "it": ["foto", "fotografia"],
+    "promptIt": "la foto",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Foto.",
+    "examples": [
+      { "de": "Das Foto ist schön.", "it": "La foto è bella." },
+      { "de": "Ich mache ein Foto.", "it": "Faccio una foto." }
+    ]
+  },
+  {
+    "id": "v-a1-0315",
+    "pos": "verb",
+    "de": "malen",
+    "it": ["dipingere", "disegnare"],
+    "promptIt": "dipingere",
+    "examples": [
+      { "de": "Meine Tochter malt gern.", "it": "A mia figlia piace dipingere." },
+      { "de": "Er malt ein Bild.", "it": "Dipinge un quadro." }
+    ]
+  },
+  {
+    "id": "v-a1-0316",
+    "pos": "noun",
+    "de": "Gitarre",
+    "article": "die",
+    "plural": "Gitarren",
+    "it": ["chitarra"],
+    "promptIt": "la chitarra",
+    "noteIt": "Suonare la chitarra: Gitarre spielen, senza articolo.",
+    "examples": [
+      { "de": "Ich spiele Gitarre.", "it": "Suono la chitarra." },
+      { "de": "Die Gitarre ist alt.", "it": "La chitarra è vecchia." }
+    ]
+  },
+  {
+    "id": "v-a1-0317",
+    "pos": "noun",
+    "de": "Klavier",
+    "article": "das",
+    "plural": "Klaviere",
+    "it": ["pianoforte", "piano"],
+    "promptIt": "il pianoforte",
+    "noteIt": "Suonare il pianoforte: Klavier spielen, senza articolo. In tedesco è neutro.",
+    "examples": [
+      { "de": "Er spielt Klavier.", "it": "Suona il pianoforte." },
+      { "de": "Das Klavier steht im Wohnzimmer.", "it": "Il pianoforte è in soggiorno." }
+    ]
+  },
+  {
+    "id": "v-a1-0318",
+    "pos": "noun",
+    "de": "Theater",
+    "article": "das",
+    "plural": "Theater",
+    "it": ["teatro"],
+    "promptIt": "il teatro",
+    "examples": [
+      { "de": "Wir gehen ins Theater.", "it": "Andiamo a teatro." },
+      { "de": "Das Theater ist im Zentrum.", "it": "Il teatro è in centro." }
+    ]
+  },
+  {
+    "id": "v-a1-0319",
+    "pos": "verb",
+    "de": "besuchen",
+    "it": ["visitare", "andare a trovare"],
+    "promptIt": "andare a trovare (visitare)",
+    "noteIt": "Vuole l'accusativo: Ich besuche meine Oma = vado a trovare mia nonna.",
+    "examples": [
+      { "de": "Ich besuche meine Oma.", "it": "Vado a trovare mia nonna." },
+      { "de": "Wir besuchen das Museum.", "it": "Visitiamo il museo." }
+    ]
+  },
+  {
+    "id": "v-a1-0320",
+    "pos": "noun",
+    "de": "Zeitung",
+    "article": "die",
+    "plural": "Zeitungen",
+    "it": ["giornale", "quotidiano"],
+    "promptIt": "il giornale",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Zeitung.",
+    "examples": [
+      { "de": "Mein Vater liest die Zeitung.", "it": "Mio padre legge il giornale." },
+      { "de": "Die Zeitung ist von heute.", "it": "Il giornale è di oggi." }
+    ]
+  },
+  {
+    "id": "v-a1-0321",
+    "pos": "noun",
+    "de": "Spiel",
+    "article": "das",
+    "plural": "Spiele",
+    "it": ["gioco", "partita"],
+    "promptIt": "il gioco (e la partita)",
+    "examples": [
+      { "de": "Das Spiel ist um acht Uhr.", "it": "La partita è alle otto." },
+      { "de": "Die Kinder haben ein neues Spiel.", "it": "I bambini hanno un gioco nuovo." }
+    ]
+  },
+  {
+    "id": "v-a1-0322",
+    "pos": "adv",
+    "de": "sehr",
+    "it": ["molto"],
+    "promptIt": "molto (con aggettivi: molto bello)",
+    "noteIt": "sehr va con aggettivi e avverbi: sehr gut, sehr gern. Con i sostantivi si usa viel (viel Zeit), e anche «legge molto» è Er liest viel.",
+    "examples": [
+      { "de": "Das ist sehr gut.", "it": "È molto buono." },
+      { "de": "Ich tanze sehr gern.", "it": "Mi piace molto ballare." }
+    ]
+  },
+  {
+    "id": "v-a1-0323",
+    "pos": "adv",
+    "de": "lieber",
+    "it": ["più volentieri", "preferire", "piuttosto", "preferibilmente"],
+    "promptIt": "più volentieri (per dire cosa preferisci)",
+    "examples": [
+      { "de": "Ich trinke lieber Tee.", "it": "Preferisco il tè." },
+      { "de": "Was machst du lieber?", "it": "Cosa preferisci fare?" }
+    ]
+  },
+  {
+    "id": "v-a1-0324",
+    "pos": "adv",
+    "de": "am liebsten",
+    "it": ["più di tutto", "soprattutto"],
+    "promptIt": "più di tutto (quello che preferisci)",
+    "examples": [
+      { "de": "Am liebsten lese ich.", "it": "Più di tutto mi piace leggere." },
+      { "de": "Was isst du am liebsten?", "it": "Cosa ti piace mangiare più di tutto?" }
+    ]
+  },
+  {
+    "id": "v-a1-0325",
+    "pos": "adj",
+    "de": "toll",
+    "it": ["fantastico", "fantastica", "bellissimo", "bellissima", "grandioso", "grandiosa", "super"],
+    "promptIt": "fantastico",
+    "examples": [
+      { "de": "Der Film ist toll!", "it": "Il film è fantastico!" },
+      { "de": "Das ist eine tolle Idee.", "it": "È un'idea fantastica." }
+    ]
+  },
+  {
+    "id": "v-a1-0326",
+    "pos": "adj",
+    "de": "langweilig",
+    "it": ["noioso", "noiosa"],
+    "promptIt": "noioso",
+    "noteIt": "Attenzione: Ich bin langweilig = sono noiosa. «Mi annoio» si dice Mir ist langweilig.",
+    "examples": [
+      { "de": "Das Buch ist langweilig.", "it": "Il libro è noioso." },
+      { "de": "Der Film ist sehr langweilig.", "it": "Il film è molto noioso." }
+    ]
+  },
+  {
+    "id": "v-a1-0327",
+    "pos": "adj",
+    "de": "interessant",
+    "it": ["interessante"],
+    "promptIt": "interessante",
+    "examples": [
+      { "de": "Das Museum ist interessant.", "it": "Il museo è interessante." },
+      { "de": "Der Film ist sehr interessant.", "it": "Il film è molto interessante." }
+    ]
+  },
+  {
+    "id": "v-a1-0328",
+    "pos": "adv",
+    "de": "viel",
+    "it": ["molto", "tanto"],
+    "promptIt": "tanto (una grande quantità)",
+    "examples": [
+      { "de": "Ich habe heute viel Zeit.", "it": "Oggi ho tanto tempo." },
+      { "de": "Er liest viel.", "it": "Legge molto." }
+    ]
+  },
+  {
+    "id": "v-a1-0329",
+    "pos": "phrase",
+    "de": "ein bisschen",
+    "it": ["un po'", "un poco", "un pochino"],
+    "promptIt": "un po'",
+    "examples": [
+      { "de": "Ich spreche ein bisschen Deutsch.", "it": "Parlo un po' di tedesco." },
+      { "de": "Ich bin ein bisschen müde.", "it": "Sono un po' stanca." }
+    ]
+  },
+  {
+    "id": "v-a1-0330",
+    "pos": "phrase",
+    "de": "Fahrrad fahren",
+    "it": ["andare in bicicletta", "andare in bici"],
+    "promptIt": "andare in bicicletta",
+    "acceptDe": ["Rad fahren", "mit dem Fahrrad fahren"],
+    "examples": [
+      { "de": "Ich fahre gern Fahrrad.", "it": "Mi piace andare in bicicletta." },
+      { "de": "Fährst du oft Fahrrad?", "it": "Vai spesso in bici?" }
+    ]
+  },
+  {
+    "id": "v-a1-0331",
+    "pos": "phrase",
+    "de": "Ski fahren",
+    "it": ["sciare"],
+    "promptIt": "sciare",
+    "acceptDe": ["Skifahren", "Ski laufen"],
+    "noteIt": "Ski si pronuncia «sci».",
+    "examples": [
+      { "de": "Im Winter fahren wir Ski.", "it": "D'inverno sciamo." },
+      { "de": "Fährst du gern Ski?", "it": "Ti piace sciare?" }
+    ]
+  }
+]

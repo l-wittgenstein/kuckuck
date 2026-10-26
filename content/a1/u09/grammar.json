@@ -1,0 +1,354 @@
+[
+  {
+    "id": "g-a1-0033",
+    "title": "Potere e saper fare: können",
+    "explanationIt": [
+      "können vuol dire sia «potere» sia «sapere» (fare qualcosa): Ich kann schwimmen = so nuotare. Kannst du morgen kommen? = puoi venire domani?",
+      "Al singolare è irregolare: ich kann, du kannst, er/sie/es kann, senza -t. Al plurale è regolare: wir können, ihr könnt, sie/Sie können.",
+      "Il secondo verbo va all'infinito, alla fine della frase: Ich kann gut singen."
+    ],
+    "pattern": [
+      "ich kann – io posso / so",
+      "du kannst – tu puoi / sai",
+      "er/sie/es kann – lui/lei può / sa",
+      "wir können – noi possiamo / sappiamo",
+      "ihr könnt – voi potete / sapete",
+      "sie/Sie können – loro possono / sanno · Lei può / sa"
+    ],
+    "examples": [
+      { "de": "Meine Schwester kann gut singen.", "it": "Mia sorella sa cantare bene." },
+      { "de": "Kannst du schwimmen?", "it": "Sai nuotare?" },
+      { "de": "Wir können heute nicht kommen.", "it": "Oggi non possiamo venire." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Er kannt schwimmen.",
+        "right": "Er kann schwimmen.",
+        "explanationIt": "Con er/sie/es: kann, senza -t."
+      },
+      {
+        "wrong": "Ich kann tanzen gut.",
+        "right": "Ich kann gut tanzen.",
+        "explanationIt": "Il secondo verbo va proprio alla fine della frase."
+      },
+      {
+        "wrong": "Ich weiß schwimmen.",
+        "right": "Ich kann schwimmen.",
+        "explanationIt": "«So nuotare»: per un'abilità si usa können. Ich weiß (da wissen) vuol dire «so» nel senso di conoscere un'informazione."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0033-e1",
+        "sentence": "Ich ___ schwimmen.",
+        "answers": ["kann"],
+        "hintIt": "können",
+        "translationIt": "So nuotare.",
+        "explanationIt": "Con ich: kann."
+      },
+      {
+        "id": "g-a1-0033-e2",
+        "sentence": "___ du singen?",
+        "answers": ["Kannst"],
+        "hintIt": "können",
+        "translationIt": "Sai cantare?",
+        "explanationIt": "Con du: kannst."
+      },
+      {
+        "id": "g-a1-0033-e3",
+        "sentence": "Wir ___ heute nicht kommen.",
+        "answers": ["können"],
+        "hintIt": "können",
+        "translationIt": "Oggi non possiamo venire.",
+        "explanationIt": "Con wir: können."
+      },
+      {
+        "id": "g-a1-0033-e4",
+        "sentence": "Er ___ gut tanzen.",
+        "answers": ["kann"],
+        "hintIt": "können",
+        "translationIt": "Sa ballare bene.",
+        "explanationIt": "Con er: kann, senza -t."
+      },
+      {
+        "id": "g-a1-0033-e5",
+        "sentence": "Ich kann gut ___.",
+        "answers": ["singen"],
+        "hintIt": "cantare",
+        "translationIt": "So cantare bene.",
+        "explanationIt": "Il secondo verbo va all'infinito, alla fine."
+      },
+      {
+        "id": "g-a1-0033-e6",
+        "sentence": "___ ihr schwimmen?",
+        "answers": ["Könnt"],
+        "hintIt": "können",
+        "translationIt": "Sapete nuotare?",
+        "explanationIt": "Con ihr: könnt."
+      },
+      {
+        "id": "g-a1-0033-e7",
+        "sentence": "Kannst du morgen ___?",
+        "answers": ["kommen"],
+        "hintIt": "venire",
+        "translationIt": "Puoi venire domani?",
+        "explanationIt": "Dopo können il verbo va all'infinito, alla fine."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0034",
+    "title": "Volere: wollen",
+    "explanationIt": [
+      "wollen = volere. Al singolare è irregolare: ich will, du willst, er/sie/es will. Al plurale: wir wollen, ihr wollt, sie/Sie wollen.",
+      "Come können, manda il secondo verbo alla fine: Ich will ins Kino gehen.",
+      "ich will è diretto e a volte suona brusco. Per chiedere qualcosa con gentilezza, al bar o in un negozio, si usa ich möchte."
+    ],
+    "pattern": [
+      "ich will – io voglio",
+      "du willst – tu vuoi",
+      "er/sie/es will – lui/lei vuole",
+      "wir wollen – noi vogliamo",
+      "ihr wollt – voi volete",
+      "sie/Sie wollen – loro vogliono / Lei vuole"
+    ],
+    "examples": [
+      { "de": "Ich will am Wochenende wandern.", "it": "Nel fine settimana voglio fare un'escursione." },
+      { "de": "Willst du mitkommen?", "it": "Vuoi venire con noi?" },
+      { "de": "Die Kinder wollen Fußball spielen.", "it": "I bambini vogliono giocare a calcio." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Er willt tanzen.",
+        "right": "Er will tanzen.",
+        "explanationIt": "Con er/sie/es: will, senza -t."
+      },
+      {
+        "wrong": "Ich will einen Kaffee. (al bar)",
+        "right": "Ich möchte einen Kaffee, bitte.",
+        "explanationIt": "Non è sbagliato, ma al bar suona brusco: per ordinare si usa möchte."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0034-e1",
+        "sentence": "Ich ___ ins Kino gehen.",
+        "answers": ["will"],
+        "hintIt": "wollen",
+        "translationIt": "Voglio andare al cinema.",
+        "explanationIt": "Con ich: will."
+      },
+      {
+        "id": "g-a1-0034-e2",
+        "sentence": "___ du mitkommen?",
+        "answers": ["Willst"],
+        "hintIt": "wollen",
+        "translationIt": "Vuoi venire con noi?",
+        "explanationIt": "Con du: willst."
+      },
+      {
+        "id": "g-a1-0034-e3",
+        "sentence": "Wir ___ am Wochenende wandern.",
+        "answers": ["wollen"],
+        "hintIt": "wollen",
+        "translationIt": "Nel fine settimana vogliamo fare un'escursione.",
+        "explanationIt": "Con wir: wollen."
+      },
+      {
+        "id": "g-a1-0034-e4",
+        "sentence": "Anna ___ Fußball spielen.",
+        "answers": ["will"],
+        "hintIt": "wollen",
+        "translationIt": "Anna vuole giocare a calcio.",
+        "explanationIt": "Con er/sie: will, senza -t."
+      },
+      {
+        "id": "g-a1-0034-e5",
+        "sentence": "___ ihr tanzen?",
+        "answers": ["Wollt"],
+        "hintIt": "wollen",
+        "translationIt": "Volete ballare?",
+        "explanationIt": "Con ihr: wollt."
+      },
+      {
+        "id": "g-a1-0034-e6",
+        "sentence": "Hast du ___? Ja, gern!",
+        "answers": ["Lust"],
+        "hintIt": "voglia",
+        "translationIt": "Ti va? Sì, volentieri!",
+        "explanationIt": "Lust haben = avere voglia."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0035",
+    "title": "Due verbi nella frase: il secondo va alla fine",
+    "explanationIt": [
+      "Con können, wollen e möchten la frase ha due verbi: il primo, coniugato, sta al secondo posto; il secondo, all'infinito, va alla fine della frase.",
+      "Tutto il resto sta in mezzo, come dentro una parentesi: Ich kann am Samstag nicht kommen.",
+      "Nelle domande sì/no il primo verbo va al primo posto: Willst du heute schwimmen?",
+      "I verbi separabili restano interi alla fine: Ich will früh aufstehen. Willst du mitkommen?"
+    ],
+    "pattern": [
+      "Ich kann gut schwimmen. – So nuotare bene.",
+      "Ich möchte heute ins Kino gehen. – Oggi vorrei andare al cinema.",
+      "Am Sonntag will ich lange schlafen. – Domenica voglio dormire a lungo.",
+      "Kannst du morgen mitkommen? – Puoi venire con noi domani?"
+    ],
+    "examples": [
+      { "de": "Ich will meine Oma besuchen.", "it": "Voglio andare a trovare mia nonna." },
+      { "de": "Wir möchten heute Abend einen Film sehen.", "it": "Stasera vorremmo vedere un film." },
+      { "de": "Kannst du heute Abend mitkommen?", "it": "Puoi venire con noi stasera?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich kann kommen am Samstag nicht.",
+        "right": "Ich kann am Samstag nicht kommen.",
+        "explanationIt": "Il secondo verbo va proprio alla fine."
+      },
+      {
+        "wrong": "Willst du kommen mit?",
+        "right": "Willst du mitkommen?",
+        "explanationIt": "Con un modale, il verbo separabile resta intero alla fine."
+      },
+      {
+        "wrong": "Ich möchte gehe ins Kino.",
+        "right": "Ich möchte ins Kino gehen.",
+        "explanationIt": "Dopo il modale il secondo verbo è all'infinito, alla fine."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0035-e1",
+        "sentence": "Ich will meine Oma ___.",
+        "answers": ["besuchen"],
+        "hintIt": "andare a trovare",
+        "translationIt": "Voglio andare a trovare mia nonna.",
+        "explanationIt": "Il secondo verbo va all'infinito, alla fine."
+      },
+      {
+        "id": "g-a1-0035-e2",
+        "sentence": "Kannst du am Freitag ___?",
+        "answers": ["mitkommen"],
+        "hintIt": "venire con noi",
+        "translationIt": "Puoi venire con noi venerdì?",
+        "explanationIt": "Con il modale, mitkommen resta intero alla fine."
+      },
+      {
+        "id": "g-a1-0035-e3",
+        "sentence": "Wir möchten heute Abend einen Film ___.",
+        "answers": ["sehen"],
+        "hintIt": "vedere",
+        "translationIt": "Stasera vorremmo vedere un film.",
+        "explanationIt": "Il secondo verbo va all'infinito, alla fine."
+      },
+      {
+        "id": "g-a1-0035-e4",
+        "sentence": "Am Sonntag will ich lange ___.",
+        "answers": ["schlafen"],
+        "hintIt": "dormire",
+        "translationIt": "Domenica voglio dormire a lungo.",
+        "explanationIt": "Il secondo verbo va all'infinito, alla fine."
+      },
+      {
+        "id": "g-a1-0035-e5",
+        "sentence": "Am Samstag will ich nicht früh ___.",
+        "answers": ["aufstehen"],
+        "hintIt": "alzarsi",
+        "translationIt": "Sabato non voglio alzarmi presto.",
+        "explanationIt": "Con il modale, aufstehen resta intero alla fine."
+      },
+      {
+        "id": "g-a1-0035-e6",
+        "sentence": "Er möchte die Zeitung ___.",
+        "answers": ["lesen"],
+        "hintIt": "leggere",
+        "translationIt": "Vorrebbe leggere il giornale.",
+        "explanationIt": "Il secondo verbo va all'infinito, alla fine."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0036",
+    "title": "Cosa preferisci? gern, lieber, am liebsten",
+    "explanationIt": [
+      "gern dice che una cosa ti piace fare: Ich schwimme gern.",
+      "Per dire che preferisci qualcosa si usa lieber: Ich schwimme lieber = preferisco nuotare. Per confrontare due cose: Ich trinke lieber Tee als Kaffee = preferisco il tè al caffè.",
+      "Per dire cosa ti piace più di tutto: am liebsten. Am liebsten lese ich.",
+      "Come gern, anche lieber e am liebsten vanno dopo il verbo coniugato (e dopo il soggetto, se il soggetto viene dopo il verbo), oppure all'inizio della frase: Am liebsten lese ich."
+    ],
+    "pattern": [
+      "Ich lese gern. – Mi piace leggere.",
+      "Ich tanze lieber. – Preferisco ballare.",
+      "Ich trinke lieber Tee als Kaffee. – Preferisco il tè al caffè.",
+      "Am liebsten schwimme ich. – Più di tutto mi piace nuotare."
+    ],
+    "examples": [
+      { "de": "Ich spiele gern Fußball, aber ich schwimme lieber.", "it": "Mi piace giocare a calcio, ma preferisco nuotare." },
+      { "de": "Was machst du am liebsten?", "it": "Cosa ti piace fare più di tutto?" },
+      { "de": "Ich gehe lieber ins Kino als ins Theater.", "it": "Preferisco andare al cinema che a teatro." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich tanze gerner.",
+        "right": "Ich tanze lieber.",
+        "explanationIt": "gern è irregolare: gern, lieber, am liebsten."
+      },
+      {
+        "wrong": "Ich trinke lieber Tee wie Kaffee.",
+        "right": "Ich trinke lieber Tee als Kaffee.",
+        "explanationIt": "Nel tedesco corretto, nel confronto si usa als."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0036-e1",
+        "sentence": "Ich schwimme ___, aber ich tanze lieber.",
+        "answers": ["gern", "gerne"],
+        "hintIt": "volentieri",
+        "translationIt": "Mi piace nuotare, ma preferisco ballare.",
+        "explanationIt": "gern = volentieri, mi piace."
+      },
+      {
+        "id": "g-a1-0036-e2",
+        "sentence": "Trinkst du ___ Tee oder Kaffee?",
+        "answers": ["lieber"],
+        "hintIt": "più volentieri",
+        "translationIt": "Preferisci il tè o il caffè?",
+        "explanationIt": "Per chiedere cosa preferisci: lieber."
+      },
+      {
+        "id": "g-a1-0036-e3",
+        "sentence": "Am ___ lese ich.",
+        "answers": ["liebsten"],
+        "hintIt": "più di tutto",
+        "translationIt": "Più di tutto mi piace leggere.",
+        "explanationIt": "Più di tutto: am liebsten."
+      },
+      {
+        "id": "g-a1-0036-e4",
+        "sentence": "Ich spiele lieber Gitarre ___ Klavier.",
+        "answers": ["als"],
+        "hintIt": "che",
+        "translationIt": "Preferisco suonare la chitarra che il pianoforte.",
+        "explanationIt": "Nel confronto si usa als."
+      },
+      {
+        "id": "g-a1-0036-e5",
+        "sentence": "Was machst du am ___?",
+        "answers": ["liebsten"],
+        "hintIt": "più di tutto",
+        "translationIt": "Cosa ti piace fare più di tutto?",
+        "explanationIt": "Più di tutto: am liebsten."
+      },
+      {
+        "id": "g-a1-0036-e6",
+        "sentence": "Ich gehe ___ ins Kino als ins Theater.",
+        "answers": ["lieber"],
+        "hintIt": "più volentieri",
+        "translationIt": "Preferisco andare al cinema che a teatro.",
+        "explanationIt": "Per dire cosa preferisci: lieber… als."
+      }
+    ]
+  }
+]

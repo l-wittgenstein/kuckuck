@@ -1,0 +1,18 @@
+{
+  "id": "a1-u09",
+  "level": "a1",
+  "order": 9,
+  "title": "Freizeit: il tempo libero",
+  "summary": "Hobby, sport e musica; können e wollen, la frase con due verbi, gern, lieber e am liebsten.",
+  "batches": [
+    { "id": "a1-u09-b01", "itemIds": ["v-a1-0291", "v-a1-0292", "v-a1-0293", "v-a1-0294", "v-a1-0295"] },
+    { "id": "a1-u09-b02", "itemIds": ["v-a1-0296", "v-a1-0297", "v-a1-0298", "v-a1-0299", "v-a1-0300"] },
+    { "id": "a1-u09-b03", "itemIds": ["g-a1-0033", "v-a1-0301", "v-a1-0302", "v-a1-0303", "v-a1-0304"] },
+    { "id": "a1-u09-b04", "itemIds": ["v-a1-0305", "v-a1-0306", "v-a1-0307", "v-a1-0308", "v-a1-0309"] },
+    { "id": "a1-u09-b05", "itemIds": ["g-a1-0034", "v-a1-0310", "v-a1-0311", "v-a1-0312", "v-a1-0313"] },
+    { "id": "a1-u09-b06", "itemIds": ["v-a1-0314", "v-a1-0315", "v-a1-0316", "v-a1-0317", "v-a1-0318"] },
+    { "id": "a1-u09-b07", "itemIds": ["g-a1-0035", "v-a1-0319", "v-a1-0320", "v-a1-0321", "v-a1-0322"] },
+    { "id": "a1-u09-b08", "itemIds": ["g-a1-0036", "v-a1-0323", "v-a1-0324", "v-a1-0325", "v-a1-0326"] },
+    { "id": "a1-u09-b09", "itemIds": ["v-a1-0327", "v-a1-0328", "v-a1-0329", "v-a1-0330", "v-a1-0331"] }
+  ]
+}
