@@ -1,0 +1,364 @@
+[
+  {
+    "id": "g-a1-0037",
+    "title": "Dovere: müssen",
+    "explanationIt": [
+      "müssen = dovere, essere obbligati. Al singolare è irregolare: ich muss, du musst, er/sie/es muss. Al plurale: wir müssen, ihr müsst, sie/Sie müssen.",
+      "Come können e wollen, manda il secondo verbo all'infinito alla fine della frase: Ich muss jetzt gehen."
+    ],
+    "pattern": [
+      "ich muss – io devo",
+      "du musst – tu devi",
+      "er/sie/es muss – lui/lei deve",
+      "wir müssen – noi dobbiamo",
+      "ihr müsst – voi dovete",
+      "sie/Sie müssen – loro devono / Lei deve"
+    ],
+    "examples": [
+      { "de": "Ich muss heute Deutsch lernen.", "it": "Oggi devo studiare tedesco." },
+      { "de": "Musst du morgen früh aufstehen?", "it": "Domani devi alzarti presto?" },
+      { "de": "Wir müssen um acht Uhr am Bahnhof sein.", "it": "Dobbiamo essere alla stazione alle otto." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Er musst arbeiten.",
+        "right": "Er muss arbeiten.",
+        "explanationIt": "Con er/sie/es: muss, senza -t."
+      },
+      {
+        "wrong": "Ich muss gehen jetzt.",
+        "right": "Ich muss jetzt gehen.",
+        "explanationIt": "Il secondo verbo va proprio alla fine."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0037-e1",
+        "sentence": "Ich ___ jetzt gehen.",
+        "answers": ["muss"],
+        "hintIt": "müssen",
+        "translationIt": "Adesso devo andare.",
+        "explanationIt": "Con ich: muss."
+      },
+      {
+        "id": "g-a1-0037-e2",
+        "sentence": "___ du morgen früh aufstehen?",
+        "answers": ["Musst"],
+        "hintIt": "müssen",
+        "translationIt": "Domani devi alzarti presto?",
+        "explanationIt": "Con du: musst."
+      },
+      {
+        "id": "g-a1-0037-e3",
+        "sentence": "Wir ___ heute Deutsch lernen.",
+        "answers": ["müssen"],
+        "hintIt": "müssen",
+        "translationIt": "Oggi dobbiamo studiare tedesco.",
+        "explanationIt": "Con wir: müssen."
+      },
+      {
+        "id": "g-a1-0037-e4",
+        "sentence": "Er ___ die Hausaufgaben machen.",
+        "answers": ["muss"],
+        "hintIt": "müssen",
+        "translationIt": "Deve fare i compiti.",
+        "explanationIt": "Con er: muss, senza -t."
+      },
+      {
+        "id": "g-a1-0037-e5",
+        "sentence": "Ihr ___ langsam sprechen.",
+        "answers": ["müsst"],
+        "hintIt": "müssen",
+        "translationIt": "Dovete parlare lentamente.",
+        "explanationIt": "Con ihr: müsst."
+      },
+      {
+        "id": "g-a1-0037-e6",
+        "sentence": "Ich muss heute meine Oma ___.",
+        "answers": ["anrufen"],
+        "hintIt": "telefonare",
+        "translationIt": "Oggi devo telefonare a mia nonna.",
+        "explanationIt": "Con il modale, anrufen resta intero alla fine."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0038",
+    "title": "Il permesso: dürfen (e la trappola di nicht müssen)",
+    "explanationIt": [
+      "dürfen = potere nel senso di avere il permesso: Darf ich hier parken? Al singolare: ich darf, du darfst, er/sie/es darf. Al plurale: wir dürfen, ihr dürft, sie/Sie dürfen.",
+      "Con man (impersonale, «si») si dicono le regole: Hier darf man nicht rauchen = qui non si può fumare.",
+      "Attenzione alla trappola: nicht dürfen = è vietato. nicht müssen = non è necessario. Du musst nicht kommen vuol dire «non sei obbligata a venire», mai «ti è vietato venire».",
+      "Per chiedere con gentilezza: Darf ich…? = posso…?"
+    ],
+    "pattern": [
+      "ich darf – io posso (ho il permesso)",
+      "du darfst – tu puoi",
+      "er/sie/es darf – lui/lei può",
+      "wir dürfen – noi possiamo",
+      "ihr dürft – voi potete",
+      "sie/Sie dürfen – loro possono / Lei può",
+      "Hier darf man nicht rauchen. – Qui non si può fumare.",
+      "Du darfst nicht kommen. – Non puoi venire (è vietato).",
+      "Du musst nicht kommen. – Non sei obbligata a venire."
+    ],
+    "examples": [
+      { "de": "Darf ich das Fenster aufmachen?", "it": "Posso aprire la finestra?" },
+      { "de": "Im Kino darf man nicht laut sprechen.", "it": "Al cinema non si può parlare ad alta voce." },
+      { "de": "Morgen ist Sonntag: Ich muss nicht früh aufstehen.", "it": "Domani è domenica: non ho bisogno di alzarmi presto." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Hier musst du nicht rauchen. (per dire che è vietato)",
+        "right": "Hier darfst du nicht rauchen.",
+        "explanationIt": "Per un divieto si usa nicht dürfen; nicht müssen vuol dire «non è necessario»."
+      },
+      {
+        "wrong": "Er darft hier parken.",
+        "right": "Er darf hier parken.",
+        "explanationIt": "Con er/sie/es: darf, senza -t."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0038-e1",
+        "sentence": "___ ich hier parken?",
+        "answers": ["Darf"],
+        "hintIt": "dürfen",
+        "translationIt": "Posso parcheggiare qui?",
+        "explanationIt": "Per chiedere il permesso: Darf ich…?"
+      },
+      {
+        "id": "g-a1-0038-e2",
+        "sentence": "Hier ___ man nicht rauchen.",
+        "answers": ["darf"],
+        "hintIt": "dürfen",
+        "translationIt": "Qui non si può fumare.",
+        "explanationIt": "Per un divieto: nicht dürfen. Con man: darf."
+      },
+      {
+        "id": "g-a1-0038-e3",
+        "sentence": "Du ___ nicht kommen, aber du kannst.",
+        "answers": ["musst"],
+        "hintIt": "non sei obbligata",
+        "translationIt": "Non sei obbligata a venire, ma puoi.",
+        "explanationIt": "nicht müssen = non è necessario."
+      },
+      {
+        "id": "g-a1-0038-e4",
+        "sentence": "Im Kino ___ man nicht laut sprechen.",
+        "answers": ["darf"],
+        "hintIt": "dürfen",
+        "translationIt": "Al cinema non si può parlare ad alta voce.",
+        "explanationIt": "Per un divieto: nicht dürfen."
+      },
+      {
+        "id": "g-a1-0038-e5",
+        "sentence": "Wir ___ hier nicht parken.",
+        "answers": ["dürfen"],
+        "hintIt": "è vietato",
+        "translationIt": "Qui non possiamo parcheggiare.",
+        "explanationIt": "Per un divieto: nicht dürfen. Con wir: dürfen."
+      },
+      {
+        "id": "g-a1-0038-e6",
+        "sentence": "Er ___ morgen nicht früh aufstehen.",
+        "answers": ["muss"],
+        "hintIt": "non è obbligato",
+        "translationIt": "Domani non è obbligato ad alzarsi presto.",
+        "explanationIt": "nicht müssen = non è necessario."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0039",
+    "title": "L'imperativo con du: Komm! Hilf mir!",
+    "explanationIt": [
+      "Per dire a qualcuno a cui dai del tu di fare qualcosa si usa la radice del verbo, senza du: kommen → Komm! machen → Mach! Se la radice finisce in -t o -d si aggiunge -e: warten → Warte!",
+      "I verbi che cambiano e in i o ie lo fanno anche qui: nehmen → Nimm! geben → Gib! helfen → Hilf! sprechen → Sprich! Quelli con a → ä invece no: fahren → Fahr! schlafen → Schlaf!",
+      "Nei verbi separabili il prefisso va alla fine: Mach die Tür zu! Ruf mich an!",
+      "sein è irregolare: Sei pünktlich! Con bitte suona più gentile: Komm bitte! A volte si sente anche la forma con -e (Komme!, Fahre!), più formale o antiquata."
+    ],
+    "pattern": [
+      "kommen → Komm! – Vieni!",
+      "machen → Mach! – Fai!",
+      "warten → Warte! – Aspetta!",
+      "nehmen → Nimm! – Prendi!",
+      "helfen → Hilf mir! – Aiutami!",
+      "fahren → Fahr langsam! – Vai piano!",
+      "zumachen → Mach zu! – Chiudi!",
+      "sein → Sei leise! – Fai silenzio!"
+    ],
+    "examples": [
+      { "de": "Komm bitte schnell!", "it": "Vieni subito, per favore!" },
+      { "de": "Nimm einen Apfel!", "it": "Prendi una mela!" },
+      { "de": "Mach bitte das Fenster auf!", "it": "Apri la finestra, per favore!" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Nehm das Buch!",
+        "right": "Nimm das Buch!",
+        "explanationIt": "nehmen cambia vocale anche nell'imperativo: Nimm!"
+      },
+      {
+        "wrong": "Fähr langsam!",
+        "right": "Fahr langsam!",
+        "explanationIt": "Il cambio a → ä non vale nell'imperativo."
+      },
+      {
+        "wrong": "Zumach die Tür!",
+        "right": "Mach die Tür zu!",
+        "explanationIt": "Il prefisso si stacca e va alla fine."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0039-e1",
+        "sentence": "___ bitte!",
+        "answers": ["Komm", "Komme"],
+        "hintIt": "kommen",
+        "translationIt": "Vieni, per favore!",
+        "explanationIt": "Con du: la radice, senza pronome. Komm!"
+      },
+      {
+        "id": "g-a1-0039-e2",
+        "sentence": "___ mir bitte!",
+        "answers": ["Hilf"],
+        "hintIt": "helfen",
+        "translationIt": "Aiutami, per favore!",
+        "explanationIt": "helfen cambia vocale: Hilf!"
+      },
+      {
+        "id": "g-a1-0039-e3",
+        "sentence": "___ das Buch!",
+        "answers": ["Nimm"],
+        "hintIt": "nehmen",
+        "translationIt": "Prendi il libro!",
+        "explanationIt": "nehmen cambia vocale: Nimm!"
+      },
+      {
+        "id": "g-a1-0039-e4",
+        "sentence": "Mach bitte das Fenster ___!",
+        "answers": ["auf"],
+        "hintIt": "aprire",
+        "translationIt": "Apri la finestra, per favore!",
+        "explanationIt": "Il prefisso auf va alla fine."
+      },
+      {
+        "id": "g-a1-0039-e5",
+        "sentence": "___ bitte pünktlich!",
+        "answers": ["Sei"],
+        "hintIt": "sein",
+        "translationIt": "Sii puntuale, per favore!",
+        "explanationIt": "sein è irregolare: Sei!"
+      },
+      {
+        "id": "g-a1-0039-e6",
+        "sentence": "___ langsam!",
+        "answers": ["Fahr", "Fahre"],
+        "hintIt": "fahren",
+        "translationIt": "Vai piano!",
+        "explanationIt": "Nell'imperativo fahren non cambia vocale: Fahr!"
+      },
+      {
+        "id": "g-a1-0039-e7",
+        "sentence": "___ bitte einen Moment!",
+        "answers": ["Warte"],
+        "hintIt": "warten",
+        "translationIt": "Aspetta un momento, per favore!",
+        "explanationIt": "La radice finisce in -t: si aggiunge -e. Warte!"
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0040",
+    "title": "L'imperativo con ihr e con Sie",
+    "explanationIt": [
+      "Con ihr si usa la forma del presente, senza pronome: Kommt! Wartet! Macht die Tür zu!",
+      "Con Sie lo conosci già dalle indicazioni: il verbo all'infinito e poi Sie. Kommen Sie! Warten Sie bitte!",
+      "sein è irregolare: Sei! (du), Seid! (ihr), Seien Sie! (Sie).",
+      "Con bitte suona sempre più gentile: Sprechen Sie bitte langsam!"
+    ],
+    "pattern": [
+      "du: Komm! – Vieni!",
+      "ihr: Kommt! – Venite!",
+      "Sie: Kommen Sie! – Venga!",
+      "du: Sei leise! – Fai silenzio!",
+      "ihr: Seid leise! – Fate silenzio!",
+      "Sie: Seien Sie leise! – Faccia silenzio!"
+    ],
+    "examples": [
+      { "de": "Kinder, macht eure Hausaufgaben!", "it": "Bambini, fate i compiti!" },
+      { "de": "Sprechen Sie bitte langsam!", "it": "Parli lentamente, per favore!" },
+      { "de": "Seid bitte pünktlich!", "it": "Siate puntuali, per favore!" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Kommen ihr!",
+        "right": "Kommt!",
+        "explanationIt": "Con ihr si usa la forma del presente, senza pronome."
+      },
+      {
+        "wrong": "Seit leise!",
+        "right": "Seid leise!",
+        "explanationIt": "Il verbo si scrive con la d: seid. seit (da) è un'altra parola."
+      },
+      {
+        "wrong": "Nimmt das Buch!",
+        "right": "Nehmt das Buch!",
+        "explanationIt": "Con ihr la vocale non cambia: nehmt."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0040-e1",
+        "sentence": "Kinder, ___ bitte leise!",
+        "answers": ["seid"],
+        "hintIt": "sein",
+        "translationIt": "Bambini, fate silenzio, per favore!",
+        "explanationIt": "sein con ihr: seid."
+      },
+      {
+        "id": "g-a1-0040-e2",
+        "sentence": "Sprechen ___ bitte langsam!",
+        "answers": ["Sie"],
+        "caseSensitive": true,
+        "hintIt": "Lei",
+        "translationIt": "Parli lentamente, per favore!",
+        "explanationIt": "Con il Lei: verbo + Sie, con la maiuscola."
+      },
+      {
+        "id": "g-a1-0040-e3",
+        "sentence": "Kinder, ___ eure Hausaufgaben!",
+        "answers": ["macht"],
+        "hintIt": "machen",
+        "translationIt": "Bambini, fate i compiti!",
+        "explanationIt": "Con ihr: la forma del presente, macht."
+      },
+      {
+        "id": "g-a1-0040-e4",
+        "sentence": "___ Sie bitte einen Moment!",
+        "answers": ["Warten"],
+        "hintIt": "warten",
+        "translationIt": "Aspetti un momento, per favore!",
+        "explanationIt": "Con il Lei: infinito + Sie."
+      },
+      {
+        "id": "g-a1-0040-e5",
+        "sentence": "___ Sie bitte pünktlich!",
+        "answers": ["Seien"],
+        "hintIt": "sein",
+        "translationIt": "Sia puntuale, per favore!",
+        "explanationIt": "sein con il Lei: Seien Sie!"
+      },
+      {
+        "id": "g-a1-0040-e6",
+        "sentence": "Kinder, ___ die Tür zu!",
+        "answers": ["macht"],
+        "hintIt": "zumachen",
+        "translationIt": "Bambini, chiudete la porta!",
+        "explanationIt": "Con ihr: macht; il prefisso zu va alla fine."
+      }
+    ]
+  }
+]

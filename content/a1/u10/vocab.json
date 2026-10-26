@@ -1,0 +1,494 @@
+[
+  {
+    "id": "v-a1-0332",
+    "pos": "verb",
+    "de": "sprechen",
+    "it": ["parlare"],
+    "promptIt": "parlare",
+    "noteIt": "Cambia vocale: du sprichst, er spricht.",
+    "examples": [
+      { "de": "Ich spreche ein bisschen Deutsch.", "it": "Parlo un po' di tedesco." },
+      { "de": "Sprichst du Englisch?", "it": "Parli inglese?" }
+    ]
+  },
+  {
+    "id": "v-a1-0333",
+    "pos": "verb",
+    "de": "verstehen",
+    "it": ["capire"],
+    "promptIt": "capire",
+    "noteIt": "Ich verstehe nicht = non capisco. Non è separabile: ver- resta attaccato.",
+    "examples": [
+      { "de": "Ich verstehe das nicht.", "it": "Questo non lo capisco." },
+      { "de": "Verstehst du mich?", "it": "Mi capisci?" }
+    ]
+  },
+  {
+    "id": "v-a1-0334",
+    "pos": "verb",
+    "de": "sagen",
+    "it": ["dire"],
+    "promptIt": "dire",
+    "examples": [
+      { "de": "Was sagst du?", "it": "Cosa dici?" },
+      { "de": "Wie sagt man das auf Deutsch?", "it": "Come si dice in tedesco?" }
+    ]
+  },
+  {
+    "id": "v-a1-0335",
+    "pos": "verb",
+    "de": "antworten",
+    "it": ["rispondere"],
+    "promptIt": "rispondere",
+    "noteIt": "Con du, er e ihr si aggiunge una e: du antwortest, er antwortet.",
+    "examples": [
+      { "de": "Er antwortet nicht.", "it": "Non risponde." },
+      { "de": "Warum antwortest du nicht?", "it": "Perché non rispondi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0336",
+    "pos": "verb",
+    "de": "wiederholen",
+    "it": ["ripetere", "ripassare"],
+    "promptIt": "ripetere",
+    "noteIt": "Non è separabile: Ich wiederhole.",
+    "examples": [
+      { "de": "Können Sie das bitte wiederholen?", "it": "Può ripetere, per favore?" },
+      { "de": "Ich wiederhole die Wörter.", "it": "Ripasso le parole." }
+    ]
+  },
+  {
+    "id": "v-a1-0337",
+    "pos": "noun",
+    "de": "Sprache",
+    "article": "die",
+    "plural": "Sprachen",
+    "it": ["lingua"],
+    "promptIt": "la lingua (che si parla)",
+    "examples": [
+      { "de": "Deutsch ist eine schöne Sprache.", "it": "Il tedesco è una bella lingua." },
+      { "de": "Welche Sprachen sprichst du?", "it": "Che lingue parli?" }
+    ]
+  },
+  {
+    "id": "v-a1-0338",
+    "pos": "propn",
+    "de": "Deutsch",
+    "it": ["tedesco"],
+    "promptIt": "il tedesco (la lingua)",
+    "noteIt": "Le lingue di solito si usano senza articolo, e sempre con la maiuscola: Ich spreche Deutsch.",
+    "examples": [
+      { "de": "Ich lerne Deutsch.", "it": "Studio tedesco." },
+      { "de": "Wie heißt das auf Deutsch?", "it": "Come si dice in tedesco?" }
+    ]
+  },
+  {
+    "id": "v-a1-0339",
+    "pos": "propn",
+    "de": "Italienisch",
+    "it": ["italiano"],
+    "promptIt": "l'italiano (la lingua)",
+    "noteIt": "La lingua è Italienisch; la persona è der Italiener o die Italienerin.",
+    "examples": [
+      { "de": "Ich spreche Italienisch.", "it": "Parlo italiano." },
+      { "de": "Sprichst du Italienisch?", "it": "Parli italiano?" }
+    ]
+  },
+  {
+    "id": "v-a1-0340",
+    "pos": "propn",
+    "de": "Englisch",
+    "it": ["inglese"],
+    "promptIt": "l'inglese (la lingua)",
+    "examples": [
+      { "de": "Er spricht gut Englisch.", "it": "Parla bene inglese." },
+      { "de": "Sprechen Sie Englisch?", "it": "Parla inglese?" }
+    ]
+  },
+  {
+    "id": "v-a1-0341",
+    "pos": "adj",
+    "de": "langsam",
+    "it": ["lento", "lenta", "lentamente", "piano"],
+    "promptIt": "lento (lentamente)",
+    "examples": [
+      { "de": "Sprechen Sie bitte langsam!", "it": "Parli lentamente, per favore!" },
+      { "de": "Der Bus ist langsam.", "it": "L'autobus è lento." }
+    ]
+  },
+  {
+    "id": "v-a1-0342",
+    "pos": "verb",
+    "de": "müssen",
+    "it": ["dovere"],
+    "promptIt": "dovere",
+    "noteIt": "Al singolare è irregolare: ich muss, du musst, er muss.",
+    "examples": [
+      { "de": "Ich muss jetzt gehen.", "it": "Adesso devo andare." },
+      { "de": "Musst du morgen früh aufstehen?", "it": "Domani devi alzarti presto?" }
+    ]
+  },
+  {
+    "id": "v-a1-0343",
+    "pos": "adj",
+    "de": "schnell",
+    "it": ["veloce", "velocemente", "in fretta", "rapido", "rapida"],
+    "promptIt": "veloce",
+    "examples": [
+      { "de": "Er spricht sehr schnell.", "it": "Parla molto velocemente." },
+      { "de": "Die U-Bahn ist schnell.", "it": "La metro è veloce." }
+    ]
+  },
+  {
+    "id": "v-a1-0344",
+    "pos": "noun",
+    "de": "Hausaufgabe",
+    "article": "die",
+    "plural": "Hausaufgaben",
+    "it": ["compito", "compiti", "compiti a casa"],
+    "promptIt": "il compito (per casa)",
+    "acceptDe": ["Hausaufgaben"],
+    "noteIt": "Femminile, anche se in italiano è il compito. Di solito si usa al plurale: die Hausaufgaben machen = fare i compiti.",
+    "examples": [
+      { "de": "Ich mache meine Hausaufgaben.", "it": "Faccio i compiti." },
+      { "de": "Die Hausaufgabe ist leicht.", "it": "Il compito è facile." }
+    ]
+  },
+  {
+    "id": "v-a1-0345",
+    "pos": "noun",
+    "de": "Kurs",
+    "article": "der",
+    "plural": "Kurse",
+    "it": ["corso"],
+    "promptIt": "il corso",
+    "examples": [
+      { "de": "Der Kurs ist am Montag.", "it": "Il corso è lunedì." },
+      { "de": "Ich mache einen Deutschkurs.", "it": "Faccio un corso di tedesco." }
+    ]
+  },
+  {
+    "id": "v-a1-0346",
+    "pos": "verb",
+    "de": "dürfen",
+    "it": ["potere", "avere il permesso"],
+    "promptIt": "potere (avere il permesso)",
+    "noteIt": "Al singolare è irregolare: ich darf, du darfst, er darf.",
+    "examples": [
+      { "de": "Darf ich hier parken?", "it": "Posso parcheggiare qui?" },
+      { "de": "Kinder dürfen hier spielen.", "it": "Qui i bambini possono giocare." }
+    ]
+  },
+  {
+    "id": "v-a1-0347",
+    "pos": "verb",
+    "de": "rauchen",
+    "it": ["fumare"],
+    "promptIt": "fumare",
+    "examples": [
+      { "de": "Rauchst du?", "it": "Fumi?" },
+      { "de": "Mein Vater raucht nicht.", "it": "Mio padre non fuma." }
+    ]
+  },
+  {
+    "id": "v-a1-0348",
+    "pos": "verb",
+    "de": "parken",
+    "it": ["parcheggiare"],
+    "promptIt": "parcheggiare",
+    "examples": [
+      { "de": "Wo kann ich parken?", "it": "Dove posso parcheggiare?" },
+      { "de": "Wir parken vor dem Haus.", "it": "Parcheggiamo davanti a casa." }
+    ]
+  },
+  {
+    "id": "v-a1-0349",
+    "pos": "verb",
+    "de": "warten",
+    "it": ["aspettare", "attendere"],
+    "promptIt": "aspettare",
+    "noteIt": "Con du, er e ihr si aggiunge una e: du wartest, er wartet. Aspettare qualcuno: auf + accusativo, Ich warte auf dich.",
+    "examples": [
+      { "de": "Ich warte auf den Bus.", "it": "Aspetto l'autobus." },
+      { "de": "Wir warten hier.", "it": "Aspettiamo qui." }
+    ]
+  },
+  {
+    "id": "v-a1-0350",
+    "pos": "adj",
+    "de": "verboten",
+    "it": ["vietato", "vietata", "proibito", "proibita"],
+    "promptIt": "vietato",
+    "examples": [
+      { "de": "Rauchen ist hier verboten.", "it": "Qui è vietato fumare." },
+      { "de": "Parken verboten!", "it": "Divieto di sosta!" }
+    ]
+  },
+  {
+    "id": "v-a1-0351",
+    "pos": "adj",
+    "de": "erlaubt",
+    "it": ["permesso", "permessa", "consentito", "consentita"],
+    "promptIt": "permesso (consentito)",
+    "examples": [
+      { "de": "Ist das erlaubt?", "it": "Si può?" },
+      { "de": "Hunde sind hier erlaubt.", "it": "Qui i cani sono ammessi." }
+    ]
+  },
+  {
+    "id": "v-a1-0352",
+    "pos": "adj",
+    "de": "leise",
+    "it": ["a bassa voce", "piano", "sottovoce", "silenzioso", "silenziosa"],
+    "promptIt": "a bassa voce (piano, non forte)",
+    "examples": [
+      { "de": "Das Kind schläft, wir sprechen leise.", "it": "Il bambino dorme, parliamo a bassa voce." },
+      { "de": "Die Musik ist zu leise.", "it": "La musica è troppo bassa." }
+    ]
+  },
+  {
+    "id": "v-a1-0353",
+    "pos": "noun",
+    "de": "Handy",
+    "article": "das",
+    "plural": "Handys",
+    "it": ["cellulare", "telefonino", "smartphone"],
+    "promptIt": "il cellulare",
+    "noteIt": "È neutro: das Handy. Sembra inglese, ma è una parola tedesca: in inglese non si dice così.",
+    "examples": [
+      { "de": "Mein Handy ist neu.", "it": "Il mio cellulare è nuovo." },
+      { "de": "Im Kino ist das Handy aus.", "it": "Al cinema il cellulare è spento." }
+    ]
+  },
+  {
+    "id": "v-a1-0354",
+    "pos": "verb",
+    "de": "helfen",
+    "it": ["aiutare"],
+    "promptIt": "aiutare",
+    "noteIt": "Cambia vocale: du hilfst, er hilft. Vuole il dativo: Ich helfe meiner Mutter.",
+    "examples": [
+      { "de": "Kannst du mir helfen?", "it": "Mi puoi aiutare?" },
+      { "de": "Ich helfe meiner Mutter.", "it": "Aiuto mia madre." }
+    ]
+  },
+  {
+    "id": "v-a1-0355",
+    "pos": "verb",
+    "de": "aufmachen",
+    "it": ["aprire"],
+    "promptIt": "aprire",
+    "acceptDe": ["öffnen"],
+    "noteIt": "Separabile: Ich mache das Fenster auf. Più formale: öffnen.",
+    "examples": [
+      { "de": "Ich mache das Fenster auf.", "it": "Apro la finestra." },
+      { "de": "Wann macht der Supermarkt auf?", "it": "Quando apre il supermercato?" }
+    ]
+  },
+  {
+    "id": "v-a1-0356",
+    "pos": "verb",
+    "de": "zumachen",
+    "it": ["chiudere"],
+    "promptIt": "chiudere",
+    "acceptDe": ["schließen"],
+    "noteIt": "Separabile: Ich mache die Tür zu. Più formale: schließen.",
+    "examples": [
+      { "de": "Ich mache die Tür zu.", "it": "Chiudo la porta." },
+      { "de": "Die Bank macht um vier Uhr zu.", "it": "La banca chiude alle quattro." }
+    ]
+  },
+  {
+    "id": "v-a1-0357",
+    "pos": "verb",
+    "de": "bringen",
+    "it": ["portare"],
+    "promptIt": "portare (qualcosa a qualcuno)",
+    "examples": [
+      { "de": "Ich bringe dir einen Kaffee.", "it": "Ti porto un caffè." },
+      { "de": "Bringst du morgen das Buch?", "it": "Domani porti il libro?" }
+    ]
+  },
+  {
+    "id": "v-a1-0358",
+    "pos": "verb",
+    "de": "geben",
+    "it": ["dare"],
+    "promptIt": "dare",
+    "noteIt": "Cambia vocale: du gibst, er gibt. Da qui viene anche es gibt (c'è).",
+    "examples": [
+      { "de": "Gibst du mir das Buch?", "it": "Mi dai il libro?" },
+      { "de": "Er gibt mir seine Nummer.", "it": "Mi dà il suo numero." }
+    ]
+  },
+  {
+    "id": "v-a1-0359",
+    "pos": "verb",
+    "de": "zeigen",
+    "it": ["mostrare", "far vedere", "indicare"],
+    "promptIt": "mostrare (far vedere)",
+    "examples": [
+      { "de": "Ich zeige dir die Stadt.", "it": "Ti faccio vedere la città." },
+      { "de": "Kannst du mir den Weg zeigen?", "it": "Mi puoi indicare la strada?" }
+    ]
+  },
+  {
+    "id": "v-a1-0360",
+    "pos": "verb",
+    "de": "erklären",
+    "it": ["spiegare"],
+    "promptIt": "spiegare",
+    "examples": [
+      { "de": "Kannst du mir das erklären?", "it": "Me lo puoi spiegare?" },
+      { "de": "Die Lehrerin erklärt die Regel.", "it": "L'insegnante spiega la regola." }
+    ]
+  },
+  {
+    "id": "v-a1-0361",
+    "pos": "interj",
+    "de": "Vorsicht!",
+    "it": ["attenzione!", "attento!", "attenta!"],
+    "promptIt": "attenzione! (c'è un pericolo)",
+    "noteIt": "Vorsicht! di solito avverte di un pericolo; Achtung! richiama l'attenzione, per esempio in un annuncio o su un cartello.",
+    "examples": [
+      { "de": "Vorsicht, das ist heiß!", "it": "Attenzione, scotta!" },
+      { "de": "Vorsicht! Ein Auto!", "it": "Attenta! Una macchina!" }
+    ]
+  },
+  {
+    "id": "v-a1-0362",
+    "pos": "interj",
+    "de": "Achtung!",
+    "it": ["attenzione!"],
+    "promptIt": "attenzione! (in un avviso o un annuncio)",
+    "examples": [
+      { "de": "Achtung, der Zug fährt ab!", "it": "Attenzione, il treno parte!" },
+      { "de": "Achtung, bitte!", "it": "Attenzione, prego!" }
+    ]
+  },
+  {
+    "id": "v-a1-0363",
+    "pos": "noun",
+    "de": "Ruhe",
+    "article": "die",
+    "plural": null,
+    "it": ["calma", "silenzio", "tranquillità", "pace"],
+    "promptIt": "il silenzio (la calma)",
+    "noteIt": "Ruhe, bitte! = silenzio, per favore!",
+    "examples": [
+      { "de": "Ruhe, bitte!", "it": "Silenzio, per favore!" },
+      { "de": "Lass mich in Ruhe!", "it": "Lasciami in pace!" }
+    ]
+  },
+  {
+    "id": "v-a1-0364",
+    "pos": "adj",
+    "de": "pünktlich",
+    "it": ["puntuale", "in orario"],
+    "promptIt": "puntuale",
+    "examples": [
+      { "de": "Er ist immer pünktlich.", "it": "È sempre puntuale." },
+      { "de": "Der Zug kommt pünktlich.", "it": "Il treno arriva in orario." }
+    ]
+  },
+  {
+    "id": "v-a1-0365",
+    "pos": "noun",
+    "de": "Regel",
+    "article": "die",
+    "plural": "Regeln",
+    "it": ["regola"],
+    "promptIt": "la regola",
+    "examples": [
+      { "de": "Das ist die Regel.", "it": "Questa è la regola." },
+      { "de": "Die Regeln sind wichtig.", "it": "Le regole sono importanti." }
+    ]
+  },
+  {
+    "id": "v-a1-0366",
+    "pos": "noun",
+    "de": "Problem",
+    "article": "das",
+    "plural": "Probleme",
+    "it": ["problema"],
+    "promptIt": "il problema",
+    "noteIt": "In italiano è maschile, in tedesco neutro: das Problem.",
+    "examples": [
+      { "de": "Das ist ein Problem.", "it": "Questo è un problema." },
+      { "de": "Wo ist das Problem?", "it": "Dov'è il problema?" }
+    ]
+  },
+  {
+    "id": "v-a1-0367",
+    "pos": "phrase",
+    "de": "Kein Problem!",
+    "it": ["nessun problema!", "non c'è problema!", "figurati!"],
+    "promptIt": "nessun problema!",
+    "examples": [
+      { "de": "Danke für die Hilfe! Kein Problem!", "it": "Grazie dell'aiuto! Figurati!" },
+      { "de": "Du kommst spät? Kein Problem!", "it": "Arrivi tardi? Nessun problema!" }
+    ]
+  },
+  {
+    "id": "v-a1-0368",
+    "pos": "phrase",
+    "de": "Einen Moment, bitte!",
+    "it": ["un momento, per favore!", "un attimo, per favore!", "un momento!", "un attimo!"],
+    "promptIt": "un momento, per favore!",
+    "acceptDe": ["Moment, bitte!", "Einen Moment!", "Moment mal!", "Moment!"],
+    "examples": [
+      { "de": "Einen Moment, bitte! Ich komme.", "it": "Un momento, per favore! Arrivo." },
+      { "de": "Moment mal, das ist falsch!", "it": "Un attimo, questo è sbagliato!" }
+    ]
+  },
+  {
+    "id": "v-a1-0369",
+    "pos": "noun",
+    "de": "Frage",
+    "article": "die",
+    "plural": "Fragen",
+    "it": ["domanda"],
+    "promptIt": "la domanda",
+    "examples": [
+      { "de": "Ich habe eine Frage.", "it": "Ho una domanda." },
+      { "de": "Das ist eine gute Frage.", "it": "È una bella domanda." }
+    ]
+  },
+  {
+    "id": "v-a1-0370",
+    "pos": "noun",
+    "de": "Antwort",
+    "article": "die",
+    "plural": "Antworten",
+    "it": ["risposta"],
+    "promptIt": "la risposta",
+    "examples": [
+      { "de": "Die Antwort ist richtig.", "it": "La risposta è giusta." },
+      { "de": "Ich weiß die Antwort nicht.", "it": "Non so la risposta." }
+    ]
+  },
+  {
+    "id": "v-a1-0371",
+    "pos": "adj",
+    "de": "richtig",
+    "it": ["giusto", "giusta", "corretto", "corretta", "esatto", "esatta"],
+    "promptIt": "giusto (corretto)",
+    "examples": [
+      { "de": "Das ist richtig.", "it": "È giusto." },
+      { "de": "Ist die Antwort richtig?", "it": "La risposta è giusta?" }
+    ]
+  },
+  {
+    "id": "v-a1-0372",
+    "pos": "adj",
+    "de": "falsch",
+    "it": ["sbagliato", "sbagliata", "falso", "falsa"],
+    "promptIt": "sbagliato",
+    "noteIt": "Vuol dire soprattutto «sbagliato»: die falsche Nummer = il numero sbagliato.",
+    "examples": [
+      { "de": "Das ist falsch.", "it": "È sbagliato." },
+      { "de": "Die Nummer ist falsch.", "it": "Il numero è sbagliato." }
+    ]
+  }
+]

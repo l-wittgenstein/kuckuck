@@ -1,0 +1,18 @@
+{
+  "id": "a1-u10",
+  "level": "a1",
+  "order": 10,
+  "title": "Regeln: regole e istruzioni",
+  "summary": "Le lingue, il corso e le regole; müssen e dürfen, l'imperativo con du, ihr e Sie.",
+  "batches": [
+    { "id": "a1-u10-b01", "itemIds": ["v-a1-0332", "v-a1-0333", "v-a1-0334", "v-a1-0335", "v-a1-0336"] },
+    { "id": "a1-u10-b02", "itemIds": ["v-a1-0337", "v-a1-0338", "v-a1-0339", "v-a1-0340", "v-a1-0341"] },
+    { "id": "a1-u10-b03", "itemIds": ["g-a1-0037", "v-a1-0342", "v-a1-0343", "v-a1-0344", "v-a1-0345"] },
+    { "id": "a1-u10-b04", "itemIds": ["v-a1-0346", "v-a1-0347", "v-a1-0348", "v-a1-0349", "v-a1-0350"] },
+    { "id": "a1-u10-b05", "itemIds": ["g-a1-0038", "v-a1-0351", "v-a1-0352", "v-a1-0353", "v-a1-0354"] },
+    { "id": "a1-u10-b06", "itemIds": ["v-a1-0355", "v-a1-0356", "v-a1-0357", "v-a1-0358", "v-a1-0359"] },
+    { "id": "a1-u10-b07", "itemIds": ["g-a1-0039", "v-a1-0360", "v-a1-0361", "v-a1-0362", "v-a1-0364"] },
+    { "id": "a1-u10-b08", "itemIds": ["g-a1-0040", "v-a1-0363", "v-a1-0365", "v-a1-0366", "v-a1-0367"] },
+    { "id": "a1-u10-b09", "itemIds": ["v-a1-0368", "v-a1-0369", "v-a1-0370", "v-a1-0371", "v-a1-0372"] }
+  ]
+}
