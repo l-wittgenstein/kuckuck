@@ -4,7 +4,7 @@
     "title": "L'accusativo: den, einen, keinen",
     "explanationIt": [
       "Il complemento oggetto, cioè la persona o la cosa che riceve l'azione, in tedesco va al caso accusativo. In Ich trinke den Kaffee, den Kaffee è l'oggetto.",
-      "La buona notizia: cambia solo il maschile. der diventa den, ein diventa einen, kein diventa keinen, mein diventa meinen. Femminile, neutro e plurale restano uguali.",
+      "La buona notizia: cambia solo l'articolo maschile (e il possessivo). der diventa den, ein diventa einen, kein diventa keinen, mein diventa meinen. Femminile, neutro e plurale restano uguali.",
       "L'hai già visto con haben: Ich habe einen Bruder. Anche trinken, essen, nehmen, möchten e mögen vogliono l'accusativo.",
       "Il soggetto invece resta com'è: Der Kaffee ist gut. Qui il caffè non riceve un'azione, è il soggetto."
     ],
@@ -41,9 +41,9 @@
         "explanationIt": "Kaffee è l'oggetto ed è maschile: den."
       },
       {
-        "wrong": "Ich trinke einen Milch.",
-        "right": "Ich trinke eine Milch.",
-        "explanationIt": "Cambia solo il maschile: Milch è femminile."
+        "wrong": "Ich esse einen Banane.",
+        "right": "Ich esse eine Banane.",
+        "explanationIt": "Cambia solo il maschile: Banane è femminile."
       },
       {
         "wrong": "Den Kaffee ist gut.",
@@ -130,7 +130,7 @@
     "explanationIt": [
       "Alcuni verbi cambiano la vocale della radice, ma solo con du e con er/sie/es. Le altre persone sono regolari.",
       "essen: la e diventa i, du isst, er isst. La radice finisce già in s, quindi con du si aggiunge solo -t: du isst, come du heißt.",
-      "nehmen: la e diventa i e cambia anche la consonante, du nimmst, er nimmt."
+      "nehmen: la e diventa i, la h cade e la m raddoppia: du nimmst, er nimmt."
     ],
     "pattern": [
       "ich esse – io mangio",
@@ -361,7 +361,7 @@
     "explanationIt": [
       "«Mi piace il caffè» in tedesco si dice al contrario: Ich mag Kaffee. Chi prova il piacere è il soggetto, la cosa che piace è l'oggetto.",
       "mögen è irregolare: ich mag, du magst, er/sie/es mag. Con ich e con er non c'è desinenza.",
-      "Per dire che ti piace fare qualcosa si usa gern subito dopo il verbo: Ich trinke gern Tee = mi piace bere il tè. Per il contrario: Ich esse nicht gern Fisch."
+      "Per dire che ti piace fare qualcosa si usa gern dopo il verbo coniugato (e dopo il soggetto, se il soggetto viene dopo il verbo): Ich trinke gern Tee = mi piace bere il tè. Trinkst du gern Tee? Per il contrario: Ich esse nicht gern Fisch."
     ],
     "pattern": [
       "ich mag – a me piace",
@@ -397,14 +397,14 @@
         "explanationIt": "Con ich niente desinenza: mag."
       },
       {
-        "wrong": "Kaffee mag mich.",
+        "wrong": "Mir mag Kaffee.",
         "right": "Ich mag Kaffee.",
-        "explanationIt": "Chi prova il piacere è il soggetto: ich."
+        "explanationIt": "In italiano «mi piace», ma in tedesco chi prova il piacere è il soggetto: ich."
       },
       {
         "wrong": "Ich gern trinke Tee.",
         "right": "Ich trinke gern Tee.",
-        "explanationIt": "gern va dopo il verbo."
+        "explanationIt": "gern va dopo il verbo coniugato, mai prima."
       }
     ],
     "exercises": [

@@ -240,7 +240,7 @@
     "de": "nicht",
     "it": ["non"],
     "promptIt": "non",
-    "noteIt": "Nega verbi, aggettivi e nomi con der/die/das. Con ein si usa kein.",
+    "noteIt": "Nega verbi, aggettivi e nomi con der/die/das o con un possessivo. Con ein o senza articolo si usa kein.",
     "examples": [
       { "de": "Ich wohne nicht in Rom.", "it": "Non abito a Roma." },
       { "de": "Das ist nicht mein Auto.", "it": "Questa non è la mia macchina." }
@@ -252,7 +252,7 @@
     "de": "kein",
     "it": ["nessun", "nessuno", "nessuna", "non un", "non una"],
     "promptIt": "nessun / non… un (davanti a un sostantivo)",
-    "noteIt": "Si usa al posto di ein: kein Hund, keine Katze, keine Kinder.",
+    "noteIt": "Si usa al posto di ein, o quando non c'è articolo: kein Hund, keine Katze, keine Kinder.",
     "examples": [
       { "de": "Das ist kein Hund.", "it": "Non è un cane." },
       { "de": "Ich habe keine Katze.", "it": "Non ho un gatto." },

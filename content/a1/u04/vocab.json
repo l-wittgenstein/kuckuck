@@ -22,7 +22,7 @@
     "promptIt": "il tè",
     "examples": [
       { "de": "Ich trinke Tee.", "it": "Bevo il tè." },
-      { "de": "Der Tee ist heiß.", "it": "Il tè è bollente." }
+      { "de": "Der Tee ist heiß.", "it": "Il tè è caldo." }
     ]
   },
   {
@@ -71,7 +71,7 @@
     "de": "Saft",
     "article": "der",
     "plural": "Säfte",
-    "it": ["succo"],
+    "it": ["succo", "succo di frutta"],
     "promptIt": "il succo",
     "examples": [
       { "de": "Ich trinke einen Saft.", "it": "Bevo un succo." },
@@ -235,7 +235,7 @@
     "it": ["zuppa", "minestra"],
     "promptIt": "la zuppa",
     "examples": [
-      { "de": "Die Suppe ist heiß.", "it": "La zuppa è bollente." },
+      { "de": "Die Suppe ist heiß.", "it": "La zuppa è calda." },
       { "de": "Ich nehme die Suppe.", "it": "Prendo la zuppa." }
     ]
   },
@@ -284,9 +284,9 @@
     "id": "v-a1-0115",
     "pos": "adj",
     "de": "lecker",
-    "it": ["buono", "buona", "buonissimo", "gustoso", "delizioso"],
-    "promptIt": "buono (da mangiare)",
-    "noteIt": "Si usa per cibo e bevande. Per tutto il resto: gut.",
+    "it": ["buonissimo", "buonissima", "buono", "buona", "gustoso", "gustosa", "delizioso", "deliziosa", "squisito"],
+    "promptIt": "gustoso / buonissimo (cibo)",
+    "noteIt": "Si usa solo per cibo e bevande (gustoso, buonissimo). gut va bene per tutto, anche per il cibo.",
     "examples": [
       { "de": "Der Kuchen ist lecker!", "it": "La torta è buonissima!" },
       { "de": "Mmm, lecker!", "it": "Mmm, che buono!" }
@@ -310,7 +310,7 @@
     "acceptDe": ["möchte"],
     "it": ["vorrei", "volere", "desiderare"],
     "promptIt": "vorrei (volere, in modo cortese)",
-    "noteIt": "Il modo gentile di chiedere: Ich möchte… = vorrei…",
+    "noteIt": "Il modo gentile di chiedere: Ich möchte… = vorrei… Quando si ordina si dice zwei Bier, zwei Kaffee: senza plurale.",
     "examples": [
       { "de": "Ich möchte einen Kaffee.", "it": "Vorrei un caffè." },
       { "de": "Was möchtest du?", "it": "Cosa vorresti?" },
@@ -347,7 +347,7 @@
     "id": "v-a1-0120",
     "pos": "adv",
     "de": "gern",
-    "it": ["volentieri"],
+    "it": ["volentieri", "con piacere"],
     "promptIt": "volentieri",
     "noteIt": "Verbo + gern = mi piace fare qualcosa. Si scrive anche gerne.",
     "examples": [

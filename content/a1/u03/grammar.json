@@ -5,8 +5,8 @@
     "explanationIt": [
       "In tedesco il possessivo prende il posto dell'articolo: «il mio libro» è solo mein Buch, senza articolo davanti.",
       "Si comporta come ein: nessuna desinenza con maschile e neutro (mein Vater, mein Kind), -e con femminile e plurale (meine Mutter, meine Eltern).",
-      "Attenzione a «suo»: in tedesco dipende da chi possiede, non dalla cosa posseduta. Se è di un uomo si dice sein, se è di una donna ihr: sein Sohn è il figlio di lui, ihr Sohn il figlio di lei.",
-      "Ihr con la maiuscola è il «Suo» di cortesia. Euer perde la seconda e quando prende la desinenza: eure Mutter."
+      "Attenzione a «suo»: in tedesco dipende da chi possiede, non dalla cosa posseduta. Se il possessore è maschile o neutro (er, es) si dice sein; se è femminile (sie) ihr. Sein Sohn è il figlio di lui, ihr Sohn il figlio di lei. Anche «loro» è ihr.",
+      "Ihr con la maiuscola è il «Suo» di cortesia. Euer di solito perde la seconda e quando prende la desinenza: eure Mutter."
     ],
     "pattern": [
       "ich → mein – mio",
@@ -57,9 +57,9 @@
         "explanationIt": "Mutter è femminile: meine."
       },
       {
-        "wrong": "euere Mutter",
+        "wrong": "euer Mutter",
         "right": "eure Mutter",
-        "explanationIt": "Euer perde la seconda e: eure."
+        "explanationIt": "Mutter è femminile: eure, ed euer perde la seconda e."
       }
     ],
     "exercises": [
@@ -95,23 +95,23 @@
       },
       {
         "id": "g-a1-0009-e4",
-        "sentence": "Tom und ___ Tochter wohnen in Rom.",
+        "sentence": "Tom und ___ Schwester wohnen in Rom.",
         "answers": [
           "seine"
         ],
         "hintIt": "sua (di Tom)",
-        "translationIt": "Tom e sua figlia abitano a Roma.",
-        "explanationIt": "La figlia è di Tom, un uomo: sein; Tochter è femminile, quindi seine."
+        "translationIt": "Tom e sua sorella abitano a Roma.",
+        "explanationIt": "La sorella è di Tom: sein; Schwester è femminile, quindi seine."
       },
       {
         "id": "g-a1-0009-e5",
-        "sentence": "Anna und ___ Sohn wohnen in Wien.",
+        "sentence": "Anna und ___ Bruder wohnen in Wien.",
         "answers": [
           "ihr"
         ],
         "hintIt": "suo (di Anna)",
-        "translationIt": "Anna e suo figlio abitano a Vienna.",
-        "explanationIt": "Il figlio è di Anna, una donna: ihr; Sohn è maschile, quindi senza desinenza."
+        "translationIt": "Anna e suo fratello abitano a Vienna.",
+        "explanationIt": "Il fratello è di Anna: ihr; Bruder è maschile, quindi senza desinenza."
       },
       {
         "id": "g-a1-0009-e6",
@@ -244,13 +244,13 @@
       "In italiano si nega tutto con «non». In tedesco bisogna scegliere tra kein e nicht.",
       "kein nega un sostantivo che avrebbe ein oppure nessun articolo: «non un, nessun». Das ist ein Hund → Das ist kein Hund. Wir haben Kinder → Wir haben keine Kinder.",
       "kein si comporta come ein: kein Mann, kein Kind, keine Frau; al plurale keine Kinder. Quando il maschile è l'oggetto della frase diventa keinen, come einen: Ich habe keinen Bruder.",
-      "nicht nega tutto il resto: verbi, aggettivi, nomi propri, sostantivi con der/die/das o con un possessivo. Ich wohne nicht in Rom. Anna ist nicht alt. Das ist nicht mein Auto."
+      "nicht nega tutto il resto: verbi, aggettivi, nomi propri, sostantivi con der/die/das o con un possessivo. Ich wohne nicht in Rom. Anna ist nicht alt. Das ist nicht mein Auto. Con un oggetto con der/die/das, di solito nicht va in fondo: Ich trinke den Kaffee nicht."
     ],
     "pattern": [
       "ein → kein – non un / nessun",
       "eine → keine – non una / nessuna",
       "plurale → keine – nessun… (Wir haben keine Kinder.)",
-      "verbi, aggettivi, nomi → nicht – non"
+      "verbi, aggettivi, der/die/das, mein… → nicht – non"
     ],
     "examples": [
       {
@@ -278,7 +278,7 @@
       {
         "wrong": "Ich habe nicht ein Auto.",
         "right": "Ich habe kein Auto.",
-        "explanationIt": "Con un sostantivo senza articolo determinativo si usa kein, non nicht ein."
+        "explanationIt": "Al posto di nicht ein si usa kein."
       },
       {
         "wrong": "Ich habe kein Bruder.",
