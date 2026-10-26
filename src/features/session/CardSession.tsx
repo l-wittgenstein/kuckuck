@@ -3,14 +3,14 @@
 // they do with each answer and how they end.
 import { useReducer, useRef, useState, type ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { checkCloze, checkGerman, checkMeaning, type CheckResult } from "../../checker/check";
+import { checkCloze, checkGerman, checkMeaning, type CheckResult, type Note } from "../../checker/check";
 import { speak } from "../../audio/tts";
 import { FlagButton } from "../../components/FlagButton";
 import { PlayButton } from "../../components/PlayButton";
 import { useSettings } from "../../db/settings";
 import { GermanWord, germanLabel } from "../../components/German";
 import { levels } from "../../content";
-import type { CardRef } from "../../domain/cards";
+import { gapStartsSentence, type CardRef } from "../../domain/cards";
 import { cardsCleared, isFinished, quizReducer, startQuiz, type QuizState } from "../../domain/quiz";
 import { it } from "../../i18n/it";
 
@@ -25,6 +25,13 @@ function germanOf(card: CardRef): string {
   return card.kind === "cloze"
     ? card.exercise.sentence.replace("___", card.exercise.answers[0])
     : germanLabel(card.item);
+}
+
+function noteText(card: CardRef, note: Note): string {
+  if (note === "capitalization" && card.kind === "cloze" && gapStartsSentence(card.exercise.sentence)) {
+    return it.quiz.notes.capitalizationSentenceStart;
+  }
+  return it.quiz.notes[note];
 }
 
 function check(card: CardRef, answer: string): CheckResult {
@@ -172,7 +179,7 @@ function Feedback(props: {
   card: CardRef;
   answer: string;
   outcome: "correct" | "almost" | "wrong";
-  notes: (keyof typeof it.quiz.notes)[];
+  notes: Note[];
   expected: string;
   canOverride: boolean;
   overridden: boolean;
@@ -185,7 +192,7 @@ function Feedback(props: {
     <div className={`feedback feedback-${outcome}`} role="status">
       <strong>{title}</strong>
       {props.notes.map((n) => (
-        <span key={n}>{it.quiz.notes[n]}</span>
+        <span key={n}>{noteText(card, n)}</span>
       ))}
       {outcome !== "correct" && (
         <span>

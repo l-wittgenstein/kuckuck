@@ -99,12 +99,13 @@ export const it = {
     notes: {
       typo: "Attenzione all'ortografia.",
       capitalization: "Attenzione alle maiuscole: i sostantivi tedeschi vogliono la maiuscola.",
+      capitalizationSentenceStart: "Attenzione: a inizio frase ci vuole la maiuscola.",
       umlaut: "Attenzione all'Umlaut (ä, ö, ü) e alla ß.",
       accent: "Attenzione agli accenti.",
       "missing-article": "Parola giusta, ma manca l'articolo.",
       "wrong-article": "Parola giusta, articolo sbagliato.",
       case: "Qui la maiuscola cambia il significato.",
-    } satisfies Record<Note, string>,
+    } satisfies Record<Note | "capitalizationSentenceStart", string>,
     doneTitle: "Lezione completata!",
     doneText: (n: number) =>
       `${plural(n, "nuovo elemento è entrato", "nuovi elementi sono entrati")} nel nido dei ripassi.`,

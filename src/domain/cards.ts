@@ -29,3 +29,9 @@ export function cardsFor(content: ContentItem): CardRef[] {
     exercise,
   }));
 }
+
+// A blank that opens a sentence needs a capital for that reason alone,
+// not because the word is a noun.
+export function gapStartsSentence(sentence: string): boolean {
+  return /^(|.*[.!?]\s+)$/.test(sentence.split("___")[0]);
+}
