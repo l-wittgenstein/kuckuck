@@ -78,6 +78,9 @@ export function validateContent(root: string): Report {
     } else if (v.plural !== undefined) {
       errors.push(`${where}: plural on a non-noun`);
     }
+    if (v.pluralOnly && (!isNoun || v.plural !== null || v.article !== "die")) {
+      errors.push(`${where}: pluralOnly needs a noun with article die and plural null`);
+    }
     if (v.pos !== "propn" && !isNoun && v.article) {
       errors.push(`${where}: article on a non-noun`);
     }

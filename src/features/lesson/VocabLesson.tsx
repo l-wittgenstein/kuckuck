@@ -17,7 +17,9 @@ export function VocabLesson({ item }: { item: VocabItem }) {
       </h1>
       {item.pos === "noun" && (
         <p className="muted with-audio" lang="de">
-          {it.lesson.plural}: {item.plural ? `die ${item.plural}` : it.lesson.noPlural}
+          {item.pluralOnly
+            ? it.lesson.pluralOnly
+            : `${it.lesson.plural}: ${item.plural ? `die ${item.plural}` : it.lesson.noPlural}`}
           {item.plural && <PlayButton text={`die ${item.plural}`} />}
         </p>
       )}
