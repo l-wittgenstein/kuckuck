@@ -20,8 +20,12 @@ export default defineConfig({
         scope: "./",
         display: "standalone",
         orientation: "portrait",
-        background_color: "#f6f1e7",
-        theme_color: "#f6f1e7",
+        // Android paints an installed app's navigation bar (and splash) with
+        // these, and a manifest can't vary them for dark mode: the brand
+        // green reads well under both themes. The status bar follows the
+        // page's theme-color meta instead.
+        background_color: "#3f6b5a",
+        theme_color: "#3f6b5a",
         icons: [
           { src: "icon-192.png", sizes: "192x192", type: "image/png" },
           { src: "icon-512.png", sizes: "512x512", type: "image/png" },
