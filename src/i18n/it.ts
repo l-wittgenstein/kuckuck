@@ -222,6 +222,7 @@ export const it = {
     errors: {
       "not-json": "Questo file non è una copia di Kuckuck.",
       "not-backup": "Questo file non è una copia di Kuckuck.",
+      damaged: "Questa copia è danneggiata o è stata modificata: i progressi sul telefono non sono stati toccati.",
       "too-new": "Questa copia viene da una versione più nuova di Kuckuck: aggiorna l'app e riprova.",
     },
     reminder: "È da un po' che non salvi una copia dei progressi.",
