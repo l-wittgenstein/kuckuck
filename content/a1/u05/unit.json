@@ -1,0 +1,19 @@
+{
+  "id": "a1-u05",
+  "level": "a1",
+  "order": 5,
+  "title": "Mein Tag: la giornata",
+  "summary": "L'ora, i giorni della settimana, i momenti della giornata, i verbi separabili come aufstehen e le abitudini: immer, oft, nie.",
+  "batches": [
+    { "id": "a1-u05-b01", "itemIds": ["v-a1-0121", "v-a1-0122", "v-a1-0123", "v-a1-0124", "v-a1-0125"] },
+    { "id": "a1-u05-b02", "itemIds": ["g-a1-0017", "v-a1-0126", "v-a1-0127", "v-a1-0128", "v-a1-0129"] },
+    { "id": "a1-u05-b03", "itemIds": ["v-a1-0130", "v-a1-0131", "v-a1-0132", "v-a1-0133", "v-a1-0134"] },
+    { "id": "a1-u05-b04", "itemIds": ["v-a1-0135", "v-a1-0136", "v-a1-0137", "v-a1-0138", "v-a1-0139"] },
+    { "id": "a1-u05-b05", "itemIds": ["v-a1-0140", "v-a1-0141", "v-a1-0142", "v-a1-0143", "v-a1-0144"] },
+    { "id": "a1-u05-b06", "itemIds": ["g-a1-0018", "v-a1-0145", "v-a1-0146", "v-a1-0147"] },
+    { "id": "a1-u05-b07", "itemIds": ["v-a1-0148", "v-a1-0149", "v-a1-0150", "v-a1-0151", "v-a1-0152"] },
+    { "id": "a1-u05-b08", "itemIds": ["g-a1-0019", "v-a1-0153", "v-a1-0154", "v-a1-0155", "v-a1-0156"] },
+    { "id": "a1-u05-b09", "itemIds": ["g-a1-0020", "v-a1-0157", "v-a1-0158", "v-a1-0159", "v-a1-0160"] },
+    { "id": "a1-u05-b10", "itemIds": ["v-a1-0161", "v-a1-0162", "v-a1-0163", "v-a1-0164", "v-a1-0165"] }
+  ]
+}

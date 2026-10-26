@@ -1,0 +1,575 @@
+[
+  {
+    "id": "v-a1-0121",
+    "pos": "noun",
+    "de": "Uhr",
+    "article": "die",
+    "plural": "Uhren",
+    "it": ["orologio", "ora", "ore"],
+    "promptIt": "l'orologio (e l'ora: sono le tre)",
+    "noteIt": "È l'orologio, ma anche l'ora quando dici che ore sono: drei Uhr = le tre. Per la durata (un'ora di tempo) si usa die Stunde.",
+    "examples": [
+      { "de": "Es ist drei Uhr.", "it": "Sono le tre." },
+      { "de": "Die Uhr ist alt.", "it": "L'orologio è vecchio." }
+    ]
+  },
+  {
+    "id": "v-a1-0122",
+    "pos": "phrase",
+    "de": "Wie spät ist es?",
+    "it": ["che ore sono?", "che ora è?"],
+    "promptIt": "che ore sono?",
+    "acceptDe": ["Wie viel Uhr ist es?", "Wieviel Uhr ist es?"],
+    "noteIt": "Si può dire anche Wie viel Uhr ist es?",
+    "examples": [
+      { "de": "Entschuldigung, wie spät ist es?", "it": "Scusi, che ore sono?" },
+      { "de": "Wie spät ist es? Es ist acht Uhr.", "it": "Che ore sono? Sono le otto." }
+    ]
+  },
+  {
+    "id": "v-a1-0123",
+    "pos": "noun",
+    "de": "Stunde",
+    "article": "die",
+    "plural": "Stunden",
+    "it": ["ora"],
+    "promptIt": "l'ora (sessanta minuti)",
+    "noteIt": "die Stunde è la durata: eine Stunde = un'ora di tempo. Per dire che ore sono si usa Uhr.",
+    "examples": [
+      { "de": "Eine Stunde hat sechzig Minuten.", "it": "Un'ora ha sessanta minuti." },
+      { "de": "Ich lerne jeden Tag zwei Stunden Deutsch.", "it": "Studio tedesco due ore al giorno." }
+    ]
+  },
+  {
+    "id": "v-a1-0124",
+    "pos": "noun",
+    "de": "Minute",
+    "article": "die",
+    "plural": "Minuten",
+    "it": ["minuto"],
+    "promptIt": "il minuto",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Minute.",
+    "examples": [
+      { "de": "Eine Minute, bitte!", "it": "Un minuto, per favore!" },
+      { "de": "Ich komme in fünf Minuten.", "it": "Arrivo tra cinque minuti." }
+    ]
+  },
+  {
+    "id": "v-a1-0125",
+    "pos": "adv",
+    "de": "halb",
+    "it": ["mezzo", "mezza", "e mezza"],
+    "promptIt": "mezzo / e mezza (con l'ora)",
+    "noteIt": "halb vier sono le tre e mezza, non le quattro e mezza! Si conta verso l'ora che arriva.",
+    "examples": [
+      { "de": "Es ist halb acht.", "it": "Sono le sette e mezza." },
+      { "de": "Wir essen um halb eins.", "it": "Mangiamo alle dodici e mezza." }
+    ]
+  },
+  {
+    "id": "v-a1-0126",
+    "pos": "noun",
+    "de": "Viertel",
+    "article": "das",
+    "plural": "Viertel",
+    "it": ["quarto"],
+    "promptIt": "il quarto (d'ora)",
+    "noteIt": "In italiano è maschile, in tedesco neutro: das Viertel. Con l'ora si usa senza articolo: Viertel nach zwei.",
+    "examples": [
+      { "de": "Es ist Viertel nach zehn.", "it": "Sono le dieci e un quarto." },
+      { "de": "Es ist Viertel vor zwölf.", "it": "Sono le dodici meno un quarto." }
+    ]
+  },
+  {
+    "id": "v-a1-0127",
+    "pos": "prep",
+    "de": "um",
+    "it": ["alle", "a"],
+    "promptIt": "alle (con l'ora: alle otto)",
+    "examples": [
+      { "de": "Ich komme um acht Uhr.", "it": "Arrivo alle otto." },
+      { "de": "Um wie viel Uhr?", "it": "A che ora?" }
+    ]
+  },
+  {
+    "id": "v-a1-0128",
+    "pos": "adj",
+    "de": "früh",
+    "it": ["presto"],
+    "promptIt": "presto (di buon'ora, non tardi)",
+    "examples": [
+      { "de": "Es ist noch früh.", "it": "È ancora presto." },
+      { "de": "Wir essen früh.", "it": "Mangiamo presto." }
+    ]
+  },
+  {
+    "id": "v-a1-0129",
+    "pos": "adj",
+    "de": "spät",
+    "it": ["tardi", "tardo"],
+    "promptIt": "tardi",
+    "examples": [
+      { "de": "Oh, es ist schon spät!", "it": "Oh, è già tardi!" },
+      { "de": "Er kommt spät.", "it": "Arriva tardi." }
+    ]
+  },
+  {
+    "id": "v-a1-0130",
+    "pos": "noun",
+    "de": "Tag",
+    "article": "der",
+    "plural": "Tage",
+    "it": ["giorno", "giornata"],
+    "promptIt": "il giorno",
+    "examples": [
+      { "de": "Ein Tag hat vierundzwanzig Stunden.", "it": "Un giorno ha ventiquattro ore." },
+      { "de": "Ich lerne jeden Tag Deutsch.", "it": "Studio tedesco ogni giorno." }
+    ]
+  },
+  {
+    "id": "v-a1-0131",
+    "pos": "noun",
+    "de": "Woche",
+    "article": "die",
+    "plural": "Wochen",
+    "it": ["settimana"],
+    "promptIt": "la settimana",
+    "examples": [
+      { "de": "Eine Woche hat sieben Tage.", "it": "Una settimana ha sette giorni." },
+      { "de": "Ich lerne drei Stunden pro Woche Deutsch.", "it": "Studio tedesco tre ore alla settimana." }
+    ]
+  },
+  {
+    "id": "v-a1-0132",
+    "pos": "adv",
+    "de": "heute",
+    "it": ["oggi"],
+    "promptIt": "oggi",
+    "examples": [
+      { "de": "Heute ist Montag.", "it": "Oggi è lunedì." },
+      { "de": "Was machst du heute?", "it": "Cosa fai oggi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0133",
+    "pos": "adv",
+    "de": "morgen",
+    "it": ["domani"],
+    "promptIt": "domani",
+    "noteIt": "morgen con la minuscola = domani; der Morgen con la maiuscola = la mattina. Domattina: morgen früh.",
+    "examples": [
+      { "de": "Bis morgen!", "it": "A domani!" },
+      { "de": "Morgen ist Dienstag.", "it": "Domani è martedì." }
+    ]
+  },
+  {
+    "id": "v-a1-0134",
+    "pos": "noun",
+    "de": "Morgen",
+    "article": "der",
+    "plural": "Morgen",
+    "it": ["mattina", "mattino"],
+    "promptIt": "la mattina (presto)",
+    "noteIt": "der Morgen con la maiuscola = la mattina; morgen con la minuscola = domani.",
+    "examples": [
+      { "de": "Am Morgen trinke ich Kaffee.", "it": "La mattina bevo il caffè." },
+      { "de": "Ich lerne am Morgen.", "it": "Studio la mattina." }
+    ]
+  },
+  {
+    "id": "v-a1-0135",
+    "pos": "noun",
+    "de": "Vormittag",
+    "article": "der",
+    "plural": "Vormittage",
+    "it": ["mattinata", "mattina"],
+    "promptIt": "la mattinata (fino a mezzogiorno)",
+    "noteIt": "der Morgen è la mattina presto; der Vormittag va più o meno dalle nove a mezzogiorno.",
+    "examples": [
+      { "de": "Am Vormittag lerne ich Deutsch.", "it": "In mattinata studio tedesco." },
+      { "de": "Kommst du am Vormittag?", "it": "Vieni in mattinata?" }
+    ]
+  },
+  {
+    "id": "v-a1-0136",
+    "pos": "noun",
+    "de": "Mittag",
+    "article": "der",
+    "plural": "Mittage",
+    "it": ["mezzogiorno"],
+    "promptIt": "il mezzogiorno",
+    "noteIt": "zu Mittag essen = pranzare.",
+    "examples": [
+      { "de": "Mittags esse ich eine Suppe.", "it": "A mezzogiorno mangio una zuppa." },
+      { "de": "Wir essen um zwölf Uhr zu Mittag.", "it": "Pranziamo a mezzogiorno." }
+    ]
+  },
+  {
+    "id": "v-a1-0137",
+    "pos": "noun",
+    "de": "Nachmittag",
+    "article": "der",
+    "plural": "Nachmittage",
+    "it": ["pomeriggio"],
+    "promptIt": "il pomeriggio",
+    "examples": [
+      { "de": "Am Nachmittag trinke ich Tee.", "it": "Il pomeriggio bevo il tè." },
+      { "de": "Heute Nachmittag habe ich Zeit.", "it": "Oggi pomeriggio ho tempo." }
+    ]
+  },
+  {
+    "id": "v-a1-0138",
+    "pos": "noun",
+    "de": "Abend",
+    "article": "der",
+    "plural": "Abende",
+    "it": ["sera", "serata"],
+    "promptIt": "la sera",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Abend. Stasera = heute Abend.",
+    "examples": [
+      { "de": "Am Abend lese ich.", "it": "La sera leggo." },
+      { "de": "Heute Abend kocht mein Freund.", "it": "Stasera cucina il mio ragazzo." }
+    ]
+  },
+  {
+    "id": "v-a1-0139",
+    "pos": "noun",
+    "de": "Nacht",
+    "article": "die",
+    "plural": "Nächte",
+    "it": ["notte"],
+    "promptIt": "la notte",
+    "examples": [
+      { "de": "In der Nacht schlafe ich.", "it": "Di notte dormo." },
+      { "de": "Die Nacht ist kalt.", "it": "La notte è fredda." }
+    ]
+  },
+  {
+    "id": "v-a1-0140",
+    "pos": "noun",
+    "de": "Montag",
+    "article": "der",
+    "plural": "Montage",
+    "it": ["lunedì"],
+    "promptIt": "lunedì",
+    "noteIt": "Tutti i giorni della settimana sono maschili: der Montag, der Dienstag…",
+    "examples": [
+      { "de": "Am Montag lerne ich Deutsch.", "it": "Lunedì studio tedesco." },
+      { "de": "Heute ist Montag.", "it": "Oggi è lunedì." }
+    ]
+  },
+  {
+    "id": "v-a1-0141",
+    "pos": "noun",
+    "de": "Dienstag",
+    "article": "der",
+    "plural": "Dienstage",
+    "it": ["martedì"],
+    "promptIt": "martedì",
+    "examples": [
+      { "de": "Am Dienstag kommt meine Oma.", "it": "Martedì viene mia nonna." },
+      { "de": "Morgen ist Dienstag.", "it": "Domani è martedì." }
+    ]
+  },
+  {
+    "id": "v-a1-0142",
+    "pos": "noun",
+    "de": "Mittwoch",
+    "article": "der",
+    "plural": "Mittwoche",
+    "it": ["mercoledì"],
+    "promptIt": "mercoledì",
+    "noteIt": "Mittwoch significa «metà settimana».",
+    "examples": [
+      { "de": "Am Mittwoch koche ich.", "it": "Mercoledì cucino." },
+      { "de": "Ist heute Mittwoch?", "it": "Oggi è mercoledì?" }
+    ]
+  },
+  {
+    "id": "v-a1-0143",
+    "pos": "noun",
+    "de": "Donnerstag",
+    "article": "der",
+    "plural": "Donnerstage",
+    "it": ["giovedì"],
+    "promptIt": "giovedì",
+    "noteIt": "Donner è il tuono: è il giorno del dio del tuono, come giovedì è il giorno di Giove.",
+    "examples": [
+      { "de": "Am Donnerstag habe ich Zeit.", "it": "Giovedì ho tempo." },
+      { "de": "Ist morgen Donnerstag?", "it": "Domani è giovedì?" }
+    ]
+  },
+  {
+    "id": "v-a1-0144",
+    "pos": "noun",
+    "de": "Freitag",
+    "article": "der",
+    "plural": "Freitage",
+    "it": ["venerdì"],
+    "promptIt": "venerdì",
+    "examples": [
+      { "de": "Am Freitag trinken wir ein Bier.", "it": "Venerdì beviamo una birra." },
+      { "de": "Heute ist Freitag!", "it": "Oggi è venerdì!" }
+    ]
+  },
+  {
+    "id": "v-a1-0145",
+    "pos": "noun",
+    "de": "Samstag",
+    "article": "der",
+    "plural": "Samstage",
+    "it": ["sabato"],
+    "promptIt": "sabato",
+    "acceptDe": ["Sonnabend"],
+    "noteIt": "Nel nord della Germania si dice anche der Sonnabend.",
+    "examples": [
+      { "de": "Am Samstag schlafe ich lange.", "it": "Sabato dormo fino a tardi." },
+      { "de": "Kommst du am Samstag?", "it": "Vieni sabato?" }
+    ]
+  },
+  {
+    "id": "v-a1-0146",
+    "pos": "noun",
+    "de": "Sonntag",
+    "article": "der",
+    "plural": "Sonntage",
+    "it": ["domenica"],
+    "promptIt": "domenica",
+    "noteIt": "In italiano la domenica è femminile, in tedesco der Sonntag è maschile come tutti i giorni.",
+    "examples": [
+      { "de": "Am Sonntag kocht meine Mutter.", "it": "Domenica cucina mia madre." },
+      { "de": "Der Sonntag ist ruhig.", "it": "La domenica è tranquilla." }
+    ]
+  },
+  {
+    "id": "v-a1-0147",
+    "pos": "noun",
+    "de": "Wochenende",
+    "article": "das",
+    "plural": "Wochenenden",
+    "it": ["fine settimana", "weekend"],
+    "promptIt": "il fine settimana",
+    "noteIt": "È neutro, come das Ende (la fine).",
+    "examples": [
+      { "de": "Schönes Wochenende!", "it": "Buon fine settimana!" },
+      { "de": "Am Wochenende kocht mein Vater.", "it": "Nel fine settimana cucina mio padre." }
+    ]
+  },
+  {
+    "id": "v-a1-0148",
+    "pos": "verb",
+    "de": "machen",
+    "it": ["fare"],
+    "promptIt": "fare",
+    "examples": [
+      { "de": "Was machst du heute?", "it": "Cosa fai oggi?" },
+      { "de": "Was machen Sie am Wochenende?", "it": "Cosa fa nel fine settimana?" }
+    ]
+  },
+  {
+    "id": "v-a1-0149",
+    "pos": "verb",
+    "de": "aufstehen",
+    "it": ["alzarsi"],
+    "promptIt": "alzarsi (dal letto)",
+    "noteIt": "È un verbo separabile: Ich stehe auf. E non è riflessivo: niente «mi».",
+    "examples": [
+      { "de": "Ich stehe um sieben Uhr auf.", "it": "Mi alzo alle sette." },
+      { "de": "Am Sonntag stehe ich spät auf.", "it": "La domenica mi alzo tardi." }
+    ]
+  },
+  {
+    "id": "v-a1-0150",
+    "pos": "verb",
+    "de": "frühstücken",
+    "it": ["fare colazione"],
+    "promptIt": "fare colazione",
+    "noteIt": "Una sola parola, e non si separa: Ich frühstücke.",
+    "examples": [
+      { "de": "Wir frühstücken um acht Uhr.", "it": "Facciamo colazione alle otto." },
+      { "de": "Frühstückst du am Morgen?", "it": "Fai colazione la mattina?" }
+    ]
+  },
+  {
+    "id": "v-a1-0151",
+    "pos": "noun",
+    "de": "Frühstück",
+    "article": "das",
+    "plural": "Frühstücke",
+    "it": ["colazione"],
+    "promptIt": "la colazione",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Frühstück.",
+    "examples": [
+      { "de": "Das Frühstück ist lecker.", "it": "La colazione è buonissima." },
+      { "de": "Zum Frühstück esse ich ein Brötchen.", "it": "A colazione mangio un panino." }
+    ]
+  },
+  {
+    "id": "v-a1-0152",
+    "pos": "verb",
+    "de": "kochen",
+    "it": ["cucinare"],
+    "promptIt": "cucinare",
+    "examples": [
+      { "de": "Mein Vater kocht gut.", "it": "Mio padre cucina bene." },
+      { "de": "Was kochst du heute?", "it": "Cosa cucini oggi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0153",
+    "pos": "verb",
+    "de": "fernsehen",
+    "it": ["guardare la TV", "guardare la televisione"],
+    "promptIt": "guardare la TV",
+    "noteIt": "Separabile e con cambio di vocale: Er sieht fern.",
+    "examples": [
+      { "de": "Am Abend sehen wir fern.", "it": "La sera guardiamo la TV." },
+      { "de": "Siehst du viel fern?", "it": "Guardi molto la TV?" }
+    ]
+  },
+  {
+    "id": "v-a1-0154",
+    "pos": "verb",
+    "de": "anrufen",
+    "it": ["telefonare", "chiamare"],
+    "promptIt": "telefonare (a qualcuno)",
+    "noteIt": "Separabile, e vuole l'accusativo: Ich rufe meine Mutter an = telefono a mia madre.",
+    "examples": [
+      { "de": "Ich rufe meine Oma an.", "it": "Telefono a mia nonna." },
+      { "de": "Rufst du mich morgen an?", "it": "Mi chiami domani?" }
+    ]
+  },
+  {
+    "id": "v-a1-0155",
+    "pos": "verb",
+    "de": "einkaufen",
+    "it": ["fare la spesa", "fare spese", "fare acquisti"],
+    "promptIt": "fare la spesa",
+    "noteIt": "Separabile: Wir kaufen ein.",
+    "examples": [
+      { "de": "Wir kaufen am Samstag ein.", "it": "Facciamo la spesa il sabato." },
+      { "de": "Wo kaufst du ein?", "it": "Dove fai la spesa?" }
+    ]
+  },
+  {
+    "id": "v-a1-0156",
+    "pos": "verb",
+    "de": "aufräumen",
+    "it": ["mettere in ordine", "riordinare", "sistemare"],
+    "promptIt": "mettere in ordine",
+    "noteIt": "Separabile: Ich räume auf.",
+    "examples": [
+      { "de": "Ich räume heute auf.", "it": "Oggi metto in ordine." },
+      { "de": "Räumst du am Wochenende auf?", "it": "Metti in ordine nel fine settimana?" }
+    ]
+  },
+  {
+    "id": "v-a1-0157",
+    "pos": "verb",
+    "de": "schlafen",
+    "it": ["dormire"],
+    "promptIt": "dormire",
+    "noteIt": "Cambia vocale: du schläfst, er schläft.",
+    "examples": [
+      { "de": "Ich schlafe acht Stunden.", "it": "Dormo otto ore." },
+      { "de": "Schläfst du?", "it": "Dormi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0158",
+    "pos": "noun",
+    "de": "Mittagessen",
+    "article": "das",
+    "plural": "Mittagessen",
+    "it": ["pranzo"],
+    "promptIt": "il pranzo",
+    "noteIt": "È neutro come das Essen (il pasto).",
+    "examples": [
+      { "de": "Das Mittagessen ist um eins.", "it": "Il pranzo è all'una." },
+      { "de": "Zum Mittagessen esse ich Salat.", "it": "A pranzo mangio l'insalata." }
+    ]
+  },
+  {
+    "id": "v-a1-0159",
+    "pos": "noun",
+    "de": "Abendessen",
+    "article": "das",
+    "plural": "Abendessen",
+    "it": ["cena"],
+    "promptIt": "la cena",
+    "noteIt": "In italiano è femminile, in tedesco neutro come das Essen (il pasto).",
+    "examples": [
+      { "de": "Das Abendessen ist fertig.", "it": "La cena è pronta." },
+      { "de": "Wir kochen das Abendessen.", "it": "Cuciniamo la cena." }
+    ]
+  },
+  {
+    "id": "v-a1-0160",
+    "pos": "verb",
+    "de": "duschen",
+    "it": ["fare la doccia"],
+    "promptIt": "fare la doccia",
+    "noteIt": "Non serve il riflessivo: Ich dusche = faccio la doccia.",
+    "examples": [
+      { "de": "Ich dusche am Morgen.", "it": "Faccio la doccia la mattina." },
+      { "de": "Duschst du am Abend?", "it": "Fai la doccia la sera?" }
+    ]
+  },
+  {
+    "id": "v-a1-0161",
+    "pos": "adv",
+    "de": "immer",
+    "it": ["sempre"],
+    "promptIt": "sempre",
+    "examples": [
+      { "de": "Ich frühstücke immer um sieben.", "it": "Faccio sempre colazione alle sette." },
+      { "de": "Er ist immer nett.", "it": "È sempre gentile." }
+    ]
+  },
+  {
+    "id": "v-a1-0162",
+    "pos": "adv",
+    "de": "oft",
+    "it": ["spesso"],
+    "promptIt": "spesso",
+    "examples": [
+      { "de": "Wir kochen oft Fisch.", "it": "Cuciniamo spesso il pesce." },
+      { "de": "Siehst du oft fern?", "it": "Guardi spesso la TV?" }
+    ]
+  },
+  {
+    "id": "v-a1-0163",
+    "pos": "adv",
+    "de": "manchmal",
+    "it": ["a volte", "qualche volta", "ogni tanto", "talvolta"],
+    "promptIt": "a volte",
+    "examples": [
+      { "de": "Manchmal trinke ich Tee.", "it": "A volte bevo il tè." },
+      { "de": "Er kommt manchmal spät.", "it": "A volte arriva tardi." }
+    ]
+  },
+  {
+    "id": "v-a1-0164",
+    "pos": "adv",
+    "de": "nie",
+    "it": ["mai"],
+    "promptIt": "mai",
+    "noteIt": "nie basta da solo, senza nicht: Ich trinke nie Kaffee = non bevo mai caffè.",
+    "examples": [
+      { "de": "Ich trinke nie Kaffee.", "it": "Non bevo mai caffè." },
+      { "de": "Er räumt nie auf.", "it": "Non mette mai in ordine." }
+    ]
+  },
+  {
+    "id": "v-a1-0165",
+    "pos": "adv",
+    "de": "dann",
+    "it": ["poi", "dopo", "allora"],
+    "promptIt": "poi (dopo)",
+    "noteIt": "Dopo dann il verbo viene subito: Dann dusche ich.",
+    "examples": [
+      { "de": "Ich stehe auf, dann dusche ich.", "it": "Mi alzo, poi faccio la doccia." },
+      { "de": "Zuerst frühstücke ich, dann lerne ich.", "it": "Prima faccio colazione, poi studio." }
+    ]
+  }
+]

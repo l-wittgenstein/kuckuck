@@ -1,0 +1,376 @@
+[
+  {
+    "id": "g-a1-0017",
+    "title": "Che ore sono? L'ora in tedesco",
+    "explanationIt": [
+      "Per chiedere l'ora: Wie spät ist es? oppure Wie viel Uhr ist es? Per rispondere: Es ist drei Uhr. Qui Uhr significa «ore» e resta sempre al singolare: zwei Uhr, zehn Uhr.",
+      "I minuti dopo l'ora si dicono con nach: fünf nach drei = le tre e cinque. I minuti prima dell'ora con vor: zehn vor vier = le quattro meno dieci. Il quarto è Viertel: Viertel nach drei, Viertel vor vier.",
+      "Attenzione alla mezza: halb vier sono le tre e mezza, non le quattro e mezza! Il tedesco guarda all'ora che arriva: «a metà strada verso le quattro».",
+      "«Alle tre» si dice um drei Uhr. Negli orari ufficiali (treni, negozi, radio) si usano le 24 ore: fünfzehn Uhr dreißig = 15:30."
+    ],
+    "pattern": [
+      "Es ist drei Uhr. – Sono le tre.",
+      "Es ist fünf nach drei. – Sono le tre e cinque.",
+      "Es ist Viertel nach drei. – Sono le tre e un quarto.",
+      "Es ist halb vier. – Sono le tre e mezza.",
+      "Es ist Viertel vor vier. – Sono le quattro meno un quarto.",
+      "Es ist zehn vor vier. – Sono le quattro meno dieci.",
+      "um acht Uhr – alle otto"
+    ],
+    "examples": [
+      { "de": "Wie spät ist es? Es ist halb acht.", "it": "Che ore sono? Sono le sette e mezza." },
+      { "de": "Es ist zwanzig nach neun.", "it": "Sono le nove e venti." },
+      { "de": "Wir essen um halb eins.", "it": "Mangiamo alle dodici e mezza." },
+      { "de": "Es ist Viertel vor elf.", "it": "Sono le undici meno un quarto." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Es ist halb drei. (per dire 3:30)",
+        "right": "Es ist halb vier.",
+        "explanationIt": "halb guarda all'ora che arriva: le tre e mezza sono halb vier."
+      },
+      {
+        "wrong": "Es ist drei und Viertel.",
+        "right": "Es ist Viertel nach drei.",
+        "explanationIt": "Per i minuti dopo l'ora non si usa und, ma nach."
+      },
+      {
+        "wrong": "Es ist drei Uhren.",
+        "right": "Es ist drei Uhr.",
+        "explanationIt": "Quando dici l'ora, Uhr resta al singolare."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0017-e1",
+        "sentence": "Es ist halb ___.",
+        "answers": ["sieben"],
+        "hintIt": "le sei e mezza",
+        "translationIt": "Sono le sei e mezza.",
+        "explanationIt": "halb guarda all'ora che arriva: le sei e mezza sono halb sieben."
+      },
+      {
+        "id": "g-a1-0017-e2",
+        "sentence": "Es ist zehn ___ vier.",
+        "answers": ["nach"],
+        "hintIt": "le quattro e dieci",
+        "translationIt": "Sono le quattro e dieci.",
+        "explanationIt": "I minuti dopo l'ora si dicono con nach."
+      },
+      {
+        "id": "g-a1-0017-e3",
+        "sentence": "Es ist Viertel ___ neun.",
+        "answers": ["vor"],
+        "hintIt": "le nove meno un quarto",
+        "translationIt": "Sono le nove meno un quarto.",
+        "explanationIt": "Prima dell'ora si usa vor: Viertel vor neun."
+      },
+      {
+        "id": "g-a1-0017-e4",
+        "sentence": "Wie ___ ist es?",
+        "answers": ["spät"],
+        "hintIt": "che ore sono?",
+        "translationIt": "Che ore sono?",
+        "explanationIt": "La domanda fissa è Wie spät ist es?"
+      },
+      {
+        "id": "g-a1-0017-e5",
+        "sentence": "Es ist ___ nach zwei.",
+        "answers": ["Viertel"],
+        "hintIt": "le due e un quarto",
+        "translationIt": "Sono le due e un quarto.",
+        "explanationIt": "Il quarto d'ora è Viertel, con la maiuscola: è un sostantivo."
+      },
+      {
+        "id": "g-a1-0017-e6",
+        "sentence": "Es ist halb ___.",
+        "answers": ["zwölf"],
+        "hintIt": "le undici e mezza",
+        "translationIt": "Sono le undici e mezza.",
+        "explanationIt": "Le undici e mezza sono halb zwölf: a metà strada verso le dodici."
+      },
+      {
+        "id": "g-a1-0017-e7",
+        "sentence": "Es ist fünf ___.",
+        "answers": ["Uhr"],
+        "hintIt": "sono le cinque",
+        "translationIt": "Sono le cinque.",
+        "explanationIt": "Uhr resta al singolare: fünf Uhr."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0018",
+    "title": "Quando? am, um, in der Nacht",
+    "explanationIt": [
+      "Con i giorni della settimana e con le parti del giorno si usa am (cioè an dem): am Montag, am Abend, am Wochenende.",
+      "Un'eccezione da ricordare: di notte si dice in der Nacht.",
+      "Con l'ora si usa um: um acht Uhr.",
+      "Senza preposizione: heute, morgen, heute Abend (stasera), morgen früh (domattina). Per le abitudini si dice anche montags (ogni lunedì) e abends (ogni sera)."
+    ],
+    "pattern": [
+      "am Montag – lunedì / il lunedì",
+      "am Wochenende – nel fine settimana",
+      "am Morgen – la mattina",
+      "am Nachmittag – il pomeriggio",
+      "am Abend – la sera",
+      "in der Nacht – di notte",
+      "um neun Uhr – alle nove",
+      "heute Abend – stasera",
+      "morgen früh – domattina"
+    ],
+    "examples": [
+      { "de": "Am Samstag kochen wir.", "it": "Sabato cuciniamo." },
+      { "de": "Ich trinke am Abend Tee.", "it": "La sera bevo il tè." },
+      { "de": "Kommst du um acht Uhr?", "it": "Vieni alle otto?" },
+      { "de": "Heute Abend haben wir Zeit.", "it": "Stasera abbiamo tempo." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich komme in Montag.",
+        "right": "Ich komme am Montag.",
+        "explanationIt": "Con i giorni della settimana si usa am."
+      },
+      {
+        "wrong": "Ich komme am neun Uhr.",
+        "right": "Ich komme um neun Uhr.",
+        "explanationIt": "am è per i giorni e le parti del giorno; con l'ora ci vuole um."
+      },
+      {
+        "wrong": "Er kommt am Nacht.",
+        "right": "Er kommt in der Nacht.",
+        "explanationIt": "Nacht è l'eccezione: in der Nacht."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0018-e1",
+        "sentence": "Wir kommen ___ Montag.",
+        "answers": ["am"],
+        "hintIt": "lunedì",
+        "translationIt": "Veniamo lunedì.",
+        "explanationIt": "Con i giorni della settimana si usa am."
+      },
+      {
+        "id": "g-a1-0018-e2",
+        "sentence": "Ich esse ___ sieben Uhr.",
+        "answers": ["um"],
+        "hintIt": "alle sette",
+        "translationIt": "Mangio alle sette.",
+        "explanationIt": "Con l'ora si usa um."
+      },
+      {
+        "id": "g-a1-0018-e3",
+        "sentence": "Wo ist die Katze ___ der Nacht?",
+        "answers": ["in"],
+        "hintIt": "di notte",
+        "translationIt": "Dov'è il gatto di notte?",
+        "explanationIt": "Di notte si dice in der Nacht."
+      },
+      {
+        "id": "g-a1-0018-e4",
+        "sentence": "___ Wochenende lernen wir Deutsch.",
+        "answers": ["Am"],
+        "hintIt": "nel fine settimana",
+        "translationIt": "Nel fine settimana studiamo tedesco.",
+        "explanationIt": "Anche con Wochenende si usa am."
+      },
+      {
+        "id": "g-a1-0018-e5",
+        "sentence": "Kommst du heute ___?",
+        "answers": ["Abend"],
+        "hintIt": "stasera",
+        "translationIt": "Vieni stasera?",
+        "explanationIt": "Stasera è heute Abend, senza preposizione e con Abend maiuscolo."
+      },
+      {
+        "id": "g-a1-0018-e6",
+        "sentence": "Ich trinke ___ Morgen einen Kaffee.",
+        "answers": ["am"],
+        "hintIt": "la mattina",
+        "translationIt": "La mattina bevo un caffè.",
+        "explanationIt": "Con le parti del giorno si usa am: am Morgen."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0019",
+    "title": "I verbi separabili: aufstehen, anrufen…",
+    "explanationIt": [
+      "Molti verbi tedeschi hanno un prefisso che si stacca: aufstehen, fernsehen, anrufen, einkaufen, aufräumen.",
+      "Nel presente il verbo coniugato sta al secondo posto, come sempre, e il prefisso va alla fine della frase: Ich stehe um sieben Uhr auf.",
+      "Nelle domande sì/no il verbo va al primo posto, e il prefisso resta alla fine: Rufst du Oma an?",
+      "Nel dizionario li trovi interi, e la parte che si stacca porta l'accento: AUFstehen, ANrufen."
+    ],
+    "pattern": [
+      "aufstehen: Ich stehe früh auf. – Mi alzo presto.",
+      "anrufen: Ich rufe meine Mutter an. – Telefono a mia madre.",
+      "einkaufen: Wir kaufen am Samstag ein. – Facciamo la spesa sabato.",
+      "fernsehen: Wir sehen am Abend fern. – La sera guardiamo la TV.",
+      "aufräumen: Räumst du heute auf? – Metti in ordine oggi?"
+    ],
+    "examples": [
+      { "de": "Ich stehe um halb sieben auf.", "it": "Mi alzo alle sei e mezza." },
+      { "de": "Wann rufst du deine Oma an?", "it": "Quando telefoni a tua nonna?" },
+      { "de": "Wir kaufen heute ein.", "it": "Oggi facciamo la spesa." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich aufstehe um sieben.",
+        "right": "Ich stehe um sieben auf.",
+        "explanationIt": "Al presente il prefisso si stacca e va alla fine."
+      },
+      {
+        "wrong": "Ich rufe an meine Mutter.",
+        "right": "Ich rufe meine Mutter an.",
+        "explanationIt": "Il prefisso va proprio alla fine della frase, dopo l'oggetto."
+      },
+      {
+        "wrong": "Kaufst ein du heute?",
+        "right": "Kaufst du heute ein?",
+        "explanationIt": "Anche nelle domande il prefisso va alla fine."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0019-e1",
+        "sentence": "Ich stehe um sieben Uhr ___.",
+        "answers": ["auf"],
+        "hintIt": "aufstehen",
+        "translationIt": "Mi alzo alle sette.",
+        "explanationIt": "Il prefisso auf va alla fine della frase."
+      },
+      {
+        "id": "g-a1-0019-e2",
+        "sentence": "Wir ___ am Samstag ein.",
+        "answers": ["kaufen"],
+        "hintIt": "einkaufen",
+        "translationIt": "Facciamo la spesa sabato.",
+        "explanationIt": "Al secondo posto va kaufen; ein va alla fine."
+      },
+      {
+        "id": "g-a1-0019-e3",
+        "sentence": "___ du heute auf?",
+        "answers": ["Räumst"],
+        "hintIt": "aufräumen",
+        "translationIt": "Metti in ordine oggi?",
+        "explanationIt": "Nella domanda il verbo va al primo posto, auf alla fine."
+      },
+      {
+        "id": "g-a1-0019-e4",
+        "sentence": "Er ruft seine Mutter ___.",
+        "answers": ["an"],
+        "hintIt": "anrufen",
+        "translationIt": "Telefona a sua madre.",
+        "explanationIt": "Il prefisso an va alla fine, dopo l'oggetto."
+      },
+      {
+        "id": "g-a1-0019-e5",
+        "sentence": "Wir sehen am Abend ___.",
+        "answers": ["fern"],
+        "hintIt": "fernsehen",
+        "translationIt": "La sera guardiamo la TV.",
+        "explanationIt": "Il prefisso fern va alla fine."
+      },
+      {
+        "id": "g-a1-0019-e6",
+        "sentence": "___ du am Sonntag spät auf?",
+        "answers": ["Stehst"],
+        "hintIt": "aufstehen",
+        "translationIt": "La domenica ti alzi tardi?",
+        "explanationIt": "Nella domanda il verbo va al primo posto: Stehst du…? Il prefisso auf va alla fine."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0020",
+    "title": "Verbi che cambiano vocale: schlafen e sehen",
+    "explanationIt": [
+      "Come essen e nehmen, alcuni verbi cambiano la vocale solo con du e con er/sie/es.",
+      "La a diventa ä: schlafen → du schläfst, er schläft.",
+      "La e diventa ie: sehen → du siehst, er sieht. Lo stesso succede in fernsehen: Er sieht fern.",
+      "Gli altri pronomi restano regolari: ich schlafe, wir sehen fern, ihr schlaft."
+    ],
+    "pattern": [
+      "ich schlafe – io dormo",
+      "du schläfst – tu dormi",
+      "er/sie/es schläft – lui/lei dorme",
+      "wir schlafen – noi dormiamo",
+      "ihr schlaft – voi dormite",
+      "du siehst fern – tu guardi la TV",
+      "er/sie/es sieht fern – lui/lei guarda la TV"
+    ],
+    "examples": [
+      { "de": "Das Kind schläft.", "it": "Il bambino dorme." },
+      { "de": "Siehst du heute fern?", "it": "Guardi la TV oggi?" },
+      { "de": "Am Sonntag schläft mein Bruder lange.", "it": "La domenica mio fratello dorme fino a tardi." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Er schlaft lange.",
+        "right": "Er schläft lange.",
+        "explanationIt": "Con er/sie/es la a diventa ä."
+      },
+      {
+        "wrong": "Du sehst fern.",
+        "right": "Du siehst fern.",
+        "explanationIt": "Con du la e diventa ie."
+      },
+      {
+        "wrong": "Wir schläfen.",
+        "right": "Wir schlafen.",
+        "explanationIt": "Con wir il verbo è regolare."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0020-e1",
+        "sentence": "Das Kind ___ viel.",
+        "answers": ["schläft"],
+        "hintIt": "schlafen",
+        "translationIt": "Il bambino dorme molto.",
+        "explanationIt": "Con er/sie/es la a diventa ä: schläft."
+      },
+      {
+        "id": "g-a1-0020-e2",
+        "sentence": "___ du gut?",
+        "answers": ["Schläfst"],
+        "hintIt": "schlafen",
+        "translationIt": "Dormi bene?",
+        "explanationIt": "Con du la a diventa ä: schläfst."
+      },
+      {
+        "id": "g-a1-0020-e3",
+        "sentence": "Er ___ am Abend fern.",
+        "answers": ["sieht"],
+        "hintIt": "fernsehen",
+        "translationIt": "La sera guarda la TV.",
+        "explanationIt": "Con er la e diventa ie: sieht."
+      },
+      {
+        "id": "g-a1-0020-e4",
+        "sentence": "Wir ___ am Sonntag lange.",
+        "answers": ["schlafen"],
+        "hintIt": "schlafen",
+        "translationIt": "La domenica dormiamo fino a tardi.",
+        "explanationIt": "Con wir il verbo è regolare: schlafen."
+      },
+      {
+        "id": "g-a1-0020-e5",
+        "sentence": "Was ___ du am Morgen?",
+        "answers": ["isst"],
+        "hintIt": "essen",
+        "translationIt": "Cosa mangi la mattina?",
+        "explanationIt": "Come in essen, con du la e diventa i: isst."
+      },
+      {
+        "id": "g-a1-0020-e6",
+        "sentence": "___ ihr heute Abend fern?",
+        "answers": ["Seht"],
+        "hintIt": "fernsehen",
+        "translationIt": "Guardate la TV stasera?",
+        "explanationIt": "Con ihr il verbo è regolare: seht."
+      }
+    ]
+  }
+]
