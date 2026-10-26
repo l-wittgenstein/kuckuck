@@ -1,0 +1,358 @@
+[
+  {
+    "id": "g-a1-0021",
+    "title": "Mesi e stagioni: im Januar, im Sommer",
+    "explanationIt": [
+      "I mesi e le stagioni sono tutti maschili: der Januar, der Sommer, der Winter.",
+      "Per dire «a gennaio» o «in estate» si usa im (cioè in dem): im Januar, im Sommer.",
+      "Ricapitolando: am per i giorni (am Montag), im per i mesi e le stagioni (im Mai), um per l'ora (um acht Uhr)."
+    ],
+    "pattern": [
+      "im Januar – a gennaio",
+      "im Mai – a maggio",
+      "im Sommer – d'estate",
+      "im Winter – d'inverno",
+      "am Montag – lunedì",
+      "um acht Uhr – alle otto"
+    ],
+    "examples": [
+      { "de": "Im Juli ist es heiß.", "it": "A luglio fa caldo." },
+      { "de": "Im Herbst regnet es oft.", "it": "In autunno piove spesso." },
+      { "de": "Mein Geburtstag ist im März.", "it": "Il mio compleanno è a marzo." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich komme in Januar.",
+        "right": "Ich komme im Januar.",
+        "explanationIt": "Con i mesi si usa im, cioè in + dem."
+      },
+      {
+        "wrong": "Am Sommer ist es heiß.",
+        "right": "Im Sommer ist es heiß.",
+        "explanationIt": "am è per i giorni; con le stagioni si usa im."
+      },
+      {
+        "wrong": "Die Sommer ist heiß.",
+        "right": "Der Sommer ist heiß.",
+        "explanationIt": "Le stagioni sono maschili, anche se in italiano l'estate e la primavera sono femminili."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0021-e1",
+        "sentence": "Wir kommen ___ Juli.",
+        "answers": ["im"],
+        "hintIt": "a luglio",
+        "translationIt": "Veniamo a luglio.",
+        "explanationIt": "Con i mesi si usa im."
+      },
+      {
+        "id": "g-a1-0021-e2",
+        "sentence": "___ Winter ist es kalt.",
+        "answers": ["Im"],
+        "hintIt": "d'inverno",
+        "translationIt": "D'inverno fa freddo.",
+        "explanationIt": "Con le stagioni si usa im."
+      },
+      {
+        "id": "g-a1-0021-e3",
+        "sentence": "Ich komme ___ Freitag.",
+        "answers": ["am"],
+        "hintIt": "venerdì",
+        "translationIt": "Vengo venerdì.",
+        "explanationIt": "Con i giorni della settimana si usa am."
+      },
+      {
+        "id": "g-a1-0021-e4",
+        "sentence": "Wir essen ___ halb acht.",
+        "answers": ["um"],
+        "hintIt": "alle sette e mezza",
+        "translationIt": "Mangiamo alle sette e mezza.",
+        "explanationIt": "Con l'ora si usa um."
+      },
+      {
+        "id": "g-a1-0021-e5",
+        "sentence": "Mein Bruder kommt ___ August.",
+        "answers": ["im"],
+        "hintIt": "ad agosto",
+        "translationIt": "Mio fratello arriva ad agosto.",
+        "explanationIt": "Con i mesi si usa im."
+      },
+      {
+        "id": "g-a1-0021-e6",
+        "sentence": "___ Sommer in Italien ist heiß.",
+        "answers": ["Der"],
+        "hintIt": "l'estate",
+        "translationIt": "L'estate in Italia è calda.",
+        "explanationIt": "Le stagioni sono maschili: der Sommer."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0022",
+    "title": "La data: der erste, der dritte…",
+    "explanationIt": [
+      "Per la data il tedesco usa i numeri ordinali (primo, secondo, terzo…), non quelli normali.",
+      "Da 2 a 19 si aggiunge -te al numero: zweite, vierte, fünfte, zehnte. Da 20 in poi si aggiunge -ste: zwanzigste, einunddreißigste. Attenzione: dreizehnte e siebzehnte sono regolari.",
+      "Da imparare a parte: erste (primo), dritte (terzo), siebte (settimo), achte (ottavo).",
+      "Quanti ne abbiamo oggi? Der Wievielte ist heute? Risposta: Heute ist der dritte Mai. Per dire quando succede qualcosa si usa am, e l'ordinale prende -n: am dritten Mai.",
+      "Per scritto si usa il punto: der 3. Mai, oppure 3.5. per il 3 maggio."
+    ],
+    "pattern": [
+      "der erste – il primo",
+      "der zweite – il due",
+      "der dritte – il tre",
+      "der vierte – il quattro",
+      "der siebte – il sette",
+      "der achte – l'otto",
+      "der zwanzigste – il venti",
+      "Heute ist der zweite Juni. – Oggi è il due giugno.",
+      "am ersten Mai – il primo maggio (quando?)",
+      "am zehnten Juli – il dieci luglio (quando?)"
+    ],
+    "examples": [
+      { "de": "Der Wievielte ist heute? Heute ist der fünfte April.", "it": "Quanti ne abbiamo oggi? Oggi è il cinque aprile." },
+      { "de": "Mein Geburtstag ist am dritten März.", "it": "Il mio compleanno è il tre marzo." },
+      { "de": "Heute ist der erste Januar.", "it": "Oggi è il primo gennaio." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Heute ist der drei Mai.",
+        "right": "Heute ist der dritte Mai.",
+        "explanationIt": "Per la data ci vuole il numero ordinale, anche dove l'italiano usa il numero normale."
+      },
+      {
+        "wrong": "Heute ist der einste Mai.",
+        "right": "Heute ist der erste Mai.",
+        "explanationIt": "Primo è irregolare: erste."
+      },
+      {
+        "wrong": "Ich komme am dritte Mai.",
+        "right": "Ich komme am dritten Mai.",
+        "explanationIt": "Dopo am l'ordinale prende -n."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0022-e1",
+        "sentence": "Heute ist der ___ Mai.",
+        "answers": ["dritte"],
+        "hintIt": "il tre maggio",
+        "translationIt": "Oggi è il tre maggio.",
+        "explanationIt": "Terzo è irregolare: dritte."
+      },
+      {
+        "id": "g-a1-0022-e2",
+        "sentence": "Heute ist der ___ Januar.",
+        "answers": ["erste"],
+        "hintIt": "il primo gennaio",
+        "translationIt": "Oggi è il primo gennaio.",
+        "explanationIt": "Primo è irregolare: erste."
+      },
+      {
+        "id": "g-a1-0022-e3",
+        "sentence": "Mein Geburtstag ist am ___ Juni.",
+        "answers": ["zwanzigsten"],
+        "hintIt": "il venti giugno",
+        "translationIt": "Il mio compleanno è il venti giugno.",
+        "explanationIt": "Da 20 in poi si aggiunge -ste, e dopo am anche -n: zwanzigsten."
+      },
+      {
+        "id": "g-a1-0022-e4",
+        "sentence": "Heute ist der ___ April.",
+        "answers": ["siebte", "siebente"],
+        "hintIt": "il sette aprile",
+        "translationIt": "Oggi è il sette aprile.",
+        "explanationIt": "Settimo è siebte, senza la -en di sieben."
+      },
+      {
+        "id": "g-a1-0022-e5",
+        "sentence": "Wir feiern am ___ Juli.",
+        "answers": ["achten"],
+        "hintIt": "l'otto luglio",
+        "translationIt": "Festeggiamo l'otto luglio.",
+        "explanationIt": "Ottavo è achte (una sola t); dopo am prende -n: achten."
+      },
+      {
+        "id": "g-a1-0022-e6",
+        "sentence": "Morgen ist der ___ März.",
+        "answers": ["vierte"],
+        "hintIt": "il quattro marzo",
+        "translationIt": "Domani è il quattro marzo.",
+        "explanationIt": "Da 2 a 19 si aggiunge -te: vierte."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0023",
+    "title": "Il verbo resta secondo: Heute habe ich Zeit",
+    "explanationIt": [
+      "Nella frase affermativa il verbo coniugato sta sempre al secondo posto. Se la frase comincia con un'espressione di tempo (heute, am Montag, um acht Uhr…), il soggetto va subito dopo il verbo: Heute habe ich Zeit.",
+      "Il «secondo posto» conta i blocchi, non le parole: Am Montag è un blocco solo, poi viene il verbo, poi il soggetto.",
+      "Succede lo stesso con dann, leider, vielleicht e con quasi tutto ciò che si mette all'inizio (ma non con und, aber, oder: li vedrai più avanti). Leider habe ich keine Zeit.",
+      "In italiano l'ordine è più libero; in tedesco Heute ich habe Zeit è sbagliato."
+    ],
+    "pattern": [
+      "Ich habe heute Zeit. – Oggi ho tempo.",
+      "Heute habe ich Zeit. – Oggi ho tempo.",
+      "Am Montag lerne ich Deutsch. – Lunedì studio tedesco.",
+      "Um acht Uhr frühstücken wir. – Alle otto facciamo colazione.",
+      "Leider kommt er nicht. – Purtroppo non viene."
+    ],
+    "examples": [
+      { "de": "Morgen treffe ich Anna.", "it": "Domani vedo Anna." },
+      { "de": "Im Sommer feiern wir zusammen.", "it": "D'estate festeggiamo insieme." },
+      { "de": "Vielleicht kommt mein Bruder.", "it": "Forse viene mio fratello." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Heute ich habe Zeit.",
+        "right": "Heute habe ich Zeit.",
+        "explanationIt": "Il verbo deve stare al secondo posto: subito dopo heute."
+      },
+      {
+        "wrong": "Am Samstag wir feiern.",
+        "right": "Am Samstag feiern wir.",
+        "explanationIt": "Am Samstag occupa il primo posto: poi viene il verbo, poi il soggetto."
+      },
+      {
+        "wrong": "Vielleicht er kommt morgen.",
+        "right": "Vielleicht kommt er morgen.",
+        "explanationIt": "Anche dopo vielleicht il verbo viene subito."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0023-e1",
+        "sentence": "Heute ___ ich Zeit.",
+        "answers": ["habe"],
+        "hintIt": "haben",
+        "translationIt": "Oggi ho tempo.",
+        "explanationIt": "Dopo heute viene subito il verbo, poi il soggetto."
+      },
+      {
+        "id": "g-a1-0023-e2",
+        "sentence": "Am Sonntag ___ wir zusammen.",
+        "answers": ["kochen"],
+        "hintIt": "cucinare",
+        "translationIt": "Domenica cuciniamo insieme.",
+        "explanationIt": "Am Sonntag è al primo posto, il verbo al secondo."
+      },
+      {
+        "id": "g-a1-0023-e3",
+        "sentence": "Morgen ___ meine Oma.",
+        "answers": ["kommt"],
+        "hintIt": "venire",
+        "translationIt": "Domani viene mia nonna.",
+        "explanationIt": "Dopo morgen il verbo, poi il soggetto meine Oma."
+      },
+      {
+        "id": "g-a1-0023-e4",
+        "sentence": "Leider ___ er keine Zeit.",
+        "answers": ["hat"],
+        "hintIt": "haben",
+        "translationIt": "Purtroppo non ha tempo.",
+        "explanationIt": "Dopo leider viene subito il verbo."
+      },
+      {
+        "id": "g-a1-0023-e5",
+        "sentence": "Um sieben Uhr stehe ___ auf.",
+        "answers": ["ich"],
+        "hintIt": "io",
+        "translationIt": "Alle sette mi alzo.",
+        "explanationIt": "Il soggetto va dopo il verbo, il prefisso auf alla fine."
+      },
+      {
+        "id": "g-a1-0023-e6",
+        "sentence": "Vielleicht ___ wir Anna am Freitag.",
+        "answers": ["treffen"],
+        "hintIt": "incontrare",
+        "translationIt": "Forse vediamo Anna venerdì.",
+        "explanationIt": "Dopo vielleicht viene subito il verbo."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0024",
+    "title": "und, aber, oder: il verbo non si sposta",
+    "explanationIt": [
+      "und (e), aber (ma) e oder (o) collegano due frasi. Non contano come primo posto: dopo di loro l'ordine resta normale, soggetto e poi verbo.",
+      "Ich habe Zeit, aber er hat keine Zeit: dopo aber vengono er e poi hat.",
+      "Con dann invece è diverso: dann occupa il primo posto, quindi il verbo viene subito. Ich frühstücke, dann dusche ich.",
+      "Quando aber collega due frasi o due parti, prima ci va sempre la virgola; prima di und e oder di solito no."
+    ],
+    "pattern": [
+      "Ich trinke Tee und er trinkt Kaffee. – Io bevo tè e lui beve caffè.",
+      "Ich habe Zeit, aber er hat keine Zeit. – Io ho tempo, ma lui no.",
+      "Kommst du heute oder kommst du morgen? – Vieni oggi o domani?",
+      "Ich frühstücke, dann dusche ich. – Faccio colazione, poi la doccia."
+    ],
+    "examples": [
+      { "de": "Ich koche und mein Freund räumt auf.", "it": "Io cucino e il mio ragazzo mette in ordine." },
+      { "de": "Die Party ist schön, aber ich bin müde.", "it": "La festa è bella, ma sono stanca." },
+      { "de": "Rufst du an oder kommst du?", "it": "Telefoni o vieni?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe Zeit, aber hat er keine Zeit.",
+        "right": "Ich habe Zeit, aber er hat keine Zeit.",
+        "explanationIt": "Dopo aber l'ordine non cambia: prima il soggetto, poi il verbo."
+      },
+      {
+        "wrong": "Ich frühstücke, dann ich dusche.",
+        "right": "Ich frühstücke, dann dusche ich.",
+        "explanationIt": "dann occupa il primo posto: il verbo viene subito dopo."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0024-e1",
+        "sentence": "Ich habe Zeit, ___ er hat keine Zeit.",
+        "answers": ["aber"],
+        "hintIt": "ma",
+        "translationIt": "Io ho tempo, ma lui no.",
+        "explanationIt": "aber = ma; dopo aber l'ordine resta normale."
+      },
+      {
+        "id": "g-a1-0024-e2",
+        "sentence": "Trinkst du Tee ___ Kaffee?",
+        "answers": ["oder"],
+        "hintIt": "o",
+        "translationIt": "Bevi tè o caffè?",
+        "explanationIt": "oder = o, oppure."
+      },
+      {
+        "id": "g-a1-0024-e3",
+        "sentence": "Ich koche ___ mein Freund räumt auf.",
+        "answers": ["und"],
+        "hintIt": "e",
+        "translationIt": "Io cucino e il mio ragazzo mette in ordine.",
+        "explanationIt": "und = e; dopo und l'ordine resta normale."
+      },
+      {
+        "id": "g-a1-0024-e4",
+        "sentence": "Anna kocht, aber Marco ___ fern.",
+        "answers": ["sieht"],
+        "hintIt": "fernsehen",
+        "translationIt": "Anna cucina, ma Marco guarda la TV.",
+        "explanationIt": "Dopo aber l'ordine resta normale: prima il soggetto Marco, poi il verbo sieht; fern va alla fine."
+      },
+      {
+        "id": "g-a1-0024-e5",
+        "sentence": "Wir frühstücken, dann ___ wir ein.",
+        "answers": ["kaufen"],
+        "hintIt": "einkaufen",
+        "translationIt": "Facciamo colazione, poi facciamo la spesa.",
+        "explanationIt": "Dopo dann viene subito il verbo; il prefisso ein va alla fine."
+      },
+      {
+        "id": "g-a1-0024-e6",
+        "sentence": "Kommst du heute ___ morgen?",
+        "answers": ["oder"],
+        "hintIt": "o",
+        "translationIt": "Vieni oggi o domani?",
+        "explanationIt": "oder = o, oppure."
+      }
+    ]
+  }
+]

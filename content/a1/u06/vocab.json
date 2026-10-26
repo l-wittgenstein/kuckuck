@@ -1,0 +1,494 @@
+[
+  {
+    "id": "v-a1-0166",
+    "pos": "noun",
+    "de": "Monat",
+    "article": "der",
+    "plural": "Monate",
+    "it": ["mese"],
+    "promptIt": "il mese",
+    "examples": [
+      { "de": "Ein Jahr hat zwölf Monate.", "it": "Un anno ha dodici mesi." },
+      { "de": "Mein Bruder kommt in einem Monat.", "it": "Mio fratello arriva tra un mese." }
+    ]
+  },
+  {
+    "id": "v-a1-0167",
+    "pos": "noun",
+    "de": "Januar",
+    "article": "der",
+    "plural": null,
+    "it": ["gennaio"],
+    "promptIt": "gennaio",
+    "acceptDe": ["Jänner"],
+    "noteIt": "Tutti i mesi sono maschili: der Januar, der Februar… In Austria si dice anche Jänner.",
+    "examples": [
+      { "de": "Im Januar ist es kalt.", "it": "A gennaio fa freddo." },
+      { "de": "Der Januar hat einunddreißig Tage.", "it": "Gennaio ha trentun giorni." }
+    ]
+  },
+  {
+    "id": "v-a1-0168",
+    "pos": "noun",
+    "de": "Februar",
+    "article": "der",
+    "plural": null,
+    "it": ["febbraio"],
+    "promptIt": "febbraio",
+    "examples": [
+      { "de": "Der Februar hat meistens achtundzwanzig Tage.", "it": "Febbraio di solito ha ventotto giorni." },
+      { "de": "Mein Geburtstag ist im Februar.", "it": "Il mio compleanno è a febbraio." }
+    ]
+  },
+  {
+    "id": "v-a1-0169",
+    "pos": "noun",
+    "de": "März",
+    "article": "der",
+    "plural": null,
+    "it": ["marzo"],
+    "promptIt": "marzo",
+    "examples": [
+      { "de": "Im März kommt der Frühling.", "it": "A marzo arriva la primavera." },
+      { "de": "Heute ist der erste März.", "it": "Oggi è il primo marzo." }
+    ]
+  },
+  {
+    "id": "v-a1-0170",
+    "pos": "noun",
+    "de": "April",
+    "article": "der",
+    "plural": null,
+    "it": ["aprile"],
+    "promptIt": "aprile",
+    "examples": [
+      { "de": "Im April regnet es oft.", "it": "Ad aprile piove spesso." },
+      { "de": "Der April hat dreißig Tage.", "it": "Aprile ha trenta giorni." }
+    ]
+  },
+  {
+    "id": "v-a1-0171",
+    "pos": "noun",
+    "de": "Mai",
+    "article": "der",
+    "plural": null,
+    "it": ["maggio"],
+    "promptIt": "maggio",
+    "examples": [
+      { "de": "Im Mai ist es warm.", "it": "A maggio fa caldo." },
+      { "de": "Der erste Mai ist ein Feiertag.", "it": "Il primo maggio è un giorno festivo." }
+    ]
+  },
+  {
+    "id": "v-a1-0172",
+    "pos": "noun",
+    "de": "Juni",
+    "article": "der",
+    "plural": null,
+    "it": ["giugno"],
+    "promptIt": "giugno",
+    "noteIt": "Al telefono, per non confonderlo con Juli, molti dicono «Juno».",
+    "examples": [
+      { "de": "Im Juni sind die Tage lang.", "it": "A giugno le giornate sono lunghe." },
+      { "de": "Wir feiern im Juni.", "it": "Festeggiamo a giugno." }
+    ]
+  },
+  {
+    "id": "v-a1-0173",
+    "pos": "noun",
+    "de": "Juli",
+    "article": "der",
+    "plural": null,
+    "it": ["luglio"],
+    "promptIt": "luglio",
+    "noteIt": "Al telefono, per non confonderlo con Juni, molti dicono «Julei».",
+    "examples": [
+      { "de": "Im Juli ist es heiß.", "it": "A luglio fa caldo." },
+      { "de": "Mein Geburtstag ist im Juli.", "it": "Il mio compleanno è a luglio." }
+    ]
+  },
+  {
+    "id": "v-a1-0174",
+    "pos": "noun",
+    "de": "August",
+    "article": "der",
+    "plural": null,
+    "it": ["agosto"],
+    "promptIt": "agosto",
+    "examples": [
+      { "de": "Im August fahren viele Italiener ans Meer.", "it": "Ad agosto molti italiani vanno al mare." },
+      { "de": "Der August ist heiß.", "it": "Ad agosto fa caldo." }
+    ]
+  },
+  {
+    "id": "v-a1-0175",
+    "pos": "noun",
+    "de": "September",
+    "article": "der",
+    "plural": null,
+    "it": ["settembre"],
+    "promptIt": "settembre",
+    "examples": [
+      { "de": "Im September kommt der Herbst.", "it": "A settembre arriva l'autunno." },
+      { "de": "Der September hat dreißig Tage.", "it": "Settembre ha trenta giorni." }
+    ]
+  },
+  {
+    "id": "v-a1-0176",
+    "pos": "noun",
+    "de": "Oktober",
+    "article": "der",
+    "plural": null,
+    "it": ["ottobre"],
+    "promptIt": "ottobre",
+    "noteIt": "Curiosità: l'Oktoberfest di Monaco comincia a settembre.",
+    "examples": [
+      { "de": "Im Oktober habe ich Geburtstag.", "it": "A ottobre è il mio compleanno." },
+      { "de": "Der Oktober hat einunddreißig Tage.", "it": "Ottobre ha trentun giorni." }
+    ]
+  },
+  {
+    "id": "v-a1-0177",
+    "pos": "noun",
+    "de": "November",
+    "article": "der",
+    "plural": null,
+    "it": ["novembre"],
+    "promptIt": "novembre",
+    "examples": [
+      { "de": "Im November ist es oft grau.", "it": "A novembre il cielo è spesso grigio." },
+      { "de": "Der November ist kalt.", "it": "Novembre è un mese freddo." }
+    ]
+  },
+  {
+    "id": "v-a1-0178",
+    "pos": "noun",
+    "de": "Dezember",
+    "article": "der",
+    "plural": null,
+    "it": ["dicembre"],
+    "promptIt": "dicembre",
+    "examples": [
+      { "de": "Im Dezember feiern wir Weihnachten.", "it": "A dicembre festeggiamo il Natale." },
+      { "de": "Der Dezember ist kalt.", "it": "Dicembre è un mese freddo." }
+    ]
+  },
+  {
+    "id": "v-a1-0179",
+    "pos": "noun",
+    "de": "Frühling",
+    "article": "der",
+    "plural": "Frühlinge",
+    "it": ["primavera"],
+    "promptIt": "la primavera",
+    "noteIt": "In italiano è femminile, in tedesco maschile, come tutte le stagioni.",
+    "examples": [
+      { "de": "Im Frühling ist es schön.", "it": "In primavera è bello." },
+      { "de": "Der Frühling kommt!", "it": "Arriva la primavera!" }
+    ]
+  },
+  {
+    "id": "v-a1-0180",
+    "pos": "noun",
+    "de": "Sommer",
+    "article": "der",
+    "plural": "Sommer",
+    "it": ["estate"],
+    "promptIt": "l'estate",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Sommer.",
+    "examples": [
+      { "de": "Im Sommer ist es heiß.", "it": "D'estate fa caldo." },
+      { "de": "Der Sommer in Italien ist lang.", "it": "L'estate in Italia è lunga." }
+    ]
+  },
+  {
+    "id": "v-a1-0181",
+    "pos": "noun",
+    "de": "Herbst",
+    "article": "der",
+    "plural": "Herbste",
+    "it": ["autunno"],
+    "promptIt": "l'autunno",
+    "examples": [
+      { "de": "Im Herbst regnet es oft.", "it": "In autunno piove spesso." },
+      { "de": "Der Herbst ist schön.", "it": "L'autunno è bello." }
+    ]
+  },
+  {
+    "id": "v-a1-0182",
+    "pos": "noun",
+    "de": "Winter",
+    "article": "der",
+    "plural": "Winter",
+    "it": ["inverno"],
+    "promptIt": "l'inverno",
+    "examples": [
+      { "de": "Im Winter ist es kalt.", "it": "D'inverno fa freddo." },
+      { "de": "Der Winter in Berlin ist lang.", "it": "L'inverno a Berlino è lungo." }
+    ]
+  },
+  {
+    "id": "v-a1-0183",
+    "pos": "noun",
+    "de": "Datum",
+    "article": "das",
+    "plural": "Daten",
+    "it": ["data"],
+    "promptIt": "la data (del calendario)",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Datum. Il plurale è irregolare: die Daten.",
+    "examples": [
+      { "de": "Welches Datum ist heute?", "it": "Che data è oggi?" },
+      { "de": "Das Datum ist falsch.", "it": "La data è sbagliata." }
+    ]
+  },
+  {
+    "id": "v-a1-0184",
+    "pos": "noun",
+    "de": "Geburtstag",
+    "article": "der",
+    "plural": "Geburtstage",
+    "it": ["compleanno"],
+    "promptIt": "il compleanno",
+    "noteIt": "«È il mio compleanno» si dice anche Ich habe Geburtstag.",
+    "examples": [
+      { "de": "Wann hast du Geburtstag?", "it": "Quando è il tuo compleanno?" },
+      { "de": "Heute ist mein Geburtstag!", "it": "Oggi è il mio compleanno!" }
+    ]
+  },
+  {
+    "id": "v-a1-0185",
+    "pos": "phrase",
+    "de": "Herzlichen Glückwunsch!",
+    "it": ["tanti auguri!", "auguri!", "congratulazioni!"],
+    "promptIt": "tanti auguri! / congratulazioni!",
+    "acceptDe": ["Herzlichen Glückwunsch zum Geburtstag!"],
+    "examples": [
+      { "de": "Herzlichen Glückwunsch zum Geburtstag!", "it": "Buon compleanno!" },
+      { "de": "Herzlichen Glückwunsch, Anna!", "it": "Tanti auguri, Anna!" }
+    ]
+  },
+  {
+    "id": "v-a1-0186",
+    "pos": "phrase",
+    "de": "Alles Gute!",
+    "it": ["tutto il meglio!", "tanti auguri!", "auguri!"],
+    "promptIt": "tutto il meglio!",
+    "acceptDe": ["Alles Gute zum Geburtstag!"],
+    "examples": [
+      { "de": "Alles Gute zum Geburtstag!", "it": "Buon compleanno!" },
+      { "de": "Tschüss und alles Gute!", "it": "Ciao e tutto il meglio!" }
+    ]
+  },
+  {
+    "id": "v-a1-0187",
+    "pos": "verb",
+    "de": "feiern",
+    "it": ["festeggiare", "fare festa"],
+    "promptIt": "festeggiare",
+    "examples": [
+      { "de": "Wir feiern am Samstag.", "it": "Festeggiamo sabato." },
+      { "de": "Wo feierst du Geburtstag?", "it": "Dove festeggi il compleanno?" }
+    ]
+  },
+  {
+    "id": "v-a1-0188",
+    "pos": "noun",
+    "de": "Termin",
+    "article": "der",
+    "plural": "Termine",
+    "it": ["appuntamento"],
+    "promptIt": "l'appuntamento (dal medico, di lavoro)",
+    "noteIt": "Falso amico: di solito non è «il termine», ma un appuntamento fissato, dal medico o in ufficio.",
+    "examples": [
+      { "de": "Ich habe am Montag einen Termin.", "it": "Lunedì ho un appuntamento." },
+      { "de": "Der Termin ist um zehn Uhr.", "it": "L'appuntamento è alle dieci." }
+    ]
+  },
+  {
+    "id": "v-a1-0189",
+    "pos": "noun",
+    "de": "Zeit",
+    "article": "die",
+    "plural": "Zeiten",
+    "it": ["tempo"],
+    "promptIt": "il tempo (che passa)",
+    "noteIt": "È il tempo che passa: Ich habe keine Zeit. Il tempo che fa (sole, pioggia) è das Wetter.",
+    "examples": [
+      { "de": "Hast du heute Zeit?", "it": "Hai tempo oggi?" },
+      { "de": "Ich habe leider keine Zeit.", "it": "Purtroppo non ho tempo." }
+    ]
+  },
+  {
+    "id": "v-a1-0190",
+    "pos": "adv",
+    "de": "wann",
+    "it": ["quando"],
+    "promptIt": "quando? (nelle domande)",
+    "examples": [
+      { "de": "Wann kommst du?", "it": "Quando arrivi?" },
+      { "de": "Wann hast du Zeit?", "it": "Quando hai tempo?" }
+    ]
+  },
+  {
+    "id": "v-a1-0191",
+    "pos": "adv",
+    "de": "jetzt",
+    "it": ["adesso", "ora"],
+    "promptIt": "adesso",
+    "examples": [
+      { "de": "Ich habe jetzt Zeit.", "it": "Adesso ho tempo." },
+      { "de": "Wo bist du jetzt?", "it": "Dove sei adesso?" }
+    ]
+  },
+  {
+    "id": "v-a1-0192",
+    "pos": "adv",
+    "de": "später",
+    "it": ["più tardi", "dopo"],
+    "promptIt": "più tardi",
+    "examples": [
+      { "de": "Ich rufe dich später an.", "it": "Ti chiamo più tardi." },
+      { "de": "Bis später!", "it": "A più tardi!" }
+    ]
+  },
+  {
+    "id": "v-a1-0193",
+    "pos": "adv",
+    "de": "leider",
+    "it": ["purtroppo"],
+    "promptIt": "purtroppo",
+    "examples": [
+      { "de": "Leider habe ich keine Zeit.", "it": "Purtroppo non ho tempo." },
+      { "de": "Er kommt leider nicht.", "it": "Purtroppo non viene." }
+    ]
+  },
+  {
+    "id": "v-a1-0194",
+    "pos": "adv",
+    "de": "vielleicht",
+    "it": ["forse"],
+    "promptIt": "forse",
+    "examples": [
+      { "de": "Vielleicht komme ich morgen.", "it": "Forse vengo domani." },
+      { "de": "Kommst du? Vielleicht!", "it": "Vieni? Forse!" }
+    ]
+  },
+  {
+    "id": "v-a1-0195",
+    "pos": "adv",
+    "de": "zusammen",
+    "it": ["insieme"],
+    "promptIt": "insieme",
+    "examples": [
+      { "de": "Wir kochen zusammen.", "it": "Cuciniamo insieme." },
+      { "de": "Feiern wir zusammen?", "it": "Festeggiamo insieme?" }
+    ]
+  },
+  {
+    "id": "v-a1-0196",
+    "pos": "verb",
+    "de": "treffen",
+    "it": ["incontrare", "vedere"],
+    "promptIt": "incontrare (una persona)",
+    "noteIt": "Cambia vocale: du triffst, er trifft. Per fissare un incontro: Wir treffen uns um acht (ci vediamo alle otto).",
+    "examples": [
+      { "de": "Ich treffe Anna am Freitag.", "it": "Venerdì vedo Anna." },
+      { "de": "Wo triffst du deine Freunde?", "it": "Dove incontri i tuoi amici?" }
+    ]
+  },
+  {
+    "id": "v-a1-0197",
+    "pos": "verb",
+    "de": "einladen",
+    "it": ["invitare"],
+    "promptIt": "invitare",
+    "noteIt": "Separabile e con cambio di vocale: Er lädt mich ein (mi invita). Ich lade dich ein vuol dire anche «offro io».",
+    "examples": [
+      { "de": "Wir laden unsere Freunde ein.", "it": "Invitiamo i nostri amici." },
+      { "de": "Ich lade dich ein.", "it": "Ti invito. / Offro io." }
+    ]
+  },
+  {
+    "id": "v-a1-0198",
+    "pos": "noun",
+    "de": "Party",
+    "article": "die",
+    "plural": "Partys",
+    "it": ["festa", "party"],
+    "promptIt": "la festa (con amici)",
+    "noteIt": "Il plurale è Partys, con la y.",
+    "examples": [
+      { "de": "Die Party ist am Samstag.", "it": "La festa è sabato." },
+      { "de": "Wir machen eine Party.", "it": "Facciamo una festa." }
+    ]
+  },
+  {
+    "id": "v-a1-0199",
+    "pos": "noun",
+    "de": "Geschenk",
+    "article": "das",
+    "plural": "Geschenke",
+    "it": ["regalo"],
+    "promptIt": "il regalo",
+    "noteIt": "In italiano è maschile, in tedesco neutro: das Geschenk.",
+    "examples": [
+      { "de": "Das Geschenk ist für dich.", "it": "Il regalo è per te." },
+      { "de": "Danke für das Geschenk!", "it": "Grazie per il regalo!" }
+    ]
+  },
+  {
+    "id": "v-a1-0200",
+    "pos": "phrase",
+    "de": "Bis bald!",
+    "it": ["a presto!"],
+    "promptIt": "a presto!",
+    "examples": [
+      { "de": "Tschüss, bis bald!", "it": "Ciao, a presto!" },
+      { "de": "Bis bald, Oma!", "it": "A presto, nonna!" }
+    ]
+  },
+  {
+    "id": "v-a1-0201",
+    "pos": "adj",
+    "de": "frei",
+    "it": ["libero", "libera"],
+    "promptIt": "libero (non occupato)",
+    "examples": [
+      { "de": "Bist du am Freitag frei?", "it": "Sei libera venerdì?" },
+      { "de": "Ist der Platz frei?", "it": "È libero questo posto?" }
+    ]
+  },
+  {
+    "id": "v-a1-0202",
+    "pos": "conj",
+    "de": "aber",
+    "it": ["ma", "però"],
+    "promptIt": "ma",
+    "examples": [
+      { "de": "Ich komme, aber erst spät.", "it": "Vengo, ma tardi." },
+      { "de": "Ich habe Zeit, aber kein Geld.", "it": "Ho tempo, ma non ho soldi." }
+    ]
+  },
+  {
+    "id": "v-a1-0203",
+    "pos": "conj",
+    "de": "oder",
+    "it": ["o", "oppure"],
+    "promptIt": "o (oppure)",
+    "examples": [
+      { "de": "Tee oder Kaffee?", "it": "Tè o caffè?" },
+      { "de": "Kommst du heute oder morgen?", "it": "Vieni oggi o domani?" }
+    ]
+  },
+  {
+    "id": "v-a1-0204",
+    "pos": "conj",
+    "de": "und",
+    "it": ["e"],
+    "promptIt": "e",
+    "examples": [
+      { "de": "Brot und Käse, bitte.", "it": "Pane e formaggio, per favore." },
+      { "de": "Anna und Marco kommen morgen.", "it": "Anna e Marco arrivano domani." }
+    ]
+  }
+]

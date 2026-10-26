@@ -1,0 +1,18 @@
+{
+  "id": "a1-u06",
+  "level": "a1",
+  "order": 6,
+  "title": "Termine: appuntamenti e feste",
+  "summary": "I mesi, le stagioni, la data, compleanni e appuntamenti; il verbo al secondo posto dopo heute o am Montag; und, aber, oder.",
+  "batches": [
+    { "id": "a1-u06-b01", "itemIds": ["v-a1-0166", "v-a1-0167", "v-a1-0168", "v-a1-0169", "v-a1-0170"] },
+    { "id": "a1-u06-b02", "itemIds": ["v-a1-0171", "v-a1-0172", "v-a1-0173", "v-a1-0174", "v-a1-0175"] },
+    { "id": "a1-u06-b03", "itemIds": ["v-a1-0176", "v-a1-0177", "v-a1-0178", "v-a1-0179", "v-a1-0180"] },
+    { "id": "a1-u06-b04", "itemIds": ["g-a1-0021", "v-a1-0181", "v-a1-0182", "v-a1-0183"] },
+    { "id": "a1-u06-b05", "itemIds": ["g-a1-0022", "v-a1-0184", "v-a1-0185", "v-a1-0186", "v-a1-0187"] },
+    { "id": "a1-u06-b06", "itemIds": ["v-a1-0188", "v-a1-0189", "v-a1-0190", "v-a1-0191", "v-a1-0192"] },
+    { "id": "a1-u06-b07", "itemIds": ["g-a1-0023", "v-a1-0193", "v-a1-0194", "v-a1-0195", "v-a1-0196"] },
+    { "id": "a1-u06-b08", "itemIds": ["v-a1-0197", "v-a1-0198", "v-a1-0199", "v-a1-0200", "v-a1-0201"] },
+    { "id": "a1-u06-b09", "itemIds": ["g-a1-0024", "v-a1-0202", "v-a1-0203", "v-a1-0204"] }
+  ]
+}
