@@ -130,12 +130,22 @@ function withoutArticle(key: string): string {
   return rest.length > 0 && ARTICLES.has(first.toLowerCase()) ? rest.join(" ") : key;
 }
 
+// A capital the answer left out: a noun's first letter, or any later word
+// (Auf Wiedersehen, Guten Morgen). The first word of a phrase may go either
+// way, since it only starts a sentence.
+function missesCapital(a: string, f: string, isNoun: boolean): boolean {
+  const aw = a.split(" ");
+  const fw = f.split(" ");
+  if (aw.length !== fw.length) return isNoun && startsUppercase(f) && startsLowercase(a);
+  return fw.some((w, i) => (i > 0 || isNoun) && startsUppercase(w) && startsLowercase(aw[i]));
+}
+
 // Grades `a` against one accepted form `f` (both germanKey output, no article).
 function gradeGerman(a: string, f: string, isNoun: boolean, otherWord: boolean): Graded | null {
   const la = a.toLowerCase();
   const lf = f.toLowerCase();
   const notes: Note[] = [];
-  if (isNoun && startsUppercase(f) && startsLowercase(a)) notes.push("capitalization");
+  if (missesCapital(a, f, isNoun)) notes.push("capitalization");
 
   const m = matchUmlauts(la, lf);
   if (m) {
@@ -165,7 +175,8 @@ export function checkGerman(
   options: CheckOptions = {},
 ): CheckResult {
   const article = item.pos === "noun" ? item.article : undefined;
-  const isNoun = item.pos === "noun";
+  // Proper nouns (Italien, Deutsch) need their capital too.
+  const isNoun = item.pos === "noun" || item.pos === "propn";
   const expected = article ? `${article} ${item.de}` : item.de;
   const display = (form: string) => (article ? `${article} ${form}` : form);
 

@@ -144,11 +144,11 @@ describe("checkMeaning (German → Italian)", () => {
 });
 
 describe("checkGerman (Italian → German)", () => {
-  it("accepts the exact form, ignoring case for non-nouns", () => {
+  it("accepts the exact form, ignoring the case of a phrase's first word", () => {
     expect(checkGerman("danke", word("danke"))).toEqual(correct("danke"));
     expect(checkGerman("Danke", word("danke"))).toEqual(correct("danke"));
     expect(checkGerman("hallo", word("Hallo"))).toEqual(correct("Hallo"));
-    expect(checkGerman("guten morgen", word("Guten Morgen"))).toEqual(correct("Guten Morgen"));
+    expect(checkGerman("guten Morgen", word("Guten Morgen"))).toEqual(correct("Guten Morgen"));
     expect(checkGerman("  Guten   Morgen!  ", word("Guten Morgen"))).toEqual(correct("Guten Morgen"));
   });
 
@@ -280,7 +280,20 @@ describe("checkGerman (Italian → German)", () => {
 
     it("does not ask for an article with proper nouns", () => {
       expect(checkGerman("Italien", word("Italien"))).toEqual(correct("Italien"));
-      expect(checkGerman("italien", word("Italien"))).toEqual(correct("Italien"));
+      expect(checkGerman("italien", word("Italien"))).toEqual(correct("Italien", ["capitalization"]));
+    });
+
+    it("notes a missing capital inside a phrase, but not on its first word", () => {
+      const phrase = (de: string) => item({ pos: "phrase", de, it: ["x"] });
+      expect(checkGerman("Auf wiedersehen", phrase("Auf Wiedersehen"))).toEqual(
+        correct("Auf Wiedersehen", ["capitalization"]),
+      );
+      expect(checkGerman("guten morgen", phrase("Guten Morgen"))).toEqual(
+        correct("Guten Morgen", ["capitalization"]),
+      );
+      expect(checkGerman("guten Morgen", phrase("Guten Morgen"))).toEqual(correct("Guten Morgen"));
+      expect(checkGerman("zu Hause", phrase("zu Hause"))).toEqual(correct("zu Hause"));
+      expect(checkGerman("Wie geht's", phrase("Wie geht's?"))).toEqual(correct("Wie geht's?"));
     });
 
     it("accepts acceptDe for nouns with or without the article", () => {
