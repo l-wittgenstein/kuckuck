@@ -1,0 +1,351 @@
+[
+  {
+    "id": "g-a1-0049",
+    "title": "I colori: Das Kleid ist rot",
+    "explanationIt": [
+      "Dopo sein i colori non cambiano mai, né per il genere né per il numero: Das Kleid ist rot. Die Schuhe sind schwarz.",
+      "Per chiedere di che colore è qualcosa: Welche Farbe hat der Pullover? – Er ist blau.",
+      "Chiaro e scuro si attaccano davanti: hellblau (celeste), dunkelblau (blu scuro), hellgrün, dunkelrot.",
+      "Davanti al nome il colore prende una desinenza (ein rotes Kleid): la vedrai più avanti. Per ora usa i colori dopo sein."
+    ],
+    "pattern": [
+      "rot – rosso",
+      "blau – blu",
+      "hellblau – celeste, azzurro chiaro",
+      "grün – verde",
+      "gelb – giallo",
+      "schwarz – nero",
+      "weiß – bianco",
+      "grau – grigio",
+      "braun – marrone",
+      "rosa – rosa"
+    ],
+    "examples": [
+      { "de": "Welche Farbe hat die Jacke? Sie ist grün.", "it": "Di che colore è la giacca? È verde." },
+      { "de": "Die Hose ist dunkelblau.", "it": "I pantaloni sono blu scuro." },
+      { "de": "Meine Schuhe sind weiß.", "it": "Le mie scarpe sono bianche." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Das Kleid ist rote.",
+        "right": "Das Kleid ist rot.",
+        "explanationIt": "Dopo sein il colore non prende desinenze."
+      },
+      {
+        "wrong": "Die Schuhe sind braune.",
+        "right": "Die Schuhe sind braun.",
+        "explanationIt": "Anche al plurale, dopo sein il colore resta uguale."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0049-e1",
+        "sentence": "Der Pullover ist ___.",
+        "answers": ["schwarz"],
+        "hintIt": "nero",
+        "translationIt": "Il maglione è nero.",
+        "explanationIt": "Nero: schwarz, senza desinenza dopo sein."
+      },
+      {
+        "id": "g-a1-0049-e2",
+        "sentence": "Welche ___ hat das Kleid?",
+        "answers": ["Farbe"],
+        "hintIt": "colore",
+        "translationIt": "Di che colore è il vestito?",
+        "explanationIt": "La domanda è Welche Farbe hat…?"
+      },
+      {
+        "id": "g-a1-0049-e3",
+        "sentence": "Die Tomaten sind ___.",
+        "answers": ["rot"],
+        "hintIt": "rossi",
+        "translationIt": "I pomodori sono rossi.",
+        "explanationIt": "Anche al plurale: rot, senza desinenza."
+      },
+      {
+        "id": "g-a1-0049-e4",
+        "sentence": "Die Schuhe sind ___.",
+        "answers": ["braun"],
+        "hintIt": "marroni",
+        "translationIt": "Le scarpe sono marroni.",
+        "explanationIt": "Marrone: braun, senza desinenza."
+      },
+      {
+        "id": "g-a1-0049-e5",
+        "sentence": "Das Hemd ist ___.",
+        "answers": ["weiß"],
+        "hintIt": "bianca",
+        "translationIt": "La camicia è bianca.",
+        "explanationIt": "Bianco: weiß, con la ß."
+      },
+      {
+        "id": "g-a1-0049-e6",
+        "sentence": "Die Hose ist ___.",
+        "answers": ["dunkelblau"],
+        "hintIt": "blu scuro",
+        "translationIt": "I pantaloni sono blu scuro.",
+        "explanationIt": "Scuro si attacca davanti: dunkel + blau."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0050",
+    "title": "Pronomi all'accusativo: mich, dich, ihn…",
+    "explanationIt": [
+      "Quando una persona è l'oggetto, cioè riceve l'azione, il pronome cambia: Er ruft mich an = mi chiama. Ich besuche dich = vengo a trovarti.",
+      "Cambiano davvero solo ich → mich, du → dich, er → ihn, wir → uns, ihr → euch. sie, es e Sie restano uguali.",
+      "Gli stessi pronomi si usano dopo für e ohne: für dich, ohne mich.",
+      "Di solito il pronome viene subito dopo il verbo coniugato, o dopo il soggetto se questo segue il verbo: Ich rufe dich morgen an. Rufst du mich an?"
+    ],
+    "pattern": [
+      "ich → mich – mi, me",
+      "du → dich – ti, te",
+      "er → ihn – lo, lui",
+      "sie → sie – la, lei",
+      "es → es – lo",
+      "wir → uns – ci, noi",
+      "ihr → euch – vi, voi",
+      "sie → sie – li, le, loro",
+      "Sie → Sie – La, Lei"
+    ],
+    "examples": [
+      { "de": "Ich rufe dich morgen an.", "it": "Ti chiamo domani." },
+      { "de": "Besuchst du uns am Wochenende?", "it": "Vieni a trovarci nel fine settimana?" },
+      { "de": "Der Kuchen ist für euch.", "it": "La torta è per voi." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich rufe du an.",
+        "right": "Ich rufe dich an.",
+        "explanationIt": "Come oggetto du diventa dich."
+      },
+      {
+        "wrong": "Ich sehe er.",
+        "right": "Ich sehe ihn.",
+        "explanationIt": "Come oggetto er diventa ihn."
+      },
+      {
+        "wrong": "Das ist für ich.",
+        "right": "Das ist für mich.",
+        "explanationIt": "Dopo für ci vuole l'accusativo: mich."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0050-e1",
+        "sentence": "Rufst du ___ morgen an?",
+        "answers": ["mich"],
+        "hintIt": "mi",
+        "translationIt": "Mi chiami domani?",
+        "explanationIt": "Come oggetto ich diventa mich."
+      },
+      {
+        "id": "g-a1-0050-e2",
+        "sentence": "Ich verstehe ___ nicht.",
+        "answers": ["dich"],
+        "hintIt": "ti",
+        "translationIt": "Non ti capisco.",
+        "explanationIt": "Come oggetto du diventa dich."
+      },
+      {
+        "id": "g-a1-0050-e3",
+        "sentence": "Wir besuchen ___ am Sonntag.",
+        "answers": ["ihn"],
+        "hintIt": "lo (er)",
+        "translationIt": "Lo andiamo a trovare domenica.",
+        "explanationIt": "Come oggetto er diventa ihn."
+      },
+      {
+        "id": "g-a1-0050-e4",
+        "sentence": "Das Geschenk ist für ___.",
+        "answers": ["euch"],
+        "hintIt": "voi",
+        "translationIt": "Il regalo è per voi.",
+        "explanationIt": "Dopo für: ihr diventa euch."
+      },
+      {
+        "id": "g-a1-0050-e5",
+        "sentence": "Er lädt ___ ein.",
+        "answers": ["uns"],
+        "hintIt": "ci (wir)",
+        "translationIt": "Ci invita.",
+        "explanationIt": "Come oggetto wir diventa uns."
+      },
+      {
+        "id": "g-a1-0050-e6",
+        "sentence": "Anna ist nett. Ich besuche ___ morgen.",
+        "answers": ["sie"],
+        "caseSensitive": true,
+        "hintIt": "la (Anna)",
+        "translationIt": "Anna è simpatica. Domani la vado a trovare.",
+        "explanationIt": "sie (lei) resta uguale anche come oggetto."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0051",
+    "title": "Ich nehme ihn: i pronomi per le cose",
+    "explanationIt": [
+      "Come er, sie ed es, anche ihn, sie ed es valgono per le cose, secondo il genere tedesco: Der Rock? Ich nehme ihn.",
+      "Il genere tedesco spesso non è quello italiano: la gonna è der Rock, quindi ihn (in italiano «la prendo»); i pantaloni sono die Hose, quindi sie (in italiano «li prendo»).",
+      "Al plurale sempre sie: Die Schuhe? Ich nehme sie."
+    ],
+    "pattern": [
+      "der Rock → Ich nehme ihn. – La prendo.",
+      "die Jacke → Ich nehme sie. – La prendo.",
+      "das Kleid → Ich nehme es. – Lo prendo.",
+      "die Hose → Ich kaufe sie. – Li compro.",
+      "die Schuhe → Ich nehme sie. – Le prendo."
+    ],
+    "examples": [
+      { "de": "Der Mantel ist schön. Ich probiere ihn an.", "it": "Il cappotto è bello. Lo provo." },
+      { "de": "Wo ist meine Brille? Ich suche sie.", "it": "Dove sono i miei occhiali? Li cerco." },
+      { "de": "Das T-Shirt ist zu klein. Ich nehme es nicht.", "it": "La maglietta è troppo piccola. Non la prendo." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Der Mantel? Ich nehme es.",
+        "right": "Der Mantel? Ich nehme ihn.",
+        "explanationIt": "der Mantel è maschile: ihn."
+      },
+      {
+        "wrong": "Der Rock ist schön. Ich nehme sie.",
+        "right": "Der Rock ist schön. Ich nehme ihn.",
+        "explanationIt": "In italiano «la gonna» è femminile, ma der Rock è maschile: ihn."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0051-e1",
+        "sentence": "Der Rock ist schön. Ich nehme ___.",
+        "answers": ["ihn"],
+        "hintIt": "der Rock",
+        "translationIt": "La gonna è bella. La prendo.",
+        "explanationIt": "der Rock è maschile: ihn."
+      },
+      {
+        "id": "g-a1-0051-e2",
+        "sentence": "Die Jacke ist zu teuer. Ich kaufe ___ nicht.",
+        "answers": ["sie"],
+        "hintIt": "die Jacke",
+        "translationIt": "La giacca è troppo cara. Non la compro.",
+        "explanationIt": "die Jacke è femminile: sie."
+      },
+      {
+        "id": "g-a1-0051-e3",
+        "sentence": "Das Kleid passt. Ich nehme ___.",
+        "answers": ["es"],
+        "hintIt": "das Kleid",
+        "translationIt": "Il vestito va bene. Lo prendo.",
+        "explanationIt": "das Kleid è neutro: es."
+      },
+      {
+        "id": "g-a1-0051-e4",
+        "sentence": "Wie findest du den Pullover? Ich finde ___ toll.",
+        "answers": ["ihn"],
+        "hintIt": "der Pullover",
+        "translationIt": "Come ti sembra il maglione? Lo trovo fantastico.",
+        "explanationIt": "der Pullover è maschile: ihn."
+      },
+      {
+        "id": "g-a1-0051-e5",
+        "sentence": "Die Schuhe sind schön. Ich probiere ___ an.",
+        "answers": ["sie"],
+        "hintIt": "die Schuhe",
+        "translationIt": "Le scarpe sono belle. Le provo.",
+        "explanationIt": "Al plurale: sie."
+      },
+      {
+        "id": "g-a1-0051-e6",
+        "sentence": "Wo ist mein Hemd? Ich suche ___.",
+        "answers": ["es"],
+        "hintIt": "das Hemd",
+        "translationIt": "Dov'è la mia camicia? La cerco.",
+        "explanationIt": "das Hemd è neutro: es, anche se «la camicia» è femminile."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0052",
+    "title": "Quale? Questo: welcher e dieser",
+    "explanationIt": [
+      "welcher (quale) e dieser (questo) prendono le stesse desinenze dell'articolo: der → welcher, dieser; die → welche, diese; das → welches, dieses; plurale welche, diese.",
+      "All'accusativo cambia solo il maschile, come der → den: welchen, diesen. Welchen Pullover nimmst du? Diesen.",
+      "Per scegliere: Welche Hose gefällt dir? Diese hier."
+    ],
+    "pattern": [
+      "der Rock → welcher Rock? dieser Rock – quale gonna? questa gonna",
+      "die Jacke → welche Jacke? diese Jacke – quale giacca? questa giacca",
+      "das Hemd → welches Hemd? dieses Hemd – quale camicia? questa camicia",
+      "die Schuhe → welche Schuhe? diese Schuhe – quali scarpe? queste scarpe",
+      "Welchen Rock nimmst du? Diesen. – Quale gonna prendi? Questa."
+    ],
+    "examples": [
+      { "de": "Welches Kleid gefällt dir?", "it": "Quale vestito ti piace?" },
+      { "de": "Dieser Mantel ist zu teuer.", "it": "Questo cappotto è troppo caro." },
+      { "de": "Ich nehme diese Schuhe.", "it": "Prendo queste scarpe." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Welche Rock gefällt dir?",
+        "right": "Welcher Rock gefällt dir?",
+        "explanationIt": "der Rock è maschile: welcher."
+      },
+      {
+        "wrong": "Ich nehme dieser Mantel.",
+        "right": "Ich nehme diesen Mantel.",
+        "explanationIt": "Mantel è l'oggetto ed è maschile: diesen."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0052-e1",
+        "sentence": "___ Kleid gefällt dir?",
+        "answers": ["Welches"],
+        "hintIt": "quale (das Kleid)",
+        "translationIt": "Quale vestito ti piace?",
+        "explanationIt": "das Kleid è neutro: welches."
+      },
+      {
+        "id": "g-a1-0052-e2",
+        "sentence": "___ Rock ist schön.",
+        "answers": ["Dieser"],
+        "hintIt": "questa (der Rock)",
+        "translationIt": "Questa gonna è bella.",
+        "explanationIt": "der Rock è maschile: dieser."
+      },
+      {
+        "id": "g-a1-0052-e3",
+        "sentence": "Ich nehme ___ Jacke.",
+        "answers": ["diese"],
+        "hintIt": "questa (die Jacke)",
+        "translationIt": "Prendo questa giacca.",
+        "explanationIt": "die Jacke è femminile: diese."
+      },
+      {
+        "id": "g-a1-0052-e4",
+        "sentence": "___ Pullover nimmst du?",
+        "answers": ["Welchen"],
+        "hintIt": "quale (der Pullover, oggetto)",
+        "translationIt": "Quale maglione prendi?",
+        "explanationIt": "Pullover è l'oggetto ed è maschile: welchen."
+      },
+      {
+        "id": "g-a1-0052-e5",
+        "sentence": "Ich nehme ___ Mantel.",
+        "answers": ["diesen"],
+        "hintIt": "questo (der Mantel, oggetto)",
+        "translationIt": "Prendo questo cappotto.",
+        "explanationIt": "Mantel è l'oggetto ed è maschile: diesen."
+      },
+      {
+        "id": "g-a1-0052-e6",
+        "sentence": "___ Schuhe sind modern.",
+        "answers": ["Diese"],
+        "hintIt": "queste (die Schuhe)",
+        "translationIt": "Queste scarpe sono alla moda.",
+        "explanationIt": "Al plurale: diese."
+      }
+    ]
+  }
+]

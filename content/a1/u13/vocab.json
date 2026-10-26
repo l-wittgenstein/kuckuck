@@ -1,0 +1,516 @@
+[
+  {
+    "id": "v-a1-0449",
+    "pos": "noun",
+    "de": "Kleidung",
+    "article": "die",
+    "plural": null,
+    "it": ["abbigliamento", "vestiti", "abiti"],
+    "promptIt": "l'abbigliamento (i vestiti)",
+    "noteIt": "In tedesco è singolare: die Kleidung = i vestiti.",
+    "examples": [
+      { "de": "Die Kleidung ist hier teuer.", "it": "Qui i vestiti sono cari." },
+      { "de": "Ich kaufe neue Kleidung.", "it": "Compro vestiti nuovi." }
+    ]
+  },
+  {
+    "id": "v-a1-0450",
+    "pos": "noun",
+    "de": "Hose",
+    "article": "die",
+    "plural": "Hosen",
+    "it": ["pantaloni", "pantalone"],
+    "promptIt": "i pantaloni",
+    "noteIt": "In italiano è plurale, in tedesco singolare: eine Hose = un paio di pantaloni.",
+    "examples": [
+      { "de": "Die Hose ist zu lang.", "it": "I pantaloni sono troppo lunghi." },
+      { "de": "Ich suche eine Hose.", "it": "Cerco un paio di pantaloni." }
+    ]
+  },
+  {
+    "id": "v-a1-0451",
+    "pos": "noun",
+    "de": "Hemd",
+    "article": "das",
+    "plural": "Hemden",
+    "it": ["camicia"],
+    "promptIt": "la camicia",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das Hemd.",
+    "examples": [
+      { "de": "Das Hemd ist weiß.", "it": "La camicia è bianca." },
+      { "de": "Er trägt ein Hemd.", "it": "Indossa una camicia." }
+    ]
+  },
+  {
+    "id": "v-a1-0452",
+    "pos": "noun",
+    "de": "Kleid",
+    "article": "das",
+    "plural": "Kleider",
+    "it": ["vestito", "abito"],
+    "promptIt": "il vestito (da donna)",
+    "noteIt": "Al plurale die Kleider vuol dire anche «i vestiti» in generale.",
+    "examples": [
+      { "de": "Das Kleid ist schön.", "it": "Il vestito è bello." },
+      { "de": "Sie trägt heute ein Kleid.", "it": "Oggi indossa un vestito." }
+    ]
+  },
+  {
+    "id": "v-a1-0453",
+    "pos": "noun",
+    "de": "Rock",
+    "article": "der",
+    "plural": "Röcke",
+    "it": ["gonna"],
+    "promptIt": "la gonna",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Rock.",
+    "examples": [
+      { "de": "Der Rock ist kurz.", "it": "La gonna è corta." },
+      { "de": "Ich suche einen Rock.", "it": "Cerco una gonna." }
+    ]
+  },
+  {
+    "id": "v-a1-0454",
+    "pos": "noun",
+    "de": "Jacke",
+    "article": "die",
+    "plural": "Jacken",
+    "it": ["giacca", "giubbotto", "giacchetta"],
+    "promptIt": "la giacca",
+    "examples": [
+      { "de": "Die Jacke ist warm.", "it": "La giacca è calda." },
+      { "de": "Ich brauche eine Jacke.", "it": "Mi serve una giacca." }
+    ]
+  },
+  {
+    "id": "v-a1-0455",
+    "pos": "noun",
+    "de": "Mantel",
+    "article": "der",
+    "plural": "Mäntel",
+    "it": ["cappotto"],
+    "promptIt": "il cappotto",
+    "examples": [
+      { "de": "Im Winter trage ich einen Mantel.", "it": "D'inverno porto il cappotto." },
+      { "de": "Der Mantel ist zu groß.", "it": "Il cappotto è troppo grande." }
+    ]
+  },
+  {
+    "id": "v-a1-0456",
+    "pos": "noun",
+    "de": "Pullover",
+    "article": "der",
+    "plural": "Pullover",
+    "it": ["maglione", "pullover", "maglia"],
+    "promptIt": "il maglione",
+    "acceptDe": ["Pulli"],
+    "noteIt": "Parlando si dice spesso der Pulli.",
+    "examples": [
+      { "de": "Der Pullover ist warm.", "it": "Il maglione è caldo." },
+      { "de": "Ich trage einen Pullover.", "it": "Porto un maglione." }
+    ]
+  },
+  {
+    "id": "v-a1-0457",
+    "pos": "noun",
+    "de": "T-Shirt",
+    "article": "das",
+    "plural": "T-Shirts",
+    "it": ["maglietta", "t-shirt"],
+    "promptIt": "la maglietta",
+    "noteIt": "In italiano è femminile, in tedesco neutro: das T-Shirt.",
+    "examples": [
+      { "de": "Das T-Shirt ist weiß.", "it": "La maglietta è bianca." },
+      { "de": "Im Sommer trage ich T-Shirts.", "it": "D'estate porto le magliette." }
+    ]
+  },
+  {
+    "id": "v-a1-0458",
+    "pos": "noun",
+    "de": "Schuh",
+    "article": "der",
+    "plural": "Schuhe",
+    "it": ["scarpa"],
+    "promptIt": "la scarpa",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Schuh.",
+    "examples": [
+      { "de": "Die Schuhe sind neu.", "it": "Le scarpe sono nuove." },
+      { "de": "Wo ist mein Schuh?", "it": "Dov'è la mia scarpa?" }
+    ]
+  },
+  {
+    "id": "v-a1-0459",
+    "pos": "adj",
+    "de": "rot",
+    "it": ["rosso", "rossa"],
+    "promptIt": "rosso",
+    "examples": [
+      { "de": "Die Tomate ist rot.", "it": "Il pomodoro è rosso." },
+      { "de": "Das Auto ist rot.", "it": "La macchina è rossa." }
+    ]
+  },
+  {
+    "id": "v-a1-0460",
+    "pos": "adj",
+    "de": "blau",
+    "it": ["blu", "azzurro", "azzurra"],
+    "promptIt": "blu",
+    "noteIt": "Celeste (azzurro chiaro): hellblau. Blu scuro: dunkelblau.",
+    "examples": [
+      { "de": "Der Himmel ist blau.", "it": "Il cielo è azzurro." },
+      { "de": "Meine Jacke ist blau.", "it": "La mia giacca è blu." }
+    ]
+  },
+  {
+    "id": "v-a1-0461",
+    "pos": "adj",
+    "de": "grün",
+    "it": ["verde"],
+    "promptIt": "verde",
+    "examples": [
+      { "de": "Der Park ist sehr grün.", "it": "Il parco è molto verde." },
+      { "de": "Die Ampel ist grün.", "it": "Il semaforo è verde." }
+    ]
+  },
+  {
+    "id": "v-a1-0462",
+    "pos": "adj",
+    "de": "gelb",
+    "it": ["giallo", "gialla"],
+    "promptIt": "giallo",
+    "examples": [
+      { "de": "Die Banane ist gelb.", "it": "La banana è gialla." },
+      { "de": "Das T-Shirt ist gelb.", "it": "La maglietta è gialla." }
+    ]
+  },
+  {
+    "id": "v-a1-0463",
+    "pos": "adj",
+    "de": "schwarz",
+    "it": ["nero", "nera"],
+    "promptIt": "nero",
+    "examples": [
+      { "de": "Der Kaffee ist schwarz.", "it": "Il caffè è nero." },
+      { "de": "Meine Schuhe sind schwarz.", "it": "Le mie scarpe sono nere." }
+    ]
+  },
+  {
+    "id": "v-a1-0464",
+    "pos": "adj",
+    "de": "weiß",
+    "it": ["bianco", "bianca"],
+    "promptIt": "bianco",
+    "noteIt": "Non confonderlo con ich weiß (io so).",
+    "examples": [
+      { "de": "Das Hemd ist weiß.", "it": "La camicia è bianca." },
+      { "de": "Im Winter ist alles weiß.", "it": "D'inverno è tutto bianco." }
+    ]
+  },
+  {
+    "id": "v-a1-0465",
+    "pos": "adj",
+    "de": "grau",
+    "it": ["grigio", "grigia"],
+    "promptIt": "grigio",
+    "examples": [
+      { "de": "Der Himmel ist grau.", "it": "Il cielo è grigio." },
+      { "de": "Die Katze ist grau.", "it": "Il gatto è grigio." }
+    ]
+  },
+  {
+    "id": "v-a1-0466",
+    "pos": "adj",
+    "de": "braun",
+    "it": ["marrone", "castano", "castana"],
+    "promptIt": "marrone",
+    "examples": [
+      { "de": "Die Schuhe sind braun.", "it": "Le scarpe sono marroni." },
+      { "de": "Der Hund ist braun.", "it": "Il cane è marrone." }
+    ]
+  },
+  {
+    "id": "v-a1-0467",
+    "pos": "noun",
+    "de": "Farbe",
+    "article": "die",
+    "plural": "Farben",
+    "it": ["colore"],
+    "promptIt": "il colore",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Farbe.",
+    "examples": [
+      { "de": "Welche Farbe hat dein Auto?", "it": "Di che colore è la tua macchina?" },
+      { "de": "Die Farben sind schön.", "it": "I colori sono belli." }
+    ]
+  },
+  {
+    "id": "v-a1-0468",
+    "pos": "adj",
+    "de": "rosa",
+    "it": ["rosa"],
+    "promptIt": "rosa (il colore)",
+    "noteIt": "Di solito non cambia, come in italiano: ein rosa Kleid.",
+    "examples": [
+      { "de": "Das Kleid ist rosa.", "it": "Il vestito è rosa." },
+      { "de": "Die Tasche ist rosa.", "it": "La borsa è rosa." }
+    ]
+  },
+  {
+    "id": "v-a1-0469",
+    "pos": "adj",
+    "de": "bunt",
+    "it": ["colorato", "colorata", "variopinto", "variopinta"],
+    "promptIt": "colorato",
+    "examples": [
+      { "de": "Das T-Shirt ist bunt.", "it": "La maglietta è colorata." },
+      { "de": "Der Markt ist bunt.", "it": "Il mercato è pieno di colori." }
+    ]
+  },
+  {
+    "id": "v-a1-0470",
+    "pos": "noun",
+    "de": "Tasche",
+    "article": "die",
+    "plural": "Taschen",
+    "it": ["borsa", "tasca"],
+    "promptIt": "la borsa",
+    "noteIt": "Vuol dire anche la tasca dei pantaloni.",
+    "examples": [
+      { "de": "Die Tasche ist schwer.", "it": "La borsa è pesante." },
+      { "de": "Das Handy ist in der Tasche.", "it": "Il cellulare è nella borsa." }
+    ]
+  },
+  {
+    "id": "v-a1-0471",
+    "pos": "noun",
+    "de": "Größe",
+    "article": "die",
+    "plural": "Größen",
+    "it": ["taglia", "misura", "grandezza"],
+    "promptIt": "la taglia",
+    "noteIt": "Le taglie tedesche sono diverse da quelle italiane: una 38 tedesca è circa una 44 italiana.",
+    "examples": [
+      { "de": "Welche Größe haben Sie?", "it": "Che taglia ha?" },
+      { "de": "Ich trage Größe 38.", "it": "Porto la taglia 38." }
+    ]
+  },
+  {
+    "id": "v-a1-0472",
+    "pos": "noun",
+    "de": "Socke",
+    "article": "die",
+    "plural": "Socken",
+    "it": ["calzino", "calza"],
+    "promptIt": "il calzino",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Socke.",
+    "examples": [
+      { "de": "Die Socken sind warm.", "it": "I calzini sono caldi." },
+      { "de": "Wo ist meine Socke?", "it": "Dov'è il mio calzino?" }
+    ]
+  },
+  {
+    "id": "v-a1-0473",
+    "pos": "verb",
+    "de": "anziehen",
+    "it": ["mettersi", "mettere", "indossare", "vestirsi"],
+    "promptIt": "mettersi (un vestito)",
+    "noteIt": "Separabile: Ich ziehe eine Jacke an. anziehen = mettersi (l'azione); tragen = avere addosso.",
+    "examples": [
+      { "de": "Ich ziehe eine Jacke an.", "it": "Mi metto una giacca." },
+      { "de": "Was ziehst du heute an?", "it": "Cosa ti metti oggi?" }
+    ]
+  },
+  {
+    "id": "v-a1-0474",
+    "pos": "verb",
+    "de": "tragen",
+    "it": ["indossare", "portare"],
+    "promptIt": "indossare (portare addosso)",
+    "noteIt": "Cambia vocale: du trägst, er trägt. Vuol dire anche portare un peso.",
+    "examples": [
+      { "de": "Sie trägt ein Kleid.", "it": "Indossa un vestito." },
+      { "de": "Er trägt eine Brille.", "it": "Porta gli occhiali." }
+    ]
+  },
+  {
+    "id": "v-a1-0475",
+    "pos": "verb",
+    "de": "anprobieren",
+    "it": ["provare", "provarsi"],
+    "promptIt": "provare (un vestito)",
+    "noteIt": "Separabile: Ich probiere die Hose an.",
+    "examples": [
+      { "de": "Kann ich die Hose anprobieren?", "it": "Posso provare i pantaloni?" },
+      { "de": "Ich probiere den Rock an.", "it": "Provo la gonna." }
+    ]
+  },
+  {
+    "id": "v-a1-0476",
+    "pos": "verb",
+    "de": "passen",
+    "it": ["andare bene", "essere della misura giusta"],
+    "promptIt": "andare bene (di misura)",
+    "noteIt": "Die Hose passt = i pantaloni sono della misura giusta. Anche: Das passt! = va bene! «Ti sta bene» (ti dona) invece è: Das steht dir.",
+    "examples": [
+      { "de": "Die Hose passt nicht.", "it": "I pantaloni non vanno bene." },
+      { "de": "Passt dir Montag?", "it": "Lunedì ti va bene?" }
+    ]
+  },
+  {
+    "id": "v-a1-0477",
+    "pos": "verb",
+    "de": "gefallen",
+    "it": ["piacere"],
+    "promptIt": "piacere (come in italiano: il vestito mi piace)",
+    "noteIt": "Funziona come «piacere»: Das Kleid gefällt mir = il vestito mi piace. Cambia vocale: es gefällt.",
+    "examples": [
+      { "de": "Das Kleid gefällt mir.", "it": "Il vestito mi piace." },
+      { "de": "Gefällt dir die Jacke?", "it": "Ti piace la giacca?" }
+    ]
+  },
+  {
+    "id": "v-a1-0478",
+    "pos": "adj",
+    "de": "kurz",
+    "it": ["corto", "corta", "breve"],
+    "promptIt": "corto",
+    "examples": [
+      { "de": "Der Rock ist kurz.", "it": "La gonna è corta." },
+      { "de": "Die Pause ist kurz.", "it": "La pausa è breve." }
+    ]
+  },
+  {
+    "id": "v-a1-0479",
+    "pos": "adj",
+    "de": "lang",
+    "it": ["lungo", "lunga"],
+    "promptIt": "lungo",
+    "examples": [
+      { "de": "Die Hose ist zu lang.", "it": "I pantaloni sono troppo lunghi." },
+      { "de": "Der Film ist sehr lang.", "it": "Il film è molto lungo." }
+    ]
+  },
+  {
+    "id": "v-a1-0480",
+    "pos": "adj",
+    "de": "eng",
+    "it": ["stretto", "stretta"],
+    "promptIt": "stretto",
+    "noteIt": "Il contrario è weit (largo), che vuol dire anche lontano.",
+    "examples": [
+      { "de": "Die Hose ist zu eng.", "it": "I pantaloni sono troppo stretti." },
+      { "de": "Die Straße ist eng.", "it": "La strada è stretta." }
+    ]
+  },
+  {
+    "id": "v-a1-0481",
+    "pos": "det",
+    "de": "welcher",
+    "it": ["quale", "che"],
+    "promptIt": "quale? (al maschile)",
+    "noteIt": "Prende le desinenze di der/die/das: welcher, welche, welches.",
+    "examples": [
+      { "de": "Welcher Rock gefällt dir?", "it": "Quale gonna ti piace?" },
+      { "de": "Welche Farbe magst du?", "it": "Che colore ti piace?" }
+    ]
+  },
+  {
+    "id": "v-a1-0482",
+    "pos": "det",
+    "de": "dieser",
+    "it": ["questo", "questa"],
+    "promptIt": "questo (al maschile)",
+    "noteIt": "Prende le desinenze di der/die/das: dieser, diese, dieses.",
+    "examples": [
+      { "de": "Dieser Pullover ist schön.", "it": "Questo maglione è bello." },
+      { "de": "Ich nehme diese Jacke.", "it": "Prendo questa giacca." }
+    ]
+  },
+  {
+    "id": "v-a1-0483",
+    "pos": "adj",
+    "de": "hübsch",
+    "it": ["carino", "carina", "grazioso", "graziosa"],
+    "promptIt": "carino (bello da vedere)",
+    "noteIt": "Per l'aspetto: hübsch. Per il carattere (una persona carina, gentile): nett.",
+    "examples": [
+      { "de": "Das Kleid ist hübsch.", "it": "Il vestito è carino." },
+      { "de": "Die Wohnung ist klein, aber hübsch.", "it": "L'appartamento è piccolo, ma carino." }
+    ]
+  },
+  {
+    "id": "v-a1-0484",
+    "pos": "adj",
+    "de": "modern",
+    "it": ["moderno", "moderna", "alla moda"],
+    "promptIt": "moderno",
+    "examples": [
+      { "de": "Die Jacke ist modern.", "it": "La giacca è alla moda." },
+      { "de": "Das Haus ist sehr modern.", "it": "La casa è molto moderna." }
+    ]
+  },
+  {
+    "id": "v-a1-0485",
+    "pos": "noun",
+    "de": "Mütze",
+    "article": "die",
+    "plural": "Mützen",
+    "it": ["berretto", "cuffia", "cappello"],
+    "promptIt": "il berretto (di lana)",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Mütze.",
+    "examples": [
+      { "de": "Im Winter trage ich eine Mütze.", "it": "D'inverno porto un berretto." },
+      { "de": "Die Mütze ist warm.", "it": "Il berretto è caldo." }
+    ]
+  },
+  {
+    "id": "v-a1-0486",
+    "pos": "noun",
+    "de": "Brille",
+    "article": "die",
+    "plural": "Brillen",
+    "it": ["occhiali"],
+    "promptIt": "gli occhiali",
+    "noteIt": "In italiano è plurale, in tedesco singolare: eine Brille = un paio di occhiali.",
+    "examples": [
+      { "de": "Er trägt eine Brille.", "it": "Porta gli occhiali." },
+      { "de": "Wo ist meine Brille?", "it": "Dove sono i miei occhiali?" }
+    ]
+  },
+  {
+    "id": "v-a1-0487",
+    "pos": "noun",
+    "de": "Geschäft",
+    "article": "das",
+    "plural": "Geschäfte",
+    "it": ["negozio", "affare"],
+    "promptIt": "il negozio",
+    "noteIt": "Vuol dire anche «affare».",
+    "examples": [
+      { "de": "Das Geschäft macht um zehn Uhr auf.", "it": "Il negozio apre alle dieci." },
+      { "de": "In der Stadt gibt es viele Geschäfte.", "it": "In città ci sono molti negozi." }
+    ]
+  },
+  {
+    "id": "v-a1-0488",
+    "pos": "adv",
+    "de": "zu",
+    "it": ["troppo", "a", "da", "verso"],
+    "promptIt": "troppo (davanti a un aggettivo)",
+    "noteIt": "zu davanti a un aggettivo = troppo: zu teuer. È anche la preposizione «a, da»: zum Bahnhof.",
+    "examples": [
+      { "de": "Das ist zu teuer.", "it": "È troppo caro." },
+      { "de": "Die Schuhe sind zu klein.", "it": "Le scarpe sono troppo piccole." }
+    ]
+  },
+  {
+    "id": "v-a1-0489",
+    "pos": "adj",
+    "de": "kaputt",
+    "it": ["rotto", "rotta", "guasto", "guasta"],
+    "promptIt": "rotto (guasto)",
+    "examples": [
+      { "de": "Mein Handy ist kaputt.", "it": "Il mio cellulare è rotto." },
+      { "de": "Die Tasche ist kaputt.", "it": "La borsa è rotta." }
+    ]
+  }
+]

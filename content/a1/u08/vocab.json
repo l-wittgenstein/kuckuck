@@ -320,7 +320,7 @@
     "id": "v-a1-0269",
     "pos": "prep",
     "de": "zu",
-    "it": ["a", "da", "verso"],
+    "it": ["a", "da", "verso", "troppo"],
     "promptIt": "a / da (verso un edificio o una persona, non una città)",
     "noteIt": "zu + dem = zum, zu + der = zur: zum Bahnhof, zur Post.",
     "examples": [

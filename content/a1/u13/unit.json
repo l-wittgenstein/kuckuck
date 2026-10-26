@@ -1,0 +1,18 @@
+{
+  "id": "a1-u13",
+  "level": "a1",
+  "order": 13,
+  "title": "Kleidung: i vestiti",
+  "summary": "Vestiti e colori, provare e comprare; i pronomi all'accusativo (mich, dich, ihn…), anche per le cose; welcher e dieser.",
+  "batches": [
+    { "id": "a1-u13-b01", "itemIds": ["v-a1-0449", "v-a1-0450", "v-a1-0451", "v-a1-0452", "v-a1-0453"] },
+    { "id": "a1-u13-b02", "itemIds": ["v-a1-0454", "v-a1-0455", "v-a1-0456", "v-a1-0458", "v-a1-0488"] },
+    { "id": "a1-u13-b03", "itemIds": ["v-a1-0459", "v-a1-0460", "v-a1-0461", "v-a1-0462", "v-a1-0463"] },
+    { "id": "a1-u13-b04", "itemIds": ["g-a1-0049", "v-a1-0464", "v-a1-0465", "v-a1-0466", "v-a1-0467"] },
+    { "id": "a1-u13-b05", "itemIds": ["v-a1-0468", "v-a1-0469", "v-a1-0470", "v-a1-0471", "v-a1-0472"] },
+    { "id": "a1-u13-b06", "itemIds": ["g-a1-0050", "v-a1-0473", "v-a1-0474", "v-a1-0475", "v-a1-0476"] },
+    { "id": "a1-u13-b07", "itemIds": ["g-a1-0051", "v-a1-0477", "v-a1-0478", "v-a1-0479", "v-a1-0480"] },
+    { "id": "a1-u13-b08", "itemIds": ["g-a1-0052", "v-a1-0481", "v-a1-0482", "v-a1-0483", "v-a1-0484"] },
+    { "id": "a1-u13-b09", "itemIds": ["v-a1-0485", "v-a1-0486", "v-a1-0487", "v-a1-0457", "v-a1-0489"] }
+  ]
+}
