@@ -58,4 +58,19 @@ describe("backup", () => {
       /too-new/,
     );
   });
+
+  it("rejects damaged rows and leaves the phone untouched", async () => {
+    const text = await exportBackup(await withProgress(), t0);
+    const damage = (edit: (b: any) => void) => {
+      const b = JSON.parse(text);
+      edit(b);
+      return () => parseBackup(JSON.stringify(b));
+    };
+    expect(damage((b) => (b.tables.cards[0].due = "domani"))).toThrow(/damaged/);
+    expect(damage((b) => delete b.tables.cards[0].srs)).toThrow(/damaged/);
+    expect(damage((b) => (b.tables.cards[0].srs.due = { $date: "not a date" }))).toThrow(/damaged/);
+    expect(damage((b) => (b.tables.reviews[0].outcome = "maybe"))).toThrow(/damaged/);
+    expect(damage((b) => b.tables.settings.push({ key: "lastBackupAt", value: "ieri" }))).toThrow(/damaged/);
+    expect(damage((b) => (b.exportedAt = "ieri"))).toThrow(/not-backup/);
+  });
 });
