@@ -47,3 +47,40 @@ export const levels: LevelContent[] = manifest.levels.map((levelId) => {
 export function findUnit(unitId: string): UnitContent | undefined {
   return levels.flatMap((l) => l.unitContents).find((u) => u.id === unitId);
 }
+
+export type ContentItem =
+  | { kind: "vocab"; item: VocabItem }
+  | { kind: "grammar"; item: GrammarItem };
+
+export interface BatchInfo {
+  id: string;
+  index: number; // 0-based position in the unit
+  unit: UnitContent;
+  items: ContentItem[];
+}
+
+const itemsById = new Map<string, ContentItem>();
+for (const unit of levels.flatMap((l) => l.unitContents)) {
+  for (const item of unit.vocab) itemsById.set(item.id, { kind: "vocab", item });
+  for (const item of unit.grammar) itemsById.set(item.id, { kind: "grammar", item });
+}
+
+export function findItem(itemId: string): ContentItem | undefined {
+  return itemsById.get(itemId);
+}
+
+// Every batch of every unit, in the order she studies them.
+export const allBatches: BatchInfo[] = levels
+  .flatMap((l) => l.unitContents)
+  .flatMap((unit) =>
+    unit.batches.map((batch, index) => ({
+      id: batch.id,
+      index,
+      unit,
+      items: batch.itemIds.map((id) => itemsById.get(id)!),
+    })),
+  );
+
+export function findBatch(batchId: string): BatchInfo | undefined {
+  return allBatches.find((b) => b.id === batchId);
+}
