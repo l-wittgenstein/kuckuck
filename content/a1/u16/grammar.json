@@ -1,0 +1,376 @@
+[
+  {
+    "id": "g-a1-0061",
+    "title": "Il Perfekt con sein: Ich bin gefahren",
+    "explanationIt": [
+      "Alcuni verbi formano il Perfekt con sein invece di haben. Sono soprattutto i verbi di movimento da un posto a un altro: gehen, fahren, kommen, fliegen, laufen.",
+      "Vogliono sein anche i verbi di cambiamento, come aufstehen, e tre verbi da ricordare: sein (gewesen), bleiben (geblieben), passieren (passiert).",
+      "Somiglia all'italiano (sono andata, sono rimasta), ma non sempre: Ich bin gelaufen = ho corso.",
+      "Molti di questi participi sono irregolari: gegangen, gefahren, gekommen, geflogen, gewesen, geblieben."
+    ],
+    "pattern": [
+      "gehen → ich bin gegangen – sono andata",
+      "fahren → ich bin gefahren – sono andata (con un mezzo)",
+      "kommen → ich bin gekommen – sono venuta",
+      "fliegen → ich bin geflogen – sono andata in aereo",
+      "laufen → ich bin gelaufen – ho corso",
+      "sein → ich bin gewesen – sono stata",
+      "bleiben → ich bin geblieben – sono rimasta",
+      "passieren → es ist passiert – è successo"
+    ],
+    "examples": [
+      { "de": "Wir sind nach Rom geflogen.", "it": "Siamo andati a Roma in aereo." },
+      { "de": "Er ist gestern gekommen.", "it": "È arrivato ieri." },
+      { "de": "Bist du schon in Berlin gewesen?", "it": "Sei già stata a Berlino?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe nach Rom gefahren.",
+        "right": "Ich bin nach Rom gefahren.",
+        "explanationIt": "fahren è un movimento da un posto a un altro: sein."
+      },
+      {
+        "wrong": "Wir sind ins Kino gegeht.",
+        "right": "Wir sind ins Kino gegangen.",
+        "explanationIt": "gehen è irregolare: gegangen."
+      },
+      {
+        "wrong": "Was hat passiert?",
+        "right": "Was ist passiert?",
+        "explanationIt": "passieren vuole sein."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0061-e1",
+        "sentence": "Ich ___ nach Berlin gefahren.",
+        "answers": ["bin"],
+        "hintIt": "sein o haben?",
+        "translationIt": "Sono andata a Berlino.",
+        "explanationIt": "fahren è un movimento: sein. Con ich: bin."
+      },
+      {
+        "id": "g-a1-0061-e2",
+        "sentence": "Wir sind ins Kino ___.",
+        "answers": ["gegangen"],
+        "hintIt": "gehen",
+        "translationIt": "Siamo andati al cinema.",
+        "explanationIt": "gehen → gegangen."
+      },
+      {
+        "id": "g-a1-0061-e3",
+        "sentence": "Was ___ passiert?",
+        "answers": ["ist"],
+        "hintIt": "sein o haben?",
+        "translationIt": "Cos'è successo?",
+        "explanationIt": "passieren vuole sein: ist passiert."
+      },
+      {
+        "id": "g-a1-0061-e4",
+        "sentence": "Er ist nach Spanien ___.",
+        "answers": ["geflogen"],
+        "hintIt": "fliegen",
+        "translationIt": "È andato in Spagna in aereo.",
+        "explanationIt": "fliegen → geflogen."
+      },
+      {
+        "id": "g-a1-0061-e5",
+        "sentence": "___ du schon in Wien gewesen?",
+        "answers": ["Bist"],
+        "hintIt": "sein o haben?",
+        "translationIt": "Sei già stata a Vienna?",
+        "explanationIt": "sein vuole sein: Bist du… gewesen?"
+      },
+      {
+        "id": "g-a1-0061-e6",
+        "sentence": "Wir sind zu Hause ___.",
+        "answers": ["geblieben"],
+        "hintIt": "bleiben",
+        "translationIt": "Siamo rimasti a casa.",
+        "explanationIt": "bleiben → geblieben."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0062",
+    "title": "Il participio dei verbi separabili: eingekauft",
+    "explanationIt": [
+      "Nei verbi separabili il ge- va in mezzo, tra il prefisso e il verbo: einkaufen → eingekauft, anrufen → angerufen, aufstehen → aufgestanden. Se il verbo di base finisce in -ieren, niente ge-: anprobieren → anprobiert.",
+      "Il participio è una parola sola e va alla fine della frase: Ich habe meine Mutter angerufen.",
+      "haben o sein di solito dipende dal verbo di base: ankommen vuole sein come kommen (Der Zug ist angekommen); fernsehen vuole haben come sehen (Ich habe ferngesehen). Eccezione: aufstehen vuole sein, anche se stehen vuole haben."
+    ],
+    "pattern": [
+      "einkaufen → eingekauft – fatto la spesa",
+      "aufräumen → aufgeräumt – messo in ordine",
+      "anrufen → angerufen – telefonato",
+      "fernsehen → ferngesehen – guardato la TV",
+      "aufstehen → aufgestanden – alzata",
+      "ankommen → angekommen – arrivata",
+      "umsteigen → umgestiegen – cambiato (treno)",
+      "einladen → eingeladen – invitato"
+    ],
+    "examples": [
+      { "de": "Ich habe am Samstag eingekauft.", "it": "Sabato ho fatto la spesa." },
+      { "de": "Wann bist du heute aufgestanden?", "it": "A che ora ti sei alzata oggi?" },
+      { "de": "Wir haben unsere Freunde eingeladen.", "it": "Abbiamo invitato i nostri amici." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe geeinkauft.",
+        "right": "Ich habe eingekauft.",
+        "explanationIt": "Nei verbi separabili ge- va in mezzo: ein-ge-kauft."
+      },
+      {
+        "wrong": "Ich habe sie angeruft.",
+        "right": "Ich habe sie angerufen.",
+        "explanationIt": "rufen è irregolare: angerufen."
+      },
+      {
+        "wrong": "Der Zug hat abgefahren.",
+        "right": "Der Zug ist abgefahren.",
+        "explanationIt": "abfahren è un movimento, come fahren: sein."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0062-e1",
+        "sentence": "Ich habe gestern ___.",
+        "answers": ["eingekauft"],
+        "hintIt": "einkaufen",
+        "translationIt": "Ieri ho fatto la spesa.",
+        "explanationIt": "ge- va in mezzo: ein-ge-kauft."
+      },
+      {
+        "id": "g-a1-0062-e2",
+        "sentence": "Er hat seine Mutter ___.",
+        "answers": ["angerufen"],
+        "hintIt": "anrufen",
+        "translationIt": "Ha telefonato a sua madre.",
+        "explanationIt": "an-ge-rufen, con il participio irregolare di rufen."
+      },
+      {
+        "id": "g-a1-0062-e3",
+        "sentence": "Ich bin um sieben Uhr ___.",
+        "answers": ["aufgestanden"],
+        "hintIt": "aufstehen",
+        "translationIt": "Mi sono alzata alle sette.",
+        "explanationIt": "auf-ge-standen, con sein."
+      },
+      {
+        "id": "g-a1-0062-e4",
+        "sentence": "Der Zug ist pünktlich ___.",
+        "answers": ["angekommen"],
+        "hintIt": "ankommen",
+        "translationIt": "Il treno è arrivato puntuale.",
+        "explanationIt": "an-ge-kommen, con sein come kommen."
+      },
+      {
+        "id": "g-a1-0062-e5",
+        "sentence": "Wir haben die Wohnung ___.",
+        "answers": ["aufgeräumt"],
+        "hintIt": "aufräumen",
+        "translationIt": "Abbiamo messo in ordine l'appartamento.",
+        "explanationIt": "auf-ge-räumt."
+      },
+      {
+        "id": "g-a1-0062-e6",
+        "sentence": "In Köln sind wir ___.",
+        "answers": ["umgestiegen"],
+        "hintIt": "umsteigen",
+        "translationIt": "A Colonia abbiamo cambiato treno.",
+        "explanationIt": "um-ge-stiegen, con sein."
+      },
+      {
+        "id": "g-a1-0062-e7",
+        "sentence": "Hast du gestern ___?",
+        "answers": ["ferngesehen"],
+        "hintIt": "fernsehen",
+        "translationIt": "Ieri hai guardato la TV?",
+        "explanationIt": "fern-ge-sehen, con haben come sehen."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0063",
+    "title": "haben o sein?",
+    "explanationIt": [
+      "La maggior parte dei verbi usa haben: Ich habe gegessen, gearbeitet, geschlafen.",
+      "sein si usa di solito con i verbi di movimento da un posto a un altro (gehen, fahren, kommen, fliegen, laufen, wandern, reisen), con i verbi di cambiamento (aufstehen) e con sein, bleiben e passieren. Di solito anche schwimmen: Ich bin geschwommen.",
+      "Una domanda utile: c'è uno spostamento da A a B? Allora quasi sempre sein.",
+      "Attenzione alle differenze con l'italiano: «ho corso» = Ich bin gelaufen, «ho viaggiato» = Ich bin gereist, «ho camminato in montagna» = Ich bin gewandert."
+    ],
+    "pattern": [
+      "Ich habe Pizza gegessen. – Ho mangiato la pizza.",
+      "Ich habe gut geschlafen. – Ho dormito bene.",
+      "Ich bin nach Hause gegangen. – Sono andata a casa.",
+      "Ich bin gelaufen. – Ho corso.",
+      "Wir sind viel gereist. – Abbiamo viaggiato molto.",
+      "Wir sind im Urlaub gewandert. – In vacanza abbiamo fatto escursioni."
+    ],
+    "examples": [
+      { "de": "Am Samstag sind wir in die Berge gefahren.", "it": "Sabato siamo andati in montagna." },
+      { "de": "Danach haben wir im Hotel übernachtet.", "it": "Poi abbiamo dormito in albergo." },
+      { "de": "Am Sonntag sind wir im Wald spazieren gegangen.", "it": "Domenica abbiamo fatto una passeggiata nel bosco." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich habe viel gereist.",
+        "right": "Ich bin viel gereist.",
+        "explanationIt": "reisen è un movimento: sein, anche se in italiano «ho viaggiato»."
+      },
+      {
+        "wrong": "Ich bin Pizza gegessen.",
+        "right": "Ich habe Pizza gegessen.",
+        "explanationIt": "essen non è un movimento: haben."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0063-e1",
+        "sentence": "Wir ___ am Wochenende gewandert.",
+        "answers": ["sind"],
+        "hintIt": "sein o haben?",
+        "translationIt": "Nel fine settimana abbiamo fatto escursioni.",
+        "explanationIt": "wandern è un movimento: sein."
+      },
+      {
+        "id": "g-a1-0063-e2",
+        "sentence": "Ich ___ einen Koffer gekauft.",
+        "answers": ["habe"],
+        "hintIt": "sein o haben?",
+        "translationIt": "Ho comprato una valigia.",
+        "explanationIt": "kaufen non è un movimento: haben."
+      },
+      {
+        "id": "g-a1-0063-e3",
+        "sentence": "Er ___ nach Hause gegangen.",
+        "answers": ["ist"],
+        "hintIt": "sein o haben?",
+        "translationIt": "È andato a casa.",
+        "explanationIt": "gehen è un movimento: sein."
+      },
+      {
+        "id": "g-a1-0063-e4",
+        "sentence": "___ du gut geschlafen?",
+        "answers": ["Hast"],
+        "hintIt": "sein o haben?",
+        "translationIt": "Hai dormito bene?",
+        "explanationIt": "schlafen non è un movimento: haben."
+      },
+      {
+        "id": "g-a1-0063-e5",
+        "sentence": "Anna ___ mit dem Zug gefahren.",
+        "answers": ["ist"],
+        "hintIt": "sein o haben?",
+        "translationIt": "Anna è andata in treno.",
+        "explanationIt": "fahren è un movimento: sein."
+      },
+      {
+        "id": "g-a1-0063-e6",
+        "sentence": "Wir ___ im Urlaub viel gelaufen.",
+        "answers": ["sind"],
+        "hintIt": "sein o haben?",
+        "translationIt": "In vacanza abbiamo camminato molto.",
+        "explanationIt": "laufen è un movimento: sein."
+      },
+      {
+        "id": "g-a1-0063-e7",
+        "sentence": "Was ___ ihr gestern gemacht?",
+        "answers": ["habt"],
+        "hintIt": "sein o haben?",
+        "translationIt": "Cosa avete fatto ieri?",
+        "explanationIt": "machen vuole haben: habt ihr… gemacht."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0064",
+    "title": "Quanto tempo fa? vor zwei Jahren",
+    "explanationIt": [
+      "«Fa» si dice vor + dativo, e va prima del tempo: vor zwei Jahren (due anni fa), vor einer Woche, vor drei Tagen.",
+      "Al dativo plurale si aggiunge una -n, se non c'è già, come dopo seit: vor zwei Tagen, vor drei Monaten, vor zwei Wochen.",
+      "Non confondere: seit = da (dura ancora); vor = fa (è finito). Ich wohne seit zwei Jahren hier. Ich bin vor zwei Jahren nach Berlin gekommen.",
+      "Senza vor: letzte Woche, letzten Monat, letztes Jahr (la settimana scorsa, il mese scorso, l'anno scorso)."
+    ],
+    "pattern": [
+      "vor einem Jahr – un anno fa",
+      "vor einer Woche – una settimana fa",
+      "vor zwei Tagen – due giorni fa",
+      "vor drei Monaten – tre mesi fa",
+      "vor einer Stunde – un'ora fa",
+      "letztes Jahr – l'anno scorso"
+    ],
+    "examples": [
+      { "de": "Vor zwei Jahren war ich in Wien.", "it": "Due anni fa ero a Vienna." },
+      { "de": "Er ist vor einer Stunde gekommen.", "it": "È arrivato un'ora fa." },
+      { "de": "Letztes Jahr sind wir ans Meer gefahren.", "it": "L'anno scorso siamo andati al mare." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ich war zwei Jahre vor in Berlin.",
+        "right": "Ich war vor zwei Jahren in Berlin.",
+        "explanationIt": "vor va prima del tempo, e vuole il dativo: vor zwei Jahren."
+      },
+      {
+        "wrong": "Er ist vor zwei Tage gekommen.",
+        "right": "Er ist vor zwei Tagen gekommen.",
+        "explanationIt": "Al dativo plurale: Tagen, con la -n."
+      },
+      {
+        "wrong": "Ich wohne hier vor zwei Jahren.",
+        "right": "Ich wohne hier seit zwei Jahren.",
+        "explanationIt": "Se dura ancora si usa seit, non vor."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0064-e1",
+        "sentence": "Ich war ___ zwei Jahren in Berlin.",
+        "answers": ["vor"],
+        "hintIt": "fa",
+        "translationIt": "Due anni fa ero a Berlino.",
+        "explanationIt": "«Fa» = vor, prima del tempo."
+      },
+      {
+        "id": "g-a1-0064-e2",
+        "sentence": "Er ist vor drei ___ gekommen.",
+        "answers": ["Tagen"],
+        "hintIt": "giorni (der Tag)",
+        "translationIt": "È arrivato tre giorni fa.",
+        "explanationIt": "vor vuole il dativo: al plurale Tagen."
+      },
+      {
+        "id": "g-a1-0064-e3",
+        "sentence": "Wir haben vor einer ___ gegessen.",
+        "answers": ["Stunde"],
+        "hintIt": "un'ora (sessanta minuti)",
+        "translationIt": "Abbiamo mangiato un'ora fa.",
+        "explanationIt": "Un'ora di tempo: die Stunde, al dativo vor einer Stunde."
+      },
+      {
+        "id": "g-a1-0064-e4",
+        "sentence": "Ich wohne ___ zwei Jahren hier.",
+        "answers": ["seit"],
+        "hintIt": "da (dura ancora)",
+        "translationIt": "Abito qui da due anni.",
+        "explanationIt": "Se dura ancora: seit."
+      },
+      {
+        "id": "g-a1-0064-e5",
+        "sentence": "___ einem Monat war ich in Italien.",
+        "answers": ["Vor"],
+        "hintIt": "fa",
+        "translationIt": "Un mese fa ero in Italia.",
+        "explanationIt": "«Fa» = vor + dativo."
+      },
+      {
+        "id": "g-a1-0064-e6",
+        "sentence": "___ Jahr waren wir am Meer.",
+        "answers": ["Letztes", "Voriges", "Vergangenes"],
+        "hintIt": "l'anno scorso",
+        "translationIt": "L'anno scorso eravamo al mare.",
+        "explanationIt": "L'anno scorso: letztes Jahr, senza vor."
+      }
+    ]
+  }
+]

@@ -1,0 +1,467 @@
+[
+  {
+    "id": "v-a1-0566",
+    "pos": "noun",
+    "de": "Urlaub",
+    "article": "der",
+    "plural": "Urlaube",
+    "it": ["vacanza", "vacanze", "ferie"],
+    "promptIt": "le vacanze (le ferie dal lavoro)",
+    "noteIt": "Di solito al singolare: im Urlaub = in vacanza. Attenzione: le ferie dal lavoro sono der Urlaub; die Ferien sono le vacanze della scuola (o dell'università).",
+    "examples": [
+      { "de": "Wir machen Urlaub in Italien.", "it": "Andiamo in vacanza in Italia." },
+      { "de": "Wie war der Urlaub?", "it": "Come sono andate le vacanze?" }
+    ]
+  },
+  {
+    "id": "v-a1-0567",
+    "pos": "noun",
+    "de": "Reise",
+    "article": "die",
+    "plural": "Reisen",
+    "it": ["viaggio"],
+    "promptIt": "il viaggio",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Reise.",
+    "examples": [
+      { "de": "Die Reise war lang.", "it": "Il viaggio è stato lungo." },
+      { "de": "Wir machen eine Reise nach Spanien.", "it": "Facciamo un viaggio in Spagna." }
+    ]
+  },
+  {
+    "id": "v-a1-0568",
+    "pos": "noun",
+    "de": "Meer",
+    "article": "das",
+    "plural": "Meere",
+    "it": ["mare"],
+    "promptIt": "il mare",
+    "noteIt": "In tedesco è neutro: das Meer. Andare al mare: ans Meer fahren.",
+    "examples": [
+      { "de": "Im Sommer fahren wir ans Meer.", "it": "D'estate andiamo al mare." },
+      { "de": "Das Meer ist warm.", "it": "Il mare è caldo." }
+    ]
+  },
+  {
+    "id": "v-a1-0569",
+    "pos": "noun",
+    "de": "Strand",
+    "article": "der",
+    "plural": "Strände",
+    "it": ["spiaggia"],
+    "promptIt": "la spiaggia",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Strand.",
+    "examples": [
+      { "de": "Wir liegen am Strand.", "it": "Siamo sdraiati in spiaggia." },
+      { "de": "Der Strand ist schön.", "it": "La spiaggia è bella." }
+    ]
+  },
+  {
+    "id": "v-a1-0570",
+    "pos": "noun",
+    "de": "Berg",
+    "article": "der",
+    "plural": "Berge",
+    "it": ["montagna", "monte"],
+    "promptIt": "la montagna",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Berg. Andare in montagna: in die Berge fahren.",
+    "examples": [
+      { "de": "Der Berg ist hoch.", "it": "La montagna è alta." },
+      { "de": "Im Winter fahren wir in die Berge.", "it": "D'inverno andiamo in montagna." }
+    ]
+  },
+  {
+    "id": "v-a1-0571",
+    "pos": "verb",
+    "de": "fliegen",
+    "it": ["volare", "andare in aereo"],
+    "promptIt": "volare (andare in aereo)",
+    "noteIt": "Perfekt con sein: Ich bin nach Rom geflogen.",
+    "examples": [
+      { "de": "Wir fliegen nach Rom.", "it": "Andiamo a Roma in aereo." },
+      { "de": "Ich fliege nicht gern.", "it": "Non mi piace volare." }
+    ]
+  },
+  {
+    "id": "v-a1-0572",
+    "pos": "noun",
+    "de": "Flugzeug",
+    "article": "das",
+    "plural": "Flugzeuge",
+    "it": ["aereo", "aeroplano"],
+    "promptIt": "l'aereo",
+    "noteIt": "In tedesco è neutro: das Flugzeug.",
+    "examples": [
+      { "de": "Das Flugzeug ist pünktlich.", "it": "L'aereo è puntuale." },
+      { "de": "Das Flugzeug landet um zehn Uhr.", "it": "L'aereo atterra alle dieci." }
+    ]
+  },
+  {
+    "id": "v-a1-0573",
+    "pos": "verb",
+    "de": "passieren",
+    "it": ["succedere", "capitare", "accadere"],
+    "promptIt": "succedere",
+    "noteIt": "Perfekt con sein: Was ist passiert? = cos'è successo?",
+    "examples": [
+      { "de": "Was ist passiert?", "it": "Cos'è successo?" },
+      { "de": "Das passiert oft.", "it": "Succede spesso." }
+    ]
+  },
+  {
+    "id": "v-a1-0574",
+    "pos": "noun",
+    "de": "See",
+    "article": "der",
+    "plural": "Seen",
+    "it": ["lago"],
+    "promptIt": "il lago",
+    "noteIt": "Attenzione: der See è il lago; die See (femminile) è il mare, soprattutto nel nord della Germania.",
+    "examples": [
+      { "de": "Der See ist sehr kalt.", "it": "Il lago è molto freddo." },
+      { "de": "Wir schwimmen im See.", "it": "Nuotiamo nel lago." }
+    ]
+  },
+  {
+    "id": "v-a1-0575",
+    "pos": "noun",
+    "de": "Land",
+    "article": "das",
+    "plural": "Länder",
+    "it": ["paese", "nazione", "stato", "campagna"],
+    "promptIt": "il paese (la nazione)",
+    "noteIt": "In tedesco è neutro: das Land. auf dem Land = in campagna.",
+    "examples": [
+      { "de": "Deutschland ist ein schönes Land.", "it": "La Germania è un bel paese." },
+      { "de": "Meine Oma wohnt auf dem Land.", "it": "Mia nonna abita in campagna." }
+    ]
+  },
+  {
+    "id": "v-a1-0576",
+    "pos": "noun",
+    "de": "Ausland",
+    "article": "das",
+    "plural": null,
+    "it": ["estero"],
+    "promptIt": "l'estero",
+    "noteIt": "im Ausland = all'estero (ci sei); ins Ausland = all'estero (ci vai).",
+    "examples": [
+      { "de": "Ich arbeite im Ausland.", "it": "Lavoro all'estero." },
+      { "de": "Fährst du ins Ausland?", "it": "Vai all'estero?" }
+    ]
+  },
+  {
+    "id": "v-a1-0577",
+    "pos": "noun",
+    "de": "Koffer",
+    "article": "der",
+    "plural": "Koffer",
+    "it": ["valigia"],
+    "promptIt": "la valigia",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Koffer.",
+    "examples": [
+      { "de": "Der Koffer ist schwer.", "it": "La valigia è pesante." },
+      { "de": "Ich packe den Koffer.", "it": "Faccio la valigia." }
+    ]
+  },
+  {
+    "id": "v-a1-0578",
+    "pos": "noun",
+    "de": "Pass",
+    "article": "der",
+    "plural": "Pässe",
+    "it": ["passaporto"],
+    "promptIt": "il passaporto",
+    "acceptDe": ["Reisepass"],
+    "examples": [
+      { "de": "Hast du deinen Pass?", "it": "Hai il passaporto?" },
+      { "de": "Der Pass ist im Koffer.", "it": "Il passaporto è in valigia." }
+    ]
+  },
+  {
+    "id": "v-a1-0579",
+    "pos": "noun",
+    "de": "Ferien",
+    "article": "die",
+    "plural": null,
+    "pluralOnly": true,
+    "it": ["vacanze", "ferie"],
+    "promptIt": "le vacanze (della scuola)",
+    "noteIt": "Esiste solo al plurale. Attenzione al falso amico: le «ferie» dal lavoro sono di solito der Urlaub.",
+    "examples": [
+      { "de": "Die Kinder haben Ferien.", "it": "I bambini sono in vacanza." },
+      { "de": "In den Ferien fahren wir ans Meer.", "it": "Durante le vacanze andiamo al mare." }
+    ]
+  },
+  {
+    "id": "v-a1-0580",
+    "pos": "verb",
+    "de": "packen",
+    "it": ["fare la valigia", "fare i bagagli", "impacchettare"],
+    "promptIt": "fare la valigia (preparare i bagagli)",
+    "acceptDe": ["den Koffer packen", "Koffer packen"],
+    "examples": [
+      { "de": "Ich packe meinen Koffer.", "it": "Faccio la valigia." },
+      { "de": "Hast du schon gepackt?", "it": "Hai già fatto le valigie?" }
+    ]
+  },
+  {
+    "id": "v-a1-0581",
+    "pos": "verb",
+    "de": "zurückkommen",
+    "it": ["tornare", "ritornare"],
+    "promptIt": "tornare",
+    "noteIt": "Separabile, e il Perfekt vuole sein: Ich bin zurückgekommen.",
+    "examples": [
+      { "de": "Wann kommst du zurück?", "it": "Quando torni?" },
+      { "de": "Wir sind gestern zurückgekommen.", "it": "Siamo tornati ieri." }
+    ]
+  },
+  {
+    "id": "v-a1-0582",
+    "pos": "verb",
+    "de": "einsteigen",
+    "it": ["salire"],
+    "promptIt": "salire (su un mezzo)",
+    "noteIt": "Separabile: Wir steigen ein. Il Perfekt vuole sein.",
+    "examples": [
+      { "de": "Wir steigen in den Bus ein.", "it": "Saliamo sull'autobus." },
+      { "de": "Bitte einsteigen!", "it": "Salire, prego!" }
+    ]
+  },
+  {
+    "id": "v-a1-0583",
+    "pos": "verb",
+    "de": "aussteigen",
+    "it": ["scendere"],
+    "promptIt": "scendere (da un mezzo)",
+    "noteIt": "Separabile: Wir steigen aus. Il Perfekt vuole sein.",
+    "examples": [
+      { "de": "Wo steigst du aus?", "it": "Dove scendi?" },
+      { "de": "Wir steigen am Bahnhof aus.", "it": "Scendiamo alla stazione." }
+    ]
+  },
+  {
+    "id": "v-a1-0584",
+    "pos": "verb",
+    "de": "übernachten",
+    "it": ["pernottare", "passare la notte", "dormire"],
+    "promptIt": "pernottare (passare la notte)",
+    "noteIt": "Non è separabile, e il participio non ha ge-: Wir haben im Hotel übernachtet.",
+    "examples": [
+      { "de": "Wir übernachten im Hotel.", "it": "Passiamo la notte in albergo." },
+      { "de": "Wo habt ihr übernachtet?", "it": "Dove avete dormito?" }
+    ]
+  },
+  {
+    "id": "v-a1-0585",
+    "pos": "noun",
+    "de": "Postkarte",
+    "article": "die",
+    "plural": "Postkarten",
+    "it": ["cartolina"],
+    "promptIt": "la cartolina",
+    "acceptDe": ["Ansichtskarte", "Karte"],
+    "examples": [
+      { "de": "Ich schreibe eine Postkarte.", "it": "Scrivo una cartolina." },
+      { "de": "Danke für die Postkarte!", "it": "Grazie per la cartolina!" }
+    ]
+  },
+  {
+    "id": "v-a1-0586",
+    "pos": "verb",
+    "de": "schicken",
+    "it": ["mandare", "spedire", "inviare"],
+    "promptIt": "mandare (spedire)",
+    "examples": [
+      { "de": "Ich schicke dir eine Postkarte.", "it": "Ti mando una cartolina." },
+      { "de": "Schick mir ein Foto!", "it": "Mandami una foto!" }
+    ]
+  },
+  {
+    "id": "v-a1-0587",
+    "pos": "noun",
+    "de": "Insel",
+    "article": "die",
+    "plural": "Inseln",
+    "it": ["isola"],
+    "promptIt": "l'isola",
+    "examples": [
+      { "de": "Sizilien ist eine Insel.", "it": "La Sicilia è un'isola." },
+      { "de": "Wir machen Urlaub auf einer Insel.", "it": "Andiamo in vacanza su un'isola." }
+    ]
+  },
+  {
+    "id": "v-a1-0588",
+    "pos": "noun",
+    "de": "Fluss",
+    "article": "der",
+    "plural": "Flüsse",
+    "it": ["fiume"],
+    "promptIt": "il fiume",
+    "examples": [
+      { "de": "Der Rhein ist ein langer Fluss.", "it": "Il Reno è un fiume lungo." },
+      { "de": "Die Stadt liegt an einem Fluss.", "it": "La città sorge su un fiume." }
+    ]
+  },
+  {
+    "id": "v-a1-0589",
+    "pos": "noun",
+    "de": "Dorf",
+    "article": "das",
+    "plural": "Dörfer",
+    "it": ["villaggio", "paese", "paesino"],
+    "promptIt": "il villaggio (piccolo paese)",
+    "noteIt": "In tedesco è neutro: das Dorf. Il paese come nazione è das Land.",
+    "examples": [
+      { "de": "Meine Oma wohnt in einem Dorf.", "it": "Mia nonna abita in un paesino." },
+      { "de": "Das Dorf ist klein und ruhig.", "it": "Il villaggio è piccolo e tranquillo." }
+    ]
+  },
+  {
+    "id": "v-a1-0590",
+    "pos": "phrase",
+    "de": "spazieren gehen",
+    "it": ["fare una passeggiata", "passeggiare", "andare a passeggio"],
+    "promptIt": "fare una passeggiata",
+    "acceptDe": ["spazierengehen"],
+    "noteIt": "Il Perfekt vuole sein: Wir sind spazieren gegangen.",
+    "examples": [
+      { "de": "Wir gehen im Park spazieren.", "it": "Facciamo una passeggiata al parco." },
+      { "de": "Gehst du gern spazieren?", "it": "Ti piace passeggiare?" }
+    ]
+  },
+  {
+    "id": "v-a1-0591",
+    "pos": "noun",
+    "de": "Ausflug",
+    "article": "der",
+    "plural": "Ausflüge",
+    "it": ["gita", "escursione"],
+    "promptIt": "la gita",
+    "noteIt": "In italiano è femminile, in tedesco maschile: der Ausflug.",
+    "examples": [
+      { "de": "Am Sonntag machen wir einen Ausflug.", "it": "Domenica facciamo una gita." },
+      { "de": "Der Ausflug war toll.", "it": "La gita è stata fantastica." }
+    ]
+  },
+  {
+    "id": "v-a1-0592",
+    "pos": "adv",
+    "de": "unterwegs",
+    "it": ["in giro", "in viaggio", "per strada", "fuori"],
+    "promptIt": "in giro (in viaggio)",
+    "examples": [
+      { "de": "Ich bin viel unterwegs.", "it": "Sono spesso in giro." },
+      { "de": "Wir sind schon unterwegs.", "it": "Siamo già per strada." }
+    ]
+  },
+  {
+    "id": "v-a1-0593",
+    "pos": "prep",
+    "de": "vor",
+    "it": ["fa", "davanti a", "prima di"],
+    "promptIt": "fa (due anni fa)",
+    "noteIt": "Nel senso di «fa» vuole il dativo: vor zwei Jahren. Vuol dire anche «davanti a» (vor dem Haus) e, con l'ora, «meno» (zehn vor vier).",
+    "examples": [
+      { "de": "Ich war vor zwei Jahren in Berlin.", "it": "Sono stata a Berlino due anni fa." },
+      { "de": "Das Auto steht vor dem Haus.", "it": "La macchina è davanti a casa." }
+    ]
+  },
+  {
+    "id": "v-a1-0594",
+    "pos": "adv",
+    "de": "lange",
+    "it": ["a lungo", "per molto tempo", "molto tempo"],
+    "promptIt": "a lungo (per molto tempo)",
+    "noteIt": "lang = lungo (aggettivo); lange = a lungo, per molto tempo. Wie lange? = per quanto tempo?",
+    "examples": [
+      { "de": "Wir haben lange gewartet.", "it": "Abbiamo aspettato a lungo." },
+      { "de": "Wie lange bleibst du?", "it": "Quanto tempo resti?" }
+    ]
+  },
+  {
+    "id": "v-a1-0595",
+    "pos": "phrase",
+    "de": "Wie war's?",
+    "it": ["com'è andata?", "com'era?", "com'è stato?"],
+    "promptIt": "com'è andata?",
+    "acceptDe": ["Wie war es?"],
+    "examples": [
+      { "de": "Du warst in Rom? Wie war's?", "it": "Sei stata a Roma? Com'è andata?" },
+      { "de": "Wie war's im Urlaub?", "it": "Com'è andata in vacanza?" }
+    ]
+  },
+  {
+    "id": "v-a1-0596",
+    "pos": "phrase",
+    "de": "Gute Reise!",
+    "it": ["buon viaggio!"],
+    "promptIt": "buon viaggio!",
+    "examples": [
+      { "de": "Tschüss und gute Reise!", "it": "Ciao e buon viaggio!" },
+      { "de": "Gute Reise und viel Spaß!", "it": "Buon viaggio e buon divertimento!" }
+    ]
+  },
+  {
+    "id": "v-a1-0597",
+    "pos": "noun",
+    "de": "Wald",
+    "article": "der",
+    "plural": "Wälder",
+    "it": ["bosco", "foresta"],
+    "promptIt": "il bosco",
+    "examples": [
+      { "de": "Wir wandern im Wald.", "it": "Facciamo un'escursione nel bosco." },
+      { "de": "Der Wald ist groß.", "it": "Il bosco è grande." }
+    ]
+  },
+  {
+    "id": "v-a1-0598",
+    "pos": "noun",
+    "de": "Natur",
+    "article": "die",
+    "plural": null,
+    "it": ["natura"],
+    "promptIt": "la natura",
+    "examples": [
+      { "de": "Ich liebe die Natur.", "it": "Amo la natura." },
+      { "de": "In der Natur ist es ruhig.", "it": "Nella natura è tutto tranquillo." }
+    ]
+  },
+  {
+    "id": "v-a1-0599",
+    "pos": "noun",
+    "de": "Welt",
+    "article": "die",
+    "plural": "Welten",
+    "it": ["mondo"],
+    "promptIt": "il mondo",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Welt.",
+    "examples": [
+      { "de": "Die Welt ist groß.", "it": "Il mondo è grande." },
+      { "de": "Ich möchte die Welt sehen.", "it": "Vorrei vedere il mondo." }
+    ]
+  },
+  {
+    "id": "v-a1-0600",
+    "pos": "adj",
+    "de": "schwer",
+    "it": ["pesante", "difficile"],
+    "promptIt": "pesante (e difficile)",
+    "examples": [
+      { "de": "Der Koffer ist schwer.", "it": "La valigia è pesante." },
+      { "de": "Deutsch ist nicht so schwer!", "it": "Il tedesco non è così difficile!" }
+    ]
+  },
+  {
+    "id": "v-a1-0601",
+    "pos": "adj",
+    "de": "leicht",
+    "it": ["leggero", "leggera", "facile"],
+    "promptIt": "leggero (e facile)",
+    "examples": [
+      { "de": "Die Tasche ist leicht.", "it": "La borsa è leggera." },
+      { "de": "Das ist leicht!", "it": "È facile!" }
+    ]
+  }
+]

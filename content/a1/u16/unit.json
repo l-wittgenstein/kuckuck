@@ -1,0 +1,17 @@
+{
+  "id": "a1-u16",
+  "level": "a1",
+  "order": 16,
+  "title": "Urlaub: il passato (2)",
+  "summary": "Viaggi e vacanze; il Perfekt con sein, i participi dei verbi separabili, haben o sein, vor zwei Jahren.",
+  "batches": [
+    { "id": "a1-u16-b01", "itemIds": ["v-a1-0566", "v-a1-0567", "v-a1-0568", "v-a1-0569", "v-a1-0570"] },
+    { "id": "a1-u16-b02", "itemIds": ["g-a1-0061", "v-a1-0571", "v-a1-0572", "v-a1-0573", "v-a1-0574"] },
+    { "id": "a1-u16-b03", "itemIds": ["v-a1-0575", "v-a1-0576", "v-a1-0577", "v-a1-0578", "v-a1-0579"] },
+    { "id": "a1-u16-b04", "itemIds": ["g-a1-0062", "v-a1-0580", "v-a1-0581", "v-a1-0582", "v-a1-0583"] },
+    { "id": "a1-u16-b05", "itemIds": ["v-a1-0584", "v-a1-0585", "v-a1-0586", "v-a1-0587", "v-a1-0588"] },
+    { "id": "a1-u16-b06", "itemIds": ["g-a1-0063", "v-a1-0589", "v-a1-0590", "v-a1-0591", "v-a1-0592"] },
+    { "id": "a1-u16-b07", "itemIds": ["g-a1-0064", "v-a1-0593", "v-a1-0594", "v-a1-0595", "v-a1-0596"] },
+    { "id": "a1-u16-b08", "itemIds": ["v-a1-0597", "v-a1-0598", "v-a1-0599", "v-a1-0600", "v-a1-0601"] }
+  ]
+}
