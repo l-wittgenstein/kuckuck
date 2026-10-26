@@ -9,8 +9,7 @@ export function FlagButton({ itemId }: { itemId: string }) {
   const [note, setNote] = useState("");
   const [saved, setSaved] = useState(false);
 
-  async function save(e: React.FormEvent) {
-    e.preventDefault();
+  async function save() {
     if (!note.trim()) return;
     await addFlag(itemId, note);
     setNote("");
@@ -23,8 +22,10 @@ export function FlagButton({ itemId }: { itemId: string }) {
       <button type="button" className="flag-button" onClick={() => dialog.current?.showModal()}>
         ⚑ {saved ? it.flag.saved : it.flag.button}
       </button>
+      {/* Not a <form>: in quizzes this sits inside the answer form, and a
+          nested form would submit as a page navigation instead. */}
       <dialog ref={dialog} className="sheet">
-        <form onSubmit={save}>
+        <div>
           <h2>{it.flag.title}</h2>
           <p className="muted">{it.flag.text}</p>
           <textarea
@@ -37,11 +38,11 @@ export function FlagButton({ itemId }: { itemId: string }) {
             <button type="button" className="button secondary" onClick={() => dialog.current?.close()}>
               {it.flag.cancel}
             </button>
-            <button type="submit" className="button" disabled={!note.trim()}>
+            <button type="button" className="button" disabled={!note.trim()} onClick={save}>
               {it.flag.save}
             </button>
           </div>
-        </form>
+        </div>
       </dialog>
     </>
   );

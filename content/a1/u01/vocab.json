@@ -208,7 +208,7 @@
     "article": "der",
     "plural": "Herren",
     "it": ["signore"],
-    "promptIt": "il signore (davanti al cognome)",
+    "promptIt": "il signore",
     "noteIt": "Davanti al cognome si usa senza articolo: Herr Müller (il signor Müller).",
     "examples": [
       { "de": "Das ist Herr Müller.", "it": "Questo è il signor Müller." },
