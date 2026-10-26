@@ -3,6 +3,7 @@ import { db } from "./db";
 
 export interface Settings {
   autoplay: boolean; // speak the German after each answer
+  lastBackupAt?: Date;
 }
 
 const defaults: Settings = { autoplay: true };
