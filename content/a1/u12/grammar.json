@@ -1,0 +1,345 @@
+[
+  {
+    "id": "g-a1-0045",
+    "title": "I prezzi e i numeri fino a mille",
+    "explanationIt": [
+      "I prezzi si leggono così: 2,50 € = zwei Euro fünfzig. Sotto l'euro: 0,99 € = neunundneunzig Cent.",
+      "Dopo un numero Euro e Cent restano al singolare: zehn Euro, fünfzig Cent.",
+      "Le centinaia: hundert, zweihundert, dreihundert… Mille: tausend. I numeri si scrivono tutti attaccati: 250 = zweihundertfünfzig.",
+      "Come in italiano, la virgola separa i decimali: 2,50 €. Per chiedere: Was kostet das? oppure Wie viel kostet das?"
+    ],
+    "pattern": [
+      "1,50 € – ein Euro fünfzig",
+      "2,99 € – zwei Euro neunundneunzig",
+      "0,80 € – achtzig Cent",
+      "100 – hundert",
+      "250 – zweihundertfünfzig",
+      "1000 – tausend",
+      "Was kostet das? – Quanto costa?"
+    ],
+    "examples": [
+      { "de": "Der Kaffee kostet drei Euro zwanzig.", "it": "Il caffè costa tre euro e venti." },
+      { "de": "Das Fahrrad kostet fünfhundert Euro.", "it": "La bicicletta costa cinquecento euro." },
+      { "de": "Was kostet das Brot? Zwei Euro fünfzig.", "it": "Quanto costa il pane? Due euro e cinquanta." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Das kostet zwei Euros.",
+        "right": "Das kostet zwei Euro.",
+        "explanationIt": "Dopo un numero Euro resta al singolare."
+      },
+      {
+        "wrong": "zwei hundert",
+        "right": "zweihundert",
+        "explanationIt": "I numeri si scrivono attaccati."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0045-e1",
+        "sentence": "Das kostet drei ___ fünfzig.",
+        "answers": ["Euro"],
+        "hintIt": "3,50 €",
+        "translationIt": "Costa tre euro e cinquanta.",
+        "explanationIt": "Prima gli euro, poi i centesimi: drei Euro fünfzig."
+      },
+      {
+        "id": "g-a1-0045-e2",
+        "sentence": "Die Milch kostet neunundneunzig ___.",
+        "answers": ["Cent"],
+        "hintIt": "0,99 €",
+        "translationIt": "Il latte costa novantanove centesimi.",
+        "explanationIt": "Sotto l'euro si dicono i Cent, al singolare."
+      },
+      {
+        "id": "g-a1-0045-e3",
+        "sentence": "Das Sofa kostet ___ Euro.",
+        "answers": ["fünfhundert"],
+        "hintIt": "cinquecento",
+        "translationIt": "Il divano costa cinquecento euro.",
+        "explanationIt": "fünf + hundert, attaccati."
+      },
+      {
+        "id": "g-a1-0045-e4",
+        "sentence": "Der Computer kostet ___ Euro.",
+        "answers": ["tausend", "eintausend"],
+        "hintIt": "mille",
+        "translationIt": "Il computer costa mille euro.",
+        "explanationIt": "Mille: tausend."
+      },
+      {
+        "id": "g-a1-0045-e5",
+        "sentence": "___ kostet das?",
+        "answers": ["Was", "Wie viel", "Wieviel"],
+        "hintIt": "quanto…?",
+        "translationIt": "Quanto costa?",
+        "explanationIt": "Si chiede Was kostet das? oppure Wie viel kostet das?"
+      },
+      {
+        "id": "g-a1-0045-e6",
+        "sentence": "Der Kaffee kostet zwei Euro ___.",
+        "answers": ["zwanzig"],
+        "hintIt": "2,20 € (in lettere)",
+        "translationIt": "Il caffè costa due euro e venti.",
+        "explanationIt": "Dopo gli euro si dicono solo i centesimi: zwanzig."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0046",
+    "title": "Quanto? ein Kilo Tomaten, senza «di»",
+    "explanationIt": [
+      "Dopo una quantità il tedesco non usa niente al posto del nostro «di»: ein Kilo Tomaten (un chilo di pomodori), eine Flasche Wasser, ein Liter Milch.",
+      "Kilo, Gramm, Liter (e di solito Stück) restano al singolare dopo un numero: zwei Kilo, fünfhundert Gramm. Flasche, Packung e Dose invece vanno al plurale: zwei Flaschen, drei Dosen.",
+      "La cosa misurata di solito va al plurale se si può contare (Tomaten, Kartoffeln) e al singolare se no (Milch, Reis, Käse)."
+    ],
+    "pattern": [
+      "ein Kilo Tomaten – un chilo di pomodori",
+      "zwei Kilo Kartoffeln – due chili di patate",
+      "zweihundert Gramm Käse – duecento grammi di formaggio",
+      "ein Liter Milch – un litro di latte",
+      "eine Flasche Wasser – una bottiglia d'acqua",
+      "zwei Flaschen Wein – due bottiglie di vino",
+      "ein Stück Kuchen – una fetta di torta"
+    ],
+    "examples": [
+      { "de": "Ich nehme ein Kilo Orangen.", "it": "Prendo un chilo di arance." },
+      { "de": "Zwei Flaschen Wasser, bitte.", "it": "Due bottiglie d'acqua, per favore." },
+      { "de": "Wir brauchen einen Liter Milch.", "it": "Ci serve un litro di latte." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "ein Kilo von Tomaten",
+        "right": "ein Kilo Tomaten",
+        "explanationIt": "Dopo la quantità non si usa von: ein Kilo Tomaten."
+      },
+      {
+        "wrong": "zwei Kilos Äpfel",
+        "right": "zwei Kilo Äpfel",
+        "explanationIt": "Dopo un numero Kilo resta al singolare."
+      },
+      {
+        "wrong": "zwei Flasche Wasser",
+        "right": "zwei Flaschen Wasser",
+        "explanationIt": "Flasche invece va al plurale: Flaschen."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0046-e1",
+        "sentence": "Ein Kilo ___, bitte.",
+        "answers": ["Tomaten"],
+        "hintIt": "pomodori",
+        "translationIt": "Un chilo di pomodori, per favore.",
+        "explanationIt": "Senza «di», e al plurale: Tomaten."
+      },
+      {
+        "id": "g-a1-0046-e2",
+        "sentence": "Ich nehme zwei ___ Kartoffeln.",
+        "answers": ["Kilo"],
+        "hintIt": "chili",
+        "translationIt": "Prendo due chili di patate.",
+        "explanationIt": "Dopo un numero Kilo resta al singolare."
+      },
+      {
+        "id": "g-a1-0046-e3",
+        "sentence": "Eine ___ Wasser, bitte.",
+        "answers": ["Flasche"],
+        "hintIt": "bottiglia",
+        "translationIt": "Una bottiglia d'acqua, per favore.",
+        "explanationIt": "eine Flasche Wasser, senza «di»."
+      },
+      {
+        "id": "g-a1-0046-e4",
+        "sentence": "Wir kaufen drei ___ Wein.",
+        "answers": ["Flaschen"],
+        "hintIt": "bottiglie",
+        "translationIt": "Compriamo tre bottiglie di vino.",
+        "explanationIt": "Flasche va al plurale: Flaschen."
+      },
+      {
+        "id": "g-a1-0046-e5",
+        "sentence": "Ein ___ Milch, bitte.",
+        "answers": ["Liter"],
+        "hintIt": "litro",
+        "translationIt": "Un litro di latte, per favore.",
+        "explanationIt": "ein Liter Milch, senza «di»."
+      },
+      {
+        "id": "g-a1-0046-e6",
+        "sentence": "Ich nehme zweihundert ___ Käse.",
+        "answers": ["Gramm"],
+        "hintIt": "grammi",
+        "translationIt": "Prendo duecento grammi di formaggio.",
+        "explanationIt": "Dopo un numero Gramm resta al singolare."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0047",
+    "title": "für e ohne + accusativo",
+    "explanationIt": [
+      "für (per) e ohne (senza) vogliono l'accusativo.",
+      "Come sempre all'accusativo, negli articoli e nei possessivi cambia solo il maschile: für den Vater, für einen Freund, für meinen Sohn. Femminile, neutro e plurale restano uguali: für die Mutter, für das Kind.",
+      "Dopo ohne spesso non c'è articolo: Kaffee ohne Milch, Tee ohne Zucker."
+    ],
+    "pattern": [
+      "für den Vater – per il padre",
+      "für meinen Bruder – per mio fratello",
+      "für die Mutter – per la madre",
+      "für das Kind – per il bambino",
+      "ohne Zucker – senza zucchero",
+      "ohne meinen Mann – senza mio marito"
+    ],
+    "examples": [
+      { "de": "Der Kuchen ist für meinen Vater.", "it": "La torta è per mio padre." },
+      { "de": "Ich trinke Tee ohne Zucker.", "it": "Bevo il tè senza zucchero." },
+      { "de": "Das Geschenk ist für meine Freundin.", "it": "Il regalo è per la mia amica." }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Das ist für mein Bruder.",
+        "right": "Das ist für meinen Bruder.",
+        "explanationIt": "für vuole l'accusativo: maschile meinen."
+      },
+      {
+        "wrong": "Das ist für dem Vater.",
+        "right": "Das ist für den Vater.",
+        "explanationIt": "für vuole l'accusativo, non il dativo."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0047-e1",
+        "sentence": "Der Kuchen ist für ___ Vater.",
+        "answers": ["meinen"],
+        "hintIt": "mio (der Vater)",
+        "translationIt": "La torta è per mio padre.",
+        "explanationIt": "für vuole l'accusativo: maschile meinen."
+      },
+      {
+        "id": "g-a1-0047-e2",
+        "sentence": "Einen Kaffee ___ Zucker, bitte.",
+        "answers": ["ohne"],
+        "hintIt": "senza",
+        "translationIt": "Un caffè senza zucchero, per favore.",
+        "explanationIt": "senza = ohne."
+      },
+      {
+        "id": "g-a1-0047-e3",
+        "sentence": "Das Geschenk ist ___ dich.",
+        "answers": ["für"],
+        "hintIt": "per",
+        "translationIt": "Il regalo è per te.",
+        "explanationIt": "per = für."
+      },
+      {
+        "id": "g-a1-0047-e4",
+        "sentence": "Ich kaufe einen Kuchen für ___ Mutter.",
+        "answers": ["meine"],
+        "hintIt": "mia (die Mutter)",
+        "translationIt": "Compro una torta per mia madre.",
+        "explanationIt": "Al femminile l'accusativo non cambia: meine."
+      },
+      {
+        "id": "g-a1-0047-e5",
+        "sentence": "Wir gehen ohne ___ Bruder.",
+        "answers": ["meinen"],
+        "hintIt": "mio (der Bruder)",
+        "translationIt": "Andiamo senza mio fratello.",
+        "explanationIt": "ohne vuole l'accusativo: maschile meinen."
+      },
+      {
+        "id": "g-a1-0047-e6",
+        "sentence": "Das ist für ___ Kind.",
+        "answers": ["das"],
+        "hintIt": "il (das Kind)",
+        "translationIt": "È per il bambino.",
+        "explanationIt": "Al neutro l'accusativo non cambia: das."
+      }
+    ]
+  },
+  {
+    "id": "g-a1-0048",
+    "title": "wie viel o wie viele?",
+    "explanationIt": [
+      "wie viel (quanto) si usa con le cose che non si contano: Wie viel Zeit hast du? Wie viel Milch? E per il prezzo: Wie viel kostet das? Con le unità di misura (Euro, Kilo, Gramm) di solito si dice wie viel: Wie viel Gramm?",
+      "wie viele (quanti, quante) si usa con le cose che si contano, al plurale: Wie viele Äpfel? Wie viele Kinder hast du?",
+      "Si scrive in due parole: wie viel."
+    ],
+    "pattern": [
+      "Wie viel Zeit? – Quanto tempo?",
+      "Wie viel Milch? – Quanto latte?",
+      "Wie viel kostet das? – Quanto costa?",
+      "Wie viele Äpfel? – Quante mele?",
+      "Wie viele Kinder? – Quanti bambini?"
+    ],
+    "examples": [
+      { "de": "Wie viele Flaschen brauchen wir?", "it": "Quante bottiglie ci servono?" },
+      { "de": "Wie viel Käse möchten Sie?", "it": "Quanto formaggio desidera?" },
+      { "de": "Wie viele Geschwister hast du?", "it": "Quanti fratelli e sorelle hai?" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Wie viel Kinder hast du?",
+        "right": "Wie viele Kinder hast du?",
+        "explanationIt": "Nel tedesco corretto, con le cose che si contano si usa wie viele."
+      },
+      {
+        "wrong": "Wie viele kostet das?",
+        "right": "Wie viel kostet das?",
+        "explanationIt": "Per il prezzo si usa wie viel."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g-a1-0048-e1",
+        "sentence": "Wie ___ Kinder hast du?",
+        "answers": ["viele"],
+        "hintIt": "quanti",
+        "translationIt": "Quanti figli hai?",
+        "explanationIt": "I figli si contano: wie viele."
+      },
+      {
+        "id": "g-a1-0048-e2",
+        "sentence": "Wie ___ kostet das?",
+        "answers": ["viel"],
+        "hintIt": "quanto",
+        "translationIt": "Quanto costa?",
+        "explanationIt": "Per il prezzo: wie viel."
+      },
+      {
+        "id": "g-a1-0048-e3",
+        "sentence": "Wie ___ Äpfel möchten Sie?",
+        "answers": ["viele"],
+        "hintIt": "quante",
+        "translationIt": "Quante mele desidera?",
+        "explanationIt": "Le mele si contano: wie viele."
+      },
+      {
+        "id": "g-a1-0048-e4",
+        "sentence": "Wie ___ Zeit hast du?",
+        "answers": ["viel"],
+        "hintIt": "quanto",
+        "translationIt": "Quanto tempo hai?",
+        "explanationIt": "Il tempo non si conta: wie viel."
+      },
+      {
+        "id": "g-a1-0048-e5",
+        "sentence": "Wie ___ Milch brauchst du?",
+        "answers": ["viel"],
+        "hintIt": "quanto",
+        "translationIt": "Quanto latte ti serve?",
+        "explanationIt": "Il latte non si conta: wie viel."
+      },
+      {
+        "id": "g-a1-0048-e6",
+        "sentence": "Wie ___ Flaschen Wasser kaufen wir?",
+        "answers": ["viele"],
+        "hintIt": "quante",
+        "translationIt": "Quante bottiglie d'acqua compriamo?",
+        "explanationIt": "Le bottiglie si contano: wie viele."
+      }
+    ]
+  }
+]

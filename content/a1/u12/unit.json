@@ -1,0 +1,18 @@
+{
+  "id": "a1-u12",
+  "level": "a1",
+  "order": 12,
+  "title": "Einkaufen: la spesa",
+  "summary": "Negozi, cibo, prezzi e quantità; i numeri fino a mille, ein Kilo Tomaten senza «di», für e ohne, wie viel e wie viele.",
+  "batches": [
+    { "id": "a1-u12-b01", "itemIds": ["v-a1-0408", "v-a1-0409", "v-a1-0410", "v-a1-0411", "v-a1-0412"] },
+    { "id": "a1-u12-b02", "itemIds": ["g-a1-0045", "v-a1-0413", "v-a1-0414", "v-a1-0415", "v-a1-0416"] },
+    { "id": "a1-u12-b03", "itemIds": ["v-a1-0417", "v-a1-0418", "v-a1-0419", "v-a1-0420", "v-a1-0421"] },
+    { "id": "a1-u12-b04", "itemIds": ["v-a1-0422", "v-a1-0423", "v-a1-0424", "v-a1-0425", "v-a1-0426"] },
+    { "id": "a1-u12-b05", "itemIds": ["g-a1-0046", "v-a1-0427", "v-a1-0428", "v-a1-0429", "v-a1-0430"] },
+    { "id": "a1-u12-b06", "itemIds": ["v-a1-0431", "v-a1-0432", "v-a1-0433", "v-a1-0434", "v-a1-0435"] },
+    { "id": "a1-u12-b07", "itemIds": ["g-a1-0047", "v-a1-0436", "v-a1-0437", "v-a1-0438", "v-a1-0439"] },
+    { "id": "a1-u12-b08", "itemIds": ["v-a1-0440", "v-a1-0441", "v-a1-0442", "v-a1-0443", "v-a1-0444"] },
+    { "id": "a1-u12-b09", "itemIds": ["g-a1-0048", "v-a1-0445", "v-a1-0446", "v-a1-0447", "v-a1-0448"] }
+  ]
+}

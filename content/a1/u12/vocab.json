@@ -1,0 +1,538 @@
+[
+  {
+    "id": "v-a1-0408",
+    "pos": "verb",
+    "de": "kaufen",
+    "it": ["comprare", "acquistare"],
+    "promptIt": "comprare",
+    "examples": [
+      { "de": "Ich kaufe Brot.", "it": "Compro il pane." },
+      { "de": "Was kaufst du?", "it": "Cosa compri?" }
+    ]
+  },
+  {
+    "id": "v-a1-0409",
+    "pos": "verb",
+    "de": "kosten",
+    "it": ["costare"],
+    "promptIt": "costare",
+    "noteIt": "Con er/es si aggiunge una e: Das kostet zwei Euro.",
+    "examples": [
+      { "de": "Was kostet das?", "it": "Quanto costa?" },
+      { "de": "Das Brot kostet drei Euro.", "it": "Il pane costa tre euro." }
+    ]
+  },
+  {
+    "id": "v-a1-0410",
+    "pos": "noun",
+    "de": "Euro",
+    "article": "der",
+    "plural": "Euros",
+    "it": ["euro"],
+    "promptIt": "l'euro",
+    "noteIt": "Dopo un numero resta al singolare: zehn Euro.",
+    "examples": [
+      { "de": "Das kostet zehn Euro.", "it": "Costa dieci euro." },
+      { "de": "Hast du einen Euro?", "it": "Hai un euro?" }
+    ]
+  },
+  {
+    "id": "v-a1-0411",
+    "pos": "noun",
+    "de": "Cent",
+    "article": "der",
+    "plural": "Cents",
+    "it": ["centesimo", "cent"],
+    "promptIt": "il centesimo",
+    "noteIt": "Dopo un numero resta al singolare: fünfzig Cent.",
+    "examples": [
+      { "de": "Das kostet fünfzig Cent.", "it": "Costa cinquanta centesimi." },
+      { "de": "Ich habe nur zwanzig Cent.", "it": "Ho solo venti centesimi." }
+    ]
+  },
+  {
+    "id": "v-a1-0412",
+    "pos": "noun",
+    "de": "Preis",
+    "article": "der",
+    "plural": "Preise",
+    "it": ["prezzo", "premio"],
+    "promptIt": "il prezzo",
+    "noteIt": "Vuol dire anche premio.",
+    "examples": [
+      { "de": "Der Preis ist gut.", "it": "Il prezzo è buono." },
+      { "de": "Die Preise sind hier hoch.", "it": "Qui i prezzi sono alti." }
+    ]
+  },
+  {
+    "id": "v-a1-0413",
+    "pos": "num",
+    "de": "tausend",
+    "it": ["mille"],
+    "promptIt": "mille",
+    "acceptDe": ["eintausend"],
+    "examples": [
+      { "de": "Das Sofa kostet tausend Euro.", "it": "Il divano costa mille euro." },
+      { "de": "Tausend Dank!", "it": "Mille grazie!" }
+    ]
+  },
+  {
+    "id": "v-a1-0414",
+    "pos": "adj",
+    "de": "teuer",
+    "it": ["caro", "cara", "costoso", "costosa"],
+    "promptIt": "caro (costoso)",
+    "examples": [
+      { "de": "Das ist zu teuer.", "it": "È troppo caro." },
+      { "de": "Die Wohnung ist teuer.", "it": "L'appartamento è caro." }
+    ]
+  },
+  {
+    "id": "v-a1-0415",
+    "pos": "adj",
+    "de": "billig",
+    "it": ["economico", "economica", "a buon mercato"],
+    "promptIt": "economico (a buon mercato)",
+    "acceptDe": ["günstig"],
+    "noteIt": "A volte suona negativo, come «scadente». Più neutro: günstig.",
+    "examples": [
+      { "de": "Das Brot ist hier billig.", "it": "Qui il pane costa poco." },
+      { "de": "Der Supermarkt ist billig.", "it": "Il supermercato è economico." }
+    ]
+  },
+  {
+    "id": "v-a1-0416",
+    "pos": "phrase",
+    "de": "Was kostet das?",
+    "it": ["quanto costa?", "quanto costa questo?"],
+    "promptIt": "quanto costa?",
+    "acceptDe": ["Wie viel kostet das?", "Wieviel kostet das?"],
+    "examples": [
+      { "de": "Entschuldigung, was kostet das?", "it": "Scusi, quanto costa?" },
+      { "de": "Was kostet der Käse?", "it": "Quanto costa il formaggio?" }
+    ]
+  },
+  {
+    "id": "v-a1-0417",
+    "pos": "noun",
+    "de": "Markt",
+    "article": "der",
+    "plural": "Märkte",
+    "it": ["mercato"],
+    "promptIt": "il mercato",
+    "noteIt": "Al mercato: auf den Markt (o zum Markt).",
+    "examples": [
+      { "de": "Am Samstag gehe ich auf den Markt.", "it": "Sabato vado al mercato." },
+      { "de": "Der Markt ist auf dem Platz.", "it": "Il mercato è in piazza." }
+    ]
+  },
+  {
+    "id": "v-a1-0418",
+    "pos": "noun",
+    "de": "Bäckerei",
+    "article": "die",
+    "plural": "Bäckereien",
+    "it": ["panetteria", "forno", "panificio"],
+    "promptIt": "la panetteria",
+    "examples": [
+      { "de": "Ich kaufe Brötchen in der Bäckerei.", "it": "Compro i panini in panetteria." },
+      { "de": "Die Bäckerei macht um sieben Uhr auf.", "it": "La panetteria apre alle sette." }
+    ]
+  },
+  {
+    "id": "v-a1-0419",
+    "pos": "noun",
+    "de": "Obst",
+    "article": "das",
+    "plural": null,
+    "it": ["frutta"],
+    "promptIt": "la frutta",
+    "noteIt": "In tedesco è neutro e non ha plurale: das Obst.",
+    "examples": [
+      { "de": "Ich esse viel Obst.", "it": "Mangio molta frutta." },
+      { "de": "Das Obst ist frisch.", "it": "La frutta è fresca." }
+    ]
+  },
+  {
+    "id": "v-a1-0420",
+    "pos": "noun",
+    "de": "Gemüse",
+    "article": "das",
+    "plural": null,
+    "it": ["verdura", "verdure", "ortaggi"],
+    "promptIt": "la verdura",
+    "noteIt": "In tedesco è neutro e singolare: das Gemüse = la verdura, le verdure.",
+    "examples": [
+      { "de": "Gemüse ist gesund.", "it": "La verdura fa bene." },
+      { "de": "Wir kaufen Gemüse auf dem Markt.", "it": "Compriamo la verdura al mercato." }
+    ]
+  },
+  {
+    "id": "v-a1-0421",
+    "pos": "noun",
+    "de": "Tomate",
+    "article": "die",
+    "plural": "Tomaten",
+    "it": ["pomodoro"],
+    "promptIt": "il pomodoro",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Tomate.",
+    "examples": [
+      { "de": "Die Tomaten sind rot.", "it": "I pomodori sono rossi." },
+      { "de": "Ein Kilo Tomaten, bitte.", "it": "Un chilo di pomodori, per favore." }
+    ]
+  },
+  {
+    "id": "v-a1-0422",
+    "pos": "noun",
+    "de": "Kartoffel",
+    "article": "die",
+    "plural": "Kartoffeln",
+    "it": ["patata"],
+    "promptIt": "la patata",
+    "examples": [
+      { "de": "Heute gibt es Fisch mit Kartoffeln.", "it": "Oggi c'è pesce con patate." },
+      { "de": "Die Kartoffeln sind im Schrank.", "it": "Le patate sono nella credenza." }
+    ]
+  },
+  {
+    "id": "v-a1-0423",
+    "pos": "noun",
+    "de": "Zwiebel",
+    "article": "die",
+    "plural": "Zwiebeln",
+    "it": ["cipolla"],
+    "promptIt": "la cipolla",
+    "examples": [
+      { "de": "Ich brauche eine Zwiebel.", "it": "Mi serve una cipolla." },
+      { "de": "Ich koche eine Suppe mit Zwiebeln.", "it": "Cucino una zuppa con le cipolle." }
+    ]
+  },
+  {
+    "id": "v-a1-0424",
+    "pos": "noun",
+    "de": "Orange",
+    "article": "die",
+    "plural": "Orangen",
+    "it": ["arancia"],
+    "promptIt": "l'arancia",
+    "acceptDe": ["Apfelsine"],
+    "noteIt": "Nel nord si dice anche die Apfelsine.",
+    "examples": [
+      { "de": "Die Orangen kommen aus Spanien.", "it": "Le arance vengono dalla Spagna." },
+      { "de": "Ich esse eine Orange.", "it": "Mangio un'arancia." }
+    ]
+  },
+  {
+    "id": "v-a1-0425",
+    "pos": "noun",
+    "de": "Reis",
+    "article": "der",
+    "plural": null,
+    "it": ["riso"],
+    "promptIt": "il riso",
+    "examples": [
+      { "de": "Ich koche Reis.", "it": "Cucino il riso." },
+      { "de": "Der Reis ist fertig.", "it": "Il riso è pronto." }
+    ]
+  },
+  {
+    "id": "v-a1-0426",
+    "pos": "noun",
+    "de": "Nudel",
+    "article": "die",
+    "plural": "Nudeln",
+    "it": ["pasta"],
+    "promptIt": "la pasta (spaghetti, penne…)",
+    "acceptDe": ["Nudeln"],
+    "noteIt": "Di solito si usa al plurale: die Nudeln.",
+    "examples": [
+      { "de": "Heute koche ich Nudeln.", "it": "Oggi cucino la pasta." },
+      { "de": "Die Nudeln sind lecker.", "it": "La pasta è buonissima." }
+    ]
+  },
+  {
+    "id": "v-a1-0427",
+    "pos": "noun",
+    "de": "Kilo",
+    "article": "das",
+    "plural": "Kilos",
+    "it": ["chilo", "chilogrammo"],
+    "promptIt": "il chilo",
+    "acceptDe": ["Kilogramm"],
+    "noteIt": "Dopo un numero resta al singolare: zwei Kilo.",
+    "examples": [
+      { "de": "Ein Kilo Äpfel, bitte.", "it": "Un chilo di mele, per favore." },
+      { "de": "Die Tomaten kosten drei Euro das Kilo.", "it": "I pomodori costano tre euro al chilo." }
+    ]
+  },
+  {
+    "id": "v-a1-0428",
+    "pos": "noun",
+    "de": "Gramm",
+    "article": "das",
+    "plural": "Gramm",
+    "it": ["grammo"],
+    "promptIt": "il grammo",
+    "noteIt": "In italiano è maschile, in tedesco neutro: das Gramm. Dopo un numero resta uguale: fünfhundert Gramm.",
+    "examples": [
+      { "de": "Zweihundert Gramm Käse, bitte.", "it": "Duecento grammi di formaggio, per favore." },
+      { "de": "Wie viel Gramm brauchst du?", "it": "Quanti grammi ti servono?" }
+    ]
+  },
+  {
+    "id": "v-a1-0429",
+    "pos": "noun",
+    "de": "Liter",
+    "article": "der",
+    "plural": "Liter",
+    "it": ["litro"],
+    "promptIt": "il litro",
+    "examples": [
+      { "de": "Ein Liter Milch kostet einen Euro.", "it": "Un litro di latte costa un euro." },
+      { "de": "Wir brauchen zwei Liter Wasser.", "it": "Ci servono due litri d'acqua." }
+    ]
+  },
+  {
+    "id": "v-a1-0430",
+    "pos": "noun",
+    "de": "Flasche",
+    "article": "die",
+    "plural": "Flaschen",
+    "it": ["bottiglia"],
+    "promptIt": "la bottiglia",
+    "examples": [
+      { "de": "Eine Flasche Wein, bitte.", "it": "Una bottiglia di vino, per favore." },
+      { "de": "Die Flasche ist leer.", "it": "La bottiglia è vuota." }
+    ]
+  },
+  {
+    "id": "v-a1-0431",
+    "pos": "noun",
+    "de": "Packung",
+    "article": "die",
+    "plural": "Packungen",
+    "it": ["confezione", "pacco", "pacchetto"],
+    "promptIt": "la confezione",
+    "examples": [
+      { "de": "Eine Packung Nudeln, bitte.", "it": "Una confezione di pasta, per favore." },
+      { "de": "Die Packung ist offen.", "it": "La confezione è aperta." }
+    ]
+  },
+  {
+    "id": "v-a1-0432",
+    "pos": "noun",
+    "de": "Stück",
+    "article": "das",
+    "plural": "Stücke",
+    "it": ["pezzo", "fetta"],
+    "promptIt": "il pezzo",
+    "noteIt": "ein Stück Kuchen = una fetta di torta. Dopo un numero di solito resta Stück: zwei Stück.",
+    "examples": [
+      { "de": "Ein Stück Kuchen, bitte.", "it": "Una fetta di torta, per favore." },
+      { "de": "Die Brötchen kosten fünfzig Cent das Stück.", "it": "I panini costano cinquanta centesimi l'uno." }
+    ]
+  },
+  {
+    "id": "v-a1-0433",
+    "pos": "noun",
+    "de": "Dose",
+    "article": "die",
+    "plural": "Dosen",
+    "it": ["lattina", "barattolo", "scatola", "scatoletta"],
+    "promptIt": "la lattina (il barattolo)",
+    "examples": [
+      { "de": "Eine Dose Tomaten, bitte.", "it": "Una scatola di pomodori, per favore." },
+      { "de": "Die Dose ist leer.", "it": "La lattina è vuota." }
+    ]
+  },
+  {
+    "id": "v-a1-0434",
+    "pos": "noun",
+    "de": "Wurst",
+    "article": "die",
+    "plural": "Würste",
+    "it": ["salume", "salsiccia", "insaccato", "wurstel"],
+    "promptIt": "il salume (la salsiccia)",
+    "noteIt": "die Wurst è un nome generico: salsicce, wurstel e salumi da affettare.",
+    "examples": [
+      { "de": "Ein Brötchen mit Wurst, bitte.", "it": "Un panino con il salume, per favore." },
+      { "de": "Die Wurst ist lecker.", "it": "La salsiccia è buonissima." }
+    ]
+  },
+  {
+    "id": "v-a1-0435",
+    "pos": "noun",
+    "de": "Butter",
+    "article": "die",
+    "plural": null,
+    "it": ["burro"],
+    "promptIt": "il burro",
+    "noteIt": "In italiano è maschile, in tedesco femminile: die Butter.",
+    "examples": [
+      { "de": "Ich esse Brot mit Butter.", "it": "Mangio pane e burro." },
+      { "de": "Die Butter ist im Kühlschrank.", "it": "Il burro è in frigo." }
+    ]
+  },
+  {
+    "id": "v-a1-0436",
+    "pos": "prep",
+    "de": "für",
+    "it": ["per"],
+    "promptIt": "per",
+    "noteIt": "Vuole l'accusativo: für meinen Bruder.",
+    "examples": [
+      { "de": "Das ist für dich.", "it": "È per te." },
+      { "de": "Einen Kaffee für mich, bitte.", "it": "Un caffè per me, per favore." }
+    ]
+  },
+  {
+    "id": "v-a1-0437",
+    "pos": "prep",
+    "de": "ohne",
+    "it": ["senza"],
+    "promptIt": "senza",
+    "noteIt": "Vuole l'accusativo: ohne meinen Mann.",
+    "examples": [
+      { "de": "Kaffee ohne Milch, bitte.", "it": "Un caffè senza latte, per favore." },
+      { "de": "Ich gehe nicht ohne dich.", "it": "Non vado senza di te." }
+    ]
+  },
+  {
+    "id": "v-a1-0438",
+    "pos": "noun",
+    "de": "Zucker",
+    "article": "der",
+    "plural": null,
+    "it": ["zucchero"],
+    "promptIt": "lo zucchero",
+    "examples": [
+      { "de": "Trinkst du Kaffee mit Zucker?", "it": "Prendi il caffè con lo zucchero?" },
+      { "de": "Ohne Zucker, bitte.", "it": "Senza zucchero, per favore." }
+    ]
+  },
+  {
+    "id": "v-a1-0439",
+    "pos": "noun",
+    "de": "Salz",
+    "article": "das",
+    "plural": null,
+    "it": ["sale"],
+    "promptIt": "il sale",
+    "noteIt": "In italiano è maschile, in tedesco neutro: das Salz.",
+    "examples": [
+      { "de": "Gibst du mir das Salz, bitte?", "it": "Mi passi il sale, per favore?" },
+      { "de": "Die Suppe braucht Salz.", "it": "La zuppa ha bisogno di sale." }
+    ]
+  },
+  {
+    "id": "v-a1-0440",
+    "pos": "verb",
+    "de": "brauchen",
+    "it": ["avere bisogno di", "avere bisogno", "servire"],
+    "promptIt": "avere bisogno di",
+    "noteIt": "Vuole l'accusativo: Ich brauche einen Liter Milch. «Mi serve» si dice ich brauche.",
+    "examples": [
+      { "de": "Ich brauche Milch.", "it": "Mi serve il latte." },
+      { "de": "Was brauchst du?", "it": "Di cosa hai bisogno?" }
+    ]
+  },
+  {
+    "id": "v-a1-0441",
+    "pos": "verb",
+    "de": "bezahlen",
+    "it": ["pagare"],
+    "promptIt": "pagare",
+    "acceptDe": ["zahlen"],
+    "noteIt": "Si dice anche zahlen: Zahlen, bitte! = il conto, per favore!",
+    "examples": [
+      { "de": "Ich bezahle mit Karte.", "it": "Pago con la carta." },
+      { "de": "Wir möchten bitte bezahlen.", "it": "Vorremmo pagare, per favore." }
+    ]
+  },
+  {
+    "id": "v-a1-0442",
+    "pos": "noun",
+    "de": "Kasse",
+    "article": "die",
+    "plural": "Kassen",
+    "it": ["cassa"],
+    "promptIt": "la cassa (dove si paga)",
+    "examples": [
+      { "de": "Bitte zahlen Sie an der Kasse.", "it": "Per favore, paghi alla cassa." },
+      { "de": "Die Kasse ist dort.", "it": "La cassa è là." }
+    ]
+  },
+  {
+    "id": "v-a1-0443",
+    "pos": "adv",
+    "de": "bar",
+    "it": ["in contanti", "contanti"],
+    "promptIt": "in contanti",
+    "examples": [
+      { "de": "Ich zahle bar.", "it": "Pago in contanti." },
+      { "de": "Zahlen Sie bar oder mit Karte?", "it": "Paga in contanti o con la carta?" }
+    ]
+  },
+  {
+    "id": "v-a1-0444",
+    "pos": "noun",
+    "de": "Karte",
+    "article": "die",
+    "plural": "Karten",
+    "it": ["carta", "carta di credito", "tessera", "biglietto", "cartolina", "menù", "menu", "mappa", "cartina"],
+    "promptIt": "la carta (per pagare)",
+    "acceptDe": ["Kreditkarte", "Bankkarte"],
+    "noteIt": "Ha molti significati: la carta per pagare, il biglietto (Kinokarte), la cartolina, il menù (Speisekarte).",
+    "examples": [
+      { "de": "Kann ich mit Karte bezahlen?", "it": "Posso pagare con la carta?" },
+      { "de": "Die Karte liegt auf dem Tisch.", "it": "La carta è sul tavolo." }
+    ]
+  },
+  {
+    "id": "v-a1-0445",
+    "pos": "adv",
+    "de": "wie viel",
+    "it": ["quanto", "quanta"],
+    "promptIt": "quanto? (domanda sulla quantità)",
+    "acceptDe": ["wieviel"],
+    "examples": [
+      { "de": "Wie viel kostet das?", "it": "Quanto costa?" },
+      { "de": "Wie viel Zeit hast du?", "it": "Quanto tempo hai?" }
+    ]
+  },
+  {
+    "id": "v-a1-0446",
+    "pos": "adv",
+    "de": "noch",
+    "it": ["ancora"],
+    "promptIt": "ancora",
+    "noteIt": "noch ein Kaffee = un altro caffè. noch nicht = non ancora.",
+    "examples": [
+      { "de": "Noch einen Kaffee, bitte!", "it": "Un altro caffè, per favore!" },
+      { "de": "Ich habe noch Zeit.", "it": "Ho ancora tempo." }
+    ]
+  },
+  {
+    "id": "v-a1-0447",
+    "pos": "pron",
+    "de": "alles",
+    "it": ["tutto"],
+    "promptIt": "tutto",
+    "examples": [
+      { "de": "Das ist alles.", "it": "È tutto." },
+      { "de": "Alles klar!", "it": "Tutto chiaro!" }
+    ]
+  },
+  {
+    "id": "v-a1-0448",
+    "pos": "phrase",
+    "de": "Sonst noch etwas?",
+    "it": ["altro?", "nient'altro?", "qualcos'altro?", "desidera altro?"],
+    "promptIt": "altro? (in un negozio)",
+    "acceptDe": ["Sonst noch was?", "Noch etwas?", "Noch was?", "Darf es noch etwas sein?"],
+    "examples": [
+      { "de": "Sonst noch etwas? Nein, danke, das ist alles.", "it": "Altro? No, grazie, è tutto." },
+      { "de": "Zwei Brötchen, bitte. Sonst noch etwas?", "it": "Due panini, per favore. Altro?" }
+    ]
+  }
+]
