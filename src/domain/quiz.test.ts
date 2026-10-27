@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { CheckResult } from "../checker/check";
 import { findBatch } from "../content";
-import { cardsFor, gapStartsSentence } from "./cards";
+import { cardsFor } from "./cards";
 import { cardsCleared, isFinished, quizReducer, startQuiz, type QuizState } from "./quiz";
 
 const right: CheckResult = { outcome: "correct", notes: [], expected: "x" };
@@ -20,15 +20,6 @@ describe("cards", () => {
     const grammar = findBatch("a1-u01-b03")!.items.flatMap(cardsFor);
     expect(grammar.filter((c) => c.kind === "cloze")).toHaveLength(12);
     expect(grammar.find((c) => c.kind === "cloze")?.id).toBe("g-a1-0001:e1");
-  });
-});
-
-describe("gapStartsSentence", () => {
-  it("is true at the start and after a full stop, false mid-sentence", () => {
-    expect(gapStartsSentence("___ Sie Frau Schmidt?")).toBe(true);
-    expect(gapStartsSentence("Das ist Anna. ___ wohnt in Wien.")).toBe(true);
-    expect(gapStartsSentence("Wie heißen ___?")).toBe(false);
-    expect(gapStartsSentence("Die ___ sind gut.")).toBe(false);
   });
 });
 

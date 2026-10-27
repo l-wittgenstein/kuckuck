@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import type { Exercise, GrammarItem, VocabItem } from "../../content/schema";
-import { checkCloze, checkGerman, checkMeaning, type CheckResult } from "./check";
+import { checkCloze, checkGerman, checkMeaning, gapStartsSentence, type CheckResult } from "./check";
 
 function load<T>(path: string): T {
   return JSON.parse(readFileSync(new URL(`../../content/${path}`, import.meta.url), "utf8")) as T;
@@ -94,36 +94,32 @@ describe("checkMeaning (German → Italian)", () => {
     expect(checkMeaning("tavolo, sedia", word("Kind")).outcome).toBe("wrong");
   });
 
-  it("accepts missing or wrong Italian accents with a note", () => {
-    expect(checkMeaning("si", word("ja"))).toEqual(correct("sì", ["accent"]));
-    expect(checkMeaning("sí", word("ja"))).toEqual(correct("sì", ["accent"]));
-    expect(checkMeaning("si'", word("ja"))).toEqual(correct("sì", ["accent"]));
+  it("accepts missing or wrong Italian accents without a note", () => {
+    expect(checkMeaning("si", word("ja"))).toEqual(correct("sì"));
+    expect(checkMeaning("sí", word("ja"))).toEqual(correct("sì"));
+    expect(checkMeaning("si'", word("ja"))).toEqual(correct("sì"));
     const warum = item({ pos: "adv", de: "warum", it: ["perché"] });
-    expect(checkMeaning("perche", warum)).toEqual(correct("perché", ["accent"]));
-    expect(checkMeaning("perchè", warum)).toEqual(correct("perché", ["accent"]));
+    expect(checkMeaning("perche", warum)).toEqual(correct("perché"));
+    expect(checkMeaning("perchè", warum)).toEqual(correct("perché"));
     const ist = item({ pos: "verb", de: "ist", it: ["è"] });
-    expect(checkMeaning("e", ist)).toEqual(correct("è", ["accent"]));
-    expect(checkMeaning("sì", word("ja"))).toEqual(correct("sì"));
+    expect(checkMeaning("e", ist)).toEqual(correct("è"));
   });
 
-  it("applies typo tolerance by length", () => {
+  it("accepts Italian typos without a note, within a tolerance by length", () => {
     // ≤ 3 letters: none
     expect(checkMeaning("chu", word("wer"))).toEqual(wrong("chi"));
     expect(checkMeaning("noo", word("nein"))).toEqual(wrong("no"));
     // 4–6: one
-    expect(checkMeaning("csaa", word("Haus"))).toEqual(almost("casa", ["typo"]));
-    expect(checkMeaning("cassa", word("Haus"))).toEqual(almost("casa", ["typo"]));
+    expect(checkMeaning("csaa", word("Haus"))).toEqual(correct("casa"));
+    expect(checkMeaning("cassa", word("Haus"))).toEqual(correct("casa"));
     expect(checkMeaning("cssaa", word("Haus"))).toEqual(wrong("casa"));
     // ≥ 7: two
-    expect(checkMeaning("frattelo", word("Bruder"))).toEqual(almost("fratello", ["typo"]));
-    expect(checkMeaning("fartelo", word("Bruder"))).toEqual(almost("fratello", ["typo"]));
-    expect(checkMeaning("fartelli", word("Bruder"))).toEqual(almost("fratello", ["typo"]));
+    expect(checkMeaning("frattelo", word("Bruder"))).toEqual(correct("fratello"));
+    expect(checkMeaning("fartelli", word("Bruder"))).toEqual(correct("fratello"));
     expect(checkMeaning("fartellii", word("Bruder"))).toEqual(wrong("fratello"));
-  });
-
-  it("combines a typo with a missing accent", () => {
+    // a typo and a missing accent together
     const warum = item({ pos: "adv", de: "warum", it: ["perché"] });
-    expect(checkMeaning("prche", warum)).toEqual(almost("perché", ["typo", "accent"]));
+    expect(checkMeaning("prche", warum)).toEqual(correct("perché"));
   });
 
   it("prefers an exact match over a typo match against another meaning", () => {
@@ -133,10 +129,10 @@ describe("checkMeaning (German → Italian)", () => {
 
   it("refuses typo tolerance for another known word", () => {
     const neun = word("neun");
-    expect(checkMeaning("nome", neun)).toEqual(almost("nove", ["typo"]));
+    expect(checkMeaning("nome", neun)).toEqual(correct("nove"));
     const knownAnswers = vocab.flatMap((v) => v.it);
     expect(checkMeaning("nome", neun, { knownAnswers })).toEqual(wrong("nove"));
-    expect(checkMeaning("nvoe", neun, { knownAnswers })).toEqual(almost("nove", ["typo"]));
+    expect(checkMeaning("nvoe", neun, { knownAnswers })).toEqual(correct("nove"));
   });
 
   it("rejects empty answers", () => {
@@ -336,11 +332,19 @@ describe("checkCloze (grammar gaps)", () => {
     expect(checkCloze("SIE", exercise("g-a1-0001-e4"))).toEqual(wrong("Sie", ["case"]));
   });
 
-  it("ignores case otherwise, noting a lowercase sentence start", () => {
-    expect(checkCloze("ich", exercise("g-a1-0001-e1"))).toEqual(correct("Ich", ["capitalization"]));
-    expect(checkCloze("sie", exercise("g-a1-0001-e6"))).toEqual(correct("Sie", ["capitalization"]));
+  it("ignores case otherwise, noting only a lowercase noun", () => {
+    expect(checkCloze("ich", exercise("g-a1-0001-e1"))).toEqual(correct("Ich"));
+    expect(checkCloze("sie", exercise("g-a1-0001-e6"))).toEqual(correct("Sie"));
     expect(checkCloze("Du", exercise("g-a1-0001-e3"))).toEqual(correct("du"));
     expect(checkCloze("Das", exercise("g-a1-0005-e4"))).toEqual(correct("das"));
+    expect(checkCloze("kinder", exercise("g-a1-0007-e2"))).toEqual(correct("Kinder", ["capitalization"]));
+  });
+
+  it("knows when the gap starts a sentence", () => {
+    expect(gapStartsSentence("___ Sie Frau Schmidt?")).toBe(true);
+    expect(gapStartsSentence("Das ist Anna. ___ wohnt in Wien.")).toBe(true);
+    expect(gapStartsSentence("Wie heißen ___?")).toBe(false);
+    expect(gapStartsSentence("Die ___ sind gut.")).toBe(false);
   });
 
   it("accepts ae/oe/ue/ss with a note", () => {

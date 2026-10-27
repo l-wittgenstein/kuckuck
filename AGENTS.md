@@ -14,6 +14,7 @@ Settled decisions (don't change without asking):
 - SRS stages, derived from FSRS stability: Uovo 🥚 (< 7 days), Pulcino 🐣 (≥ 7), Passerotto 🐦 (≥ 30), Gufo 🦉 (≥ 90), Aquila 🦅 (≥ 180, retires from reviews). An item's stage is its lowest card's. Thresholds are in `src/domain/config.ts`.
 - Tabs: Oggi, Percorso, Vocabolario, Impostazioni.
 - The checker override reads "Invece è corretto"; once tapped it shows "Annulla" until she moves on.
+- The checker is strict only about German. Italian answers (her own language) accept small typos and missing accents as correct, with no note; an answer that is another word of the course is still wrong. A lowercase first word is never flagged: capitalisation notes are for nouns (and words like Sie where case changes meaning).
 - Lessons hold at most 5 items; new lessons pause while more than 40 reviews are due.
 - No on-screen umlaut keys: phone keyboards have them.
 - Grammar points are labelled with the "Grammatica" tag, not emoji.

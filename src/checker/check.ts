@@ -1,6 +1,7 @@
 // Decides whether a typed answer is correct, nearly correct or wrong.
-// A wrong "correct" teaches her a mistake, so every tolerance here is
-// narrow and an exact match always wins over a tolerant one.
+// A wrong "correct" teaches her a mistake, so every tolerance for German
+// is narrow and an exact match always wins over a tolerant one. Italian is
+// her own language: a slip in typing it is not a mistake worth marking.
 import type { Exercise, VocabItem } from "../../content/schema";
 import {
   editDistance,
@@ -101,20 +102,17 @@ export function checkMeaning(
   return result(top.outcome, top.notes, expected, top.form);
 }
 
+// Accents and typos pass without a note. An answer that is another word of
+// the course ("cena" for "cane") is still wrong: that is no typo.
 function gradeItalian(a: string, f: string, form: string, otherWord: boolean): Graded | null {
   if (a === f) return { outcome: "correct", notes: [], rank: 0, form };
   const af = foldAccents(a);
   const ff = foldAccents(f);
-  if (af === ff) return { outcome: "correct", notes: ["accent"], rank: 1, form };
+  if (af === ff) return { outcome: "correct", notes: [], rank: 1, form };
   if (otherWord) return null;
-  const tolerance = typoTolerance(f);
-  const d = editDistance(a, f);
-  if (d <= tolerance) return { outcome: "almost", notes: ["typo"], rank: 10 + d, form };
-  const dFolded = editDistance(af, ff);
-  if (dFolded <= tolerance) {
-    return { outcome: "almost", notes: ["typo", "accent"], rank: 15 + dFolded, form };
-  }
-  return null;
+  const d = editDistance(af, ff);
+  if (d > typoTolerance(f)) return null;
+  return { outcome: "correct", notes: [], rank: 10 + d, form };
 }
 
 // ----------------------------------------------------------------- German
@@ -234,12 +232,19 @@ export function checkGerman(
 
 // ------------------------------------------------------------------ Cloze
 
+// A blank that opens a sentence takes a capital for that reason alone, not
+// because the word is a noun.
+export function gapStartsSentence(sentence: string): boolean {
+  return /^(|.*[.!?]\s+)$/.test(sentence.split("___")[0]);
+}
+
 // Grammar gaps: no typo tolerance, because a one-letter difference
 // ("wohne"/"wohnt") is usually the very mistake being tested.
 export function checkCloze(answer: string, exercise: Exercise): CheckResult {
   const expected = exercise.answers[0];
   const a = stripPunctuation(normalizeText(answer));
   if (a === "") return result("wrong", [], expected);
+  const gapStarts = gapStartsSentence(exercise.sentence);
 
   const graded = exercise.answers.map((raw): Graded | null => {
     const f = stripPunctuation(normalizeText(raw));
@@ -248,8 +253,9 @@ export function checkCloze(answer: string, exercise: Exercise): CheckResult {
     if (!m) return null;
     const caseDiffers = matchUmlauts(a, f) === null;
     const notes: Note[] = [];
+    // A lowercase sentence start is fine; a lowercase noun is not.
     if (exercise.caseSensitive && caseDiffers) notes.push("case");
-    else if (caseDiffers && startsUppercase(f) && startsLowercase(a)) notes.push("capitalization");
+    else if (caseDiffers && startsUppercase(f) && startsLowercase(a) && !gapStarts) notes.push("capitalization");
     if (m.translit || m.dotless) notes.push("umlaut");
     // Missing dots are wrong here: "Bruder" for "Brüder" is the plural error.
     if (m.dotless) return { outcome: "wrong", notes, rank: 60, form: raw };
