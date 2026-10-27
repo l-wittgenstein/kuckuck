@@ -8,7 +8,11 @@ function load<T>(path: string): T {
 }
 
 const vocab = [...load<VocabItem[]>("a1/u01/vocab.json"), ...load<VocabItem[]>("a1/u02/vocab.json")];
-const grammar = [...load<GrammarItem[]>("a1/u01/grammar.json"), ...load<GrammarItem[]>("a1/u02/grammar.json")];
+const grammar = [
+  ...load<GrammarItem[]>("a1/u01/grammar.json"),
+  ...load<GrammarItem[]>("a1/u02/grammar.json"),
+  ...load<GrammarItem[]>("a1/u04/grammar.json"),
+];
 
 function word(de: string): VocabItem {
   const item = vocab.find((v) => v.de === de);
@@ -323,7 +327,7 @@ describe("checkCloze (grammar gaps)", () => {
     expect(checkCloze("wohnt", exercise("g-a1-0003-e1"))).toEqual(wrong("wohne"));
     expect(checkCloze("habt", exercise("g-a1-0008-e2"))).toEqual(wrong("Hast"));
     expect(checkCloze("eine", exercise("g-a1-0006-e1"))).toEqual(wrong("ein"));
-    expect(checkCloze("ein", exercise("g-a1-0008-e5"))).toEqual(wrong("einen"));
+    expect(checkCloze("ein", exercise("g-a1-0013-e2"))).toEqual(wrong("einen"));
     expect(checkCloze("lrent", exercise("g-a1-0003-e3"))).toEqual(wrong("lernt"));
   });
 
@@ -336,7 +340,7 @@ describe("checkCloze (grammar gaps)", () => {
     expect(checkCloze("ich", exercise("g-a1-0001-e1"))).toEqual(correct("Ich", ["capitalization"]));
     expect(checkCloze("sie", exercise("g-a1-0001-e6"))).toEqual(correct("Sie", ["capitalization"]));
     expect(checkCloze("Du", exercise("g-a1-0001-e3"))).toEqual(correct("du"));
-    expect(checkCloze("Die", exercise("g-a1-0005-e2"))).toEqual(correct("die"));
+    expect(checkCloze("Das", exercise("g-a1-0005-e4"))).toEqual(correct("das"));
   });
 
   it("accepts ae/oe/ue/ss with a note", () => {

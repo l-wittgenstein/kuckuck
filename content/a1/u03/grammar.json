@@ -243,7 +243,7 @@
     "explanationIt": [
       "In italiano si nega tutto con «non». In tedesco bisogna scegliere tra kein e nicht.",
       "kein nega un sostantivo che avrebbe ein oppure nessun articolo: «non un, nessun». Das ist ein Hund → Das ist kein Hund. Wir haben Kinder → Wir haben keine Kinder.",
-      "kein si comporta come ein: kein Mann, kein Kind, keine Frau; al plurale keine Kinder. Quando il maschile è l'oggetto della frase diventa keinen, come einen: Ich habe keinen Bruder.",
+      "kein si comporta come ein: kein Mann, kein Kind, keine Frau; al plurale keine Kinder. Quando il maschile è l'oggetto della frase diventa keinen, come einen (Ich habe keinen Bruder): lo vedremo con l'accusativo nell'unità 4.",
       "nicht nega tutto il resto: verbi, aggettivi, nomi propri, sostantivi con der/die/das o con un possessivo. Ich wohne nicht in Rom. Anna ist nicht alt. Das ist nicht mein Auto. Con un oggetto con der/die/das, di solito nicht va in fondo: Ich trinke den Kaffee nicht."
     ],
     "pattern": [
@@ -281,9 +281,9 @@
         "explanationIt": "Al posto di nicht ein si usa kein."
       },
       {
-        "wrong": "Ich habe kein Bruder.",
-        "right": "Ich habe keinen Bruder.",
-        "explanationIt": "Bruder è maschile ed è l'oggetto: keinen, come einen."
+        "wrong": "Mein Opa ist kein alt.",
+        "right": "Mein Opa ist nicht alt.",
+        "explanationIt": "Con un aggettivo si usa nicht, non kein."
       },
       {
         "wrong": "Ich nicht wohne in Rom.",
@@ -334,13 +334,13 @@
       },
       {
         "id": "g-a1-0011-e5",
-        "sentence": "Ich habe ___ Bruder.",
+        "sentence": "Wir haben ___ Auto.",
         "answers": [
-          "keinen"
+          "kein"
         ],
-        "hintIt": "non un (der Bruder, oggetto)",
-        "translationIt": "Non ho un fratello.",
-        "explanationIt": "Bruder è maschile ed è l'oggetto: keinen."
+        "hintIt": "nessuna (das Auto)",
+        "translationIt": "Non abbiamo la macchina.",
+        "explanationIt": "Auto è neutro: kein, come ein."
       },
       {
         "id": "g-a1-0011-e6",

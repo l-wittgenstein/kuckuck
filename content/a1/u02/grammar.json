@@ -52,11 +52,11 @@
       },
       {
         "id": "g-a1-0005-e2",
-        "sentence": "Wo ist ___ Sonne?",
-        "answers": ["die"],
-        "hintIt": "il sole",
-        "translationIt": "Dov'è il sole?",
-        "explanationIt": "Sonne è femminile: die Sonne. In italiano è maschile, attenzione!"
+        "sentence": "___ Schwester heißt Anna.",
+        "answers": ["Die"],
+        "hintIt": "la sorella",
+        "translationIt": "La sorella si chiama Anna.",
+        "explanationIt": "Schwester è femminile: die Schwester."
       },
       {
         "id": "g-a1-0005-e3",
@@ -68,27 +68,27 @@
       },
       {
         "id": "g-a1-0005-e4",
-        "sentence": "Wo ist ___ Mond?",
-        "answers": ["der"],
-        "hintIt": "la luna",
-        "translationIt": "Dov'è la luna?",
-        "explanationIt": "Mond è maschile: der Mond. In italiano è femminile, attenzione!"
+        "sentence": "Wo ist ___ Kind?",
+        "answers": ["das"],
+        "hintIt": "il bambino",
+        "translationIt": "Dov'è il bambino?",
+        "explanationIt": "Kind è neutro: das Kind, anche quando è una bambina."
       },
       {
         "id": "g-a1-0005-e5",
-        "sentence": "___ Auto ist neu.",
-        "answers": ["Das"],
-        "hintIt": "la macchina",
-        "translationIt": "La macchina è nuova.",
-        "explanationIt": "Auto è neutro: das Auto."
+        "sentence": "___ Frau kommt aus Wien.",
+        "answers": ["Die"],
+        "hintIt": "la donna",
+        "translationIt": "La donna viene da Vienna.",
+        "explanationIt": "Frau è femminile: die Frau."
       },
       {
         "id": "g-a1-0005-e6",
-        "sentence": "___ Katze heißt Luna.",
-        "answers": ["Die"],
-        "hintIt": "la gatta",
-        "translationIt": "La gatta si chiama Luna.",
-        "explanationIt": "Katze è femminile: die Katze."
+        "sentence": "___ Herr heißt Schmidt.",
+        "answers": ["Der"],
+        "hintIt": "il signore",
+        "translationIt": "Il signore si chiama Schmidt.",
+        "explanationIt": "Herr è maschile: der Herr."
       }
     ]
   },
@@ -299,11 +299,6 @@
         "wrong": "Ich habe drei Jahre.",
         "right": "Ich bin drei (Jahre alt).",
         "explanationIt": "Per l'età si usa sein, non haben."
-      },
-      {
-        "wrong": "Ich habe ein Bruder.",
-        "right": "Ich habe einen Bruder.",
-        "explanationIt": "Bruder è maschile ed è l'oggetto della frase, quindi ein diventa einen."
       }
     ],
     "exercises": [
@@ -317,10 +312,10 @@
       },
       {
         "id": "g-a1-0008-e2",
-        "sentence": "___ du einen Hund?",
+        "sentence": "___ du ein Auto?",
         "answers": ["Hast"],
         "hintIt": "haben",
-        "translationIt": "Hai un cane?",
+        "translationIt": "Hai una macchina?",
         "explanationIt": "Con du: hast, senza la b."
       },
       {
@@ -341,11 +336,11 @@
       },
       {
         "id": "g-a1-0008-e5",
-        "sentence": "Ich habe ___ Bruder.",
-        "answers": ["einen"],
-        "hintIt": "un (der Bruder, oggetto)",
-        "translationIt": "Ho un fratello.",
-        "explanationIt": "Bruder è maschile ed è l'oggetto della frase: ein diventa einen."
+        "sentence": "Wir ___ ein Haus.",
+        "answers": ["haben"],
+        "hintIt": "haben",
+        "translationIt": "Abbiamo una casa.",
+        "explanationIt": "Con wir: haben."
       },
       {
         "id": "g-a1-0008-e6",
