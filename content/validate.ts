@@ -22,6 +22,8 @@ export interface Report {
 
 const GAP = "___";
 const ENDS_SENTENCE = /[.!?…]$/;
+const AGREES =
+  /^(d(er|ie|as|en|em|es)|(k?ein|mein|dein|sein|ihr|unser)(e|en|em|er|es)?|euer|eur(e|en|em|er|es)|(welch|dies|jed)(e|en|em|er|es))$/i;
 
 export function validateContent(root: string): Report {
   const errors: string[] = [];
@@ -131,6 +133,26 @@ export function validateContent(root: string): Report {
     }
   }
 
+  // An exercise whose answer is an article (or another word that agrees with
+  // a noun) is only fair once that noun, and so its gender, has been taught.
+  const taughtNouns = new Set<string>();
+  function teachNoun(v: VocabItem) {
+    if (v.pos !== "noun") return;
+    for (const form of [v.de, v.plural]) if (form) taughtNouns.add(form.toLowerCase());
+  }
+  function checkGenderTaught(g: GrammarItem, where: string) {
+    for (const ex of g.exercises) {
+      if (!AGREES.test(ex.answers[0])) continue;
+      const noun = ex.sentence.split(GAP)[1]?.match(/\p{Lu}[\p{L}-]*/u)?.[0];
+      if (!noun) continue;
+      // Feminine forms in -in are taught by their rule, from the masculine.
+      const forms = [noun, noun.replace(/in(nen)?$/, "")].map((f) => f.toLowerCase());
+      if (!forms.some((f) => taughtNouns.has(f))) {
+        warnings.push(`${where} ${ex.id}: answer depends on the gender of "${noun}", not taught yet`);
+      }
+    }
+  }
+
   const manifest = read("manifest.json", ManifestSchema);
   if (!manifest) return { errors, warnings, counts };
 
@@ -152,6 +174,8 @@ export function validateContent(root: string): Report {
       if (unit.order !== index + 1) errors.push(`${dir}/unit.json: order ${unit.order}, expected ${index + 1}`);
 
       const items = new Map<string, string>();
+      const vocabById = new Map(vocab.map((v) => [v.id, v]));
+      const grammarById = new Map(grammar.map((g) => [g.id, g]));
       for (const v of vocab) {
         const where = `${dir}/vocab.json ${v.id} (${v.de})`;
         claimId(v.id, where);
@@ -178,6 +202,14 @@ export function validateContent(root: string): Report {
           if (!items.has(itemId)) errors.push(`${dir}/unit.json ${batch.id}: unknown item ${itemId}`);
           if (placed.has(itemId)) errors.push(`${dir}/unit.json ${batch.id}: ${itemId} is in two batches`);
           placed.add(itemId);
+        }
+        for (const itemId of batch.itemIds) {
+          const v = vocabById.get(itemId);
+          if (v) teachNoun(v);
+        }
+        for (const itemId of batch.itemIds) {
+          const g = grammarById.get(itemId);
+          if (g) checkGenderTaught(g, items.get(itemId)!);
         }
       });
       for (const [id, where] of items) {

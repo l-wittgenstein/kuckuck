@@ -31,7 +31,7 @@ Settled decisions (don't change without asking):
 - Two items with the same German must accept the same meanings: the review card shows only the German. The validator warns otherwise.
 - `noteIt` should flag what trips up Italian speakers: genders that differ from Italian (die Sonne, der Mond, das Mädchen…), false friends, irregular forms.
 - Grammar points: short Italian explanation paragraphs, a `pattern` table (lines `German – Italian` render as two columns), examples, `commonMistakes` (real mistakes, accurately labelled), and 5–7 fill-in-the-blank exercises. Exercise blanks have no typo tolerance, so list every correct answer and write hints that can't invite a different correct one (no digits, name the verb when sein would also fit); `caseSensitive: true` where case changes meaning (Sie/sie).
-- Put each grammar point in or just before the lesson whose words it uses, and quiz it with words already taught. Keep rules accurate rather than absolute; say "di solito" where there are exceptions.
+- Put each grammar point in or just before the lesson whose words it uses, and quiz it with words already taught. An exercise may only ask for what has been taught by its lesson: the answer's form, the grammar behind it, and the gender of any noun the answer agrees with (the validator warns about the last). Explanations may preview later grammar ("lo vedremo più avanti"), but exercises and common mistakes don't test it. Keep rules accurate rather than absolute; say "di solito" where there are exceptions.
 - Use only A1-appropriate German in units marked A1; anything new in an example must be clear from its translation.
 - Example sentences must be natural German a native speaker would say, and translations natural Italian.
 

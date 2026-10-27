@@ -72,4 +72,12 @@ describe("validateContent", () => {
     });
     expect(validateContent(dir).warnings.join("\n")).toMatch(/same German as/);
   });
+
+  it("warns when an article exercise uses a noun not taught yet", () => {
+    const dir = brokenCopy("a1/u02/grammar.json", (g) => {
+      g[0].exercises[0].sentence = "___ Katze heißt Luna.";
+      g[0].exercises[0].answers = ["Die"];
+    });
+    expect(validateContent(dir).warnings.join("\n")).toMatch(/gender of "Katze", not taught yet/);
+  });
 });
