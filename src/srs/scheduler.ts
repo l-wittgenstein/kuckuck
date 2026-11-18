@@ -31,6 +31,11 @@ export function rate(
   return { state: card, log };
 }
 
+// The chance she still remembers the card now, between 0 and 1.
+export function retrievability(state: SrsState, now: Date): number {
+  return scheduler.get_retrievability(state, now, false);
+}
+
 // Typed answers map onto three grades; Easy is never used.
 export function gradeFor(outcome: Outcome, notes: Note[], overridden: boolean): Grade {
   if (overridden) return Rating.Good;

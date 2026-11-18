@@ -15,7 +15,7 @@ Settled decisions (don't change without asking):
 - Tabs: Oggi, Percorso, Vocabolario, Impostazioni.
 - The checker override reads "Invece è corretto"; once tapped it shows "Annulla" until she moves on.
 - The checker is strict only about German. Italian answers (her own language) accept small typos and missing accents as correct, with no note; an answer that is another word of the course is still wrong. A lowercase first word is never flagged: capitalisation notes are for nouns (and words like Sie where case changes meaning).
-- Lessons hold at most 5 items; new lessons pause while more than 40 reviews are due.
+- Lessons hold at most 5 items. Reviews come in rounds of 20 cards (`REVIEW_ROUND_SIZE`), the cards most likely forgotten (lowest FSRS retrievability) first, so a backlog after a break is a few short rounds; each round ends on the results page with "Un altro giro". New lessons pause while more than 40 reviews are due, but only until she has done 20 reviews that day: a backlog never locks lessons for more than one round.
 - No on-screen umlaut keys: phone keyboards have them.
 - Grammar points are labelled with the "Grammatica" tag, not emoji.
 - After a review session the results list the items she got right and the ones to look at again. "Esercitati ancora" asks each missed question 3 times as practice only (no effect on scheduling). In reviews and in the drill, once she has answered a card the top-left button reads "Risultati" and opens the results so far (reviews then offer "Continua i ripassi").

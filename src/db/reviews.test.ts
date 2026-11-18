@@ -7,7 +7,7 @@ import type { FirstAttempt } from "../domain/quiz";
 import { Rating, State } from "../srs/scheduler";
 import { KuckuckDB } from "./db";
 import { completeQuiz } from "./lessons";
-import { loadDueCards, overrideReview, recordReview, resurrectCard } from "./reviews";
+import { countReviewsToday, loadDueCards, orderByRisk, overrideReview, recordReview, resurrectCard } from "./reviews";
 
 const batch = findBatch("a1-u01-b01")!;
 const cards = batch.items.flatMap(cardsFor);
@@ -25,6 +25,28 @@ async function studied() {
 }
 
 describe("reviews", () => {
+  it("orders a backlog with the cards most likely forgotten first", async () => {
+    const db = await studied();
+    const at = new Date(t0.getTime() + 3 * 86_400_000);
+    await recordReview(cards[0].id, "x", right, at, db);
+    await recordReview(cards[1].id, "x", wrong, at, db);
+    const later = new Date(t0.getTime() + 60 * 86_400_000);
+    const ordered = orderByRisk(await loadDueCards(later, db), later).map((c) => c.id);
+    expect(ordered).toHaveLength(cards.length);
+    expect(ordered.indexOf(cards[1].id)).toBeLessThan(ordered.indexOf(cards[0].id));
+    expect(ordered.at(-1)).toBe(cards[0].id);
+  });
+
+  it("counts today's reviews, not quiz answers or earlier days", async () => {
+    const db = await studied();
+    const day = new Date(t0.getTime() + 3 * 86_400_000);
+    expect(await countReviewsToday(t0, db)).toBe(0);
+    await recordReview(cards[0].id, "x", right, day, db);
+    await recordReview(cards[1].id, "x", wrong, day, db);
+    expect(await countReviewsToday(day, db)).toBe(2);
+    expect(await countReviewsToday(new Date(day.getTime() + 86_400_000), db)).toBe(0);
+  });
+
   it("nothing is due right after the quiz, everything a day later", async () => {
     const db = await studied();
     expect(await loadDueCards(t0, db)).toHaveLength(0);

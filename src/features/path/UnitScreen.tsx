@@ -2,9 +2,8 @@ import { Link, useParams } from "react-router-dom";
 import { germanLabel } from "../../components/German";
 import { allBatches, findUnit } from "../../content";
 import { usePassedBatches } from "../../db/lessons";
-import { useDueCount, useNow } from "../../db/reviews";
-import { MAX_DUE_FOR_LESSONS } from "../../domain/config";
-import { batchStatuses } from "../../domain/progress";
+import { useDueCount, useNow, useReviewsToday } from "../../db/reviews";
+import { batchStatuses, lessonsPaused } from "../../domain/progress";
 import { it } from "../../i18n/it";
 import { Arrow } from "../../components/Arrow";
 
@@ -12,7 +11,9 @@ export function UnitScreen() {
   const { unitId = "" } = useParams();
   const unit = findUnit(unitId);
   const passed = usePassedBatches();
-  const due = useDueCount(useNow());
+  const now = useNow();
+  const due = useDueCount(now);
+  const reviewedToday = useReviewsToday(now);
 
   if (!unit) {
     return (
@@ -22,8 +23,8 @@ export function UnitScreen() {
       </section>
     );
   }
-  if (!passed || due === undefined) return null;
-  const paused = due > MAX_DUE_FOR_LESSONS;
+  if (!passed || due === undefined || reviewedToday === undefined) return null;
+  const paused = lessonsPaused(due, reviewedToday);
   const statuses = batchStatuses(allBatches, passed);
   const batches = allBatches.filter((b) => b.unit.id === unit.id);
 

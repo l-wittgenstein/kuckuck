@@ -11,6 +11,7 @@ Live at https://l-wittgenstein.github.io/kuckuck/
 - **A guided path:** content is organised in levels and units; lessons unlock in order and the home screen always shows the next step.
 - **Lesson, quiz, reviews:** each lesson introduces up to five words or grammar points, then a short typed quiz; after that the items enter spaced-repetition reviews scheduled with FSRS.
 - **Typed answers:** words are asked both ways (German → Italian, Italian → German with the article), grammar as fill-in-the-blank. In German the checker tolerates small typos and ae/oe/ue/ss for umlauts, with a gentle note, and flags a noun written without its capital; a wrong article is wrong. In Italian, small typos and missing accents simply count as right.
+- **Review rounds:** reviews come 20 at a time, the ones most likely forgotten first, so a backlog after a break is a few short rounds. New lessons wait while more than 40 reviews are due, but a round a day reopens them.
 - **After reviews:** a results page lists what went right and what to look at again, with a quick drill that repeats each missed question three times.
 - **Stages:** items climb from Uovo to Pulcino, Passerotto, Gufo and Aquila as the scheduler's stability grows; Aquila items leave the reviews.
 - **Also:** German audio through the phone's voice, a searchable vocabulary list, flags for content that looks wrong, light/dark themes, offline use, and backup/restore of progress.

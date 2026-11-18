@@ -24,10 +24,12 @@ export const it = {
     reviewsDue: (n: number) =>
       n === 0 ? "Nessun ripasso da fare. Kuckuck!" : `${plural(n, "ripasso ti aspetta", "ripassi ti aspettano")}.`,
     startReviews: "Inizia i ripassi",
+    startRound: (n: number) => `Inizia un giro da ${n}`,
     newItems: "nella prossima lezione",
     lessonsPaused: "lezione in pausa",
     startShort: "Inizia",
-    paused: (n: number) => `Prima i ripassi: le nuove lezioni ripartono sotto i ${n} ripassi in attesa.`,
+    paused: (round: number, done: number) =>
+      `Prima un giro di ripassi: dopo ${round} ripassi oggi si riaprono le nuove lezioni${done > 0 ? ` (fatti: ${done})` : ""}.`,
     loading: "Un attimo…",
   },
   path: {
@@ -172,6 +174,10 @@ export const it = {
     toResults: "Risultati",
     resultsTitle: "Com'è andata finora",
     continue: "Continua i ripassi",
+    roundDoneTitle: "Giro completato!",
+    remaining: (n: number) =>
+      `${n === 1 ? "Resta ancora 1 ripasso" : `Restano ancora ${n} ripassi`}: puoi continuare adesso o un'altra volta.`,
+    nextRound: "Un altro giro",
   },
   stages: {
     uovo: "Uovo",

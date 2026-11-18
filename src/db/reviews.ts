@@ -2,12 +2,21 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { useEffect, useState } from "react";
 import type { CheckResult } from "../checker/check";
 import { itemStage, shouldRetire, type Stage } from "../domain/stages";
-import { gradeFor, rate, Rating, type Grade, type SrsState } from "../srs/scheduler";
+import { gradeFor, rate, Rating, retrievability, type Grade, type SrsState } from "../srs/scheduler";
 import { db, type CardRecord, type KuckuckDB } from "./db";
 
 export async function loadDueCards(now = new Date(), database: KuckuckDB = db): Promise<CardRecord[]> {
   const due = await database.cards.where("due").belowOrEqual(now).sortBy("due");
   return due.filter((c) => !c.retired);
+}
+
+// The cards she is most likely to have forgotten first; the ones she knows
+// well can wait for a later round.
+export function orderByRisk(cards: CardRecord[], now = new Date()): CardRecord[] {
+  return cards
+    .map((card) => ({ card, r: retrievability(card.srs, now) }))
+    .sort((a, b) => a.r - b.r || a.card.due.getTime() - b.card.due.getTime())
+    .map(({ card }) => card);
 }
 
 export interface ReviewOutcome {
@@ -100,4 +109,18 @@ export function useNow(intervalMs = 60_000): Date {
 
 export function useDueCount(now: Date): number | undefined {
   return useLiveQuery(async () => (await loadDueCards(now)).length, [now.getTime()]);
+}
+
+// Reviews answered since midnight (first answers only; quizzes don't count).
+export async function countReviewsToday(now = new Date(), database: KuckuckDB = db): Promise<number> {
+  const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  return database.reviews
+    .where("at")
+    .aboveOrEqual(midnight)
+    .filter((r) => r.source === "review")
+    .count();
+}
+
+export function useReviewsToday(now: Date): number | undefined {
+  return useLiveQuery(() => countReviewsToday(now), [now.getTime()]);
 }

@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { germanLabel } from "../../components/German";
 import { StageBadge } from "../../components/Stage";
 import { findItem } from "../../content";
-import { loadDueCards, overrideReview, recordReview, type ReviewOutcome } from "../../db/reviews";
+import { loadDueCards, orderByRisk, overrideReview, recordReview, type ReviewOutcome } from "../../db/reviews";
+import { REVIEW_ROUND_SIZE } from "../../domain/config";
 import { cardsFor, type CardRef } from "../../domain/cards";
 import { drillQueue, sessionResults, type ItemResult } from "../../domain/results";
 import type { QuizState } from "../../domain/quiz";
@@ -12,7 +13,8 @@ import { it } from "../../i18n/it";
 import { CardSession } from "../session/CardSession";
 import { Arrow } from "../../components/Arrow";
 
-// Reviews of everything due now. The first answer to each card is rated
+// Reviews in rounds of up to REVIEW_ROUND_SIZE cards, the ones she is most
+// likely to have forgotten first. The first answer to each card is rated
 // and saved immediately; retries after a miss are practice only. She can
 // stop at any point and see the results so far; "continue" starts a new
 // round with whatever is still due.
@@ -24,6 +26,7 @@ export function ReviewScreen() {
 function ReviewRound({ onRestart }: { onRestart: () => void }) {
   const [stoppedAt, setStoppedAt] = useState<QuizState>();
   const [cards, setCards] = useState<CardRef[]>();
+  const [laterRounds, setLaterRounds] = useState(0);
   const [outcomes, setOutcomes] = useState<Record<string, ReviewOutcome>>({});
   const saved = useRef<Record<string, ReviewOutcome>>({});
   // Saves run one after another, so an override never overtakes the
@@ -32,12 +35,13 @@ function ReviewRound({ onRestart }: { onRestart: () => void }) {
 
   useEffect(() => {
     loadDueCards().then((due) => {
-      const refs = due.flatMap((record) => {
+      const refs = orderByRisk(due).flatMap((record) => {
         const content = findItem(record.itemId);
         // Content removed since she learned it: skip the card.
         return content ? cardsFor(content).filter((c) => c.id === record.id) : [];
       });
-      setCards(refs);
+      setCards(refs.slice(0, REVIEW_ROUND_SIZE));
+      setLaterRounds(Math.max(0, refs.length - REVIEW_ROUND_SIZE));
     });
   }, []);
 
@@ -45,7 +49,9 @@ function ReviewRound({ onRestart }: { onRestart: () => void }) {
   // Wait for pending saves, so the next round doesn't ask them again.
   const restart = () => void queue.current.then(onRestart);
   if (stoppedAt) {
-    return <ReviewDone cards={cards} state={stoppedAt} outcomes={outcomes} onContinue={restart} />;
+    return (
+      <ReviewDone cards={cards} state={stoppedAt} outcomes={outcomes} laterRounds={laterRounds} onContinue={restart} />
+    );
   }
   if (cards.length === 0) {
     return (
@@ -102,7 +108,9 @@ function ReviewRound({ onRestart }: { onRestart: () => void }) {
           </span>
         );
       }}
-      renderDone={(state) => <ReviewDone cards={cards} state={state} outcomes={outcomes} />}
+      renderDone={(state) => (
+        <ReviewDone cards={cards} state={state} outcomes={outcomes} laterRounds={laterRounds} onContinue={restart} />
+      )}
     />
   );
 }
@@ -111,14 +119,22 @@ function ReviewDone({
   cards,
   state,
   outcomes,
+  laterRounds,
   onContinue,
 }: {
   cards: CardRef[];
   state: QuizState;
   outcomes: Record<string, ReviewOutcome>;
-  onContinue?: () => void;
+  laterRounds: number; // due cards left out of this round
+  onContinue: () => void;
 }) {
   const stoppedEarly = state.queue.length > 0;
+  const moreDue = stoppedEarly || laterRounds > 0;
+  const title = stoppedEarly
+    ? it.review.resultsTitle
+    : laterRounds > 0
+      ? it.review.roundDoneTitle
+      : it.review.doneTitle;
   const [drilling, setDrilling] = useState(false);
   const [drills, setDrills] = useState(0);
   const results = sessionResults(cards, state.firstAttempts);
@@ -147,7 +163,7 @@ function ReviewDone({
   return (
     <section className="screen quiz-done">
       <p className="big-emoji" aria-hidden="true">🐦</p>
-      <h1>{stoppedEarly ? it.review.resultsTitle : it.review.doneTitle}</h1>
+      <h1>{title}</h1>
       <div className="results">
         <p>{it.review.doneText(results.rightCards, results.answeredCards)}</p>
         <div
@@ -187,12 +203,13 @@ function ReviewDone({
         )}
       </div>
       <div className="stack">
-        {stoppedEarly && onContinue && (
+        {!stoppedEarly && laterRounds > 0 && <p className="muted">{it.review.remaining(laterRounds)}</p>}
+        {moreDue && (
           <button type="button" className="button wide" onClick={onContinue}>
-            {it.review.continue}
+            {stoppedEarly ? it.review.continue : it.review.nextRound}
           </button>
         )}
-        <Link to="/" className={`button wide ${stoppedEarly ? "secondary" : ""}`}>
+        <Link to="/" className={`button wide ${moreDue ? "secondary" : ""}`}>
           {it.quiz.backHome}
         </Link>
       </div>

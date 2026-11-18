@@ -4,9 +4,9 @@ import { StageTiles } from "../../components/StageTiles";
 import { allBatches, levels } from "../../content";
 import { groupByItem, useAllCards } from "../../db/cards";
 import { usePassedBatches } from "../../db/lessons";
-import { useNow } from "../../db/reviews";
-import { MAX_DUE_FOR_LESSONS } from "../../domain/config";
-import { batchStatuses, nextBatch, unitProgress } from "../../domain/progress";
+import { useNow, useReviewsToday } from "../../db/reviews";
+import { REVIEW_ROUND_SIZE } from "../../domain/config";
+import { batchStatuses, lessonsPaused, nextBatch, unitProgress } from "../../domain/progress";
 import { itemStats } from "../../domain/stats";
 import { useSettings } from "../../db/settings";
 import { it } from "../../i18n/it";
@@ -19,13 +19,14 @@ export function HomeScreen() {
   const passed = usePassedBatches();
   const cards = useAllCards();
   const settings = useSettings();
+  const reviewedToday = useReviewsToday(now);
   const { canInstall, install } = useInstallPrompt();
-  if (!passed || !cards) return <p className="screen muted">{it.home.loading}</p>;
+  if (!passed || !cards || reviewedToday === undefined) return <p className="screen muted">{it.home.loading}</p>;
 
   const active = cards.filter((c) => !c.retired);
   const due = active.filter((c) => c.due <= now).length;
   const next = nextBatch(allBatches, passed);
-  const paused = due > MAX_DUE_FOR_LESSONS;
+  const paused = lessonsPaused(due, reviewedToday);
   const units = levels.flatMap((l) => l.unitContents);
   const statuses = batchStatuses(allBatches, passed);
   const stats = itemStats(units, groupByItem(cards));
@@ -50,7 +51,7 @@ export function HomeScreen() {
           <>
             <strong>{it.home.reviewsDue(due)}</strong>
             <Link to="/ripassi" className="button wide">
-              {it.home.startReviews}
+              {due > REVIEW_ROUND_SIZE ? it.home.startRound(REVIEW_ROUND_SIZE) : it.home.startReviews}
             </Link>
           </>
         ) : next ? (
@@ -87,7 +88,7 @@ export function HomeScreen() {
           )}
         </div>
       </div>
-      {next && paused && <p className="note">{it.home.paused(MAX_DUE_FOR_LESSONS)}</p>}
+      {next && paused && <p className="note">{it.home.paused(REVIEW_ROUND_SIZE, reviewedToday)}</p>}
 
       {backupDue && (
         <p className="note">

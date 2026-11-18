@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { allBatches, findUnit } from "../content";
-import { batchStatuses, nextBatch, unitProgress } from "./progress";
+import { batchStatuses, lessonsPaused, nextBatch, unitProgress } from "./progress";
 
 const ids = allBatches.map((b) => b.id);
 
@@ -34,5 +34,14 @@ describe("lesson unlocking", () => {
 
   it("reports nothing next when everything is done", () => {
     expect(nextBatch(allBatches, new Set(ids))).toBeUndefined();
+  });
+});
+
+describe("lessonsPaused", () => {
+  it("pauses lessons for a backlog until a round of reviews is done today", () => {
+    expect(lessonsPaused(40, 0)).toBe(false);
+    expect(lessonsPaused(41, 0)).toBe(true);
+    expect(lessonsPaused(200, 19)).toBe(true);
+    expect(lessonsPaused(200, 20)).toBe(false);
   });
 });

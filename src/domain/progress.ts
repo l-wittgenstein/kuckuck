@@ -1,6 +1,7 @@
 // Lessons unlock strictly in order: a batch is open once every batch
 // before it (in this unit and all earlier units) has passed its quiz.
 import type { BatchInfo, UnitContent } from "../content";
+import { MAX_DUE_FOR_LESSONS, REVIEW_ROUND_SIZE } from "./config";
 
 export type BatchStatus = "done" | "available" | "locked";
 
@@ -21,6 +22,11 @@ export function batchStatuses(
     }
   }
   return statuses;
+}
+
+// A backlog pauses new lessons only until she has done today's round.
+export function lessonsPaused(due: number, reviewedToday: number): boolean {
+  return due > MAX_DUE_FOR_LESSONS && reviewedToday < REVIEW_ROUND_SIZE;
 }
 
 export function nextBatch(
